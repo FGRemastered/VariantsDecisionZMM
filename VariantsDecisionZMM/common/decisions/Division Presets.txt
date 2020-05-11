@@ -1,0 +1,931 @@
+"Division Presets" =
+{
+	"Garrisson" =
+	{
+		visible =
+		{
+			OR = 
+			{
+				AND =
+				{
+					has_tech = infantry_weapons
+					NOT = {has_country_flag = has_GarrissonC}
+					NOT = {has_country_flag = has_GarrissonAC}
+				}
+				AND =
+				{
+					has_tech = armored_car1
+					NOT = {has_country_flag = has_GarrissonAC}
+				}
+			}
+		}
+		available =
+		{
+			has_tech = tech_military_police
+		}
+		complete_effect =
+		{
+			if =
+			{
+				limit = {has_tech = armored_car1}
+				set_country_flag = has_GarrissonAC
+				division_template =
+				{
+					name = "Miliztuppe"
+					regiments =
+					{
+						armored_car = {x = 0 y = 0}
+						armored_car = {x = 0 y = 1}
+						armored_car = {x = 0 y = 2}
+						armored_car = {x = 0 y = 3}
+						armored_car = {x = 0 y = 4}
+						
+						armored_car = {x = 1 y = 0}
+						armored_car = {x = 1 y = 1}
+						armored_car = {x = 1 y = 2}
+						armored_car = {x = 1 y = 3}
+						armored_car = {x = 1 y = 4}
+						
+						armored_car = {x = 2 y = 0}
+						armored_car = {x = 2 y = 1}
+						armored_car = {x = 2 y = 2}
+						armored_car = {x = 2 y = 3}
+						armored_car = {x = 2 y = 4}
+						
+						armored_car = {x = 3 y = 0}
+						armored_car = {x = 3 y = 1}
+						armored_car = {x = 3 y = 2}
+						armored_car = {x = 3 y = 3}
+						armored_car = {x = 3 y = 4}
+						
+						armored_car = {x = 4 y = 0}
+						armored_car = {x = 4 y = 1}
+						armored_car = {x = 4 y = 2}
+						armored_car = {x = 4 y = 3}
+						armored_car = {x = 4 y = 4}
+					}
+					support =
+					{
+						military_police = {x = 0 y = 0}
+					}
+				}
+			}
+			else =
+			{
+				set_country_flag = has_GarrissonC
+				division_template =
+				{
+					name = "Miliztuppe"
+					regiments =
+					{
+						cavalry = {x = 0 y = 0}
+						cavalry = {x = 0 y = 1}
+						cavalry = {x = 0 y = 2}
+						cavalry = {x = 0 y = 3}
+						cavalry = {x = 0 y = 4}
+						
+						cavalry = {x = 1 y = 0}
+						cavalry = {x = 1 y = 1}
+						cavalry = {x = 1 y = 2}
+						cavalry = {x = 1 y = 3}
+						cavalry = {x = 1 y = 4}
+						
+						cavalry = {x = 2 y = 0}
+						cavalry = {x = 2 y = 1}
+						cavalry = {x = 2 y = 2}
+						cavalry = {x = 2 y = 3}
+						cavalry = {x = 2 y = 4}
+						
+						cavalry = {x = 3 y = 0}
+						cavalry = {x = 3 y = 1}
+						cavalry = {x = 3 y = 2}
+						cavalry = {x = 3 y = 3}
+						cavalry = {x = 3 y = 4}
+						
+						cavalry = {x = 4 y = 0}
+						cavalry = {x = 4 y = 1}
+						cavalry = {x = 4 y = 2}
+						cavalry = {x = 4 y = 3}
+						cavalry = {x = 4 y = 4}
+					}
+					support =
+					{
+						military_police = {x = 0 y = 0}
+					}
+				}
+			}
+		}
+	}
+	
+	"Kavalleriedivision" =
+	{
+		visible =
+		{
+			NOT = {has_country_flag = has_Kavalleriedivision}
+		}
+		available =
+		{
+			AND =
+			{
+				OR = 
+				{
+					has_tech = basic_light_tank
+					has_tech = improved_light_tank
+				}
+				OR = 
+				{
+					has_tech = basic_light_art
+					has_tech = improved_light_art
+				}
+				OR = 
+				{
+					has_tech = basic_light_td
+					has_tech = improved_light_td
+				}
+				OR = 
+				{
+					has_tech = basic_light_spaa
+					has_tech = improved_light_spaa
+				}
+				has_tech = motorised_infantry
+			}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_Kavalleriedivision
+			division_template =
+			{
+				name= "Kavalleriedivision" 
+				regiments = 
+				{
+					light_armor = {x = 0 y = 0}
+					light_armor = {x = 0 y = 1}
+					light_sp_anti_air_brigade = {x = 0 y = 2}
+					light_tank_destroyer_brigade = {x = 0 y = 3}
+					light_sp_artillery_brigade = {x = 0 y = 4}
+				
+					motorized = {x = 1 y = 0}
+					motorized = {x = 1 y = 1}
+					motorized = {x = 1 y = 2}
+					motorized = {x = 1 y = 3}
+					motorized = {x = 1 y = 4}
+				}
+		
+				support = 
+				{
+					engineer = 			{x = 0 y = 0}
+					mot_recon = 		{x = 0 y = 1}
+					signal_company = 	{x = 0 y = 2}
+					field_hospital = 	{x = 0 y = 3}
+					logistics_company = {x = 0 y = 4}
+				}
+			}
+		}
+	}
+	
+	"Panzerdivision" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND =
+				{
+					OR =
+					{	
+						has_country_flag = has_Pz_III
+						has_country_flag = has_Pz_IV
+						has_country_flag = has_Pz_V
+						
+					}
+					NOT = {has_country_flag = has_Panzerdivision}
+					NOT = {has_country_flag = has_Moderne_Panzerdivision}
+				}
+				
+				AND =
+				{
+					has_country_flag = has_E-50
+					NOT = {has_country_flag = has_Moderne_Panzerdivision}
+				}
+			}
+		}
+		available =
+		{
+			AND =
+			{
+				OR = 
+				{
+					has_tech = basic_medium_tank
+					has_tech = main_battle_tank
+				}
+				OR = 
+				{
+					has_tech = basic_medium_art
+					has_tech = modern_art
+				}
+				OR = 
+				{
+					has_tech = basic_medium_td
+					has_tech = modern_td
+				}
+				OR = 
+				{
+					has_tech = basic_medium_spaa
+					has_tech = modern_spaa
+				}
+				OR = 
+				{	
+					has_tech = mechanised_infantry
+					has_tech = motorised_infantry
+				}
+			}
+		}
+		complete_effect = 
+		{
+			if = 
+			{		#ModTank + Mech
+				limit = 
+				{
+					has_tech = main_battle_tank
+					has_tech = mechanised_infantry
+				}
+				set_country_flag = has_Moderne_Panzerdivision
+				division_template =
+				{
+					name= "Moderne Panzerdivision" 
+					regiments = 
+					{
+						modern_armor = 					{x = 0 y = 0}
+						modern_armor = 					{x = 0 y = 1}
+						modern_armor = 					{x = 0 y = 2}
+						modern_sp_anti_air_brigade = 	{x = 0 y = 3}
+						
+						modern_armor = 					{x = 1 y = 0}
+						modern_armor = 					{x = 1 y = 1}
+						modern_tank_destroyer_brigade = {x = 1 y = 2}
+						modern_sp_artillery_brigade = 	{x = 1 y = 3}
+						
+						mechanized = 					{x = 2 y = 0}
+						mechanized = 					{x = 2 y = 1}
+					}
+			
+					support = 
+					{
+						engineer = 			{x = 0 y = 0}
+						armored_car_recon = {x = 0 y = 1}
+						signal_company = 	{x = 0 y = 2}
+						field_hospital = 	{x = 0 y = 3}
+						logistics_company = {x = 0 y = 4}
+					}
+				}
+			}
+			else_if =
+			{		#ModTank + Mot.
+				limit = 
+				{
+					has_tech = main_battle_tank
+					has_tech = motorised_infantry
+				}
+				set_country_flag = has_Moderne_Panzerdivision
+				division_template =
+				{
+					name= "Moderne Panzerdivision" 
+					regiments = 
+					{
+						modern_armor = 					{x = 0 y = 0}
+						modern_armor = 					{x = 0 y = 1}
+						modern_armor = 					{x = 0 y = 2}
+						modern_sp_anti_air_brigade = 	{x = 0 y = 3}
+						
+						modern_armor = 					{x = 1 y = 0}
+						modern_armor = 					{x = 1 y = 1}
+						modern_tank_destroyer_brigade = {x = 1 y = 2}
+						modern_sp_artillery_brigade = 	{x = 1 y = 3}
+						
+						motorized = 					{x = 2 y = 0}
+						motorized = 					{x = 2 y = 1}
+					}
+			
+					support = 
+					{
+						engineer = 			{x = 0 y = 0}
+						armored_car_recon = {x = 0 y = 1}
+						signal_company = 	{x = 0 y = 2}
+						field_hospital = 	{x = 0 y = 3}
+						logistics_company = {x = 0 y = 4}
+					}
+				}
+			}
+			else_if =
+			{		#MedTanks + Mech		
+				limit = 
+				{
+					OR =
+					{
+						has_country_flag = has_Pz_III
+						has_country_flag = has_Pz_IV
+						has_country_flag = has_Pz_V
+					}
+					has_tech = mechanised_infantry
+				}
+				set_country_flag = has_Panzerdivision
+				division_template =
+				{
+					name= "Panzerdivision" 
+					regiments = 
+					{
+						medium_armor = 					{x = 0 y = 0}
+						medium_armor = 					{x = 0 y = 1}
+						medium_armor = 					{x = 0 y = 2}
+						medium_sp_anti_air_brigade = 	{x = 0 y = 3}
+					
+						medium_armor = 					{x = 1 y = 0}
+						medium_armor = 					{x = 1 y = 1}
+						medium_tank_destroyer_brigade = {x = 1 y = 2}
+						medium_sp_artillery_brigade = 	{x = 1 y = 3}
+							
+						mechanized = 					{x = 2 y = 0}
+						mechanized = 					{x = 2 y = 1}
+					}
+					support = 
+					{
+						engineer = 			{x = 0 y = 0}
+						armored_car_recon = {x = 0 y = 1}
+						signal_company = 	{x = 0 y = 2}
+						field_hospital = 	{x = 0 y = 3}
+						logistics_company = {x = 0 y = 4}
+					}
+				}
+			}
+			else_if = 
+			{		#MedTanks + Mot.
+				limit = 
+				{
+					OR =
+					{
+						has_country_flag = has_Pz_III
+						has_country_flag = has_Pz_IV
+						has_country_flag = has_Pz_V
+					}
+					has_tech = motorised_infantry
+				}
+				set_country_flag = has_Panzerdivision
+				division_template =
+				{
+					name= "Panzerdivision" 
+					regiments = 
+					{
+						medium_armor = 					{x = 0 y = 0}
+						medium_armor = 					{x = 0 y = 1}
+						medium_armor = 					{x = 0 y = 2}
+						medium_sp_anti_air_brigade = 	{x = 0 y = 3}
+					
+						medium_armor = 					{x = 1 y = 0}
+						medium_armor = 					{x = 1 y = 1}
+						medium_tank_destroyer_brigade = {x = 1 y = 2}
+						medium_sp_artillery_brigade = 	{x = 1 y = 3}
+							
+						motorized = 					{x = 2 y = 0}
+						motorized = 					{x = 2 y = 1}
+					}
+					support = 
+					{
+						engineer = {x = 0 y = 0}
+						armored_car_recon = {x = 0 y = 1}
+						signal_company = {x = 0 y = 2}
+						field_hospital = {x = 0 y = 3}
+						logistics_company = {x = 0 y = 4}
+					}
+				}
+			}
+		}
+	}
+	
+	"Schwere Panzerdivision"
+	{
+		visible =
+		{
+			OR =
+			{
+				has_country_flag = has_GrT
+				has_country_flag = has_Pz_VI
+				has_country_flag = has_Pz_VI_2
+			}
+			NOT = {has_country_flag = has_SPanzer}
+		}
+		complete_effect =
+		{
+			if =
+			{
+				limit =
+				{
+					has_tech = mechanised_infantry
+				}
+				set_country_flag = has_SPanzer
+				division_template =
+				{
+					name = "Schwere Panzerdivision"
+					regiments =
+					{
+						heavy_armor = 					{x = 0 y = 0}
+						heavy_armor = 					{x = 0 y = 1}
+						heavy_sp_anti_air_brigade = 	{x = 0 y = 2}
+						heavy_tank_destroyer_brigade = 	{x = 0 y = 3}
+						heavy_sp_artillery_brigade = 	{x = 0 y = 4}
+						
+						heavy_armor = 					{x = 1 y = 0}
+						heavy_armor = 					{x = 1 y = 1}
+						heavy_sp_anti_air_brigade = 	{x = 1 y = 2}
+						heavy_tank_destroyer_brigade = 	{x = 1 y = 3}
+						heavy_sp_artillery_brigade = 	{x = 1 y = 4}
+						
+						heavy_armor = 					{x = 2 y = 0}
+						heavy_armor = 					{x = 2 y = 1}
+						heavy_sp_anti_air_brigade = 	{x = 2 y = 2}
+						heavy_tank_destroyer_brigade = 	{x = 2 y = 3}
+						heavy_sp_artillery_brigade = 	{x = 2 y = 4}
+						
+						mechanized = 					{x = 3 y = 0}
+						mechanized = 					{x = 3 y = 1}
+						mechanized = 					{x = 3 y = 2}
+						mechanized = 					{x = 3 y = 3}
+						mechanized = 					{x = 3 y = 4}
+					}
+					support =
+					{
+						engineer = 			{x = 0 y = 0}
+						armored_car_recon = {x = 0 y = 1}
+						signal_company = 	{x = 0 y = 2}
+						field_hospital = 	{x = 0 y = 3}
+						logistics_company = {x = 0 y = 4}
+					}
+				}
+			}
+			else_if =
+			{
+				limit =
+				{
+					has_tech = motorised_infantry
+				}
+				set_country_flag = has_SPanzer
+				division_template =
+				{
+					name = "Schwere Panzerdivision"
+					regiments =
+					{
+						heavy_armor = 					{x = 0 y = 0}
+						heavy_armor = 					{x = 0 y = 1}
+						heavy_sp_anti_air_brigade = 	{x = 0 y = 2}
+						heavy_tank_destroyer_brigade = 	{x = 0 y = 3}
+						heavy_sp_artillery_brigade = 	{x = 0 y = 4}
+						
+						heavy_armor = 					{x = 1 y = 0}
+						heavy_armor = 					{x = 1 y = 1}
+						heavy_sp_anti_air_brigade = 	{x = 1 y = 2}
+						heavy_tank_destroyer_brigade = 	{x = 1 y = 3}
+						heavy_sp_artillery_brigade = 	{x = 1 y = 4}
+						
+						heavy_armor = 					{x = 2 y = 0}
+						heavy_armor = 					{x = 2 y = 1}
+						heavy_sp_anti_air_brigade = 	{x = 2 y = 2}
+						heavy_tank_destroyer_brigade = 	{x = 2 y = 3}
+						heavy_sp_artillery_brigade = 	{x = 2 y = 4}
+						
+						motorized = 					{x = 3 y = 0}
+						motorized = 					{x = 3 y = 1}
+						motorized = 					{x = 3 y = 2}
+						motorized = 					{x = 3 y = 3}
+						motorized = 					{x = 3 y = 4}
+					}
+					support =
+					{
+						engineer = 			{x = 0 y = 0}
+						armored_car_recon = {x = 0 y = 1}
+						signal_company = 	{x = 0 y = 2}
+						field_hospital = 	{x = 0 y = 3}
+						logistics_company = {x = 0 y = 4}
+					}
+				}
+			}
+			else =
+			{
+				set_country_flag = has_SPanzer
+				division_template =
+				{
+					name = "Schwere Panzerdivision"
+					regiments =
+					{
+						heavy_armor = 					{x = 0 y = 0}
+						heavy_armor = 					{x = 0 y = 1}
+						heavy_sp_anti_air_brigade = 	{x = 0 y = 2}
+						heavy_tank_destroyer_brigade = 	{x = 0 y = 3}
+						heavy_sp_artillery_brigade = 	{x = 0 y = 4}
+						
+						heavy_armor = 					{x = 1 y = 0}
+						heavy_armor = 					{x = 1 y = 1}
+						heavy_sp_anti_air_brigade = 	{x = 1 y = 2}
+						heavy_tank_destroyer_brigade = 	{x = 1 y = 3}
+						heavy_sp_artillery_brigade = 	{x = 1 y = 4}
+						
+						heavy_armor = 					{x = 2 y = 0}
+						heavy_armor = 					{x = 2 y = 1}
+						heavy_sp_anti_air_brigade = 	{x = 2 y = 2}
+						heavy_tank_destroyer_brigade = 	{x = 2 y = 3}
+						heavy_sp_artillery_brigade = 	{x = 2 y = 4}
+							
+						cavalry = 						{x = 3 y = 0}
+						cavalry = 						{x = 3 y = 1}
+						cavalry = 						{x = 3 y = 2}
+						cavalry = 						{x = 3 y = 3}
+						cavalry = 						{x = 3 y = 4}
+					}
+					support =
+					{
+						engineer = 			{x = 0 y = 0}
+						armored_car_recon = {x = 0 y = 1}
+						signal_company = 	{x = 0 y = 2}
+						field_hospital = 	{x = 0 y = 3}
+						logistics_company = {x = 0 y = 4}
+					}
+				}
+			}
+		}
+	}
+	
+	"Division 'mit der Maus'"
+	{
+		visible =
+		{
+			has_country_flag = has_Pz_VIII
+			NOT = {has_country_flag = has_DivisionMaus}
+		}
+		complete_effect =
+		{
+			if =
+			{
+				limit =
+				{
+					has_tech = mechanised_infantry
+				}
+				set_country_flag = has_DivisionMaus
+				division_template =
+				{
+					name = "Division 'mit der Maus'"
+					regiments =
+					{
+						super_heavy_armor = 					{x = 0 y = 0}
+						super_heavy_armor = 					{x = 0 y = 1}
+						super_heavy_sp_anti_air_brigade = 		{x = 0 y = 2}
+						super_heavy_tank_destroyer_brigade = 	{x = 0 y = 3}
+						super_heavy_sp_artillery_brigade = 		{x = 0 y = 4}
+						
+						super_heavy_armor = 					{x = 1 y = 0}
+						super_heavy_armor = 					{x = 1 y = 1}
+						super_heavy_sp_anti_air_brigade = 		{x = 1 y = 2}
+						super_heavy_tank_destroyer_brigade = 	{x = 1 y = 3}
+						super_heavy_sp_artillery_brigade = 		{x = 1 y = 4}
+						
+						super_heavy_armor = 					{x = 2 y = 0}
+						super_heavy_armor = 					{x = 2 y = 1}
+						super_heavy_sp_anti_air_brigade = 		{x = 2 y = 2}
+						super_heavy_tank_destroyer_brigade = 	{x = 2 y = 3}
+						super_heavy_sp_artillery_brigade = 		{x = 2 y = 4}
+						
+						mechanized = 							{x = 3 y = 0}
+						mechanized = 							{x = 3 y = 1}
+						mechanized = 							{x = 3 y = 2}
+						mechanized = 							{x = 3 y = 3}
+						mechanized = 							{x = 3 y = 4}
+					}
+					support =
+					{
+						engineer = 			{x = 0 y = 0}
+						armored_car_recon = {x = 0 y = 1}
+						signal_company = 	{x = 0 y = 2}
+						field_hospital = 	{x = 0 y = 3}
+						logistics_company = {x = 0 y = 4}
+					}
+				}
+			}
+			else_if =
+			{
+				limit =
+				{
+					has_tech = motorised_infantry
+				}
+				set_country_flag = has_DivisionMaus
+				division_template =
+				{
+					name = "Division 'mit der Maus'"
+					regiments =
+					{
+						super_heavy_armor = 					{x = 0 y = 0}
+						super_heavy_armor = 					{x = 0 y = 1}
+						super_heavy_sp_anti_air_brigade = 		{x = 0 y = 2}
+						super_heavy_tank_destroyer_brigade = 	{x = 0 y = 3}
+						super_heavy_sp_artillery_brigade = 		{x = 0 y = 4}
+						
+						super_heavy_armor = 					{x = 1 y = 0}
+						super_heavy_armor = 					{x = 1 y = 1}
+						super_heavy_sp_anti_air_brigade = 		{x = 1 y = 2}
+						super_heavy_tank_destroyer_brigade = 	{x = 1 y = 3}
+						super_heavy_sp_artillery_brigade = 		{x = 1 y = 4}
+						
+						super_heavy_armor = 					{x = 2 y = 0}
+						super_heavy_armor = 					{x = 2 y = 1}
+						super_heavy_sp_anti_air_brigade = 		{x = 2 y = 2}
+						super_heavy_tank_destroyer_brigade = 	{x = 2 y = 3}
+						super_heavy_sp_artillery_brigade = 		{x = 2 y = 4}
+						
+						motorized = 							{x = 3 y = 0}
+						motorized = 							{x = 3 y = 1}
+						motorized = 							{x = 3 y = 2}
+						motorized = 							{x = 3 y = 3}
+						motorized = 							{x = 3 y = 4}
+					}
+					support =
+					{
+						engineer = 			{x = 0 y = 0}
+						armored_car_recon = {x = 0 y = 1}
+						signal_company = 	{x = 0 y = 2}
+						field_hospital = 	{x = 0 y = 3}
+						logistics_company = {x = 0 y = 4}
+					}
+				}
+			}
+			else =
+			{
+				set_country_flag = has_DivisionMaus
+				division_template =
+				{
+					name = "Division 'mit der Maus'"
+					regiments =
+					{
+						super_heavy_armor = 					{x = 0 y = 0}
+						super_heavy_armor = 					{x = 0 y = 1}
+						super_heavy_sp_anti_air_brigade = 		{x = 0 y = 2}
+						super_heavy_tank_destroyer_brigade = 	{x = 0 y = 3}
+						super_heavy_sp_artillery_brigade = 		{x = 0 y = 4}
+						
+						super_heavy_armor = 					{x = 1 y = 0}
+						super_heavy_armor = 					{x = 1 y = 1}
+						super_heavy_sp_anti_air_brigade = 		{x = 1 y = 2}
+						super_heavy_tank_destroyer_brigade = 	{x = 1 y = 3}
+						super_heavy_sp_artillery_brigade = 		{x = 1 y = 4}
+						
+						super_heavy_armor = 					{x = 2 y = 0}
+						super_heavy_armor = 					{x = 2 y = 1}
+						super_heavy_sp_anti_air_brigade = 		{x = 2 y = 2}
+						super_heavy_tank_destroyer_brigade = 	{x = 2 y = 3}
+						super_heavy_sp_artillery_brigade = 		{x = 2 y = 4}
+						
+						cavalry = 								{x = 3 y = 0}
+						cavalry = 								{x = 3 y = 1}
+						cavalry = 								{x = 3 y = 2}
+						cavalry = 								{x = 3 y = 3}
+						cavalry = 								{x = 3 y = 4}
+					}
+					support =
+					{
+						engineer = 			{x = 0 y = 0}
+						armored_car_recon = {x = 0 y = 1}
+						signal_company = 	{x = 0 y = 2}
+						field_hospital = 	{x = 0 y = 3}
+						logistics_company = {x = 0 y = 4}
+					}
+				}
+			}
+		}
+	}
+	
+	"Seelandedivision"
+	{
+		visible =
+		{
+			AND =
+			{
+				OR = 
+				{
+					has_tech = amphibious_tank
+					has_country_flag = has_Pz_I
+					has_country_flag = has_Pz_II
+				}
+				OR = 
+				{
+					has_tech = amphibious_mechanized_infantry
+					has_tech = marines
+				}
+				NOT = {has_country_flag = has_SeelandeD}
+			}
+		}
+		
+		complete_effect =
+		{
+			set_country_flag = has_SeelandeD
+			if =
+			{		#Amtanks + Amtracs
+				limit =
+				{
+					has_tech = amphibious_tank
+					has_tech = amphibious_mechanized_infantry
+				}
+				division_template =
+				{
+					name= "Seelandedivision" 
+					regiments = 
+					{
+						amphibious_armor = 		{x = 0 y = 0}
+						amphibious_armor = 		{x = 0 y = 1}
+						amphibious_armor = 		{x = 0 y = 2}
+						amphibious_armor = 		{x = 0 y = 3}
+						amphibious_armor = 		{x = 0 y = 4}
+					
+						amphibious_mechanized = {x = 1 y = 0}
+						amphibious_mechanized = {x = 1 y = 1}
+						amphibious_mechanized = {x = 1 y = 2}
+						amphibious_mechanized = {x = 1 y = 3}
+						amphibious_mechanized = {x = 1 y = 4}
+					}
+			
+					support = 
+					{
+						engineer = 			{x = 0 y = 0}
+						armored_car_recon = {x = 0 y = 1}
+						signal_company = 	{x = 0 y = 2}
+						field_hospital = 	{x = 0 y = 3}
+						logistics_company = {x = 0 y = 4}
+					}
+				}
+			}
+			else_if =
+			{		#Amtanks + Marines
+				limit =
+				{
+					has_tech = amphibious_tank
+					has_tech = marines
+				}
+				division_template =
+				{
+					name= "Seelandedivision" 
+					regiments = 
+					{
+						amphibious_armor = 	{x = 0 y = 0}
+						amphibious_armor = 	{x = 0 y = 1}
+						amphibious_armor = 	{x = 0 y = 2}
+						amphibious_armor = 	{x = 0 y = 3}
+						amphibious_armor = 	{x = 0 y = 4}
+					
+						marine = 			{x = 1 y = 0}
+						marine = 			{x = 1 y = 1}
+						marine = 			{x = 1 y = 2}
+						marine = 			{x = 1 y = 3}
+						marine = 			{x = 1 y = 4}
+					}
+			
+					support = 
+					{
+						engineer = 			{x = 0 y = 0}
+						armored_car_recon = {x = 0 y = 1}
+						signal_company = 	{x = 0 y = 2}
+						field_hospital = 	{x = 0 y = 3}
+						logistics_company = {x = 0 y = 4}
+					}
+				}
+			}
+			else_if =
+			{		#Lights + Marines
+				limit =
+				{
+					OR =
+					{
+						has_country_flag = has_Pz_I
+						has_country_flag = has_Pz_II
+					}
+					has_tech = marines
+				}
+				division_template =
+				{
+					name= "Seelandedivision" 
+					regiments = 
+					{
+						light_armor = 					{x = 0 y = 0}
+						light_armor = 					{x = 0 y = 1}
+						light_sp_anti_air_brigade = 	{x = 0 y = 2}
+						light_tank_destroyer_brigade = 	{x = 0 y = 3}
+						light_sp_artillery_brigade = 	{x = 0 y = 4}
+					
+						marine = 						{x = 1 y = 0}
+						marine = 						{x = 1 y = 1}
+						marine = 						{x = 1 y = 2}
+						marine = 						{x = 1 y = 3}
+						marine = 						{x = 1 y = 4}
+					}
+					support = 
+					{
+						engineer = 			{x = 0 y = 0}
+						armored_car_recon = {x = 0 y = 1}
+						signal_company = 	{x = 0 y = 2}
+						field_hospital = 	{x = 0 y = 3}
+						logistics_company = {x = 0 y = 4}
+					}
+				}
+			}
+			else =
+			{		#Lights + Amtracs
+				limit =
+				{
+					OR =
+					{
+						has_country_flag = has_Pz_I
+						has_country_flag = has_Pz_II
+					}
+					has_tech = amphibious_mechanized_infantry
+				}
+				division_template =
+				{
+					name= "Seelandedivision" 
+					regiments = 
+					{
+						light_armor = 					{x = 0 y = 0}
+						light_armor = 					{x = 0 y = 1}
+						light_sp_anti_air_brigade = 	{x = 0 y = 2}
+						light_tank_destroyer_brigade = 	{x = 0 y = 3}
+						light_sp_artillery_brigade = 	{x = 0 y = 4}
+					
+						amphibious_mechanized =			{x = 1 y = 0}
+						amphibious_mechanized =			{x = 1 y = 1}
+						amphibious_mechanized =			{x = 1 y = 2}
+						amphibious_mechanized = 		{x = 1 y = 3}
+						amphibious_mechanized = 		{x = 1 y = 4}
+					}
+			
+					support = 
+					{
+						engineer = 			{x = 0 y = 0}
+						armored_car_recon = {x = 0 y = 1}
+						signal_company = 	{x = 0 y = 2}
+						field_hospital = 	{x = 0 y = 3}
+						logistics_company = {x = 0 y = 4}
+					}
+				}
+			}
+		}
+	}
+	"Alpenjägerdivision"
+	{
+		visible =
+		{
+			AND =
+			{
+				OR =
+				{
+					has_country_flag = has_Pz_I
+					has_country_flag = has_Pz_II
+				}
+				has_tech = tech_mountaineers
+				NOT = {has_country_flag = has_AlpenJäger}
+			}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_AlpenJäger
+			division_template =
+			{
+				name= "Alpenjägerdivision" 
+				regiments = 
+				{
+					light_armor = {x = 0 y = 0}
+					light_armor = {x = 0 y = 1}
+					light_sp_anti_air_brigade = {x = 0 y = 2}
+					light_tank_destroyer_brigade = {x = 0 y = 3}
+					light_sp_artillery_brigade = {x = 0 y = 4}
+				
+					mountaineers = {x = 1 y = 0}
+					mountaineers = {x = 1 y = 1}
+					mountaineers = {x = 1 y = 2}
+					mountaineers = {x = 1 y = 3}
+					mountaineers = {x = 1 y = 4}
+				}
+		
+				support = 
+				{
+					engineer = 			{x = 0 y = 0}
+					armored_car_recon = {x = 0 y = 1}
+					signal_company = 	{x = 0 y = 2}
+					field_hospital = 	{x = 0 y = 3}
+					logistics_company = {x = 0 y = 4}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+﻿
+GER_BB_HISTORICAL = 
+{
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { GER }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship battle_cruiser }
+	
+	fallback_name = "SM Schlachtschiff %d"
+	
+	ordered = 
+	{
+		1 = {"SMS Bismarck"}
+		2 = {"SMS Tirpitz"}
+	}
+}
+
+GER_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { GER }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship battle_cruiser }
+	
+	fallback_name = "SM Schlachtkreuzer %d"
+
+	
+	ordered = 
+	{
+		1 = {"SMS Prinz Eugen"}
+		2 = {"SMS Deutschland"} 
+	}
+}
+
+GER_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { GER }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	fallback_name = "SM U-%d"
+}
+
+GER_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { GER }
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
+	
+	fallback_name = "SM Schwerer Kreuzer %d"
+
+	
+	ordered = {
+		1 = {"SMS Admiral Graf Spee"}
+		2 = {"SMS Admiral Hipper"} 
+		3 = {"SMS Blücher"} 
+		4 = {"SMS Seydlitz"} 
+		5 = {"SMS Lützow"} 
+		6 = {"SMS Roon"}
+	}
+}
+
+GER_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { GER }
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
+	
+	fallback_name = "SM LK%d"
+}
+           
+
+GER_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { GER }
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+	
+	fallback_name = "SM Z%d"
+}
+
+GER_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { GER }
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	fallback_name = "SM %d. Träger"
+
+	
+	ordered = {
+		1 = {"SMS Graf Zeppelin"}
+		2 = {"SMS Peter Strasser"}
+		3 = {"SMS Seydlitz"}
+		4 = {"SMS Europa"}
+		5 = {"SMS Potsdam"}
+		6 = {"SMS Otto Lilienthal"}
+		7 = {"SMS Aurora"}
+		10 = {"SMS Manfred von Richthofen"}
+		11 = {"SMS Max Immelman"}
+	}
+}

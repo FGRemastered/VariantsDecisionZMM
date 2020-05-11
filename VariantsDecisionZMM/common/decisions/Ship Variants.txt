@@ -1,0 +1,1831 @@
+"Ship Variants" =
+{
+	"Click here when playing Kaiserreich" = 
+	{
+		visible =
+		{
+			NOT = {has_global_flag = is_KR}
+			NOT = {has_global_flag = is_not_KR}
+		}
+		complete_effect =
+		{
+			every_country =
+			{
+				set_country_flag = has_CV1
+				set_country_flag = has_CV2
+				set_country_flag = has_CV3
+				set_country_flag = has_CV4
+				set_country_flag = has_SH_BB1
+				set_country_flag = has_SH_BB2
+				set_country_flag = has_BB1
+				set_country_flag = has_BB2
+				set_country_flag = has_BB3
+				set_country_flag = has_BB4
+				set_country_flag = has_BC1
+				set_country_flag = has_BC2
+				set_country_flag = has_CA1
+				set_country_flag = has_CA2
+				set_country_flag = has_CA3
+				set_country_flag = has_CA4
+				set_country_flag = has_CL1
+				set_country_flag = has_CL2
+				set_country_flag = has_CL3
+				set_country_flag = has_CL4
+				set_country_flag = has_DD1
+				set_country_flag = has_DD2
+				set_country_flag = has_DD3
+				set_country_flag = has_DD4
+				set_country_flag = has_SS1
+				set_country_flag = has_SS2
+				set_country_flag = has_SS3
+				set_country_flag = has_SS4
+			}
+			set_global_flag = is_KR
+		}
+	}
+	"Click here when not playing Kaiserreich" =
+	{
+		visible =
+		{
+			NOT = {has_global_flag = is_KR}
+			NOT = {has_global_flag = is_not_KR}
+		}
+		complete_effect =
+		{
+			set_global_flag = is_not_KR
+		}
+	}
+
+	#Träger
+	"CV I" = 
+	{
+		visible =
+		{	
+			OR =
+			{
+				has_tech = early_carrier
+				has_tech = weltkrieg_carrier_nonmtg
+				has_tech = early_ship_hull_carrier
+			}
+			NOT = {has_country_flag = has_CV1}
+		}
+		
+		complete_effect =
+		{
+			set_country_flag = has_CV1
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Flugzeugdampfer"
+					type = ship_hull_carrier_conversion_bb
+					modules =
+					{
+						fixed_ship_deck_slot_1 		= ship_deck_space
+						fixed_ship_deck_slot_2 		= ship_deck_space
+						fixed_ship_anti_air_slot 	= ship_anti_air_4
+						fixed_ship_radar_slot 		= ship_radar_4
+						fixed_ship_engine_slot 		= carrier_ship_engine_4
+						fixed_ship_secondaries_slot = dp_ship_secondaries
+						
+						mid_1_custom_slot 		= ship_deck_space
+					}
+					upgrades = 
+					{
+						ship_deckspace_upgrade = 104
+						carrier_armor_upgrade = 95
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else = 
+			{
+				create_equipment_variant = 
+				{
+					name = "Flugzeugdampfer"
+					type = carrier_1
+					upgrades = 
+					{
+						ship_deckspace_upgrade = 104
+						carrier_armor_upgrade = 95
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	"CV II" = 
+	{
+	
+		
+			visible =
+			{	
+				OR =
+				{
+					has_tech = basic_carrier
+					has_tech = interwar_carrier_nonmtg
+					has_tech = basic_ship_hull_carrier
+				}
+				NOT = {has_country_flag = has_CV2}
+			}
+		
+		complete_effect =
+		{
+			set_country_flag = has_CV2
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Träger 2"
+					type = ship_hull_carrier_1
+					modules =
+					{
+						fixed_ship_deck_slot_1 		= ship_deck_space
+						fixed_ship_deck_slot_2 		= ship_deck_space
+						fixed_ship_anti_air_slot 	= ship_anti_air_4
+						fixed_ship_radar_slot 		= ship_radar_4
+						fixed_ship_engine_slot 		= carrier_ship_engine_4
+						fixed_ship_secondaries_slot = dp_ship_secondaries
+						
+						front_1_custom_slot 		= ship_deck_space
+					}
+					upgrades = 
+					{
+						ship_deckspace_upgrade = 104
+						carrier_armor_upgrade = 95
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else = 
+			{
+				create_equipment_variant = 
+				{
+					name = "Träger 2"
+					type = carrier_2
+					upgrades = 
+					{
+						ship_deckspace_upgrade = 104
+						carrier_armor_upgrade = 95
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	"CV III" = 
+	{
+	
+		
+			visible =
+			{	
+				OR =
+				{
+					has_tech = improved_carrier
+					has_tech = advanced_carrier_nonmtg
+					has_tech = improved_ship_hull_carrier
+				}
+				NOT = {has_country_flag = has_CV3}
+			}
+		
+		complete_effect =
+		{
+			set_country_flag = has_CV3
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Träger 3"
+					type = ship_hull_carrier_2
+					modules =
+					{
+						fixed_ship_deck_slot_1 		= ship_deck_space
+						fixed_ship_deck_slot_2 		= ship_deck_space
+						fixed_ship_anti_air_slot 	= ship_anti_air_4
+						fixed_ship_radar_slot		= ship_radar_4
+						fixed_ship_engine_slot 		= carrier_ship_engine_4
+						fixed_ship_secondaries_slot = dp_ship_secondaries
+						
+						front_1_custom_slot 		= ship_deck_space
+						mid_1_custom_slot 			= ship_deck_space
+					}
+					upgrades = 
+					{
+						ship_deckspace_upgrade = 104
+						carrier_armor_upgrade = 95
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else = 
+			{
+				create_equipment_variant = 
+				{
+					name = "Träger 3"
+					type = carrier_3
+					upgrades = 
+					{
+						ship_deckspace_upgrade = 104
+						carrier_armor_upgrade = 95
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	"CV IV" = 
+	{	
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = advanced_carrier
+				has_tech = modern_carrier_nonmtg
+				has_tech = advanced_ship_hull_carrier
+			}
+			NOT = {has_country_flag = has_CV4}
+		}
+		
+		complete_effect =
+		{
+			set_country_flag = has_CV4
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Graf Zeppelin Klasse"
+					type = ship_hull_carrier_3
+					modules =
+					{
+						fixed_ship_deck_slot_1 		= ship_deck_space
+						fixed_ship_deck_slot_2 		= ship_deck_space
+						fixed_ship_anti_air_slot	= ship_anti_air_4
+						fixed_ship_radar_slot 		= ship_radar_4
+						fixed_ship_engine_slot 		= carrier_ship_engine_4
+						fixed_ship_secondaries_slot = dp_ship_secondaries
+						
+						front_1_custom_slot 		= ship_deck_space
+						mid_1_custom_slot 			= ship_deck_space
+						mid_2_custom_slot 			= ship_deck_space
+					}
+					upgrades = 
+					{
+						ship_deckspace_upgrade = 104
+						carrier_armor_upgrade = 95
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else = 
+			{
+				create_equipment_variant = 
+				{
+					name = "Graf Zeppelin Klasse"
+					type = carrier_4
+					upgrades = 
+					{
+						ship_deckspace_upgrade = 104
+						carrier_armor_upgrade = 95
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	#Schlachtschiffe
+	"SH BB I" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = heavy_battleship
+				has_tech = super_heavy_dreadnought_nonmtg
+				has_tech = ship_hull_super_heavy
+			}
+			NOT = {has_country_flag = has_SH_BB1}
+		}
+	
+		complete_effect =
+		{
+			set_country_flag = has_SH_BB1
+			if = 
+			{limit = {has_tech = heavy_battleship}
+			create_equipment_variant = 
+			{
+				name = "Bismarck Klasse"
+				type = SH_battleship_1
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+			}
+			if = 
+			{limit = {has_tech = super_heavy_dreadnought_nonmtg}
+			create_equipment_variant = 
+			{
+				name = "Panzerschiff"
+				type = dreadnought_2
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+			}
+			if = 
+			{limit = {has_tech = ship_hull_super_heavy}
+			create_equipment_variant = 
+			{
+				name = "Bismarck Klasse"
+				type = ship_hull_super_heavy_1
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_super_heavy_battery_1
+					fixed_ship_anti_air_slot 			= ship_anti_air_4
+					fixed_ship_fire_control_system_slot	= ship_fire_control_system_3
+					fixed_ship_radar_slot 				= ship_radar_4
+					fixed_ship_engine_slot 				= heavy_ship_engine_4
+					fixed_ship_secondaries_slot 		= dp_ship_secondaries
+					fixed_ship_armor_slot 				= ship_armor_shbb
+					
+					front_1_custom_slot 				= ship_super_heavy_battery_1
+					front_2_custom_slot 				= ship_super_heavy_battery_1
+					mid_1_custom_slot 					= dp_ship_secondaries
+					mid_2_custom_slot 					= ship_anti_air_4
+					mid_3_custom_slot 					= dp_ship_secondaries
+					rear_1_custom_slot 					= ship_airplane_launcher_2
+					rear_2_custom_slot 					= ship_super_heavy_battery_1
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+			}
+		}
+	}
+	"SH BB II" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = heavy_battleship2
+				has_tech = final_dreadnought_nonmtg
+			}
+			NOT = {has_country_flag = has_SH_BB2}
+		}
+	
+		complete_effect =
+		{
+			set_country_flag = has_SH_BB2
+			hidden_trigger = {has_tech = heavy_battleship}
+			create_equipment_variant = 
+			{
+				name = "Bismarck Klasse"
+				type = SH_battleship_2
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+			hidden_trigger = {has_tech = final_dreadnought_nonmtg}
+			create_equipment_variant = 
+			{
+				name = "Bismarck Klasse"
+				type = dreadnought_3
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+			
+		}
+	}
+
+	"BB I" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = early_battleship
+				has_tech = weltkrieg_fast_battleship_nonmtg
+				has_tech = early_ship_hull_heavy
+			}
+			NOT = {has_country_flag = has_BB1}
+		}
+	
+		complete_effect =
+		{
+			set_country_flag = has_BB1
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Schlachtkreuzer 1"
+					type = ship_hull_heavy_1
+					modules =
+					{
+						fixed_ship_battery_slot 			= ship_heavy_battery_4
+						fixed_ship_anti_air_slot 			= ship_anti_air_4
+						fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+						fixed_ship_radar_slot 				= ship_radar_4
+						fixed_ship_engine_slot				= heavy_ship_engine_4
+						fixed_ship_secondaries_slot 		= dp_ship_secondaries
+						fixed_ship_armor_slot 				= ship_armor_bc_3
+						
+						front_1_custom_slot					= ship_heavy_battery_4
+						mid_1_custom_slot 					= dp_ship_secondaries
+						mid_2_custom_slot 					= ship_airplane_launcher_2
+						rear_1_custom_slot 					= ship_heavy_battery_4
+					}
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_armor_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else =
+			{
+				create_equipment_variant = 
+				{
+					name = "Schlachtschiff 1"
+					type = battleship_1
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_armor_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	"BB II" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = basic_battleship
+				has_tech = interwar_fast_battleship_nonmtg
+				has_tech = basic_ship_hull_heavy
+			}
+			NOT = {has_country_flag = has_BB2}
+		}
+	
+		complete_effect =
+		{
+			set_country_flag = has_BB2
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Schlachtkreuzer 2"
+					type = ship_hull_heavy_2
+					modules =
+					{
+						fixed_ship_battery_slot 			= ship_heavy_battery_4
+						fixed_ship_anti_air_slot 			= ship_anti_air_4
+						fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+						fixed_ship_radar_slot 				= ship_radar_4
+						fixed_ship_engine_slot				= heavy_ship_engine_4
+						fixed_ship_secondaries_slot 		= dp_ship_secondaries
+						fixed_ship_armor_slot 				= ship_armor_bc_3
+						
+						front_1_custom_slot					= ship_heavy_battery_4
+						mid_1_custom_slot 					= dp_ship_secondaries
+						mid_2_custom_slot 					= ship_airplane_launcher_2
+						rear_1_custom_slot 					= ship_heavy_battery_4
+					}
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_armor_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else =
+			{
+				create_equipment_variant = 
+				{
+					name = "Schlachtschiff 2"
+					type = battleship_2
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_armor_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	"BB III" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = improved_battleship
+				has_tech = advanced_fast_battleship_nonmtg
+				has_tech = improved_ship_hull_heavy
+			}
+			NOT = {has_country_flag = has_BB3}
+		}
+	
+		complete_effect =
+		{
+			set_country_flag = has_BB3
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Schlachtkreuzer 3"
+					type = ship_hull_heavy_3
+					modules =
+					{
+						fixed_ship_battery_slot 			= ship_heavy_battery_4
+						fixed_ship_anti_air_slot 			= ship_anti_air_4
+						fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+						fixed_ship_radar_slot 				= ship_radar_4
+						fixed_ship_engine_slot				= heavy_ship_engine_4
+						fixed_ship_secondaries_slot 		= dp_ship_secondaries
+						fixed_ship_armor_slot 				= ship_armor_bc_3
+						
+						front_1_custom_slot					= ship_heavy_battery_4
+						mid_1_custom_slot 					= dp_ship_secondaries
+						mid_2_custom_slot 					= ship_airplane_launcher_2
+						mid_3_custom_slot 					= dp_ship_secondaries
+						rear_1_custom_slot 					= ship_heavy_battery_4
+					}
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_armor_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else =
+			{
+				create_equipment_variant = 
+				{
+					name = "Schlachtschiff 3"
+					type = battleship_3
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_armor_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	"BB IV" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = advanced_battleship
+				has_tech = modern_fast_battleship_nonmtg
+				has_tech = advanced_ship_hull_heavy
+			}
+			NOT = {has_country_flag = has_BB4}
+		}
+	
+		complete_effect =
+		{
+			set_country_flag = has_BB4
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Prinz Eugen Klasse"
+					type = ship_hull_heavy_4
+					modules =
+					{
+						fixed_ship_battery_slot 			= ship_heavy_battery_4
+						fixed_ship_anti_air_slot 			= ship_anti_air_4
+						fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+						fixed_ship_radar_slot 				= ship_radar_4
+						fixed_ship_engine_slot				= heavy_ship_engine_4
+						fixed_ship_secondaries_slot 		= dp_ship_secondaries
+						fixed_ship_armor_slot 				= ship_armor_bc_3
+						
+						front_1_custom_slot					= ship_heavy_battery_4
+						mid_1_custom_slot 					= dp_ship_secondaries
+						mid_2_custom_slot 					= ship_airplane_launcher_2
+						mid_3_custom_slot 					= dp_ship_secondaries
+						rear_1_custom_slot 					= ship_heavy_battery_4
+					}
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_armor_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else =
+			{
+				create_equipment_variant = 
+				{
+					name = "Schlachtschiff 4"
+					type = battleship_4
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_armor_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	
+	#Schlachtkreuzer
+	"BC I" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = early_battlecruiser
+				#has_tech = modern_fast_battleship_nonmtg
+			}
+			NOT = {has_country_flag = has_BC1}
+			NOT = {has_dlc = "Man the Guns"}
+		}
+	
+		complete_effect =
+		{
+			set_country_flag = has_BC1
+			create_equipment_variant = 
+			{
+				name = "Früher Schlachtkreuzer"
+				type = battle_cruiser_1
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	"BC II" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = basic_battlecruiser
+				#has_tech = modern_fast_battleship_nonmtg
+			}
+			NOT = {has_country_flag = has_BC2}
+			NOT = {has_dlc = "Man the Guns"}
+		}
+	
+		complete_effect =
+		{
+			set_country_flag = has_BC2
+			create_equipment_variant = 
+			{
+				name = "Prinz Eugen Klasse"
+				type = battle_cruiser_2
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}
+
+	#Schwere Kreuzer
+	"CA I" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = early_heavy_cruiser
+				#has_tech = modern_fast_battleship_nonmtg
+				has_tech = early_ship_hull_cruiser
+			}
+			NOT = {has_country_flag = has_CA1}
+		}
+		
+		complete_effect =
+		{	
+			set_country_flag = has_CA1
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Früher Schwerer Kreuzer"
+					type = ship_hull_cruiser_1
+					modules =
+					{
+						fixed_ship_battery_slot 			= ship_medium_battery_4
+						fixed_ship_anti_air_slot 			= ship_anti_air_4
+						fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+						fixed_ship_radar_slot 				= ship_radar_4
+						fixed_ship_engine_slot				= cruiser_ship_engine_4
+						fixed_ship_secondaries_slot 		= dp_ship_secondaries
+						fixed_ship_armor_slot 				= ship_armor_cruiser_4
+						
+						mid_1_custom_slot 					= dp_ship_secondaries
+						mid_2_custom_slot 					= ship_airplane_launcher_2
+						rear_1_custom_slot 					= ship_medium_battery_4
+					}
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_armor_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else = 
+			{
+				create_equipment_variant = 
+				{
+					name = "Früher Schwerer Kreuzer"
+					type = heavy_cruiser_1
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_armor_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	"CA II" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = basic_heavy_cruiser
+				#has_tech = modern_fast_battleship_nonmtg
+				has_tech = basic_ship_hull_cruiser
+			}
+			NOT = {has_country_flag = has_CA2}
+		}
+	
+		complete_effect =
+		{	
+			set_country_flag = has_CA2
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Einfacher Schwerer Kreuzer"
+					type = ship_hull_cruiser_2
+					modules =
+					{
+						fixed_ship_battery_slot 			= ship_medium_battery_4
+						fixed_ship_anti_air_slot 			= ship_anti_air_4
+						fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+						fixed_ship_radar_slot 				= ship_radar_4
+						fixed_ship_engine_slot				= cruiser_ship_engine_4
+						fixed_ship_secondaries_slot 		= dp_ship_secondaries
+						fixed_ship_armor_slot 				= ship_armor_cruiser_4
+						
+						front_1_custom_slot					= ship_medium_battery_4
+						mid_1_custom_slot 					= dp_ship_secondaries
+						mid_2_custom_slot 					= ship_airplane_launcher_2
+						rear_1_custom_slot 					= ship_medium_battery_4
+					}
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_armor_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else = 
+			{
+				create_equipment_variant = 
+				{
+					name = "Einfacher Schwerer Kreuzer"
+					type = heavy_cruiser_2
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_armor_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	"CA III" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = improved_heavy_cruiser
+				#has_tech = modern_fast_battleship_nonmtg
+				has_tech = improved_ship_hull_cruiser
+			}
+			NOT = {has_country_flag = has_CA3}
+		}
+	
+		complete_effect =
+		{	
+			set_country_flag = has_CA3
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Verbesserter Schwerer Kreuzer"
+					type = ship_hull_cruiser_3
+					modules =
+					{
+						fixed_ship_battery_slot 			= ship_medium_battery_4
+						fixed_ship_anti_air_slot 			= ship_anti_air_4
+						fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+						fixed_ship_radar_slot 				= ship_radar_4
+						fixed_ship_engine_slot				= cruiser_ship_engine_4
+						fixed_ship_secondaries_slot 		= dp_ship_secondaries
+						fixed_ship_armor_slot 				= ship_armor_cruiser_4
+						
+						front_1_custom_slot					= ship_medium_battery_4
+						mid_1_custom_slot 					= dp_ship_secondaries
+						mid_2_custom_slot 					= ship_airplane_launcher_2
+						rear_1_custom_slot 					= dp_ship_secondaries
+						rear_2_custom_slot					= ship_medium_battery_4
+					}
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_armor_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else = 
+			{
+				create_equipment_variant = 
+				{
+					name = "Verbesserter Schwerer Kreuzer"
+					type = heavy_cruiser_3
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_armor_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	"CA IV" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = advanced_heavy_cruiser
+				#has_tech = modern_fast_battleship_nonmtg
+				has_tech = advanced_ship_hull_cruiser
+			}
+			NOT = {has_country_flag = has_CA4}
+		}
+	
+		complete_effect =
+		{	
+			set_country_flag = has_CA4
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Admiral Hipper Klasse"
+					type = ship_hull_cruiser_4
+					modules =
+					{
+						fixed_ship_battery_slot 			= ship_medium_battery_4
+						fixed_ship_anti_air_slot 			= ship_anti_air_4
+						fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+						fixed_ship_radar_slot 				= ship_radar_4
+						fixed_ship_engine_slot				= cruiser_ship_engine_4
+						fixed_ship_secondaries_slot 		= dp_ship_secondaries
+						fixed_ship_armor_slot 				= ship_armor_cruiser_4
+						
+						front_1_custom_slot					= ship_medium_battery_4
+						mid_1_custom_slot 					= dp_ship_secondaries
+						mid_2_custom_slot 					= ship_airplane_launcher_2
+						rear_1_custom_slot 					= dp_ship_secondaries
+						rear_2_custom_slot					= ship_medium_battery_4
+					}
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_armor_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else = 
+			{
+				create_equipment_variant = 
+				{
+					name = "Admiral Hipper Klasse"
+					type = heavy_cruiser_4
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_armor_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+
+	#Leichte Kreuzer
+	"CL I" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = early_light_cruiser
+				#has_tech = modern_fast_battleship_nonmtg
+				has_tech = early_ship_hull_cruiser
+			}
+			NOT = {has_country_flag = has_CL1}
+		}
+	
+		complete_effect =
+		{	
+			set_country_flag = has_CL1
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Früher Leichter Kreuzer"
+					type = ship_hull_cruiser_1
+					modules =
+					{
+						fixed_ship_battery_slot 			= ship_light_medium_battery_4
+						fixed_ship_anti_air_slot 			= ship_anti_air_4
+						fixed_ship_fire_control_system_slot = ship_sonar_2
+						fixed_ship_radar_slot 				= ship_radar_4
+						fixed_ship_engine_slot				= cruiser_ship_engine_4
+						fixed_ship_secondaries_slot 		= dp_ship_secondaries
+						fixed_ship_armor_slot 				= ship_armor_cruiser_4
+						
+						mid_1_custom_slot 					= ship_torpedo_4
+						mid_2_custom_slot 					= ship_torpedo_4
+						rear_1_custom_slot 					= ship_airplane_launcher_2
+					}
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_anti_air_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else = 
+			{
+				create_equipment_variant = 
+				{
+					name = "Früher Leichter Kreuzer"
+					type = light_cruiser_1
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_anti_air_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	"CL II" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = basic_light_cruiser
+				#has_tech = modern_fast_battleship_nonmtg
+				has_tech = basic_ship_hull_cruiser
+			}
+			NOT = {has_country_flag = has_CL2}
+		}
+	
+		complete_effect =
+		{	
+			set_country_flag = has_CL2
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Einfacher Leichter Kreuzer"
+					type = ship_hull_cruiser_2
+					modules =
+					{
+						fixed_ship_battery_slot 			= ship_light_medium_battery_4
+						fixed_ship_anti_air_slot 			= ship_anti_air_4
+						fixed_ship_fire_control_system_slot = ship_sonar_2
+						fixed_ship_radar_slot 				= ship_radar_4
+						fixed_ship_engine_slot				= cruiser_ship_engine_4
+						fixed_ship_secondaries_slot 		= dp_ship_secondaries
+						fixed_ship_armor_slot 				= ship_armor_cruiser_4
+						
+						front_1_custom_slot					= ship_light_medium_battery_4
+						mid_1_custom_slot 					= ship_torpedo_4
+						mid_2_custom_slot 					= ship_torpedo_4
+						rear_1_custom_slot 					= ship_airplane_launcher_2
+					}
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_anti_air_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else = 
+			{
+				create_equipment_variant = 
+				{
+					name = "Einfacher Leichter Kreuzer"
+					type = light_cruiser_2
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_anti_air_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	"CL III" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = advanced_light_cruiser
+				#has_tech = modern_fast_battleship_nonmtg
+				has_tech = improved_ship_hull_cruiser
+			}
+			NOT = {has_country_flag = has_CL3}
+		}
+	
+		complete_effect =
+		{	
+			set_country_flag = has_CL3
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Verbesserter Leichter Kreuzer"
+					type = ship_hull_cruiser_3
+					modules =
+					{
+						fixed_ship_battery_slot 			= ship_light_medium_battery_4
+						fixed_ship_anti_air_slot 			= ship_anti_air_4
+						fixed_ship_fire_control_system_slot = ship_sonar_2
+						fixed_ship_radar_slot 				= ship_radar_4
+						fixed_ship_engine_slot				= cruiser_ship_engine_4
+						fixed_ship_secondaries_slot 		= dp_ship_secondaries
+						fixed_ship_armor_slot 				= ship_armor_cruiser_4
+						
+						front_1_custom_slot					= ship_light_medium_battery_4
+						mid_1_custom_slot 					= ship_torpedo_4
+						mid_2_custom_slot 					= ship_torpedo_4
+						rear_1_custom_slot 					= ship_airplane_launcher_2
+						rear_2_custom_slot					= ship_depth_charge_4
+					}
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_anti_air_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else = 
+			{
+				create_equipment_variant = 
+				{
+					name = "Verbesserter Leichter Kreuzer"
+					type = light_cruiser_3
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_anti_air_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	"CL IV" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = advanced_light_cruiser
+				#has_tech = modern_fast_battleship_nonmtg
+				has_tech = advanced_ship_hull_cruiser
+			}
+			NOT = {has_country_flag = has_CL4}
+		}
+	
+		complete_effect =
+		{	
+			set_country_flag = has_CL4
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Moderner Leichter Kreuzer"
+					type = ship_hull_cruiser_4
+					modules =
+					{
+						fixed_ship_battery_slot 			= ship_light_medium_battery_4
+						fixed_ship_anti_air_slot 			= ship_anti_air_4
+						fixed_ship_fire_control_system_slot = ship_sonar_2
+						fixed_ship_radar_slot 				= ship_radar_4
+						fixed_ship_engine_slot				= cruiser_ship_engine_4
+						fixed_ship_secondaries_slot 		= dp_ship_secondaries
+						fixed_ship_armor_slot 				= ship_armor_cruiser_4
+						
+						front_1_custom_slot					= ship_light_medium_battery_4
+						mid_1_custom_slot 					= ship_torpedo_4
+						mid_2_custom_slot 					= ship_torpedo_4
+						rear_1_custom_slot 					= ship_airplane_launcher_2
+						rear_2_custom_slot					= ship_depth_charge_4
+					}
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_anti_air_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else = 
+			{
+				create_equipment_variant = 
+				{
+					name = "Moderner Leichter Kreuzer"
+					type = light_cruiser_4
+					upgrades = 
+					{
+						ship_gun_upgrade = 99
+						ship_anti_air_upgrade = 99
+						ship_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	
+	#Zerstörer
+	"DD I" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = early_destroyer
+				#has_tech = modern_fast_battleship_nonmtg
+				has_tech = early_ship_hull_light
+			}
+			NOT = {has_country_flag = has_DD1}
+		}
+	
+		complete_effect =
+		{
+			set_country_flag = has_DD1
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Früher Zerstörer"
+					type = ship_hull_light_1
+					modules =
+					{
+						fixed_ship_battery_slot 			= dp_light_battery
+						fixed_ship_anti_air_slot 			= ship_anti_air_4
+						fixed_ship_fire_control_system_slot = ship_sonar_2
+						fixed_ship_radar_slot 				= ship_radar_4
+						fixed_ship_engine_slot				= light_ship_engine_4
+						fixed_ship_torpedo_slot 			= ship_torpedo_4
+						
+						mid_1_custom_slot 					= ship_torpedo_4
+						rear_1_custom_slot 					= ship_depth_charge_4
+					}
+					upgrades = 
+					{
+						ship_torpedo_upgrade = 99
+						ship_anti_air_upgrade = 99
+						destroyer_engine_upgrade = 99
+						ship_ASW_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else =
+			{
+				create_equipment_variant = 
+				{
+					name = "Früher Zerstörer"
+					type = destroyer_1
+					upgrades = 
+					{
+						ship_torpedo_upgrade = 99
+						ship_anti_air_upgrade = 99
+						destroyer_engine_upgrade = 99
+						ship_ASW_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	"DD II" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = basic_destroyer
+				#has_tech = modern_fast_battleship_nonmtg
+				has_tech = basic_ship_hull_light
+			}
+			NOT = {has_country_flag = has_DD2}
+		}
+	
+		complete_effect =
+		{
+			set_country_flag = has_DD2
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Einfacher Zerstörer"
+					type = ship_hull_light_2
+					modules =
+					{
+						fixed_ship_battery_slot 			= dp_light_battery
+						fixed_ship_anti_air_slot 			= ship_anti_air_4
+						fixed_ship_fire_control_system_slot = ship_sonar_2
+						fixed_ship_radar_slot 				= ship_radar_4
+						fixed_ship_engine_slot				= light_ship_engine_4
+						fixed_ship_torpedo_slot 			= ship_torpedo_4
+						
+						mid_1_custom_slot 					= ship_torpedo_4
+						rear_1_custom_slot 					= ship_depth_charge_4
+					}
+					upgrades = 
+					{
+						ship_torpedo_upgrade = 99
+						ship_anti_air_upgrade = 99
+						destroyer_engine_upgrade = 99
+						ship_ASW_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else =
+			{
+				create_equipment_variant = 
+				{
+					name = "Einfacher Zerstörer"
+					type = destroyer_2
+					upgrades = 
+					{
+						ship_torpedo_upgrade = 99
+						ship_anti_air_upgrade = 99
+						destroyer_engine_upgrade = 99
+						ship_ASW_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	"DD III" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = improved_destroyer
+				#has_tech = modern_fast_battleship_nonmtg
+				has_tech = improved_ship_hull_light
+			}
+			NOT = {has_country_flag = has_DD3}
+		}
+	
+		complete_effect =
+		{
+			set_country_flag = has_DD3
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Verbesserter Zerstörer"
+					type = ship_hull_light_3
+					modules =
+					{
+						fixed_ship_battery_slot 			= dp_light_battery
+						fixed_ship_anti_air_slot 			= ship_anti_air_4
+						fixed_ship_fire_control_system_slot = ship_sonar_2
+						fixed_ship_radar_slot 				= ship_radar_4
+						fixed_ship_engine_slot				= light_ship_engine_4
+						fixed_ship_torpedo_slot 			= ship_torpedo_4
+						
+						front_1_custom_slot					= ship_depth_charge_4
+						mid_1_custom_slot 					= ship_torpedo_4
+						rear_1_custom_slot 					= ship_depth_charge_4
+					}
+					upgrades = 
+					{
+						ship_torpedo_upgrade = 99
+						ship_anti_air_upgrade = 99
+						destroyer_engine_upgrade = 99
+						ship_ASW_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else =
+			{
+				create_equipment_variant = 
+				{
+					name = "Verbesserter Zerstörer"
+					type = destroyer_3
+					upgrades = 
+					{
+						ship_torpedo_upgrade = 99
+						ship_anti_air_upgrade = 99
+						destroyer_engine_upgrade = 99
+						ship_ASW_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	"DD IV" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = advanced_destroyer
+				#has_tech = modern_fast_battleship_nonmtg
+				has_tech = advanced_ship_hull_light
+			}
+			NOT = {has_country_flag = has_DD4}
+		}
+	
+		complete_effect =
+		{
+			set_country_flag = has_DD4
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Moderner Zerstörer"
+					type = ship_hull_light_4
+					modules =
+					{
+						fixed_ship_battery_slot 			= dp_light_battery
+						fixed_ship_anti_air_slot 			= ship_anti_air_4
+						fixed_ship_fire_control_system_slot = ship_sonar_2
+						fixed_ship_radar_slot 				= ship_radar_4
+						fixed_ship_engine_slot				= light_ship_engine_4
+						fixed_ship_torpedo_slot 			= ship_torpedo_4
+						
+						front_1_custom_slot					= ship_depth_charge_4
+						mid_1_custom_slot 					= ship_torpedo_4
+						mid_2_custom_slot 					= ship_torpedo_4
+						rear_1_custom_slot 					= ship_depth_charge_4
+					}
+					upgrades = 
+					{
+						ship_torpedo_upgrade = 99
+						ship_anti_air_upgrade = 99
+						destroyer_engine_upgrade = 99
+						ship_ASW_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else =
+			{
+				create_equipment_variant = 
+				{
+					name = "Moderner Zerstörer"
+					type = destroyer_4
+					upgrades = 
+					{
+						ship_torpedo_upgrade = 99
+						ship_anti_air_upgrade = 99
+						destroyer_engine_upgrade = 99
+						ship_ASW_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	
+	#U-Boote
+	"SS I" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = early_submarine
+				#has_tech = modern_fast_battleship_nonmtg
+				has_tech = early_ship_hull_submarine
+			}
+			NOT = {has_country_flag = has_SS1}
+		}
+	
+		complete_effect =
+		{
+			set_country_flag = has_SS1
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Badewanne"
+					type = ship_hull_submarine_1
+					modules =
+					{
+						fixed_ship_engine_slot				= sub_ship_engine_4
+						fixed_ship_torpedo_slot 			= ship_torpedo_sub_4
+						
+						rear_1_custom_slot 					= ship_torpedo_sub_4
+					}
+					upgrades = 
+					{
+						sub_torpedo_upgrade = 99
+						sub_stealth_upgrade = 99
+						sub_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else =
+			{
+				create_equipment_variant = 
+				{
+					name = "Badewanne"
+					type = submarine_1
+					upgrades = 
+					{
+						sub_torpedo_upgrade = 99
+						sub_stealth_upgrade = 99
+						sub_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	"SS II" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = basic_submarine
+				#has_tech = modern_fast_battleship_nonmtg
+				has_tech = basic_ship_hull_submarine
+			}
+			NOT = {has_country_flag = has_SS2}
+		}
+	
+		complete_effect =
+		{
+			set_country_flag = has_SS2
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "-2"
+					type = ship_hull_submarine_2
+					modules =
+					{
+						fixed_ship_engine_slot				= sub_ship_engine_4
+						fixed_ship_torpedo_slot 			= ship_torpedo_sub_4
+						
+						rear_1_custom_slot 					= ship_torpedo_sub_4
+					}
+					upgrades = 
+					{
+						sub_torpedo_upgrade = 99
+						sub_stealth_upgrade = 99
+						sub_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else =
+			{
+				create_equipment_variant = 
+				{
+					name = "-2"
+					type = submarine_2
+					upgrades = 
+					{
+						sub_torpedo_upgrade = 99
+						sub_stealth_upgrade = 99
+						sub_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	"SS III" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = improved_submarine
+				#has_tech = modern_fast_battleship_nonmtg
+				has_tech = improved_ship_hull_submarine
+			}
+			NOT = {has_country_flag = has_SS3}
+		}
+	
+		complete_effect =
+		{
+			set_country_flag = has_SS3
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "-3"
+					type = ship_hull_submarine_3
+					modules =
+					{
+						fixed_ship_engine_slot				= sub_ship_engine_4
+						fixed_ship_torpedo_slot 			= ship_torpedo_sub_4
+						
+						front_1_custom_slot					= ship_torpedo_sub_4
+						mid_1_custom_slot					= ship_radar_4
+						rear_1_custom_slot 					= ship_torpedo_sub_4
+					}
+					upgrades = 
+					{
+						sub_torpedo_upgrade = 99
+						sub_stealth_upgrade = 99
+						sub_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else =
+			{
+				create_equipment_variant = 
+				{
+					name = "-3"
+					type = submarine_3
+					upgrades = 
+					{
+						sub_torpedo_upgrade = 99
+						sub_stealth_upgrade = 99
+						sub_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+	"SS IV" = 
+	{
+	
+	
+		visible =
+		{	
+			OR =
+			{
+				has_tech = advanced_submarine
+				has_tech = advanced_ship_hull_submarine
+			}
+			NOT = {has_country_flag = has_SS4}
+		}
+	
+		complete_effect =
+		{
+			set_country_flag = has_SS4
+			if = 
+			{limit = {has_dlc = "Man the Guns"}
+				create_equipment_variant = 
+				{
+					name = "Modernes U-Boot"
+					type = ship_hull_submarine_4
+					modules =
+					{
+						fixed_ship_engine_slot				= sub_ship_engine_4
+						fixed_ship_torpedo_slot 			= ship_torpedo_sub_4
+						
+						front_1_custom_slot					= ship_torpedo_sub_4
+						mid_1_custom_slot					= ship_radar_4
+						rear_1_custom_slot 					= ship_torpedo_sub_4
+					}
+					upgrades = 
+					{
+						sub_torpedo_upgrade = 99
+						sub_stealth_upgrade = 99
+						sub_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+			else =
+			{
+				create_equipment_variant = 
+				{
+					name = "Modernes U-Boot"
+					type = submarine_4
+					upgrades = 
+					{
+						sub_torpedo_upgrade = 99
+						sub_stealth_upgrade = 99
+						sub_engine_upgrade = 99
+						ship_reliability_upgrade = 99
+						ZMM_NAVAL_prod_upgrade = 99
+					}
+				}
+			}
+		}
+	}
+}

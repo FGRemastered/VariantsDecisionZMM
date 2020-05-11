@@ -1,0 +1,1133 @@
+"Armor Variants"  = 
+{
+	"Radpanzer I" =
+	{
+	visible = 
+	{
+		has_tech = armored_car1 
+		NOT = {has_country_flag = has_radpanzer_I}
+	}
+	complete_effect = 
+		{	
+			set_country_flag = has_radpanzer_I
+			create_equipment_variant = 
+			{
+			name = "Sfz 222"
+			type = gw_armored_car_equipment
+				upgrades = 
+				{
+					tank_gun_upgrade = 3
+					tank_armor_upgrade = 2
+					ac_engine_upgrade = 200
+					tank_reliability_upgrade = 5
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Radpanzer II" =
+	{
+	visible = 
+	{
+		has_tech = armored_car2 
+		NOT = {has_country_flag = has_radpanzer_II}
+	}
+	complete_effect = 
+		{
+			set_country_flag = has_radpanzer_II
+			create_equipment_variant = 
+			{
+			name = "Sfz 231"
+			type = armored_car_equipment_1
+				upgrades = 
+				{
+					tank_gun_upgrade = 3
+					tank_armor_upgrade = 2
+					ac_engine_upgrade = 200
+					tank_reliability_upgrade = 5
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Radpanzer III" =
+	{
+	visible = 
+	{
+		has_tech = armored_car3 
+		NOT = {has_country_flag = has_radpanzer_III}
+	}
+	complete_effect = 
+		{
+			set_country_flag = has_radpanzer_III
+			create_equipment_variant = 
+			{
+			name = "Sfz 234"
+			type = armored_car_equipment_2
+				upgrades = 
+				{
+					tank_gun_upgrade = 3
+					tank_armor_upgrade = 2
+					ac_engine_upgrade = 200
+					tank_reliability_upgrade = 5
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"PaKwagen" =
+	{
+	visible = 
+	{
+		has_tech = armored_car_at_upgrade 
+		NOT = {has_country_flag = has_pakwagen}
+	}
+	complete_effect = 
+		{
+			set_country_flag = has_pakwagen
+			create_equipment_variant = 
+			{
+			name = "PaKwagen"
+			type = armored_car_at_equipment
+				upgrades = 
+				{
+					tank_gun_upgrade = 3
+					tank_armor_upgrade = 2
+					ac_engine_upgrade = 200
+					tank_reliability_upgrade = 5
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Schwimmpanzer II" = 
+	{
+		visible = 
+		{
+			has_tech  = amphibious_tank
+			NOT = {has_country_flag = has_schwimmpanzer_II}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_schwimmpanzer_II
+			create_equipment_variant = 
+			{
+				name = "Schwimmpanzer II"
+				type = amphibious_tank_equipment_1
+				upgrades = 
+				{
+					tank_gun_upgrade = 5
+					tank_armor_upgrade = 2 
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 6
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Tauchpanzer III" = 
+	{
+	visible =
+		{
+			has_tech  = amphibious_tank_2  
+			NOT = {has_country_flag = has_taucpanzer_III}
+		}
+	complete_effect = 
+		{
+		set_country_flag = has_taucpanzer_III
+		create_equipment_variant = 
+			{
+				name = "Tauchpanzer III"
+				type = amphibious_tank_equipment_2
+				upgrades = 
+				{
+					tank_gun_upgrade = 5
+					tank_armor_upgrade = 2 
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 6
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Panzer I" = 
+	{
+		visible =
+		{
+			has_tech  = basic_light_tank
+			NOT = {has_country_flag = has_Pz_I}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_Pz_I
+			hidden_effect = 
+			{
+				set_technology = 
+				{
+					basic_light_art = 1
+					basic_light_td = 1
+					basic_light_spaa = 1
+					popup = no
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Panzer I"
+				type = light_tank_equipment_1
+				upgrades = 
+				{
+					tank_gun_upgrade = 5
+					tank_armor_upgrade = 2 
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 6
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Bison"
+				type = light_tank_artillery_equipment_1
+				upgrades = 
+				{
+					tank_art_upgrade = 5
+					tank_armor_upgrade = 2
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 6
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Marder"
+				type = light_tank_destroyer_equipment_1
+				upgrades = 
+				{
+					tank_at_upgrade = 5
+					tank_armor_upgrade = 2
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 6
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "SFlaK I"
+				type = light_tank_aa_equipment_1
+				upgrades = 
+				{
+					tank_aa_upgrade = 5
+					tank_armor_upgrade = 2
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 6
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Panzer II" =
+	{	
+		visible	=
+		{
+			has_tech  = improved_light_tank
+			NOT = {has_country_flag = has_Pz_II}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_Pz_II
+			hidden_effect = 
+			{
+				set_technology = 
+				{	
+					improved_light_art = 1
+					improved_light_td = 1
+					improved_light_spaa = 1
+					popup = no
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Panzer II"
+				type = light_tank_equipment_2
+				upgrades = 
+				{
+					tank_gun_upgrade = 5
+					tank_armor_upgrade = 2
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 6
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Wespe"
+				type = light_tank_artillery_equipment_2
+				upgrades = 
+				{
+					tank_art_upgrade = 5
+					tank_armor_upgrade = 2
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 6
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Marder II"
+				type = light_tank_destroyer_equipment_2
+				upgrades = 
+				{
+					tank_at_upgrade = 5
+					tank_armor_upgrade = 2
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 6
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "SFlaK II"
+				type = light_tank_aa_equipment_2
+				upgrades = 
+				{
+					tank_aa_upgrade = 5
+					tank_armor_upgrade = 2
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 6
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Leopard" =
+	{	
+		visible =
+		{
+			has_tech  = advanced_light_tank
+			NOT = {has_country_flag = has_Leo}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_Leo
+			hidden_effect = {
+				set_technology = 
+				{	
+					advanced_light_art = 1
+					advanced_light_td = 1
+					advanced_light_spaa = 1
+					popup = no
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Leopard"
+				type = light_tank_equipment_3
+				upgrades = 
+				{
+					tank_gun_upgrade = 5
+					tank_armor_upgrade = 2
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 6
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "LSFL III"
+				type = light_tank_artillery_equipment_3
+				upgrades = 
+				{
+					tank_art_upgrade = 5
+					tank_armor_upgrade = 2
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 6
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "E-10"
+				type = light_tank_destroyer_equipment_3
+				upgrades = 
+				{
+					tank_at_upgrade = 5
+					tank_armor_upgrade = 2
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 6
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Gepard"
+				type = light_tank_aa_equipment_3
+				upgrades = 
+				{
+					tank_aa_upgrade = 5
+					tank_armor_upgrade = 2
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 6
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Panzer III" =
+	{
+		visible =
+		{
+			has_tech  = basic_medium_tank
+			NOT = {has_country_flag = has_Pz_III}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_Pz_III
+			hidden_effect = 
+			{
+				set_technology = 
+				{
+					basic_medium_art = 1
+					basic_medium_td = 1
+					basic_medium_spaa = 1
+					popup = no
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Panzer III"
+				type = medium_tank_equipment_1
+				upgrades = 
+				{
+					tank_gun_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Grille"
+				type = medium_tank_artillery_equipment_1
+				upgrades = 
+				{
+					tank_art_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "StuG III"
+				type = medium_tank_destroyer_equipment_1
+				upgrades = 
+				{
+					tank_at_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Möbelwagen"
+				type = medium_tank_aa_equipment_1
+				upgrades = 
+				{
+					tank_aa_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Panzer IV" =
+	{
+	visible =
+		{
+			has_tech  = improved_medium_tank
+			NOT = {has_country_flag = has_Pz_IV}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_Pz_IV
+			hidden_effect = 
+			{
+				set_technology = 
+				{
+					improved_medium_art = 1
+					improved_medium_td = 1
+					improved_medium_spaa = 1
+					popup = no
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Panzer IV"
+				type = medium_tank_equipment_2
+				upgrades = 
+				{
+					tank_gun_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Hummel"
+				type = medium_tank_artillery_equipment_2
+				upgrades = 
+				{
+					tank_art_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "StuG IV"
+				type = medium_tank_destroyer_equipment_2
+				upgrades = 
+				{
+					tank_at_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Ostwind"
+				type = medium_tank_aa_equipment_2
+				upgrades = 
+				{
+					tank_aa_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Panther" =
+	{
+		visible =
+		{
+			has_tech  = advanced_medium_tank
+			NOT = {has_country_flag = has_Pz_V}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_Pz_V
+			hidden_effect = 
+			{
+				set_technology = 
+				{
+					advanced_medium_art = 1
+					advanced_medium_td = 1
+					advanced_medium_spaa = 1
+					popup = no
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Panther"
+				type = medium_tank_equipment_3
+				upgrades = 
+				{
+					tank_gun_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Brummbär"
+				type = medium_tank_artillery_equipment_3
+				upgrades = 
+				{
+					tank_art_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Jagdpanther"
+				type = medium_tank_destroyer_equipment_3
+				upgrades = 
+				{
+					tank_at_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Wirbelwind"
+				type = medium_tank_aa_equipment_3
+				upgrades = 
+				{
+					tank_aa_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Großtraktor" =
+	{
+		visible =
+		{
+			has_tech  = basic_heavy_tank
+			NOT = {has_country_flag = has_GrT}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_GrT
+			hidden_effect = {
+				set_technology = 
+				{
+					basic_heavy_art = 1
+					basic_heavy_td = 1
+					basic_heavy_spaa = 1
+					popup = no
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Großtraktor"
+				type = heavy_tank_equipment_1
+				upgrades = 
+				{
+					tank_gun_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Heupferd"
+				type = heavy_tank_artillery_equipment_1
+				upgrades = 
+				{
+					tank_art_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Sturer Emil"
+				type = heavy_tank_destroyer_equipment_1
+				upgrades = 
+				{
+					tank_at_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "SFlaK Großtraktor"
+				type = heavy_tank_aa_equipment_1
+				upgrades = 
+				{
+					tank_aa_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	"Tiger" =
+	{
+		visible =
+		{
+			has_tech  = improved_heavy_tank
+			NOT = {has_country_flag = has_Pz_VI}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_Pz_VI
+			hidden_effect = {
+				set_technology = 
+				{
+					improved_heavy_art = 1
+					improved_heavy_td = 1
+					improved_heavy_spaa = 1
+					popup = no
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Tiger"
+				type = heavy_tank_equipment_2
+				upgrades = 
+				{
+					tank_gun_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Sturmtiger"
+				type = heavy_tank_artillery_equipment_2
+				upgrades = 
+				{
+					tank_art_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Elefant"
+				type = heavy_tank_destroyer_equipment_2
+				upgrades = 
+				{
+					tank_at_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "SFlaK VI"
+				type = heavy_tank_aa_equipment_2
+				upgrades = 
+				{
+					tank_aa_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Königstiger" =
+	{
+		visible =
+		{
+			has_tech  = advanced_heavy_tank
+			NOT = {has_country_flag = has_Pz_VI_2}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_Pz_VI_2
+			hidden_effect = {
+				set_technology = 
+				{
+					advanced_heavy_art = 1
+					advanced_heavy_td = 1
+					advanced_heavy_spaa = 1
+					popup = no
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Königstiger"
+				type = heavy_tank_equipment_3
+				upgrades = 
+				{
+					tank_gun_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "GW Tiger"
+				type = heavy_tank_artillery_equipment_3
+				upgrades = 
+				{
+					tank_art_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Jagdtiger"
+				type = heavy_tank_destroyer_equipment_3
+				upgrades = 
+				{
+					tank_at_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "SFlaK VI-2"
+				type = heavy_tank_aa_equipment_3
+				upgrades = 
+				{
+					tank_aa_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Maus" =
+	{
+		visible =
+		{
+			has_tech  = super_heavy_tank
+			NOT = {has_country_flag = has_Pz_VIII}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_Pz_VIII
+			hidden_effect = {
+				set_technology = 
+				{
+					super_heavy_art = 1
+					super_heavy_td = 1
+					super_heavy_spaa = 1
+					popup = no
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Maus"
+				type = super_heavy_tank_equipment_1
+				upgrades = 
+				{
+					tank_gun_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Mausefalle"
+				type = super_heavy_tank_artillery_equipment_1
+				upgrades = 
+				{
+					tank_art_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Jagdmaus"
+				type = super_heavy_tank_destroyer_equipment_1
+				upgrades = 
+				{
+					tank_at_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "FlaKMaus"
+				type = super_heavy_tank_aa_equipment_1
+				upgrades = 
+				{
+					tank_aa_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"E-50" =
+	{
+		visible =
+		{
+			has_tech  = main_battle_tank
+			NOT = {has_country_flag = has_E-50}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_E-50
+			hidden_effect = {
+				set_technology = 
+				{
+					modern_art = 1
+					modern_td = 1
+					modern_spaa = 1
+					popup = no
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "E-50"
+				type = modern_tank_equipment_1
+				upgrades = 
+				{
+					tank_gun_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "WT E-50"
+				type = modern_tank_artillery_equipment_1
+				upgrades = 
+				{
+					tank_art_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "E-25"
+				type = modern_tank_destroyer_equipment_1
+				upgrades = 
+				{
+					tank_at_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Kugelblitz"
+				type = modern_tank_aa_equipment_1
+				upgrades = 
+				{
+					tank_aa_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 100
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"VW Feger" = 
+	{
+		visible =
+		{
+			has_tech = motorised_infantry
+			NOT = {has_country_flag = has_VWF}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_VWF
+			create_equipment_variant = 
+			{
+				name = "VW Feger"
+				type = motorized_equipment_1
+				upgrades = 
+				{
+					MOT_reliability_upgrade = 70
+					MOT_speed_upgrade = 100
+					MOT_hardness_upgrade = 10
+					MOT_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Sfz 11" = 
+	{
+		visible =
+		{
+			has_tech = mechanised_infantry
+			NOT = {has_country_flag = has_Sfz_11}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_Sfz_11
+			create_equipment_variant = 
+			{
+				name = "Sfz 11"
+				type = mechanized_equipment_1
+				upgrades = 
+				{
+					MECH_reliability_upgrade = 100
+					MECH_speed_upgrade = 100
+					MECH_armor_upgrade = 13
+					MECH_attack_upgrade = 82
+					MECH_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Sfz 251" = 
+	{
+		visible =
+		{
+			has_tech = mechanised_infantry2
+			NOT = {has_country_flag = has_Sfz_251}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_Sfz_251
+			create_equipment_variant = 
+			{
+				name = "Sfz 251"
+				type = mechanized_equipment_2
+				upgrades = 
+				{
+					MECH_reliability_upgrade = 100
+					MECH_speed_upgrade = 100
+					MECH_armor_upgrade = 8
+					MECH_attack_upgrade = 87
+					MECH_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Sfz 251_20" = 
+	{
+		visible =
+		{
+			has_tech = mechanised_infantry3
+			NOT = {has_country_flag = has_Sfz_251_20}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_Sfz_251_20
+			create_equipment_variant = 
+			{
+				name = "Sfz 251/20"
+				type = mechanized_equipment_3
+				upgrades = 
+				{
+					MECH_reliability_upgrade = 100
+					MECH_speed_upgrade = 100
+					MECH_armor_upgrade = 5
+					MECH_attack_upgrade = 90
+					MECH_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"LWS I" = 
+	{
+		visible =
+		{
+			has_tech = amphibious_mechanized_infantry
+			NOT = {has_country_flag = has_LWS_I}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_LWS_I
+			create_equipment_variant = 
+			{
+				name = "LWS I"
+				type = amphibious_mechanized_equipment_1
+				upgrades = 
+				{
+					MECH_reliability_upgrade = 100
+					MECH_speed_upgrade = 100
+					MECH_armor_upgrade = 13
+					MECH_attack_upgrade = 82
+					MECH_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"LWS II" = 
+	{
+		visible =
+		{
+			has_tech = amphibious_mechanized_infantry_2
+			NOT = {has_country_flag = has_LWS_II}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_LWS_II
+			create_equipment_variant = 
+			{
+				name = "LWS II"
+				type = amphibious_mechanized_equipment_2
+				upgrades = 
+				{
+					MECH_reliability_upgrade = 100
+					MECH_speed_upgrade = 100
+					MECH_armor_upgrade = 8
+					MECH_attack_upgrade = 87
+					MECH_prod_upgrade = 99
+				}
+	
+			}
+		}
+	}
+
+}

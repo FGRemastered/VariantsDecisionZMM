@@ -1,0 +1,972 @@
+"Plane Variants" =
+{
+	"GW Fighter" =
+	{
+		visible = 
+		{
+		has_tech = early_fighter
+		NOT = {has_country_flag = has_D3}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_D3
+			create_equipment_variant = 
+			{
+			name = "Fokker D.3"
+			type = fighter_equipment_0
+				upgrades = 
+				{
+					plane_gun_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+
+	"Fighter I" =
+	{
+	visible = {has_tech = fighter1 NOT = {has_country_flag = has_F1}}
+	complete_effect = 
+		{	
+			set_country_flag = has_F1
+			create_equipment_variant = 
+			{
+			name = "Bf 109"
+			type = fighter_equipment_1
+				upgrades = 
+				{
+					plane_gun_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+
+	"Fighter II" =
+	{
+	visible = {has_tech = fighter2 NOT = {has_country_flag = has_F2}}
+	complete_effect = 
+		{
+			set_country_flag = has_F2
+			create_equipment_variant = 
+			{
+			name = "Fw 190"
+			type = fighter_equipment_2
+				upgrades = 
+				{
+					plane_gun_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Fighter III" =
+	{
+	visible = {has_tech = fighter3 NOT = {has_country_flag = has_F3}}
+	complete_effect = 
+		{	
+			set_country_flag = has_F3
+			create_equipment_variant = 
+			{
+			name = "Fw 190 E"
+			type = fighter_equipment_3
+				upgrades = 
+				{
+					plane_gun_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Jet Fighter I" =
+	{
+	visible = {has_tech = jet_fighter1 NOT = {has_country_flag = has_JF1}}
+	complete_effect = 
+		{	
+			set_country_flag = has_JF1
+			create_equipment_variant = 
+			{
+			name = "Me 262"
+			type = jet_fighter_equipment_1
+				upgrades = 
+				{
+					plane_gun_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Jet Fighter II" =
+	{
+	visible = {has_tech = jet_fighter2 NOT = {has_country_flag = has_JF2}}
+	complete_effect = 
+		{
+			set_country_flag = has_JF2
+			create_equipment_variant = 
+			{
+			name = "Ho 229"
+			type = jet_fighter_equipment_2
+				upgrades = 
+				{
+					plane_gun_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"CAS I" =
+	{
+	visible = {has_tech = CAS1 NOT = {has_country_flag = has_CAS1}}
+	complete_effect = 
+		{
+			set_country_flag = has_CAS1
+			create_equipment_variant = 
+			{
+			name = "Ju 87"
+			type = CAS_equipment_1
+				upgrades = 
+				{
+					plane_cas_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"CAS II" =
+	{
+	visible = {has_tech = CAS2 NOT = {has_country_flag = has_CAS2}}
+	complete_effect = 
+		{
+		set_country_flag = has_CAS2
+			create_equipment_variant = 
+			{
+			name = "Ju 87 G"
+			type = CAS_equipment_2
+				upgrades = 
+				{
+					plane_cas_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"CAS III" =
+	{
+	visible = {has_tech = CAS3 NOT = {has_country_flag = has_CAS3}}
+	complete_effect = 
+		{
+			set_country_flag = has_CAS3
+			create_equipment_variant = 
+			{
+			name = "Ju 287"
+			type = CAS_equipment_3
+				upgrades = 
+				{
+					plane_cas_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"GW TAC" =
+	{
+	visible = {has_tech = early_bomber NOT = {has_country_flag = has_TAC0}}
+	complete_effect = 
+		{
+			set_country_flag = has_TAC0
+			create_equipment_variant = 
+			{
+			name = "Do 23"
+			type = tac_bomber_equipment_0
+				upgrades = 
+				{
+					plane_tac_bomb_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"TAC I" =
+	{
+	visible = {has_tech = tactical_bomber1 NOT = {has_country_flag = has_TAC1}}
+	complete_effect = 
+		{	
+			set_country_flag = has_TAC1
+			create_equipment_variant = 
+			{
+			name = "Ju 88"
+			type = tac_bomber_equipment_1
+				upgrades = 
+				{
+					plane_tac_bomb_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"TAC II" =
+	{
+	visible = {has_tech = tactical_bomber2 NOT = {has_country_flag = has_TAC2}}
+	complete_effect = 
+		{
+			set_country_flag = has_TAC2
+			create_equipment_variant = 
+			{
+			name = "Ju 188"
+			type = tac_bomber_equipment_2
+				upgrades = 
+				{
+					plane_tac_bomb_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"TAC III" =
+	{
+	visible = {has_tech = tactical_bomber3 NOT = {has_country_flag = has_TAC3}}
+	complete_effect = 
+		{
+			set_country_flag = has_TAC3
+			create_equipment_variant = 
+			{
+			name = "Ju 288"
+			type = tac_bomber_equipment_3
+				upgrades = 
+				{
+					plane_tac_bomb_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Jet TAC I" =
+	{
+	visible = {has_tech = jet_tactical_bomber1 NOT = {has_country_flag = has_JTAC1}}
+	complete_effect = 
+		{
+			set_country_flag = has_JTAC1
+			create_equipment_variant = 
+			{
+			name = "Düsenbomber I"
+			type = jet_tac_bomber_equipment_1
+				upgrades = 
+				{
+					plane_tac_bomb_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Jet TAC II" =
+	{
+	visible = {has_tech = jet_tactical_bomber2 NOT = {has_country_flag = has_JTAC2}}
+	complete_effect = 
+		{
+			set_country_flag = has_JTAC2
+			create_equipment_variant = 
+			{
+			name = "Blitzbomber"
+			type = jet_tac_bomber_equipment_2
+				upgrades = 
+				{
+					plane_tac_bomb_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"STRAT I" =
+	{
+	visible = {has_tech = strategic_bomber1 NOT = {has_country_flag = has_STRAT1}}
+	complete_effect = 
+		{
+			set_country_flag = has_STRAT1
+			create_equipment_variant = 
+			{
+			name = "Ju 89"
+			type = strat_bomber_equipment_1
+				upgrades = 
+				{
+					plane_bomb_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"STRAT II" =
+	{
+	visible = {has_tech = strategic_bomber2 NOT = {has_country_flag = has_STRAT2}}
+	complete_effect = 
+		{
+			set_country_flag = has_STRAT2
+			create_equipment_variant = 
+			{
+			name = "Ju 189"
+			type = strat_bomber_equipment_2
+				upgrades = 
+				{
+					plane_bomb_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"STRAT III" =
+	{
+	visible = {has_tech = strategic_bomber3 NOT = {has_country_flag = has_STRAT3}}
+	complete_effect = 
+		{
+			set_country_flag = has_STRAT3
+			create_equipment_variant = 
+			{
+			name = "Ju 289"
+			type = strat_bomber_equipment_3
+				upgrades = 
+				{
+					plane_bomb_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Jet STRAT" =
+	{
+	visible = {has_tech = jet_strategic_bomber1 NOT = {has_country_flag = has_JSTRAT1}}
+	complete_effect = 
+		{
+			set_country_flag = has_JSTRAT1
+			create_equipment_variant = 
+			{
+			name = "Hammer"
+			type = jet_strat_bomber_equipment_1
+				upgrades = 
+				{
+					plane_bomb_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Heavy Fighter I" =
+	{
+	visible = {has_tech = heavy_fighter1 NOT = {has_country_flag = has_HF1}}
+	complete_effect = 
+		{
+			set_country_flag = has_HF1
+			create_equipment_variant = 
+			{
+			name = "Bf 110"
+			type = heavy_fighter_equipment_1
+				upgrades = 
+				{
+					plane_gun_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	
+	"Heavy Fighter II" =
+	{
+	visible = {has_tech = heavy_fighter2 NOT = {has_country_flag = has_HF2}}
+	complete_effect = 
+		{
+			set_country_flag = has_HF2
+			create_equipment_variant = 
+			{
+			name = "Hornisse"
+			type = heavy_fighter_equipment_2
+				upgrades = 
+				{
+					plane_gun_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	
+	"Heavy Fighter III" =
+	{
+	visible = {has_tech = heavy_fighter3 NOT = {has_country_flag = has_HF3}}
+	complete_effect = 
+		{
+			set_country_flag = has_HF3
+			create_equipment_variant = 
+			{
+			name = "Fw 200"
+			type = heavy_fighter_equipment_3
+				upgrades = 
+				{
+					plane_gun_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"GW CV Fighter" =
+	{
+	visible = {has_tech = early_fighter NOT = {has_country_flag = has_CV_F0}}
+	complete_effect =
+		{
+			set_country_flag = has_CV_F0
+			hidden_effect = 
+			{
+				set_technology = {cv_early_fighter = 1 popup = no}
+			}
+			create_equipment_variant = 
+			{
+			name = "Fokker D.3T"
+			type = cv_fighter_equipment_0
+				upgrades = 
+				{
+					cv_plane_gun_upgrade = 50
+					cv_plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 135
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"CV Fighter I" =
+	{
+	visible = {has_tech = fighter1 NOT = {has_country_flag = has_CV_F1}}
+	complete_effect =
+		{
+			set_country_flag = has_CV_F1
+			hidden_effect = 
+			{
+				set_technology = {cv_fighter1 = 1 popup = no}
+			}
+			create_equipment_variant = 
+			{
+			name = "Bf 109T"
+			type = cv_fighter_equipment_1
+				upgrades = 
+				{
+					cv_plane_gun_upgrade = 50
+					cv_plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 135
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"CV Fighter II" =
+	{
+	visible = {has_tech = fighter2 NOT = {has_country_flag = has_CV_F2}}
+	complete_effect =
+		{
+			set_country_flag = has_CV_F2
+			hidden_effect = 
+			{
+				set_technology = {cv_fighter2 = 1 popup = no}
+			}
+			create_equipment_variant = 
+			{
+			name = "Fw 190T"
+			type = cv_fighter_equipment_2
+				upgrades = 
+				{
+					cv_plane_gun_upgrade = 50
+					cv_plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 135
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"CV Fighter III" =
+	{
+	visible = {has_tech = fighter3 NOT = {has_country_flag = has_CV_F3}}
+	complete_effect =
+		{
+			set_country_flag = has_CV_F3
+			hidden_effect = 
+			{
+				set_technology = {cv_fighter3 = 1 popup = no}
+			}
+			create_equipment_variant = 
+			{
+			name = "Fw 190T E"
+			type = cv_fighter_equipment_3
+				upgrades = 
+				{
+					cv_plane_gun_upgrade = 50
+					cv_plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 135
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"CV CAS I" =
+	{
+	visible = {has_tech = CAS1 NOT = {has_country_flag = has_CV_CAS1}}
+	complete_effect =
+		{
+			set_country_flag = has_CV_CAS1
+			hidden_effect = 
+			{
+				set_technology = {cv_CAS1 = 1 popup = no}
+			}
+			create_equipment_variant = 
+			{
+			name = "Ju 87T"
+			type = cv_CAS_equipment_1
+				upgrades = 
+				{
+					plane_cas_upgrade = 50
+					cv_plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"CV CAS II" =
+	{
+	visible = {has_tech = CAS2 NOT = {has_country_flag = has_CV_CAS2}}
+	complete_effect =
+		{
+			set_country_flag = has_CV_CAS2
+			hidden_effect = 
+			{
+				set_technology = {cv_CAS2 = 1 popup = no}
+			}
+			create_equipment_variant = 
+			{
+			name = "Ju 87T G"
+			type = cv_CAS_equipment_2
+				upgrades = 
+				{
+					plane_cas_upgrade = 50
+					cv_plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"CV CAS III" =
+	{
+	visible = {has_tech = CAS3 NOT = {has_country_flag = has_CV_CAS3}}
+	complete_effect =
+		{
+			set_country_flag = has_CV_CAS3
+			hidden_effect = 
+			{
+				set_technology = {cv_CAS3 = 1 popup = no}
+			}
+			create_equipment_variant = 
+			{
+			name = "Ju 287T"
+			type = cv_CAS_equipment_3
+				upgrades = 
+				{
+					plane_cas_upgrade = 50
+					cv_plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Naval Bomber I" =
+	{
+		visible = 
+		{
+			OR = 
+			{
+				has_tech = naval_bomber1
+				has_tech = cv_naval_bomber1
+			}
+			NOT = {has_country_flag = has_T-B1}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_T-B1
+			if =
+			{
+				limit = 
+				{
+					NOT = has_tech = naval_bomber1
+				}
+				
+				hidden_effect = 
+				{
+					set_technology = 
+					{
+						naval_bomber1 = 1 popup = no
+					}
+				}
+			}
+			
+			create_equipment_variant = 
+			{
+			name = "Ju 86"
+			type = nav_bomber_equipment_1
+				upgrades = 
+				{
+					plane_naval_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+			
+			if =
+			{
+				limit = 
+				{
+					NOT = has_tech = cv_naval_bomber1
+				}
+				
+				hidden_effect = 
+				{
+					set_technology = 
+					{
+						cv_naval_bomber1 = 1 popup = no
+					}
+				}
+			}	
+			
+			create_equipment_variant = 
+			{
+			name = "Ju 86T"
+			type = cv_nav_bomber_equipment_1
+				upgrades = 
+				{
+					cv_plane_naval_upgrade = 50
+					cv_plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 135 
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Naval Bomber II" =
+	{
+		visible = 
+		{
+			OR = 
+			{
+				has_tech = naval_bomber2
+				has_tech = cv_naval_bomber2
+			}
+			NOT = {has_country_flag = has_T-B2}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_T-B2
+			if =
+			{
+				limit = 
+				{
+					NOT = has_tech = naval_bomber2
+				}
+				hidden_effect = 
+				{
+					set_technology = 
+					{
+						naval_bomber2 = 1 popup = no
+					}
+				}
+			}
+			create_equipment_variant = 
+			{
+			name = "Ju 186"
+			type = nav_bomber_equipment_2
+				upgrades = 
+				{
+					plane_naval_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+			
+			if =
+			{
+				limit = 
+				{
+					NOT = has_tech = cv_naval_bomber2
+				}
+				hidden_effect = 
+				{
+					set_technology = 
+					{
+						cv_naval_bomber2 = 1 popup = no
+					}
+				}
+			}
+			create_equipment_variant = 
+			{
+			name = "Ju 186T"
+			type = cv_nav_bomber_equipment_2
+				upgrades = 
+				{
+					cv_plane_naval_upgrade = 50
+					cv_plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 135 
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Naval Bomber III" =
+	{
+		visible = 
+		{
+			OR = 
+			{
+				has_tech = naval_bomber3
+				has_tech = cv_naval_bomber3
+			}
+			NOT = {has_country_flag = has_T-B3}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_T-B3
+			if =
+			{
+				limit = 
+				{
+					NOT = has_tech = naval_bomber3
+				}
+				hidden_effect = 
+				{
+					set_technology = 
+					{
+						naval_bomber3 = 1 popup = no
+					}
+				}
+			}
+			create_equipment_variant = 
+			{
+			name = "Ju 286"
+			type = nav_bomber_equipment_3
+				upgrades = 
+				{
+					plane_naval_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+			
+			if =
+			{
+				limit = 
+				{
+					NOT = has_tech = cv_naval_bomber2
+				}
+				hidden_effect = 
+				{
+					set_technology = 
+					{
+						cv_naval_bomber2 = 1 popup = no
+					}
+				}
+			}
+			create_equipment_variant = 
+			{
+			name = "Ju 286T"
+			type = cv_nav_bomber_equipment_3
+				upgrades = 
+				{
+					cv_plane_naval_upgrade = 50
+					cv_plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 135 
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Scout I" =
+	{
+		visible = 
+		{
+			has_dlc = "La Resistance" 
+			has_tech = scout_plane1 
+			NOT = {has_country_flag = has_Scout1}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_Scout1
+			create_equipment_variant = 
+			{
+			name = "Hs 126"
+			type = scout_plane_equipment_1
+				upgrades = 
+				{
+					plane_range_upgrade = 100
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 115
+					#ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Scout II" =
+	{
+		visible = 
+		{
+			has_dlc = "La Resistance" 
+			has_tech = scout_plane2 
+			NOT = {has_country_flag = has_Scout2}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_Scout2
+			create_equipment_variant = 
+			{
+			name = "Fw 189"
+			type = scout_plane_equipment_2
+				upgrades = 
+				{
+					plane_range_upgrade = 100
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 115
+					#ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	"Transport Plane" =
+	{
+		visible = 
+		{
+			always = yes
+			NOT = {has_country_flag = has_TP1}
+		}
+		complete_effect = 
+		{
+			set_country_flag = has_TP1
+			create_equipment_variant = 
+			{
+			name = "TP II"
+			type = transport_plane_equipment_1
+				upgrades = 
+				{
+					plane_range_upgrade = 190
+					plane_engine_upgrade = 200
+					plane_reliability_upgrade = 205
+					ZMM_TRA_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+}
