@@ -1,0 +1,245 @@
+# Add Technologies + Road to 56
+# This file contains the creation of the variants, so it can be called from anywhere it's needed.
+
+	make_TAC4 =
+	{
+		set_country_flag = has_TAC4
+		create_equipment_variant = 
+		{
+			name = "Ju 388"
+			type = tac_bomber_equipment_4
+			upgrades = 
+			{
+				plane_tac_bomb_upgrade = 50
+				plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 110
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_TAC5 =
+	{
+		set_country_flag = has_TAC5
+		create_equipment_variant = 
+		{
+			name = "Ju 488"
+			type = tac_bomber_equipment_5
+			upgrades = 
+			{
+				plane_tac_bomb_upgrade = 50
+				plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 110
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_STRAT4 =
+	{
+		if =
+		{
+			limit =
+			{
+				NOT = { has_country_flag = has_STRAT4 }
+			}
+			set_country_flag = has_STRAT4
+			create_equipment_variant = 
+			{
+				name = "Ju 389"
+				type = strat_bomber_equipment_4
+				upgrades = 
+				{
+					plane_bomb_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_STRAT5 =
+	{
+		if =
+		{
+			limit =
+			{
+				NOT = { has_country_flag = has_STRAT5 }
+			}
+			set_country_flag = has_STRAT5
+			create_equipment_variant = 
+			{
+				name = "Ju 489"
+				type = strat_bomber_equipment_5
+				upgrades = 
+				{
+					plane_bomb_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_NAV4 = 
+	{
+		set_country_flag = has_NAV4
+		hidden_effect = 
+		{
+			set_technology = 
+			{
+				naval_bomber4 = 1
+				cv_naval_bomber4 = 1
+				popup = no
+			}
+		}
+		create_equipment_variant = 
+		{
+			name = "Ju 386"
+			type = nav_bomber_equipment_4
+			upgrades = 
+			{
+				plane_naval_upgrade = 50
+				plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 110
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+		create_equipment_variant = 
+		{
+			name = "Ju 386T"
+			type = cv_nav_bomber_equipment_4
+			upgrades = 
+			{
+				cv_plane_naval_upgrade = 50
+				cv_plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 135 
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_NAV5 = 
+	{
+		set_country_flag = has_NAV5
+		hidden_effect = 
+		{
+			set_technology = 
+			{
+				naval_bomber5 = 1
+				cv_naval_bomber5 = 1
+				popup = no
+			}
+		}
+		create_equipment_variant = 
+		{
+			name = "Ju 486"
+			type = nav_bomber_equipment_5
+			upgrades = 
+			{
+				plane_naval_upgrade = 50
+				plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 110
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+		create_equipment_variant = 
+		{
+			name = "Ju 486T"
+			type = cv_nav_bomber_equipment_5
+			upgrades = 
+			{
+				cv_plane_naval_upgrade = 50
+				cv_plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 135 
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_NAV6 = 
+	{
+		set_country_flag = has_NAV6
+		hidden_effect = 
+		{
+			set_technology = 
+			{
+				naval_bomber6 = 1
+				cv_naval_bomber6 = 1
+				popup = no
+			}
+		}
+		create_equipment_variant = 
+		{
+			name = "Ju 586"
+			type = nav_bomber_equipment_6
+			upgrades = 
+			{
+				plane_naval_upgrade = 50
+				plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 110
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+		create_equipment_variant = 
+		{
+			name = "Ju 586T"
+			type = cv_nav_bomber_equipment_6
+			upgrades = 
+			{
+				cv_plane_naval_upgrade = 50
+				cv_plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 135 
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_CV_JCAS1 =
+	{
+		set_country_flag = has_CV_JCAS1
+		create_equipment_variant = 
+		{
+			name = "Ju 1087T"
+			type = cv_jet_attacker_equipment_1
+			upgrades = 
+			{
+				plane_cas_upgrade = 50
+				cv_plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 110
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_JScout1 =
+	{
+		set_country_flag = has_JScout1
+		create_equipment_variant = 
+		{
+			name = "Me 261"
+			type = jet_scout_plane_equipment_1
+			upgrades = 
+			{
+				plane_range_upgrade = 100
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 115
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	

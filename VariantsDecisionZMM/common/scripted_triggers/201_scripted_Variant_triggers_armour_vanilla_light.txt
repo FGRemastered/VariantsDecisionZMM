@@ -1,0 +1,863 @@
+#Light Tanks
+#This file contains the checks for the decisions
+
+	can_Pz_I =
+	{
+		OR =
+		{
+			AND =
+			{
+				has_tech = basic_light_tank_chassis
+				NOT = { has_country_flag = has_Pz_I }
+			}
+			AND =
+			{
+				has_tech = basic_light_tank
+				NOT = { has_DLC = "No Step Back" }
+				any_country =
+				{
+					OR =
+					{
+						tag = ROOT
+						is_puppet_of = ROOT
+					}
+					NOT =
+					{
+						OR =
+						{
+							has_country_flag = has_Pz_I
+							AND =
+							{
+								OR =
+								{
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_equipment_1
+											version = 1
+										}
+									}
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_equipment_2
+											version = 1
+										}
+									}
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_equipment_3
+											version = 1
+										}
+									}
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_equipment_4
+											version = 1
+										}
+									}
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_equipment_5
+											version = 1
+										}
+									}
+									# has_license = #Tank
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_chassis_1
+										# }
+									# }
+									# has_license = #Tank
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_chassis_2
+										# }
+									# }
+									# has_license = #Tank
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_chassis_3
+										# }
+									# }
+								}
+								OR =
+								{
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_artillery_equipment_1
+											version = 1
+										}
+									}
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_artillery_equipment_2
+											version = 1
+										}
+									}
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_artillery_equipment_3
+											version = 1
+										}
+									}
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_artillery_equipment_4
+											version = 1
+										}
+									}
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_artillery_equipment_5
+											version = 1
+										}
+									}
+									# has_license = #SPG
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_artillery_chassis_1
+										# }
+									# }
+									# has_license = #SPG
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_artillery_chassis_2
+										# }
+									# }
+									# has_license = #SPG
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_artillery_chassis_3
+										# }
+									# }
+								}
+								OR =
+								{
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_destroyer_equipment_1
+											version = 1
+										}
+									}
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_destroyer_equipment_2
+											version = 1
+										}
+									}
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_destroyer_equipment_3
+											version = 1
+										}
+									}
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_destroyer_equipment_4
+											version = 1
+										}
+									}
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_destroyer_equipment_5
+											version = 1
+										}
+									}
+									# has_license = #TD
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_destroyer_chassis_1
+										# }
+									# }
+									# has_license = #TD
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_destroyer_chassis_2
+										# }
+									# }
+									# has_license = #TD
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_destroyer_chassis_3
+										# }
+									# }
+								}
+								OR =
+								{
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_aa_equipment_1
+											version = 1
+										}
+									}
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_aa_equipment_2
+											version = 1
+										}
+									}
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_aa_equipment_3
+											version = 1
+										}
+									}
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_aa_equipment_4
+											version = 1
+										}
+									}
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_aa_equipment_5
+											version = 1
+										}
+									}
+									# has_license = #SPAA
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_aa_chassis_1
+										# }
+									# }
+									# has_license = #SPAA
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_aa_chassis_2
+										# }
+									# }
+									# has_license = #SPAA
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_aa_chassis_3
+										# }
+									# }
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	can_Pz_II =
+	{
+		OR =
+		{
+			AND =
+			{
+				has_tech = improved_light_tank_chassis
+				NOT = { has_country_flag = has_Pz_II }
+			}
+			AND =
+			{
+				has_tech = improved_light_tank
+				NOT = { has_DLC = "No Step Back" }
+				any_country =
+				{
+					OR =
+					{
+						tag = ROOT
+						is_puppet_of = ROOT
+					}
+					NOT =
+					{
+						OR =
+						{
+							has_country_flag = has_Pz_II
+							AND =
+							{
+								OR =
+								{
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_equipment_2
+											version = 1
+										}
+									}
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_equipment_3
+											version = 1
+										}
+									}
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_equipment_4
+											version = 1
+										}
+									}
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_equipment_5
+											version = 1
+										}
+									}
+									# has_license = #Tank
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_chassis_1
+										# }
+									# }
+									# has_license = #Tank
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_chassis_2
+										# }
+									# }
+									# has_license = #Tank
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_chassis_3
+										# }
+									# }
+								}
+								OR =
+								{
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_artillery_equipment_2
+											version = 1
+										}
+									}
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_artillery_equipment_3
+											version = 1
+										}
+									}
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_artillery_equipment_4
+											version = 1
+										}
+									}
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_artillery_equipment_5
+											version = 1
+										}
+									}
+									# has_license = #SPG
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_artillery_chassis_1
+										# }
+									# }
+									# has_license = #SPG
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_artillery_chassis_2
+										# }
+									# }
+									# has_license = #SPG
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_artillery_chassis_3
+										# }
+									# }
+								}
+								OR =
+								{
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_destroyer_equipment_2
+											version = 1
+										}
+									}
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_destroyer_equipment_3
+											version = 1
+										}
+									}
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_destroyer_equipment_4
+											version = 1
+										}
+									}
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_destroyer_equipment_5
+											version = 1
+										}
+									}
+									# has_license = #TD
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_destroyer_chassis_1
+										# }
+									# }
+									# has_license = #TD
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_destroyer_chassis_2
+										# }
+									# }
+									# has_license = #TD
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_destroyer_chassis_3
+										# }
+									# }
+								}
+								OR =
+								{
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_aa_equipment_2
+											version = 1
+										}
+									}
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_aa_equipment_3
+											version = 1
+										}
+									}
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_aa_equipment_4
+											version = 1
+										}
+									}
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_aa_equipment_5
+											version = 1
+										}
+									}
+									# has_license = #SPAA
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_aa_chassis_1
+										# }
+									# }
+									# has_license = #SPAA
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_aa_chassis_2
+										# }
+									# }
+									# has_license = #SPAA
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_aa_chassis_3
+										# }
+									# }
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	can_Leo =
+	{
+		OR =
+		{
+			AND =
+			{
+				has_tech = advanced_light_tank_chassis
+				NOT = { has_country_flag = has_Leo }
+			}
+			AND =
+			{
+				has_tech = advanced_light_tank
+				NOT = { has_DLC = "No Step Back" }
+				any_country =
+				{
+					OR =
+					{
+						tag = ROOT
+						is_puppet_of = ROOT
+					}
+					NOT =
+					{
+						OR =
+						{
+							has_country_flag = has_Leo
+							AND =
+							{
+								OR =
+								{
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_equipment_3
+											version = 1
+										}
+									}
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_equipment_4
+											version = 1
+										}
+									}
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_equipment_5
+											version = 1
+										}
+									}
+									# has_license = #Tank
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_chassis_1
+										# }
+									# }
+									# has_license = #Tank
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_chassis_2
+										# }
+									# }
+									# has_license = #Tank
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_chassis_3
+										# }
+									# }
+								}
+								OR =
+								{
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_artillery_equipment_3
+											version = 1
+										}
+									}
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_artillery_equipment_4
+											version = 1
+										}
+									}
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_artillery_equipment_5
+											version = 1
+										}
+									}
+									# has_license = #SPG
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_artillery_chassis_1
+										# }
+									# }
+									# has_license = #SPG
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_artillery_chassis_2
+										# }
+									# }
+									# has_license = #SPG
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_artillery_chassis_3
+										# }
+									# }
+								}
+								OR =
+								{
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_destroyer_equipment_3
+											version = 1
+										}
+									}
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_destroyer_equipment_4
+											version = 1
+										}
+									}
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_destroyer_equipment_5
+											version = 1
+										}
+									}
+									# has_license = #TD
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_destroyer_chassis_1
+										# }
+									# }
+									# has_license = #TD
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_destroyer_chassis_2
+										# }
+									# }
+									# has_license = #TD
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_destroyer_chassis_3
+										# }
+									# }
+								}
+								OR =
+								{
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_aa_equipment_3
+											version = 1
+										}
+									}
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_aa_equipment_4
+											version = 1
+										}
+									}
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = light_tank_aa_equipment_5
+											version = 1
+										}
+									}
+									# has_license = #SPAA
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_aa_chassis_1
+										# }
+									# }
+									# has_license = #SPAA
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_aa_chassis_2
+										# }
+									# }
+									# has_license = #SPAA
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = light_tank_aa_chassis_3
+										# }
+									# }
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}

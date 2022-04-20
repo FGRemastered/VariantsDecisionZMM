@@ -1,0 +1,1094 @@
+# This file contains the effects for the Ship Cheating tool.
+
+
+	make_CV_Flottilla_MtG =
+	{
+		ROOT =
+		{
+			create_ship = 
+			{
+				type = ship_hull_carrier_3
+				equipment_variant = "Graf Zeppelin Klasse"
+			}
+			#################################
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Admiral Hipper Klasse"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Admiral Hipper Klasse"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Admiral Hipper Klasse"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Admiral Hipper Klasse"
+			}
+			#################################
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+		}
+	}
+	
+	make_CV_Flottilla_Non_MtG =
+	{
+		ROOT =
+		{
+			create_ship = 
+			{
+				type = carrier_4
+				equipment_variant = "Graf Zeppelin Klasse"
+			}
+			#################################
+			create_ship = 
+			{
+				type = heavy_cruiser_4
+				equipment_variant = "Admiral Hipper Klasse"
+			}
+			create_ship = 
+			{
+				type = heavy_cruiser_4
+				equipment_variant = "Admiral Hipper Klasse"
+			}
+			create_ship = 
+			{
+				type = heavy_cruiser_4
+				equipment_variant = "Admiral Hipper Klasse"
+			}
+			create_ship = 
+			{
+				type = heavy_cruiser_4
+				equipment_variant = "Admiral Hipper Klasse"
+			}
+			#################################
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+		}
+	}
+	
+	make_BB_Flottilla_MtG =
+	{
+		ROOT =
+		{
+			create_ship = 
+			{
+				type = ship_hull_super_heavy_1
+				equipment_variant = "Bismarck Klasse"
+			}
+			#################################
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+		}
+	}
+	
+	make_BB_Flottilla_Non_MtG =
+	{
+		ROOT =
+		{
+			create_ship = 
+			{
+				type = SH_battleship_2
+				equipment_variant = "Bismarck Klasse"
+			}
+			#################################
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+		}
+	}
+	
+	make_BB_Flottilla_NVx_AT =
+	{
+		ROOT =
+		{
+			create_ship = 
+			{
+				type = ship_hull_super_heavy_2
+				equipment_variant = "Bismarck Klasse"
+			}
+			#################################
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+		}
+	}
+	
+	make_BC_Flottilla_MtG =
+	{
+		ROOT =
+		{
+			create_ship = 
+			{
+				type = ship_hull_heavy_4
+				equipment_variant = "Prinz Eugen Klasse"
+			}
+			#################################
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+		}
+	}
+	
+	make_BC_Flottilla_Non_MtG =
+	{
+		ROOT =
+		{
+			create_ship = 
+			{
+				type = battle_cruiser_2
+				equipment_variant = "Prinz Eugen Klasse"
+			}
+			#################################
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+			create_ship = 
+			{
+				type = light_cruiser_4
+				equipment_variant = "Moderner Leichter Kreuzer"
+			}
+		}
+	}
+	
+	make_Escort_Flottilla_MtG =
+	{
+		ROOT =
+		{
+			create_ship = 
+			{
+				type = ship_hull_carrier_conversion_ca
+				equipment_variant = "Flugzeugkreuzer"
+			}
+			#################################
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Admiral Hipper Klasse"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Admiral Hipper Klasse"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Admiral Hipper Klasse"
+			}
+			create_ship = 
+			{
+				type = ship_hull_cruiser_4
+				equipment_variant = "Admiral Hipper Klasse"
+			}
+			#################################
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+		}
+	}
+	
+	make_Escort_Flottilla_Non_MtG =
+	{
+		ROOT =
+		{
+			create_ship = 
+			{
+				type = heavy_cruiser_4
+				equipment_variant = "Admiral Hipper Klasse"
+			}
+			create_ship = 
+			{
+				type = heavy_cruiser_4
+				equipment_variant = "Admiral Hipper Klasse"
+			}
+			create_ship = 
+			{
+				type = heavy_cruiser_4
+				equipment_variant = "Admiral Hipper Klasse"
+			}
+			create_ship = 
+			{
+				type = heavy_cruiser_4
+				equipment_variant = "Admiral Hipper Klasse"
+			}
+			#################################
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+		}
+	}
+	
+	make_SS_Flottilla_MtG =
+	{
+		ROOT =
+		{
+			create_ship = #SC
+			{
+				type = ship_hull_cruiser_submarine
+				equipment_variant = "Kreuzer U-Boot"
+			}
+			create_ship = #SC
+			{
+				type = ship_hull_cruiser_submarine
+				equipment_variant = "Kreuzer U-Boot"
+			}
+			create_ship = #SC
+			{
+				type = ship_hull_cruiser_submarine
+				equipment_variant = "Kreuzer U-Boot"
+			}
+			create_ship = #SC
+			{
+				type = ship_hull_cruiser_submarine
+				equipment_variant = "Kreuzer U-Boot"
+			}
+			create_ship = #SC
+			{
+				type = ship_hull_cruiser_submarine
+				equipment_variant = "Kreuzer U-Boot"
+			}
+			create_ship = #SC
+			{
+				type = ship_hull_cruiser_submarine
+				equipment_variant = "Kreuzer U-Boot"
+			}
+			#########################################
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = ship_hull_submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+		}
+	}
+	
+	make_SS_Flottilla_Non_MtG =
+	{
+		ROOT =
+		{
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+			create_ship = #SS
+			{
+				type = submarine_4
+				equipment_variant = "Modernes U-Boot"
+			}
+		}
+	}
+	
+	

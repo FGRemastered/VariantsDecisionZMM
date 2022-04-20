@@ -1,0 +1,443 @@
+# Carrier Ships - CV, CVN, CLV
+# This file contains the creation of the variants, so it can be called from anywhere it's needed.
+
+	make_CV0 =
+	{
+		set_country_flag = has_CV0
+		if = 
+		{
+			limit = { has_global_flag = has_vanilla }
+			create_equipment_variant = 
+			{
+				name = "Flugzeugkreuzer"
+				type = ship_hull_carrier_conversion_ca
+				role_icon_index = 7
+				modules =
+				{
+					fixed_ship_deck_slot_1 		= ship_deck_space
+					fixed_ship_deck_slot_2 		= ship_deck_space
+					fixed_ship_anti_air_slot 	= ship_anti_air_4
+					fixed_ship_radar_slot 		= ship_radar_4
+					fixed_ship_engine_slot 		= carrier_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries
+				}
+				upgrades = 
+				{
+					ship_deckspace_upgrade = 104
+					carrier_armor_upgrade = 95
+					ship_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_global_flag = has_mod_add_technologies
+			}
+			create_equipment_variant = 
+			{
+				name = "Flugzeugkreuzer"
+				type = ship_hull_carrier_conversion_ca
+				role_icon_index = 7
+				modules =
+				{
+					fixed_ship_deck_slot_1 			= ship_deck_space
+					fixed_ship_deck_slot_2 			= ship_deck_space
+					fixed_ship_anti_air_slot 		= sam_3
+					fixed_ship_radar_slot 			= ship_radar_8
+					fixed_ship_engine_slot 			= carrier_ship_nuclear_engine_2
+					fixed_ship_anti_air_cannon_slot = ship_anti_air_cannon_8
+				}
+				upgrades = 
+				{
+					ship_deckspace_upgrade = 104
+					carrier_armor_upgrade = 95
+					ship_engine_upgrade = 200
+					ship_reliability_upgrade = 200
+					ZMM_NAVAL_prod_upgrade = 99	#AA8 +6
+				}
+			}
+		}
+	}
+	
+	make_CV1 =
+	{
+		set_country_flag = has_CV1
+		if = 
+		{
+			limit = 
+			{
+				has_tech = early_ship_hull_carrier	#MtG
+				has_global_flag = has_vanilla
+			}
+			create_equipment_variant = 
+			{
+				name = "Flugzeugdampfer"
+				type = ship_hull_carrier_conversion_bb
+				role_icon_index = 7
+				modules =
+				{
+					fixed_ship_deck_slot_1 		= ship_deck_space
+					fixed_ship_deck_slot_2 		= ship_deck_space
+					fixed_ship_anti_air_slot 	= ship_anti_air_4
+					fixed_ship_radar_slot 		= ship_radar_4
+					fixed_ship_engine_slot 		= carrier_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries
+					
+					mid_1_custom_slot 			= ship_deck_space
+				}
+				upgrades = 
+				{
+					ship_deckspace_upgrade = 104
+					carrier_armor_upgrade = 95
+					ship_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = early_ship_hull_carrier	#MtG
+				has_global_flag = has_mod_add_technologies
+			}
+			create_equipment_variant = 
+			{
+				name = "Flugzeugdampfer"
+				type = ship_hull_carrier_conversion_bb
+				role_icon_index = 7
+				modules =
+				{
+					fixed_ship_deck_slot_1 			= ship_deck_space
+					fixed_ship_deck_slot_2 			= ship_deck_space
+					fixed_ship_anti_air_slot 		= ship_anti_air_8
+					fixed_ship_radar_slot 			= ship_radar_8
+					fixed_ship_engine_slot 			= carrier_ship_nuclear_engine_2
+					fixed_ship_anti_air_cannon_slot = ship_anti_air_cannon_8
+					
+					mid_1_custom_slot 				= ship_deck_space
+				}
+				upgrades = 
+				{
+					ship_deckspace_upgrade = 104
+					carrier_armor_upgrade = 95
+					ship_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = early_carrier	#Vanilla
+				has_global_flag = has_vanilla
+			}
+			create_equipment_variant = 
+			{
+				name = "Flugzeugdampfer"
+				type = carrier_1
+				role_icon_index = 7
+				upgrades = 
+				{
+					ship_deckspace_upgrade = 104
+					carrier_armor_upgrade = 95
+					ship_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_CV2 =
+	{
+		set_country_flag = has_CV2
+		if = 
+		{
+			limit = 
+			{
+				has_tech = basic_ship_hull_carrier	#MtG
+				has_global_flag = has_vanilla
+			}
+			create_equipment_variant = 
+			{
+				name = "Einfacher Flugzeugträger"
+				type = ship_hull_carrier_1
+				role_icon_index = 7
+				modules =
+				{
+					fixed_ship_deck_slot_1 		= ship_deck_space
+					fixed_ship_deck_slot_2 		= ship_deck_space
+					fixed_ship_anti_air_slot 	= ship_anti_air_4
+					fixed_ship_radar_slot 		= ship_radar_4
+					fixed_ship_engine_slot 		= carrier_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries
+					
+					front_1_custom_slot 		= ship_deck_space
+				}
+				upgrades = 
+				{
+					ship_deckspace_upgrade = 104
+					carrier_armor_upgrade = 95
+					ship_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = basic_ship_hull_carrier	#MtG
+				has_global_flag = has_mod_add_technologies
+			}
+			create_equipment_variant = 
+			{
+				name = "Einfacher Flugzeugträger"
+				type = ship_hull_carrier_1
+				role_icon_index = 7
+				modules =
+				{
+					fixed_ship_deck_slot_1 			= ship_deck_space
+					fixed_ship_deck_slot_2 			= ship_deck_space
+					fixed_ship_anti_air_slot 		= ship_anti_air_8
+					fixed_ship_radar_slot 			= ship_radar_8
+					fixed_ship_engine_slot 			= carrier_ship_nuclear_engine_2
+					fixed_ship_anti_air_cannon_slot = ship_anti_air_cannon_8
+					
+					front_1_custom_slot 			= ship_deck_space
+				}
+				upgrades = 
+				{
+					ship_deckspace_upgrade = 104
+					carrier_armor_upgrade = 95
+					ship_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = basic_carrier	#Vanilla
+				has_global_flag = has_vanilla
+			}
+			create_equipment_variant = 
+			{
+				name = "Einfacher Flugzeugträger"
+				type = carrier_2
+				role_icon_index = 7
+				upgrades = 
+				{
+					ship_deckspace_upgrade = 104
+					carrier_armor_upgrade = 95
+					ship_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_CV3 =
+	{
+		set_country_flag = has_CV3
+		if = 
+		{
+			limit = 
+			{
+				has_tech = improved_ship_hull_carrier	#MtG
+				has_global_flag = has_vanilla
+			}
+			create_equipment_variant = 
+			{
+				name = "Verbesserter Flugzeugträger"
+				type = ship_hull_carrier_2
+				role_icon_index = 7
+				modules =
+				{
+					fixed_ship_deck_slot_1 		= ship_deck_space
+					fixed_ship_deck_slot_2 		= ship_deck_space
+					fixed_ship_anti_air_slot 	= ship_anti_air_4
+					fixed_ship_radar_slot		= ship_radar_4
+					fixed_ship_engine_slot 		= carrier_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries
+					
+					front_1_custom_slot 		= ship_deck_space
+					mid_1_custom_slot 			= ship_deck_space
+				}
+				upgrades = 
+				{
+					ship_deckspace_upgrade = 104
+					carrier_armor_upgrade = 95
+					ship_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = improved_ship_hull_carrier	#MtG
+				has_global_flag = has_mod_add_technologies
+			}
+			create_equipment_variant = 
+			{
+				name = "Verbesserter Flugzeugträger"
+				type = ship_hull_carrier_2
+				role_icon_index = 7
+				modules =
+				{
+					fixed_ship_deck_slot_1 			= ship_deck_space
+					fixed_ship_deck_slot_2 			= ship_deck_space
+					fixed_ship_anti_air_slot 		= ship_anti_air_8
+					fixed_ship_radar_slot 			= ship_radar_8
+					fixed_ship_engine_slot 			= carrier_ship_nuclear_engine_2
+					fixed_ship_anti_air_cannon_slot = ship_anti_air_cannon_8
+					
+					front_1_custom_slot 			= ship_deck_space
+					mid_1_custom_slot 				= ship_deck_space
+				}
+				upgrades = 
+				{
+					ship_deckspace_upgrade = 104
+					carrier_armor_upgrade = 95
+					ship_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = improved_carrier	#Vanilla
+				has_global_flag = has_vanilla
+			}
+			create_equipment_variant = 
+			{
+				name = "Verbesserter Flugzeugträger"
+				type = carrier_3
+				role_icon_index = 7
+				upgrades = 
+				{
+					ship_deckspace_upgrade = 104
+					carrier_armor_upgrade = 95
+					ship_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_CV4 =
+	{
+		set_country_flag = has_CV4
+		if = 
+		{
+			limit = 
+			{
+				has_tech = advanced_ship_hull_carrier	#MtG
+				has_global_flag = has_vanilla
+			}
+			create_equipment_variant = 
+			{
+				name = "Graf Zeppelin Klasse"
+				type = ship_hull_carrier_3
+				role_icon_index = 7
+				modules =
+				{
+					fixed_ship_deck_slot_1 		= ship_deck_space
+					fixed_ship_deck_slot_2 		= ship_deck_space
+					fixed_ship_anti_air_slot	= ship_anti_air_4
+					fixed_ship_radar_slot 		= ship_radar_4
+					fixed_ship_engine_slot 		= carrier_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries
+					
+					front_1_custom_slot 		= ship_deck_space
+					mid_1_custom_slot 			= ship_deck_space
+					mid_2_custom_slot 			= ship_deck_space
+				}
+				upgrades = 
+				{
+					ship_deckspace_upgrade = 104
+					carrier_armor_upgrade = 95
+					ship_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = advanced_ship_hull_carrier	#MtG
+				has_global_flag = has_mod_add_technologies
+			}
+			create_equipment_variant = 
+			{
+				name = "Graf Zeppelin Klasse"
+				type = ship_hull_carrier_3
+				role_icon_index = 7
+				modules =
+				{
+					fixed_ship_deck_slot_1 			= ship_deck_space
+					fixed_ship_deck_slot_2 			= ship_deck_space
+					fixed_ship_anti_air_slot		= ship_anti_air_8
+					fixed_ship_radar_slot 			= ship_radar_8
+					fixed_ship_engine_slot 			= carrier_ship_nuclear_engine_2
+					fixed_ship_anti_air_cannon_slot = ship_anti_air_cannon_8
+					
+					front_1_custom_slot 			= ship_deck_space
+					mid_1_custom_slot 				= ship_deck_space
+					mid_2_custom_slot 				= ship_deck_space
+					rear_1_custom_slot				= ship_armor_carrier_deck
+				}
+				upgrades = 
+				{
+					ship_deckspace_upgrade = 104
+					carrier_armor_upgrade = 95
+					ship_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 109	#Armor +10
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = advanced_carrier	#Vanilla
+				has_global_flag = has_vanilla
+			}
+			create_equipment_variant = 
+			{
+				name = "Graf Zeppelin Klasse"
+				type = carrier_4
+				role_icon_index = 7
+				upgrades = 
+				{
+					ship_deckspace_upgrade = 104
+					carrier_armor_upgrade = 95
+					ship_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}

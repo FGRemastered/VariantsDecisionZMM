@@ -1,0 +1,14 @@
+upgrades = 
+{
+	destroyer_attack_upgrade =
+	{
+		max_level = 99	
+		cost = naval
+		lg_attack = 0.04
+		lg_armor_piercing = 0.05
+		sub_detection = 0.04
+		sub_attack = 0.04
+		torpedo_attack = 0.04
+		naval_speed = -0.02
+	}
+}

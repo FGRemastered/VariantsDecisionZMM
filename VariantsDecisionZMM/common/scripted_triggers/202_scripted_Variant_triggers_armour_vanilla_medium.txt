@@ -1,0 +1,720 @@
+#Medium Tanks
+#This file contains the checks for the decisions
+
+	can_Pz_III =
+	{
+		OR =
+		{
+			AND =
+			{
+				has_tech = basic_medium_tank_chassis
+				NOT = { has_country_flag = has_Pz_III }
+			}
+			AND =
+			{
+				has_tech = basic_medium_tank
+				NOT = { has_DLC = "No Step Back" }
+				any_country =
+				{
+					OR =
+					{
+						tag = ROOT
+						is_puppet_of = ROOT
+					}
+					NOT =
+					{
+						OR =
+						{
+							has_country_flag = has_Pz_III
+							AND =
+							{
+								OR =
+								{
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_equipment_1
+											version = 1
+										}
+									}
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_equipment_2
+											version = 1
+										}
+									}
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_equipment_3
+											version = 1
+										}
+									}
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_equipment_1
+											version = 1
+										}
+									}
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_equipment_2
+											version = 1
+										}
+									}
+									# has_license = #Tank
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = medium_tank_chassis_1
+											# version = 1
+										# }
+									# }
+									# has_license = #Tank
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = medium_tank_chassis_2
+											# version = 1
+										# }
+									# }
+									# has_license = #Tank
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = medium_tank_chassis_3
+											# version = 1
+										# }
+									# }
+									# has_license = #Tank
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = modern_tank_chassis_1
+											# version = 1
+										# }
+									# }
+								}
+								OR =
+								{
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_artillery_equipment_1
+											version = 1
+										}
+									}
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_artillery_equipment_2
+											version = 1
+										}
+									}
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_artillery_equipment_3
+											version = 1
+										}
+									}
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_artillery_equipment_1
+											version = 1
+										}
+									}
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_artillery_equipment_2
+											version = 1
+										}
+									}
+									# has_license = #SPG
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = medium_tank_artillery_chassis_1
+											# version = 1
+										# }
+									# }
+									# has_license = #SPG
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = medium_tank_artillery_chassis_2
+											# version = 1
+										# }
+									# }
+									# has_license = #SPG
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = medium_tank_artillery_chassis_3
+											# version = 1
+										# }
+									# }
+									# has_license = #SPG
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = modern_tank_artillery_chassis_1
+											# version = 1
+										# }
+									# }
+								}
+								OR =
+								{
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_destroyer_equipment_1
+											version = 1
+										}
+									}
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_destroyer_equipment_2
+											version = 1
+										}
+									}
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_destroyer_equipment_3
+											version = 1
+										}
+									}
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_destroyer_equipment_1
+											version = 1
+										}
+									}
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_destroyer_equipment_2
+											version = 1
+										}
+									}
+									# has_license = #TD
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = medium_tank_destroyer_chassis_1
+											# version = 1
+										# }
+									# }
+									# has_license = #TD
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = medium_tank_destroyer_chassis_2
+											# version = 1
+										# }
+									# }
+									# has_license = #TD
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = medium_tank_destroyer_chassis_3
+											# version = 1
+										# }
+									# }
+									# has_license = #TD
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = modern_tank_destroyer_chassis_1
+											# version = 1
+										# }
+									# }
+								}
+								OR =
+								{
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_aa_equipment_1
+											version = 1
+										}
+									}
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_aa_equipment_2
+											version = 1
+										}
+									}
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_aa_equipment_3
+											version = 1
+										}
+									}
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_aa_equipment_1
+											version = 1
+										}
+									}
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_aa_equipment_2
+											version = 1
+										}
+									}
+									# has_license = #SPAA
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = medium_tank_aa_chassis_1
+											# version = 1
+										# }
+									# }
+									# has_license = #SPAA
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = medium_tank_aa_chassis_2
+											# version = 1
+										# }
+									# }
+									# has_license = #SPAA
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = medium_tank_aa_chassis_3
+											# version = 1
+										# }
+									# }
+									# has_license = #SPAA
+									# {
+										# from = OVERLORD
+										# equipment = 
+										# {
+											# type = modern_tank_aa_chassis_1
+											# version = 1
+										# }
+									# }
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	can_Pz_IV =
+	{
+		OR =
+		{
+			AND =
+			{
+				has_tech = improved_medium_tank_chassis
+				NOT = { has_country_flag = has_Pz_IV }
+			}
+			AND =
+			{
+				has_tech = improved_medium_tank
+				NOT = { has_DLC = "No Step Back" }
+				any_country =
+				{
+					OR =
+					{
+						tag = ROOT
+						is_puppet_of = ROOT
+					}
+					NOT =
+					{
+						OR =
+						{
+							has_country_flag = has_Pz_IV
+							AND =
+							{
+								OR =
+								{
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_equipment_2
+											version = 1
+										}
+									}
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_equipment_3
+											version = 1
+										}
+									}
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_equipment_1
+											version = 1
+										}
+									}
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_equipment_2
+											version = 1
+										}
+									}
+								}
+								OR =
+								{
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_artillery_equipment_2
+											version = 1
+										}
+									}
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_artillery_equipment_3
+											version = 1
+										}
+									}
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_artillery_equipment_1
+											version = 1
+										}
+									}
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_artillery_equipment_2
+											version = 1
+										}
+									}
+								}
+								OR =
+								{
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_destroyer_equipment_2
+											version = 1
+										}
+									}
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_destroyer_equipment_3
+											version = 1
+										}
+									}
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_destroyer_equipment_1
+											version = 1
+										}
+									}
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_destroyer_equipment_2
+											version = 1
+										}
+									}
+								}
+								OR =
+								{
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_aa_equipment_2
+											version = 1
+										}
+									}
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_aa_equipment_3
+											version = 1
+										}
+									}
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_aa_equipment_1
+											version = 1
+										}
+									}
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_aa_equipment_2
+											version = 1
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	can_Pz_V =
+	{
+		OR =
+		{
+			AND =
+			{
+				has_tech = advanced_medium_tank_chassis
+				NOT = { has_country_flag = has_Pz_V }
+			}
+			AND =
+			{
+				has_tech = advanced_medium_tank
+				NOT = { has_DLC = "No Step Back" }
+				any_country =
+				{
+					OR =
+					{
+						tag = ROOT
+						is_puppet_of = ROOT
+					}
+					NOT =
+					{
+						OR =
+						{
+							has_country_flag = has_Pz_V
+							AND =
+							{
+								OR =
+								{
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_equipment_3
+											version = 1
+										}
+									}
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_equipment_1
+											version = 1
+										}
+									}
+									has_license = #Tank
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_equipment_2
+											version = 1
+										}
+									}
+								}
+								OR =
+								{
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_artillery_equipment_3
+											version = 1
+										}
+									}
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_artillery_equipment_1
+											version = 1
+										}
+									}
+									has_license = #SPG
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_artillery_equipment_2
+											version = 1
+										}
+									}
+								}
+								OR =
+								{
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_destroyer_equipment_3
+											version = 1
+										}
+									}
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_destroyer_equipment_1
+											version = 1
+										}
+									}
+									has_license = #TD
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_destroyer_equipment_2
+											version = 1
+										}
+									}
+								}
+								OR =
+								{
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = medium_tank_aa_equipment_3
+											version = 1
+										}
+									}
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_aa_equipment_1
+											version = 1
+										}
+									}
+									has_license = #SPAA
+									{
+										from = OVERLORD
+										equipment = 
+										{
+											type = modern_tank_aa_equipment_2
+											version = 1
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	

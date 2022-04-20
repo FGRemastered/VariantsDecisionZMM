@@ -5,5 +5,5 @@ tags={
 	"Military"
 }
 name="Instant Variant Decision (ZMM Edition)"
-supported_version="1.9.*"
+supported_version="1.11.*"
 remote_file_id="2073531590"

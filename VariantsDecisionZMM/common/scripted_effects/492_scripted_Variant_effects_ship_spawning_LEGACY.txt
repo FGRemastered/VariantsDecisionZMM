@@ -1,0 +1,2060 @@
+# This file also contains the effects for the Ship Cheating tool, but their legacy versions.
+
+	make_CV_Flottilla_MtG_LEGACY =
+	{
+		add_equipment_production = #CV IV
+		{
+			equipment =
+			{
+				type = ship_hull_carrier_3
+				version_name = "Graf Zeppelin Klasse"
+			}
+			requested_factories = 150
+			amount = 1
+		}
+		#################################
+		add_equipment_production = #CA IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Admiral Hipper Klasse"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CA IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Admiral Hipper Klasse"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CA IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Admiral Hipper Klasse"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CA IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Admiral Hipper Klasse"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		#################################
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+	}
+	
+	make_CV_Flottilla_Non_MtG_LEGACY =
+	{
+		add_equipment_production = #CV IV
+		{
+			equipment =
+			{
+				type = carrier_4
+				version_name = "Graf Zeppelin Klasse"
+			}
+			requested_factories = 150
+			amount = 1
+		}
+		#################################
+		add_equipment_production = #CA IV
+		{
+			equipment =
+			{
+				type = heavy_cruiser_4
+				version_name = "Admiral Hipper Klasse"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CA IV
+		{
+			equipment =
+			{
+				type = heavy_cruiser_4
+				version_name = "Admiral Hipper Klasse"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CA IV
+		{
+			equipment =
+			{
+				type = heavy_cruiser_4
+				version_name = "Admiral Hipper Klasse"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CA IV
+		{
+			equipment =
+			{
+				type = heavy_cruiser_4
+				version_name = "Admiral Hipper Klasse"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		################################
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+	}
+	
+	make_BB_Flottilla_MtG_LEGACY =
+	{
+		add_equipment_production = #SH BB I
+		{
+			equipment =
+			{
+				type = ship_hull_super_heavy_1
+				version_name = "Bismarck Klasse"
+			}
+			requested_factories = 150
+			amount = 1
+		}
+		#################################
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+	}
+	
+	make_BB_Flottilla_Non_MtG_LEGACY =
+	{
+		add_equipment_production = #SH BB II
+		{
+			equipment =
+			{
+				type = SH_battleship_2
+				version_name = "Bismarck Klasse"
+			}
+			requested_factories = 150
+			amount = 1
+		}
+		#################################
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+	}
+	
+	make_BB_Flottilla_NVx_AT_LEGACY =
+	{
+		add_equipment_production = #SH BB II
+		{
+			equipment =
+			{
+				type = ship_hull_super_heavy_2
+				version_name = "Bismarck Klasse"
+			}
+			requested_factories = 150
+			amount = 1
+		}
+		#################################
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+	}
+	
+	make_BC_Flottilla_MtG_LEGACY =
+	{
+		add_equipment_production = #BC IV
+		{
+			equipment =
+			{
+				type = ship_hull_heavy_4
+				version_name = "Prinz Eugen Klasse"
+			}
+			requested_factories = 150
+			amount = 1
+		}
+		#################################
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+	}
+	
+	make_BC_Flottilla_Non_MtG_LEGACY =
+	{
+		add_equipment_production = #BC IV
+		{
+			equipment =
+			{
+				type = battle_cruiser_2
+				version_name = "Prinz Eugen Klasse"
+			}
+			requested_factories = 150
+			amount = 1
+		}
+		#################################
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CL IV
+		{
+			equipment =
+			{
+				type = light_cruiser_4
+				version_name = "Moderner Leichter Kreuzer"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+	}
+	
+	make_Escort_Flottilla_MtG_LEGACY =
+	{
+		add_equipment_production = #CV 0
+		{
+			equipment =
+			{
+				type = ship_hull_carrier_conversion_ca
+				version_name = "Flugzeugkreuzer"
+			}
+			requested_factories = 50
+			amount = 1
+		}
+		#################################
+		add_equipment_production = #CA IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Admiral Hipper Klasse"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CA IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Admiral Hipper Klasse"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CA IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Admiral Hipper Klasse"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CA IV
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_4
+				version_name = "Admiral Hipper Klasse"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		###############################
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = ship_hull_light_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+	}
+	
+	make_Escort_Flottilla_Non_MtG_LEGACY =
+	{
+		add_equipment_production = #CA IV
+		{
+			equipment =
+			{
+				type = heavy_cruiser_4
+				version_name = "Admiral Hipper Klasse"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CA IV
+		{
+			equipment =
+			{
+				type = heavy_cruiser_4
+				version_name = "Admiral Hipper Klasse"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CA IV
+		{
+			equipment =
+			{
+				type = heavy_cruiser_4
+				version_name = "Admiral Hipper Klasse"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		add_equipment_production = #CA IV
+		{
+			equipment =
+			{
+				type = heavy_cruiser_4
+				version_name = "Admiral Hipper Klasse"
+			}
+			requested_factories = 10
+			amount = 1
+		}
+		#################################
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = destroyer_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = destroyer_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = destroyer_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = destroyer_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = destroyer_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = destroyer_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = destroyer_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = destroyer_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = destroyer_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = destroyer_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = destroyer_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = destroyer_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = destroyer_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = destroyer_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = destroyer_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #DD IV
+		{
+			equipment =
+			{
+				type = destroyer_4
+				version_name = "Moderner Zerstörer"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+	}
+	
+	make_SS_Flottilla_MtG_LEGACY =
+	{
+		add_equipment_production = #SC
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_submarine
+				version_name = "Kreuzer U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SC
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_submarine
+				version_name = "Kreuzer U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SC
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_submarine
+				version_name = "Kreuzer U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SC
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_submarine
+				version_name = "Kreuzer U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SC
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_submarine
+				version_name = "Kreuzer U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SC
+		{
+			equipment =
+			{
+				type = ship_hull_cruiser_submarine
+				version_name = "Kreuzer U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		##############################
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = ship_hull_submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+	}
+	
+	make_SS_Flottilla_Non_MtG_LEGACY =
+	{
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+		add_equipment_production = #SS IV
+		{
+			equipment =
+			{
+				type = submarine_4
+				version_name = "Modernes U-Boot"
+			}
+			requested_factories = 5
+			amount = 1
+		}
+	}
+	
+	

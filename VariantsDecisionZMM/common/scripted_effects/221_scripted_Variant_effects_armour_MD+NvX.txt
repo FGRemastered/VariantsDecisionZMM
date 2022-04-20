@@ -1,0 +1,436 @@
+# Millennium Dawn Modern Day + Novum Vexillum
+# This file contains the creation of the variants, so it can be called from anywhere it's needed.
+
+	make_Wiesel =
+	{
+		set_country_flag = has_Wiesel
+		create_equipment_variant = 
+		{
+			name = "Wiesel"
+			type = light_tank_equipment_1
+			upgrades = 
+			{
+				tank_gun_upgrade = 5
+				tank_armor_upgrade = 2
+				tank_engine_upgrade = 200
+				tank_reliability_upgrade = 6
+				ZMM_LAND_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_Marder =
+	{
+		set_country_flag = has_Marder
+		create_equipment_variant = 
+		{
+			name = "Marder"
+			type = light_tank_equipment_2
+			upgrades = 
+			{
+				tank_gun_upgrade = 5
+				tank_armor_upgrade = 2
+				tank_engine_upgrade = 200
+				tank_reliability_upgrade = 6
+				ZMM_LAND_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_Luchs =
+	{
+		set_country_flag = has_Luchs
+		create_equipment_variant = 
+		{
+			name = "Schützenpanzer 2 Luchs"
+			type = light_tank_equipment_3
+			upgrades = 
+			{
+				tank_gun_upgrade = 5
+				tank_armor_upgrade = 2
+				tank_engine_upgrade = 200
+				tank_reliability_upgrade = 6
+				ZMM_LAND_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_Leo1 =
+	{
+		set_country_flag = has_Leo1
+		create_equipment_variant = 
+		{
+			name = "Leopard 1"
+			type = light_tank_equipment_4
+			upgrades = 
+			{
+				tank_gun_upgrade = 5
+				tank_armor_upgrade = 2
+				tank_engine_upgrade = 200
+				tank_reliability_upgrade = 6
+				ZMM_LAND_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_Leo1A6 =
+	{
+		set_country_flag = has_Leo1A6
+		create_equipment_variant = 
+		{
+			name = "Leopard 1A6"
+			type = light_tank_equipment_5
+			upgrades = 
+			{
+				tank_gun_upgrade = 5
+				tank_armor_upgrade = 2
+				tank_engine_upgrade = 200
+				tank_reliability_upgrade = 6
+				ZMM_LAND_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_E-50_2 =
+	{
+		set_country_flag = has_E-50_2
+		create_equipment_variant = 
+		{
+			name = "E-50"
+			type = modern_tank_equipment_1
+			upgrades = 
+			{
+				tank_gun_upgrade = 20
+				tank_armor_upgrade = 15
+				tank_engine_upgrade = 200
+				tank_reliability_upgrade = 20
+				ZMM_LAND_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_Leo2 =
+	{
+		set_country_flag = has_Leo2
+		create_equipment_variant = 
+		{
+			name = "Leopard 2"
+			type = modern_tank_equipment_2
+			upgrades = 
+			{
+				tank_gun_upgrade = 20
+				tank_armor_upgrade = 15
+				tank_engine_upgrade = 200
+				tank_reliability_upgrade = 20
+				ZMM_LAND_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_Leo2A4 =
+	{
+		set_country_flag = has_Leo2A4
+		create_equipment_variant = 
+		{
+			name = "Leopard 2A4"
+			type = modern_tank_equipment_3
+			upgrades = 
+			{
+				tank_gun_upgrade = 20
+				tank_armor_upgrade = 15
+				tank_engine_upgrade = 200
+				tank_reliability_upgrade = 20
+				ZMM_LAND_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_Leo2A5 =
+	{
+		set_country_flag = has_Leo2A5
+		create_equipment_variant = 
+		{
+			name = "Leopard 2A5"
+			type = modern_tank_equipment_4
+			upgrades = 
+			{
+				tank_gun_upgrade = 20
+				tank_armor_upgrade = 15
+				tank_engine_upgrade = 200
+				tank_reliability_upgrade = 20
+				ZMM_LAND_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_Leo2A6 =
+	{
+		set_country_flag = has_Leo2A6
+		create_equipment_variant = 
+		{
+			name = "Leopard 2A6"
+			type = modern_tank_equipment_5
+			upgrades = 
+			{
+				tank_gun_upgrade = 20
+				tank_armor_upgrade = 15
+				tank_engine_upgrade = 200
+				tank_reliability_upgrade = 20
+				ZMM_LAND_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_Leo2A7 =
+	{
+		set_country_flag = has_Leo2A7
+		create_equipment_variant = 
+		{
+			name = "Leopard 2A7"
+			type = modern_tank_equipment_6
+			upgrades = 
+			{
+				tank_gun_upgrade = 20
+				tank_armor_upgrade = 15
+				tank_engine_upgrade = 200
+				tank_reliability_upgrade = 20
+				ZMM_LAND_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_Leo2A7V =
+	{
+		set_country_flag = has_Leo2A7V
+		create_equipment_variant = 
+		{
+			name = "Leopard 2A7V"
+			type = modern_tank_equipment_7
+			upgrades = 
+			{
+				tank_gun_upgrade = 20
+				tank_armor_upgrade = 15
+				tank_engine_upgrade = 200
+				tank_reliability_upgrade = 20
+				ZMM_LAND_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_Leo3 =
+	{
+		set_country_flag = has_Leo3
+		create_equipment_variant = 
+		{
+			name = "Leopard 3"
+			type = modern_tank_equipment_8
+			upgrades = 
+			{
+				tank_gun_upgrade = 20
+				tank_armor_upgrade = 15
+				tank_engine_upgrade = 200
+				tank_reliability_upgrade = 20
+				ZMM_LAND_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_PzH2k =
+	{
+		set_country_flag = has_PzH2k
+		create_equipment_variant = 
+		{
+			name = "PzH 2000"
+			type = modern_tank_artillery_equipment_1
+			upgrades = 
+			{
+				tank_art_upgrade = 20
+				tank_armor_upgrade = 15
+				tank_engine_upgrade = 200
+				tank_reliability_upgrade = 20
+				ZMM_LAND_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_PzH3k =
+	{
+		set_country_flag = has_PzH3k
+		create_equipment_variant = 
+		{
+			name = "PzH 3000"
+			type = modern_tank_artillery_equipment_2
+			upgrades = 
+			{
+				tank_art_upgrade = 20
+				tank_armor_upgrade = 15
+				tank_engine_upgrade = 200
+				tank_reliability_upgrade = 20
+				ZMM_LAND_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_PzH5k =
+	{
+		set_country_flag = has_PzH5k
+		create_equipment_variant = 
+		{
+			name = "PzH 5000"
+			type = modern_tank_artillery_equipment_3
+			upgrades = 
+			{
+				tank_art_upgrade = 20
+				tank_armor_upgrade = 15
+				tank_engine_upgrade = 200
+				tank_reliability_upgrade = 20
+				ZMM_LAND_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_MD_Radpanzer_I =
+	{
+		set_country_flag = has_MD_Radpanzer_I
+		create_equipment_variant = 
+		{
+		name = "Radpanzer I"
+		type = light_mechanized_equipment_1
+			upgrades = 
+			{
+				MECH_reliability_upgrade	= 5
+				MECH_speed_upgrade			= 200
+				MECH_armor_upgrade			= 2
+				MECH_attack_upgrade			= 3
+				MECH_prod_upgrade			= 99
+			}
+		}
+	}
+	
+	make_MD_Radpanzer_II =
+	{
+		set_country_flag = has_MD_Radpanzer_II
+		create_equipment_variant = 
+		{
+		name = "Radpanzer II"
+		type = light_mechanized_equipment_2
+			upgrades = 
+			{
+				MECH_reliability_upgrade	= 5
+				MECH_speed_upgrade			= 200
+				MECH_armor_upgrade			= 2
+				MECH_attack_upgrade			= 3
+				MECH_prod_upgrade			= 99
+			}
+		}
+	}
+	
+	make_MD_Radpanzer_III =
+	{
+		set_country_flag = has_MD_Radpanzer_III
+		create_equipment_variant = 
+		{
+		name = "Radpanzer III"
+		type = light_mechanized_equipment_3
+			upgrades = 
+			{
+				MECH_reliability_upgrade	= 5
+				MECH_speed_upgrade			= 200
+				MECH_armor_upgrade			= 2
+				MECH_attack_upgrade			= 3
+				MECH_prod_upgrade			= 99
+			}
+		}
+	}
+	
+	make_MD_Radpanzer_IV =
+	{
+		set_country_flag = has_MD_Radpanzer_IV
+		create_equipment_variant = 
+		{
+		name = "Radpanzer IV"
+		type = light_mechanized_equipment_4
+			upgrades = 
+			{
+				MECH_reliability_upgrade	= 5
+				MECH_speed_upgrade			= 200
+				MECH_armor_upgrade			= 2
+				MECH_attack_upgrade			= 3
+				MECH_prod_upgrade			= 99
+			}
+		}
+	}
+	
+	make_MD_Radpanzer_V =
+	{
+		set_country_flag = has_MD_Radpanzer_V
+		create_equipment_variant = 
+		{
+		name = "Radpanzer V"
+		type = light_mechanized_equipment_5
+			upgrades = 
+			{
+				MECH_reliability_upgrade	= 5
+				MECH_speed_upgrade			= 200
+				MECH_armor_upgrade			= 2
+				MECH_attack_upgrade			= 3
+				MECH_prod_upgrade			= 99
+			}
+		}
+	}
+	
+	make_MD_Radpanzer_VI =
+	{
+		set_country_flag = has_MD_Radpanzer_VI
+		create_equipment_variant = 
+		{
+		name = "Radpanzer VI"
+		type = light_mechanized_equipment_6
+			upgrades = 
+			{
+				MECH_reliability_upgrade	= 5
+				MECH_speed_upgrade			= 200
+				MECH_armor_upgrade			= 2
+				MECH_attack_upgrade			= 3
+				MECH_prod_upgrade			= 99
+			}
+		}
+	}
+	
+	make_Spz_Luchs = 
+	{
+		set_country_flag = has_Spz_Luchs
+		create_equipment_variant = 
+		{
+			name = "Schützenpanzer Luchs"
+			type = mechanized_equipment_4
+			upgrades = 
+			{
+				MECH_reliability_upgrade = 100
+				MECH_speed_upgrade = 100
+				MECH_armor_upgrade = 5
+				MECH_attack_upgrade = 90
+				MECH_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_Spz_Puma =
+	{
+		set_country_flag = has_Spz_Puma
+		create_equipment_variant = 
+		{
+			name = "Schützenpanzer Puma"
+			type = mechanized_equipment_5
+			upgrades = 
+			{
+				MECH_reliability_upgrade = 100
+				MECH_speed_upgrade = 100
+				MECH_armor_upgrade = 5
+				MECH_attack_upgrade = 90
+				MECH_prod_upgrade = 99
+			}
+		}
+	}
+	
+	

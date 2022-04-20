@@ -1,0 +1,51 @@
+# Carrier Planes - FIG, CAS
+# This file contains the checks for the decisions
+
+	can_CV_F0 =
+	{
+		has_tech = early_fighter 
+		NOT = { has_country_flag = has_CV_F0 }
+		notTNO = yes
+	}
+	
+	can_CV_F1 =
+	{
+		has_tech = fighter1 
+		NOT = { has_country_flag = has_CV_F1 }
+		notTNO = yes
+	}
+	
+	can_CV_F2 =
+	{
+		has_tech = fighter2 
+		NOT = { has_country_flag = has_CV_F2 }
+		notTNO = yes
+	}
+	
+	can_CV_F3 =
+	{
+		has_tech = fighter3 
+		NOT = { has_country_flag = has_CV_F3 }
+		notTNO = yes
+	}
+	
+	can_CV_CAS1 =
+	{
+		has_tech = CAS1 
+		NOT = { has_country_flag = has_CV_CAS1 }
+		notTNO = yes
+	}
+	
+	can_CV_CAS2 =
+	{
+		has_tech = CAS2 
+		NOT = { has_country_flag = has_CV_CAS2 }
+		notTNO = yes
+	}
+	
+	can_CV_CAS3 =
+	{
+		has_tech = CAS3 
+		NOT = { has_country_flag = has_CV_CAS3 }
+		notTNO = yes
+	}

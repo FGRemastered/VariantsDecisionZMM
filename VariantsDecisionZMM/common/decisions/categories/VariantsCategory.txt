@@ -1,169 +1,60 @@
-"Division Presets" = {visible = {NOT = {is_ai = yes}}}
-
-"Armor Variants" =
-{
-	visible = {NOT = {is_ai = yes}}
-	icon = ger_military_buildup
-									#The wiki told me that decisions have to be initialized here - So, that was a lie. (Or I'm just stupid - Entirely possible.)
-	#"Radpanzer I" = {}
-	#"Radpanzer II" = {}
-	#"Radpanzer III" = {}
-	#"PaKwagen" = {}
-	#"Schwimmpanzer II" = {}
-	#"Tauchpanzer III" = {}
-	#"Panzer I" = {}
-	#"Panzer II" = {}
-	#"Leopard" = {}
-	#"Panzer III" = {}
-	#"Panzer IV" = {}
-	#"Panther" = {}
-	#"Großtraktor" = {}
-	#"Tiger" = {}
-	#"Königstiger" = {}
-	#"Maus" = {}
-	#"E-50" = {}
-	#"VW Feger" = {}
-	#"Sfz 11" = {}
-	#"Sfz 251" = {}
-	#"Sfz 251_20" = {}
-	#"LWS I" = {}
-	#"LWS II" = {}
-}
-
-"Plane Variants" =
-{
-	visible = {NOT = {is_ai = yes}}
-	icon = military_operation
-								#Turns out, if you do that you get a ton of extra errors
-	#"GW Fighter" = {}
-	#"Fighter I" = {}
-	#"Fighter II" = {}
-	#"Fighter III" = {}
-	
-	#"Jet Fighter I" = {}
-	#"Jet Fighter II" = {}
-	
-	
-	#"CAS I" = {}
-	#"CAS II" = {}
-	#"CAS III" = {}
-	
-	
-	#"GW TAC" = {}
-	#"TAC I" = {}
-	#"TAC II" = {}
-	#"TAC III" = {}
-	
-	#"Jet TAC I" = {}
-	#"Jet TAC II" = {}
-	
-	
-	#"STRAT I" = {}
-	#"STRAT II" = {}
-	#"STRAT III" = {}
-	
-	#"Jet STRAT" = {}
-	
-	
-	#"Heavy Fighter I" = {}
-	#"Heavy Fighter II" = {}
-	#"Heavy Fighter III" = {}
-	
-	
-	#"GW CV Fighter" = {}
-	#"CV Fighter I" = {}
-	#"CV Fighter II" = {}
-	#"CV Fighter III" = {}
-	
-	
-	#"CV CAS I" = {}
-	#"CV CAS II" = {}
-	#"CV CAS III" = {}
-	
-	
-	#"Naval Bomber I" = {}
-	#"Naval Bomber II" = {}
-	#"Naval Bomber III" = {}
-	
-	
-	##"CV Naval Bomber I" = {}
-	##"CV Naval Bomber II" = {}
-	##"CV Naval Bomber III" = {}
-	
-	
-	#"Scout I" = {}
-	#"Scout II" = {}
-	
-	
-	#"Transport Plane" = {}
-}
-
-"Ship Variants" =
-{
-	visible = 
+	"Division Presets" = 
 	{
-		NOT = {is_ai = yes}
-		NOT = {country_exists = PAP}
+		visible = 
+		{
+			OR =
+			{
+				has_start_date < 1950.01.01
+				has_start_date > 1999.12.31
+			}
+		}
 	}
-	icon = generic_naval
-								# So many errors, that the error.log fills up and crashes the game.
-	#"CV I" = {}
-	#"CV II" = {}
-	#"CV III" = {}
-	#"CV IV" = {}
-	
 
-	#"SH BB I" = {}
-	#"SH BB II" = {}
-	
-	#"BB I" = {}
-	#"BB II" = {}
-	#"BB III" = {}
-	#"BB IV" = {}
-	
+	"Small Arms and Artillery" = 
+	{
+		visible =  { always = yes }
+		icon = army_reform
+	}
 
-	#"BC I" = {}
-	#"BC II" = {}
+	"Armor Variants" =
+	{
+		visible = { always = yes }
+		icon = ger_military_buildup
+	}
 
-	
-	#"CA I" = {}
-	#"CA II" = {}
-	#"CA III" = {}
-	#"CA IV" = {}
+	"TNO Armor Variants" =
+	{
+		visible = 
+		{
+			OR =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		icon = ger_military_buildup
+	}
 
-	
-	#"CL I" = {}
-	#"CL II" = {}
-	#"CL III" = {}
-	#"CL IV" = {}
-	
-	
-	#"DD I" = {}
-	#"DD II" = {}
-	#"DD III" = {}
-	#"DD IV" = {}
-	
-	#"SS I" = {}
-	#"SS II" = {}
-	#"SS III" = {}
-	#"SS IV" = {}
-}
+	"Modern Armor Variants" =
+	{
+		visible = { has_start_date > 1999.12.31 }
+		icon = ger_military_buildup
+	}
 
+	"Plane Variants" =
+	{
+		visible = { always = yes }
+		icon = generic_air
+	}
 
+	"Ship Variants" =
+	{
+		visible = { always = yes }
+		icon = generic_naval
+	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	"CheatVariants" = #Depending on how orthodox you see it, using this mod is cheating in on itself. But I think we can go further.
+	{
+		visible = { has_country_flag = VCheater }
+	}
 

@@ -1,0 +1,197 @@
+# The New Order - IFV's
+# This file contains the checks for the decisions
+
+	can_TNO_Pz_III =
+	{
+		NOT = { has_DLC = "No Step Back" }
+		OR =
+		{
+			AND = #ROOT can do
+			{
+				has_tech  = IFV_1950
+				NOT = { has_country_flag = has_TNO_Pz_III}
+			}
+			AND = #PUPPET can do
+			{
+				has_tech  = IFV_1950
+				any_country =
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_TNO_Pz_III}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = IFV_equipment_1
+								version = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		AND =
+		{
+			has_start_date > 1950.01.01
+			has_start_date < 1999.12.31
+		}
+	}
+	
+	can_TNO_Pz_IV =
+	{
+		NOT = { has_DLC = "No Step Back" }
+		OR =
+		{
+			AND = #ROOT can do
+			{
+				has_tech  = IFV_1960
+				NOT = { has_country_flag = has_TNO_Pz_IV}
+			}
+			AND = #PUPPET can do
+			{
+				has_tech  = IFV_1960
+				any_country =
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_TNO_Pz_IV}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = IFV_equipment_2
+								version = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		AND =
+		{
+			has_start_date > 1950.01.01
+			has_start_date < 1999.12.31
+		}
+	}
+	
+	can_TNO_Pz_V =
+	{
+		NOT = { has_DLC = "No Step Back" }
+		OR =
+		{
+			AND = #ROOT can do
+			{
+				has_tech  = IFV_1970
+				NOT = { has_country_flag = has_TNO_Pz_V}
+			}
+			AND = #PUPPET can do
+			{
+				has_tech  = IFV_1970
+				any_country =
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_TNO_Pz_V}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = IFV_equipment_3
+								version = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		AND =
+		{
+			has_start_date > 1950.01.01
+			has_start_date < 1999.12.31
+		}
+	}
+	
+	can_TNO_Leopard =
+	{
+		NOT = { has_DLC = "No Step Back" }
+		OR =
+		{
+			AND = #ROOT can do
+			{
+				has_tech  = IFV_1980
+				NOT = { has_country_flag = has_TNO_Leopard}
+			}
+			AND = #PUPPET can do
+			{
+				has_tech  = IFV_1980
+				any_country =
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_TNO_Leopard}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = IFV_equipment_4
+								version = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		AND =
+		{
+			has_start_date > 1950.01.01
+			has_start_date < 1999.12.31
+		}
+	}
+	
+	can_TNO_Leopard1A3 =
+	{
+		NOT = { has_DLC = "No Step Back" }
+		OR =
+		{
+			AND = #ROOT can do
+			{
+				has_tech  = IFV_1990
+				NOT = { has_country_flag = has_TNO_Leopard1A3}
+			}
+			AND = #PUPPET can do
+			{
+				has_tech  = IFV_1990
+				any_country =
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_TNO_Leopard1A3}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = IFV_equipment_5
+								version = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		AND =
+		{
+			has_start_date > 1950.01.01
+			has_start_date < 1999.12.31
+		}
+	}

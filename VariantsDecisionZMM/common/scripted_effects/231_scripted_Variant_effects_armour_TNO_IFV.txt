@@ -1,0 +1,318 @@
+# The New Order - IFV's
+# This file contains the creation of the variants, so it can be called from anywhere it's needed.
+
+	make_TNO_Pz_III =
+	{
+		if =
+		{
+			limit =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				NOT = { has_country_flag = has_TNO_Pz_III}
+			}
+			set_country_flag = has_TNO_Pz_III
+			create_equipment_variant = 
+			{
+				name = "Panzer III"
+				type = IFV_equipment_1
+				upgrades = 
+				{
+					tank_gun_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 200
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+		if =
+		{
+			limit = { NOT = { has_DLC = "No Step Back" } }
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_TNO_Pz_III}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = IFV_equipment_1
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= IFV_equipment_1
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	make_TNO_Pz_IV =
+	{
+		if =
+		{
+			limit =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				NOT = { has_country_flag = has_TNO_Pz_IV}
+			}
+			set_country_flag = has_TNO_Pz_IV
+			create_equipment_variant = 
+			{
+				name = "Panzer IV"
+				type = IFV_equipment_2
+				upgrades = 
+				{
+					tank_gun_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 200
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+		if =
+		{
+			limit = { NOT = { has_DLC = "No Step Back" } }
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_TNO_Pz_IV}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = IFV_equipment_2
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= IFV_equipment_2
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	make_TNO_Pz_V =
+	{
+		if =
+		{
+			limit =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				NOT = { has_country_flag = has_TNO_Pz_V}
+			}
+			set_country_flag = has_TNO_Pz_V
+			create_equipment_variant = 
+			{
+				name = "Panther"
+				type = IFV_equipment_3
+				upgrades = 
+				{
+					tank_gun_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 200
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+		if =
+		{
+			limit = { NOT = { has_DLC = "No Step Back" } }
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_TNO_Pz_V}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = IFV_equipment_3
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= IFV_equipment_3
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	make_TNO_Leopard =
+	{
+		if =
+		{
+			limit =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				NOT = { has_country_flag = has_TNO_Leopard}
+			}
+			set_country_flag = has_Leopard
+			create_equipment_variant = 
+			{
+				name = "Leopard"
+				type = IFV_equipment_4
+				upgrades = 
+				{
+					tank_gun_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 200
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+		if =
+		{
+			limit = { NOT = { has_DLC = "No Step Back" } }
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_TNO_Leopard}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = IFV_equipment_4
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= IFV_equipment_4
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	make_TNO_Leopard1A3 =
+	{
+		if =
+		{
+			limit =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				NOT = { has_country_flag = has_TNO_Leopard1A3}
+			}
+			set_country_flag = has_TNO_Leopard1A3
+			create_equipment_variant = 
+			{
+				name = "Leopard 1A3"
+				type = IFV_equipment_5
+				upgrades = 
+				{
+					tank_gun_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 200
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+		if =
+		{
+			limit = { NOT = { has_DLC = "No Step Back" } }
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_TNO_Leopard1A3}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = IFV_equipment_5
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= IFV_equipment_5
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
