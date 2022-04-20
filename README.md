@@ -14,3 +14,7 @@ Absolutely.
 Compatible with Endsieg, Kaiserreich (fixed), Road to 56 (fixed) and Add Technologies. (If it uses the vanilla equipment names. it's compatible.)
 
 View the changelog for more detailed explanations.
+
+[Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2073531590)
+
+[GitHub](https://github.com/FGRemastered/VariantsDecisionZMM) (You are here)
