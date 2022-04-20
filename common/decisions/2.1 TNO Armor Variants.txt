@@ -1,0 +1,3176 @@
+###################################################
+#					TNO TANKS					  #
+###################################################
+"TNO Armor Variants" =
+{
+#
+#	TNO IFV's
+#
+	"TNO Panzer III" =
+	{
+		visible =
+		{
+			can_TNO_Pz_III = yes
+		}
+		complete_effect = 
+		{
+			make_TNO_Pz_III = yes
+		}
+	}
+	
+	"TNO Panzer IV" =
+	{
+		visible =
+		{
+			can_TNO_Pz_IV = yes
+		}
+		complete_effect = 
+		{
+			make_TNO_Pz_IV = yes
+		}
+	}
+	
+	"TNO Panther" =
+	{
+		visible =
+		{
+			can_TNO_Pz_V = yes
+		}
+		complete_effect = 
+		{
+			make_TNO_Pz_V = yes
+		}
+	}
+	
+	"TNO Leopard" =
+	{
+		visible =
+		{
+			can_TNO_Leopard = yes
+		}
+		complete_effect = 
+		{
+			make_TNO_Leopard = yes
+		}
+	}
+	
+	"TNO Leopard 1A3" =
+	{
+		visible =
+		{
+			can_TNO_Leopard1A3 = yes
+		}
+		complete_effect = 
+		{
+			make_TNO_Leopard1A3 = yes
+		}
+	}
+#
+#	TNO MBT's
+#
+	"TNO E-50" =
+	{
+		visible =
+		{
+			can_TNO_E-50 = yes
+		}
+		complete_effect = 
+		{
+			make_TNO_E-50 = yes
+		}
+	}
+	
+	"TNO E-75" =
+	{
+		visible =
+		{
+			can_TNO_E-75 = yes
+		}
+		complete_effect = 
+		{
+			make_TNO_E-75 = yes
+		}
+	}
+	
+	"TNO Löwe" =
+	{
+		visible =
+		{
+			can_TNO_Löwe = yes
+		}
+		complete_effect = 
+		{
+			make_TNO_Löwe = yes
+		}
+	}
+	
+	"TNO Leopard 2" =
+	{
+		visible =
+		{
+			can_TNO_Leopard2 = yes
+		}
+		complete_effect = 
+		{
+			make_TNO_Leopard2 = yes
+		}
+	}
+	
+	"TNO Leopard 2A5" =
+	{
+		visible =
+		{
+			can_TNO_Leopard2A5 = yes
+		}
+		complete_effect = 
+		{
+			make_TNO_Leopard2A5 = yes
+		}
+	}
+#
+#	TNO APC's
+#
+	"TNO Kätzchen" =
+	{
+		visible =
+		{
+			can_TNO_Kätzchen = yes
+		}
+		complete_effect = 
+		{
+			make_TNO_Kätzchen = yes
+		}
+	}
+	
+	"TNO Ozelot" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = APC_1960
+					NOT = { has_country_flag = has_Ozelot}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = APC_1960
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_Ozelot}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = APC_equipment_2
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_Ozelot}
+				}
+				set_country_flag = has_Ozelot
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Ozelot"
+					type = APC_equipment_2
+					upgrades = 
+					{
+						MECH_reliability_upgrade = 100
+						MECH_speed_upgrade = 100
+						MECH_armor_upgrade = 5
+						MECH_attack_upgrade = 90
+						MECH_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Ozelot}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = APC_equipment_2
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= APC_equipment_2
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"TNO Donnerschlag" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = APC_1970
+					NOT = { has_country_flag = has_Donnerschlag}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = APC_1970
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_Donnerschlag}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = APC_equipment_3
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_Donnerschlag}
+				}
+				set_country_flag = has_Donnerschlag
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Donnerschlag"
+					type = APC_equipment_3
+					upgrades = 
+					{
+						MECH_reliability_upgrade = 100
+						MECH_speed_upgrade = 100
+						MECH_armor_upgrade = 5
+						MECH_attack_upgrade = 90
+						MECH_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Donnerschlag}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = APC_equipment_3
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= APC_equipment_3
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"TNO Donnerschlag 4" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = APC_1980
+					NOT = { has_country_flag = has_Donnerschlag4}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = APC_1980
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_Donnerschlag4}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = APC_equipment_4
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_Donnerschlag4}
+				}
+				set_country_flag = has_Donnerschlag4
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Donnerschlag 4"
+					type = APC_equipment_4
+					upgrades = 
+					{
+						MECH_reliability_upgrade = 100
+						MECH_speed_upgrade = 100
+						MECH_armor_upgrade = 5
+						MECH_attack_upgrade = 90
+						MECH_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Donnerschlag4}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = APC_equipment_4
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= APC_equipment_4
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"TNO Jaguar" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = APC_1990
+					NOT = { has_country_flag = has_Jaguar}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = APC_1990
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_Jaguar}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = APC_equipment_5
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_Jaguar}
+				}
+				set_country_flag = has_Jaguar
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Jaguar"
+					type = APC_equipment_5
+					upgrades = 
+					{
+						MECH_reliability_upgrade = 100
+						MECH_speed_upgrade = 100
+						MECH_armor_upgrade = 5
+						MECH_attack_upgrade = 90
+						MECH_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Jaguar}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = APC_equipment_5
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= APC_equipment_5
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+
+#
+#			TNO SPGs
+#
+
+	"TNO Grille" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = light_SPART_1950
+					NOT = { has_country_flag = has_Grille}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = light_SPART_1950
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_Grille}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = APC_artillery_equipment_1
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_Grille}
+				}
+				set_country_flag = has_Grille
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Grille"
+					type = APC_artillery_equipment_1
+					upgrades = 
+					{
+						tank_art_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Grille}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = APC_artillery_equipment_1
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= APC_artillery_equipment_1
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"Hummel" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = light_SPART_1960
+					NOT = { has_country_flag = has_Hummel}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = light_SPART_1960
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_Hummel}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = APC_artillery_equipment_2
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_Hummel}
+				}
+				set_country_flag = has_Hummel
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Hummel"
+					type = APC_artillery_equipment_2
+					upgrades = 
+					{
+						tank_art_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Hummel}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = APC_artillery_equipment_2
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= APC_artillery_equipment_2
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"Brummbär" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = light_SPART_1970
+					NOT = { has_country_flag = has_Brummbär}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = light_SPART_1970
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_Brummbär}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = APC_artillery_equipment_3
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_Brummbär}
+				}
+				set_country_flag = has_Brummbär
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Brummbär"
+					type = APC_artillery_equipment_3
+					upgrades = 
+					{
+						tank_art_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Brummbär}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = APC_artillery_equipment_3
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= APC_artillery_equipment_3
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"SFL Leopard" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = light_SPART_1980
+					NOT = { has_country_flag = has_SFL_Leopard}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = light_SPART_1980
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_SFL_Leopard}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = APC_artillery_equipment_4
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_SFL_Leopard}
+				}
+				set_country_flag = has_SFL_Leopard
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "SFL Leopard"
+					type = APC_artillery_equipment_4
+					upgrades = 
+					{
+						tank_art_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_SFL_Leopard}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = APC_artillery_equipment_4
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= APC_artillery_equipment_4
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"WT Leopard" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = light_SPART_1990
+					NOT = { has_country_flag = has_WT_Leopard}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = light_SPART_1990
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_WT_Leopard}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = APC_artillery_equipment_5
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_WT_Leopard}
+				}
+				set_country_flag = has_WT_Leopard
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "WT Leopard"
+					type = APC_artillery_equipment_5
+					upgrades = 
+					{
+						tank_art_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_WT_Leopard}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = APC_artillery_equipment_5
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= APC_artillery_equipment_5
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+
+	"WT E-50" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = SPART_1950
+					NOT = { has_country_flag = has_WT_E-50}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = SPART_1950
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_WT_E-50}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = MBT_artillery_equipment_1
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_WT_E-50}
+				}
+				set_country_flag = has_WT_E-50
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "WT E-50"
+					type = MBT_artillery_equipment_1
+					upgrades = 
+					{
+						tank_art_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_WT_E-50}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = MBT_artillery_equipment_1
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= MBT_artillery_equipment_1
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"WT E-75" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = SPART_1960
+					NOT = { has_country_flag = has_WT_E-75}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = SPART_1960
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_WT_E-75}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = MBT_artillery_equipment_2
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_WT_E-75}
+				}
+				set_country_flag = has_WT_E-75
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "WT E-75"
+					type = MBT_artillery_equipment_2
+					upgrades = 
+					{
+						tank_art_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_WT_E-75}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = MBT_artillery_equipment_2
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= MBT_artillery_equipment_2
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"WT Löwe" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = SPART_1970
+					NOT = { has_country_flag = has_WT_Löwe}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = SPART_1970
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_WT_Löwe}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = MBT_artillery_equipment_3
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_WT_Löwe}
+				}
+				set_country_flag = has_WT_Löwe
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "WT Löwe"
+					type = MBT_artillery_equipment_3
+					upgrades = 
+					{
+						tank_art_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_WT_Löwe}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = MBT_artillery_equipment_3
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= MBT_artillery_equipment_3
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"Panzerhaubitze 2000" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = SPART_1980
+					NOT = { has_country_flag = has_PzH2k}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = SPART_1980
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_PzH2k}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = MBT_artillery_equipment_4
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_PzH2k}
+				}
+				set_country_flag = has_PzH2k
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Panzerhaubitze 2000"
+					type = MBT_artillery_equipment_4
+					upgrades = 
+					{
+						tank_art_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_PzH2k}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = MBT_artillery_equipment_4
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= MBT_artillery_equipment_4
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"Panzerhaubitze 2000 E" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = SPART_1990
+					NOT = { has_country_flag = has_PzH2kE}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = SPART_1990
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_PzH2kE}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = MBT_artillery_equipment_5
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_PzH2kE}
+				}
+				set_country_flag = has_PzH2kE
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Panzerhaubitze 2000 E"
+					type = MBT_artillery_equipment_5
+					upgrades = 
+					{
+						tank_art_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_PzH2kE}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = MBT_artillery_equipment_5
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= MBT_artillery_equipment_5
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+
+#
+#	TNO SPAA
+#
+
+	"Möbelwagen" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = light_SPAA_1950
+					NOT = { has_country_flag = has_Möbelwagen}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = light_SPAA_1950
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_Möbelwagen}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = APC_aa_equipment_1
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_Möbelwagen}
+				}
+				set_country_flag = has_Möbelwagen
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Möbelwagen"
+					type = APC_aa_equipment_1
+					upgrades = 
+					{
+						tank_aa_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Möbelwagen}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = APC_aa_equipment_1
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= APC_aa_equipment_1
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"Ostwind" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = light_SPAA_1960
+					NOT = { has_country_flag = has_Ostwind}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = light_SPAA_1960
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_Ostwind}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = APC_aa_equipment_2
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_Ostwind}
+				}
+				set_country_flag = has_Ostwind
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Ostwind"
+					type = APC_aa_equipment_2
+					upgrades = 
+					{
+						tank_aa_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Ostwind}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = APC_aa_equipment_2
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= APC_aa_equipment_2
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"Wirbelwind" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = light_SPAA_1970
+					NOT = { has_country_flag = has_Wirbelwind}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = light_SPAA_1970
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_Wirbelwind}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = APC_aa_equipment_3
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_Wirbelwind}
+				}
+				set_country_flag = has_Wirbelwind
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Wirbelwind"
+					type = APC_aa_equipment_3
+					upgrades = 
+					{
+						tank_aa_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Wirbelwind}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = APC_aa_equipment_3
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= APC_aa_equipment_3
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"Gepard" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = light_SPAA_1980
+					NOT = { has_country_flag = has_Gepard}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = light_SPAA_1980
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_Gepard}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = APC_aa_equipment_4
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_Gepard}
+				}
+				set_country_flag = has_Gepard
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Gepard"
+					type = APC_aa_equipment_4
+					upgrades = 
+					{
+						tank_aa_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Gepard}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = APC_aa_equipment_4
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= APC_aa_equipment_4
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"Gepard 1A2" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = light_SPAA_1990
+					NOT = { has_country_flag = has_Gepard1A2}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = light_SPAA_1990
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_Gepard1A2}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = APC_aa_equipment_5
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_Gepard1A2}
+				}
+				set_country_flag = has_Gepard1A2
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Gepard 1A2"
+					type = APC_aa_equipment_5
+					upgrades = 
+					{
+						tank_aa_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Gepard1A2}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = APC_aa_equipment_5
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= APC_aa_equipment_5
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+
+	"Kugelblitz" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = SPAA_1950
+					NOT = { has_country_flag = has_Kugelblitz}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = SPAA_1950
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_Kugelblitz}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = MBT_aa_equipment_1
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_Kugelblitz}
+				}
+				set_country_flag = has_Kugelblitz
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Kugelblitz"
+					type = MBT_aa_equipment_1
+					upgrades = 
+					{
+						tank_aa_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Kugelblitz}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = MBT_aa_equipment_1
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= MBT_aa_equipment_1
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"Kugelblitz II" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = SPAA_1960
+					NOT = { has_country_flag = has_Kugelblitz_II}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = SPAA_1960
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_Kugelblitz_II}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = MBT_aa_equipment_2
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_Kugelblitz_II}
+				}
+				set_country_flag = has_Kugelblitz_II
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Kugelblitz II"
+					type = MBT_aa_equipment_2
+					upgrades = 
+					{
+						tank_aa_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Kugelblitz_II}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = MBT_aa_equipment_2
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= MBT_aa_equipment_2
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"Kugelblitz III" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = SPAA_1970
+					NOT = { has_country_flag = has_Kugelblitz_III}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = SPAA_1970
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_Kugelblitz_III}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = MBT_aa_equipment_3
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_Kugelblitz_III}
+				}
+				set_country_flag = has_Kugelblitz_III
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Kugelblitz III"
+					type = MBT_aa_equipment_3
+					upgrades = 
+					{
+						tank_aa_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Kugelblitz_III}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = MBT_aa_equipment_3
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= MBT_aa_equipment_3
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"Gepard 2" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = SPAA_1980
+					NOT = { has_country_flag = has_Gepard2}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = SPAA_1980
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_Gepard2}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = MBT_aa_equipment_4
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_Gepard2}
+				}
+				set_country_flag = has_Gepard2
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Gepard 2"
+					type = MBT_aa_equipment_4
+					upgrades = 
+					{
+						tank_aa_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Gepard2}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = MBT_aa_equipment_4
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= MBT_aa_equipment_4
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	"Gepard 2A5" =
+	{
+		visible =
+		{
+			OR =
+			{
+				AND = #ROOT can do
+				{
+					has_tech  = SPAA_1990
+					NOT = { has_country_flag = has_Gepard2A5}
+				}
+				AND = #PUPPET can do
+				{
+					has_tech  = SPAA_1990
+					any_country =
+					{
+						is_puppet_of = ROOT
+						NOT = { has_country_flag = has_Gepard2A5}
+						NOT = 
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = MBT_aa_equipment_5
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+			AND =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
+		{
+			base = 0
+			modifier =
+			{
+				any_country =
+				{
+					is_puppet_of = ROOT
+					is_ai = no
+				}
+				add = 100
+			}
+			modifier =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				add = -100
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit =
+				{
+					NOT = { has_country_flag = has_Gepard2A5}
+				}
+				set_country_flag = has_Gepard2A5
+				#hidden_effect = 
+				#{
+				#	set_technology = 
+				#	{
+				#		modern_art = 1
+				#		modern_td = 1
+				#		modern_spaa = 1
+				#		popup = no
+				#	}
+				#}
+				create_equipment_variant = 
+				{
+					name = "Gepard 2A5"
+					type = MBT_aa_equipment_5
+					upgrades = 
+					{
+						tank_aa_upgrade = 20
+						tank_armor_upgrade = 15
+						tank_engine_upgrade = 200
+						tank_reliability_upgrade = 20
+						ZMM_LAND_prod_upgrade = 99
+					}
+				}
+			}
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Gepard2A5}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = MBT_aa_equipment_5
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= MBT_aa_equipment_5
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+}

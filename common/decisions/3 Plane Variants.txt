@@ -1,0 +1,379 @@
+"Plane Variants" =
+{
+	"Transport Plane" =
+	{
+		visible = { can_TP1 = yes }
+		complete_effect = { make_TP1 = yes }
+	}
+	
+	"Transport Plane II" =	#NVx
+	{
+		visible = { can_TP2 = yes }
+		complete_effect = { make_TP2 = yes }
+	}
+	
+	"GW Fighter" =
+	{
+		visible = { can_F0 = yes }
+		complete_effect =  { make_F0 = yes }
+	}
+
+	"Fighter I" =
+	{
+		visible = { can_F1 = yes }
+		complete_effect =  { make_F1 = yes }
+	}
+
+	"Fighter II" =
+	{
+		visible = { can_F2 = yes }
+		complete_effect =  { make_F2 = yes }
+	}
+	
+	"Fighter III" =
+	{
+		visible = { can_F3 = yes }
+		complete_effect =  { make_F3 = yes }
+	}
+	
+	"Fighter IV" =
+	{
+		visible = { can_F4 = yes }
+		complete_effect =  { make_F4 = yes }
+	}
+	
+	"Fighter V" =
+	{
+		visible = { can_F5 = yes }
+		complete_effect =  { make_F5 = yes }
+	}
+	
+	"Fighter VI" =
+	{
+		visible = { can_F6 = yes }
+		complete_effect =  { make_F6 = yes }
+	}
+	
+	"Fighter VII" =
+	{
+		visible = { can_F7 = yes }
+		complete_effect =  { make_F7 = yes }
+	}
+	
+	"Fighter VIII" =
+	{
+		visible = { can_F8 = yes }
+		complete_effect =  { make_F8 = yes }
+	}
+	
+	"Jet Fighter I" =
+	{
+		visible = { can_JF1 = yes }
+		complete_effect =  { make_JF1 = yes }
+	}
+	
+	"Jet Fighter II" =
+	{
+		visible = { can_JF2 = yes }
+		available = { custom_trigger_tooltip = { tooltip = "Select whether you use Add Technologies or not in the Ship Variants!" is_AT_or_not_trigger = yes } }
+		complete_effect =  { make_JF2 = yes }
+	}
+	
+	"CAS I" =
+	{
+		visible = { can_CAS1 = yes }
+		complete_effect = { make_CAS1 = yes }
+	}
+	
+	"CAS II" =
+	{
+		visible = { can_CAS2 = yes }
+		complete_effect =  { make_CAS2 = yes }
+	}
+	
+	"CAS III" =
+	{
+		visible = { can_CAS3 = yes }
+		complete_effect =  { make_CAS3 = yes }
+	}
+	
+	"GW TAC" =
+	{
+		visible = { can_TAC0 = yes }			# Tuesday, baby!
+		complete_effect = { make_TAC0 = yes }
+	}
+	
+	"TAC I" =
+	{
+		visible = { can_TAC1 = yes }
+		complete_effect = { make_TAC1 = yes }
+	}
+	
+	"TAC II" =
+	{
+		visible = { can_TAC2 = yes }
+		complete_effect = { make_TAC2 = yes }
+	}
+	
+	"TAC III" =
+	{
+		visible = { can_TAC3 = yes }
+		complete_effect = { make_TAC3 = yes }
+	}
+	
+	"TAC IV" =
+	{
+		visible = { can_TAC4 = yes }
+		complete_effect = { make_TAC4 = yes }
+	}
+	
+	"TAC V" =
+	{
+		visible = { can_TAC5 = yes }
+		complete_effect = { make_TAC5 = yes }
+	}
+	
+	"Jet TAC I" =
+	{
+		visible = { can_JTAC1 = yes }
+		complete_effect = { make_JTAC1 = yes }
+	}
+	
+	"Jet TAC II" =
+	{
+		visible = { can_JTAC2 = yes }
+		complete_effect = { make_JTAC2 = yes }
+	}
+	
+	"STRAT I" =
+	{
+		visible = { can_STRAT1 = yes }
+		complete_effect = { make_STRAT1 = yes }
+	}
+	
+	"STRAT II" =
+	{
+		visible = { can_STRAT2 = yes }
+		complete_effect = { make_STRAT2 = yes }
+	}
+	
+	"STRAT III" =
+	{
+		visible = { can_STRAT3 = yes }
+		complete_effect = { make_STRAT3 = yes }
+	}
+	
+	"STRAT IV" =
+	{
+		visible = { can_STRAT4 = yes }
+		complete_effect = { make_STRAT4 = yes }
+	}
+	
+	"STRAT V" =
+	{
+		visible = { can_STRAT5 = yes }
+		complete_effect = { make_STRAT5 = yes }
+	}
+	
+	"Jet STRAT" =
+	{
+		visible = { can_JSTRAT = yes }
+		complete_effect = { make_JSTRAT = yes }
+	}
+	
+	"Heavy Fighter I" =
+	{
+		visible = { can_HF1 = yes }
+		complete_effect = { make_HF1 = yes }
+	}
+	
+	"Heavy Fighter II" =
+	{
+		visible = { can_HF2 = yes }
+		complete_effect = { make_HF2 = yes }
+	}
+	
+	"Heavy Fighter III" =
+	{
+		visible = { can_HF3 = yes }
+		complete_effect = { make_HF3 = yes }
+	}
+	
+	"GW CV Fighter" =
+	{
+		visible = { can_CV_F0 = yes }
+		complete_effect = { make_CV_F0 = yes }
+	}
+	
+	"CV Fighter I" =
+	{
+		visible = { can_CV_F1 = yes }
+		complete_effect = { make_CV_F1 = yes }
+	}
+	
+	"CV Fighter II" =
+	{
+		visible = { can_CV_F2 = yes }
+		complete_effect = { make_CV_F2 = yes }
+	}
+	
+	"CV Fighter III" =
+	{
+		visible = { can_CV_F3 = yes }
+		complete_effect = { make_CV_F3 = yes }
+	}
+	
+	"CV Fighter IV" =
+	{
+		visible = { can_CV_F4 = yes }
+		complete_effect = { make_CV_F4 = yes }
+	}
+	
+	"CV Fighter V" =
+	{
+		visible = { can_CV_F5 = yes }
+		complete_effect = { make_CV_F5 = yes }
+	}
+	
+	"CV Fighter VI" =
+	{
+		visible = { can_CV_F6 = yes }
+		complete_effect = { make_CV_F6 = yes }
+	}
+	
+	"CV Fighter VII" =
+	{
+		visible = { can_CV_F7 = yes }
+		complete_effect = { make_CV_F7 = yes }
+	}
+	
+	"CV Fighter VIII" =
+	{
+		visible = { can_CV_F8 = yes }
+		complete_effect = { make_CV_F8 = yes }
+	}
+	
+	"CV CAS I" =
+	{
+		visible = { can_CV_CAS1 = yes }
+		complete_effect = { make_CV_CAS1 = yes }
+	}
+	
+	"CV CAS II" =
+	{
+		visible = { can_CV_CAS2 = yes }
+		complete_effect = { make_CV_CAS2 = yes }
+	}
+	
+	"CV CAS III" =
+	{
+		visible = { can_CV_CAS3 = yes }
+		complete_effect = { make_CV_CAS3 = yes }
+	}
+	
+	"Naval Bomber I" =
+	{
+		visible = { can_NAV1 = yes }
+		complete_effect = { make_NAV1 = yes }
+	}
+	
+	"Naval Bomber II" =
+	{
+		visible = { can_NAV2 = yes }
+		complete_effect = { make_NAV2 = yes }
+	}
+	
+	"Naval Bomber III" =
+	{
+		visible = { can_NAV3 = yes }
+		complete_effect = { make_NAV3 = yes }
+	}
+	
+	"Naval Bomber IV" =
+	{
+		visible = { can_NAV4 = yes }
+		complete_effect = { make_NAV4 = yes }
+	}
+	
+	"Naval Bomber V" =
+	{
+		visible = { can_NAV5 = yes }
+		complete_effect = { make_NAV5 = yes }
+	}
+	
+	"Naval Bomber VI" =
+	{
+		visible = { can_NAV6 = yes }
+		complete_effect = { make_NAV6 = yes }
+	}
+	
+	"CV Jet CAS I" =
+	{
+		visible = { can_CV_JCAS1 = yes }
+		complete_effect = { make_CV_JCAS1 = yes }
+	}
+	
+	"Scout I" =
+	{
+		visible = { can_Scout1 = yes }
+		complete_effect = { make_Scout1 = yes }
+	}
+	
+	"Scout II" =
+	{
+		visible = { can_Scout2 = yes }
+		complete_effect = { make_Scout2 = yes }
+	}
+	
+	"Jet Scout I" =
+	{
+		visible = { can_JScout1 = yes }
+		complete_effect = { make_JScout1 = yes }
+	}
+	
+	"V1" =
+	{
+		visible = { can_V1 = yes }
+		complete_effect = { make_V1 = yes }
+	}
+	
+	"V2" =
+	{
+		visible = { can_V2 = yes }
+		complete_effect = { make_V2 = yes }
+	}
+	
+	"V3" =
+	{
+		visible = { can_V3 = yes }
+		complete_effect = 
+		{
+			make_V3 = yes
+			# set_rule = { CAN_USE_ROCKET_SITES_FOR_NUKES = yes }
+		}
+	}
+	
+	"V4" =
+	{
+		visible = { can_V4 = yes }
+		complete_effect = { make_V4 = yes }
+	}
+	
+	"V5" =
+	{
+		visible = { can_V5 = yes }
+		complete_effect = { make_V5 = yes }
+	}
+	
+	"V6" =
+	{
+		visible = { can_V6 = yes }
+		complete_effect = { make_V6 = yes }
+	}
+	
+	"V7" =
+	{
+		visible = { can_V7 = yes }
+		complete_effect = { make_V7 = yes }
+	}
+}

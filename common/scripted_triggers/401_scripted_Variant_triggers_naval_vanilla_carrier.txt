@@ -1,0 +1,54 @@
+# Carrier Ships - CV, CVN, CLV
+# This file contains the checks for the decisions
+
+	can_CV0 =
+	{
+		has_tech = early_ship_hull_carrier	#MtG and only MtG!
+		has_dlc = "Man the Guns"
+		NOT = { has_country_flag = has_CV0 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_CV1 =
+	{
+		OR =
+		{
+			has_tech = early_carrier			#Vanilla
+			has_tech = early_ship_hull_carrier	#MtG
+		}
+		NOT = { has_country_flag = has_CV1 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_CV2 =
+	{	
+		OR =
+		{
+			has_tech = basic_carrier			#Vanilla
+			has_tech = basic_ship_hull_carrier	#MtG
+		}
+		NOT = { has_country_flag = has_CV2 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_CV3 =
+	{	
+		OR =
+		{
+			has_tech = improved_carrier				#Vanilla
+			has_tech = improved_ship_hull_carrier	#MtG
+		}
+		NOT = { has_country_flag = has_CV3 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_CV4 =
+	{	
+		OR =
+		{
+			has_tech = advanced_carrier				#Vanilla
+			has_tech = advanced_ship_hull_carrier	#MtG
+		}
+		NOT = { has_country_flag = has_CV4 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}

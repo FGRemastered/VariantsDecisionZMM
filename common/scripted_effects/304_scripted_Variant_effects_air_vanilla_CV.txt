@@ -1,0 +1,187 @@
+# Carrier Planes - FIG, CAS
+# This file contains the creation of the variants, so it can be called from anywhere it's needed.
+
+	make_CV_F0 =
+	{
+		set_country_flag = has_CV_F0
+		hidden_effect = 
+		{
+			set_technology = 
+			{
+				cv_early_fighter = 1 
+				popup = no
+			}
+		}
+		create_equipment_variant = 
+		{
+			name = "Fokker D.3T"
+			type = cv_fighter_equipment_0
+			upgrades = 
+			{
+				cv_plane_gun_upgrade = 50
+				cv_plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 135
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_CV_F1 =
+	{
+		set_country_flag = has_CV_F1
+		hidden_effect = 
+		{
+			set_technology = 
+			{
+				cv_fighter1 = 1 
+				popup = no
+			}
+		}
+		create_equipment_variant = 
+		{
+			name = "Bf 109T"
+			type = cv_fighter_equipment_1
+			upgrades = 
+			{
+				cv_plane_gun_upgrade = 50
+				cv_plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 135
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_CV_F2 =
+	{
+		set_country_flag = has_CV_F2
+		hidden_effect = 
+		{
+			set_technology = 
+			{
+				cv_fighter2 = 1 
+				popup = no
+			}
+		}
+		create_equipment_variant = 
+		{
+			name = "Fw 190T"
+			type = cv_fighter_equipment_2
+			upgrades = 
+			{
+				cv_plane_gun_upgrade = 50
+				cv_plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 135
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_CV_F3 =
+	{
+		set_country_flag = has_CV_F3
+		hidden_effect = 
+		{
+			set_technology = 
+			{
+				cv_fighter3 = 1 
+				popup = no
+			}
+		}
+		create_equipment_variant = 
+		{
+			name = "Fw 190T E"
+			type = cv_fighter_equipment_3
+			upgrades = 
+			{
+				cv_plane_gun_upgrade = 50
+				cv_plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 135
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_CV_CAS1 =
+	{
+		set_country_flag = has_CV_CAS1
+		hidden_effect = 
+		{
+			set_technology = 
+			{
+				cv_CAS1 = 1 
+				popup = no
+			}
+		}
+		create_equipment_variant = 
+		{
+			name = "Ju 87T"
+			type = cv_CAS_equipment_1
+			upgrades = 
+			{
+				plane_cas_upgrade = 50
+				cv_plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 110
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_CV_CAS2 =
+	{
+		set_country_flag = has_CV_CAS2
+		hidden_effect = 
+		{
+			set_technology = 
+			{
+				cv_CAS2 = 1
+				popup = no
+			}
+		}
+		create_equipment_variant = 
+		{
+			name = "Ju 87T G"
+			type = cv_CAS_equipment_2
+			upgrades = 
+			{
+				plane_cas_upgrade = 50
+				cv_plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 110
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_CV_CAS3 =
+	{
+		set_country_flag = has_CV_CAS3
+		hidden_effect = 
+		{
+			set_technology = 
+			{
+				cv_CAS3 = 1
+				popup = no
+			}
+		}
+		create_equipment_variant = 
+		{
+			name = "Ju 287T"
+			type = cv_CAS_equipment_3
+			upgrades = 
+			{
+				plane_cas_upgrade = 50
+				cv_plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 110
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	
+	

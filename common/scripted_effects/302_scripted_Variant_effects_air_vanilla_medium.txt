@@ -1,0 +1,199 @@
+# Medium Planes - TAC, HF, Scout
+# This file contains the creation of the variants, so it can be called from anywhere it's needed.
+
+	make_TAC0 =
+	{
+		set_country_flag = has_TAC0
+		create_equipment_variant = 
+		{
+			name = "Do 23"
+			type = tac_bomber_equipment_0
+			upgrades = 
+			{
+				plane_tac_bomb_upgrade = 50
+				plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 110
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_TAC1 =
+	{
+		set_country_flag = has_TAC1
+		create_equipment_variant = 
+		{
+			name = "Ju 88"
+			type = tac_bomber_equipment_1
+			upgrades = 
+			{
+				plane_tac_bomb_upgrade = 50
+				plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 110
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_TAC2 =
+	{
+		set_country_flag = has_TAC2
+		create_equipment_variant = 
+		{
+			name = "Ju 188"
+			type = tac_bomber_equipment_2
+			upgrades = 
+			{
+				plane_tac_bomb_upgrade = 50
+				plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 110
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_TAC3 =
+	{
+		set_country_flag = has_TAC3
+		create_equipment_variant = 
+		{
+			name = "Ju 288"
+			type = tac_bomber_equipment_3
+			upgrades = 
+			{
+				plane_tac_bomb_upgrade = 50
+				plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 110
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_JTAC1 =
+	{
+		set_country_flag = has_JTAC1
+		create_equipment_variant = 
+		{
+			name = "Düsenbomber I"
+			type = jet_tac_bomber_equipment_1
+			upgrades = 
+			{
+				plane_tac_bomb_upgrade = 50
+				plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 110
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_JTAC2 =
+	{
+		set_country_flag = has_JTAC2
+		create_equipment_variant = 
+		{
+			name = "Blitzbomber"
+			type = jet_tac_bomber_equipment_2
+			upgrades = 
+			{
+				plane_tac_bomb_upgrade = 50
+				plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 110
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_HF1 =
+	{
+		set_country_flag = has_HF1
+		create_equipment_variant = 
+		{
+			name = "Bf 110"
+			type = heavy_fighter_equipment_1
+			upgrades = 
+			{
+				plane_gun_upgrade = 50
+				plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 110
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_HF2 =
+	{
+		set_country_flag = has_HF2
+		create_equipment_variant = 
+		{
+			name = "Hornisse"
+			type = heavy_fighter_equipment_2
+			upgrades = 
+			{
+				plane_gun_upgrade = 50
+				plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 110
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_HF3 =
+	{
+		set_country_flag = has_HF3
+		create_equipment_variant = 
+		{
+			name = "Fw 200"
+			type = heavy_fighter_equipment_3
+			upgrades = 
+			{
+				plane_gun_upgrade = 50
+				plane_range_upgrade = 45
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 110
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_Scout1 =
+	{
+		set_country_flag = has_Scout1
+		create_equipment_variant = 
+		{
+			name = "Hs 126"
+			type = scout_plane_equipment_1
+			upgrades = 
+			{
+				plane_range_upgrade = 100
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 115
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_Scout2 = 
+	{
+		set_country_flag = has_Scout2
+		create_equipment_variant = 
+		{
+			name = "Fw 189"
+			type = scout_plane_equipment_2
+			upgrades = 
+			{
+				plane_range_upgrade = 100
+				plane_engine_upgrade = 100
+				plane_reliability_upgrade = 115
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	

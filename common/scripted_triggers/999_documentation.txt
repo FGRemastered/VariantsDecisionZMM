@@ -1,0 +1,64 @@
+# This file exists to explain my file naming scheme and for checks not meant for players' eyes
+
+# The first number is the category: 
+# 0 for the Presets
+# 1 for Small Arms and Arty
+# 2 for Tanks
+# 3 for Planes
+# 4 for Boats
+# 9 for Other/Debug
+
+# The second number is for the mod, in no particular order, but 0 is vanilla
+
+# The third is for the order they appear in the decisions
+
+	ifPlayerIsPuppetNotNSB =
+	{
+		base = 0
+		modifier =
+		{
+			any_country =
+			{
+				is_puppet_of = ROOT
+				is_ai = no
+			}
+			add = 100
+		}
+		modifier =
+		{
+			NOT = { has_DLC = "No Step Back" }
+			add = -100
+		}
+	}
+	
+	ifPlayerIsPuppet =
+	{
+		base = 0
+		modifier =
+		{
+			any_country =
+			{
+				is_puppet_of = ROOT
+				is_ai = no
+			}
+			add = 100
+		}
+	}
+	
+	notTNO =
+	{
+		OR =
+		{
+			has_start_date < 1950.01.01
+			has_start_date > 1999.12.31
+		}
+	}
+	
+	is_AT_or_not_trigger =
+	{
+		OR =
+		{
+			has_global_flag = has_vanilla
+			has_global_flag = has_mod_add_technologies
+		}
+	}

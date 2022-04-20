@@ -1,0 +1,571 @@
+#Add Technologies and Endsieg
+#This file contains the creation of the variants, so it can be called from anywhere it's needed.
+
+	make_Puma =
+	{
+		if =
+		{
+			limit =
+			{
+				NOT = { has_country_flag = has_Puma}
+			}
+			set_country_flag = has_Puma
+			if =
+			{
+				limit =
+				{
+					has_tech = advanced_light_tank_a	#Endsieg
+				}
+				hidden_effect = 
+				{
+					set_technology = 
+					{	
+						advanced_light_tank_art_a = 1
+						advanced_light_tank_td_a = 1
+						advanced_light_tank_spaa_a = 1
+						popup = no
+					}
+				}
+			}
+			if =
+			{
+				limit =
+				{
+					has_tech = light_tank4				#Add Tech
+				}
+				hidden_effect = 
+				{
+					set_technology = 
+					{	
+						light_td4	= 1
+						light_art4	= 1
+						light_spaa4	= 1
+						popup = no
+					}
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Puma"
+				type = light_tank_equipment_4
+				upgrades = 
+				{
+					tank_gun_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 1000
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "LSFL IV"
+				type = light_tank_artillery_equipment_4
+				upgrades = 
+				{
+					tank_art_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 1000
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "E-10A5"
+				type = light_tank_destroyer_equipment_4
+				upgrades = 
+				{
+					tank_at_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 1000
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Gepard 1A5"
+				type = light_tank_aa_equipment_4
+				upgrades = 
+				{
+					tank_aa_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 1000
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+		every_country =
+		{
+			limit = 
+			{
+				is_puppet_of = ROOT
+				NOT = { has_country_flag = has_Puma}
+				NOT = 
+				{
+					has_license = #Tank
+					{
+						from = OVERLORD
+						equipment = 
+						{
+							type = light_tank_equipment_4
+							version = 1
+						}
+					}
+					has_license = #SPG
+					{
+						from = OVERLORD
+						equipment = 
+						{
+							type = light_tank_artillery_equipment_4
+							version = 1
+						}
+					}
+					has_license = #TD
+					{
+						from = OVERLORD
+						equipment = 
+						{
+							type = light_tank_destroyer_equipment_4
+							version = 1
+						}
+					}
+					has_license = #SPAA
+					{
+						from = OVERLORD
+						equipment = 
+						{
+							type = light_tank_aa_equipment_4
+							version = 1
+						}
+					}
+				}
+			}
+			ROOT =
+			{
+				create_production_license =	#Tank
+				{
+					target = PREV
+					equipment = 
+					{
+						type	= light_tank_equipment_4
+						version = 1
+					}
+					cost_factor = 0
+				}
+				create_production_license =	#SPG
+				{
+					target = PREV
+					equipment = 
+					{
+						type	= light_tank_artillery_equipment_4
+						version = 1
+					}
+					cost_factor = 0
+				}
+				create_production_license =	#TD
+				{
+					target = PREV
+					equipment = 
+					{
+						type	= light_tank_destroyer_equipment_4
+						version = 1
+					}
+					cost_factor = 0
+				}
+				create_production_license =	#SPAA
+				{
+					target = PREV
+					equipment = 
+					{
+						type	= light_tank_aa_equipment_4
+						version = 1
+					}
+					cost_factor = 0
+				}
+			}
+		}
+	}
+	
+	make_Jag =
+	{
+		if =
+		{
+			limit =
+			{
+				NOT = { has_country_flag = has_Jag }
+			}
+			set_country_flag = has_Jag
+			if =
+			{
+				limit =
+				{
+					has_tech = advanced_light_tank_b	#Endsieg
+				}
+				hidden_effect = 
+				{
+					set_technology = 
+					{	
+						advanced_light_tank_art_b	= 1
+						advanced_light_tank_td_b	= 1
+						advanced_light_tank_spaa_b	= 1
+						popup = no
+					}
+				}
+			}
+			if =
+			{
+				limit =
+				{
+					has_tech = light_tank5				#Add Tech
+				}
+				hidden_effect = 
+				{
+					set_technology = 
+					{	
+						light_td5	= 1
+						light_art5	= 1
+						light_spaa5	= 1
+						popup = no
+					}
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Jaguar"
+				type = light_tank_equipment_5
+				upgrades = 
+				{
+					tank_gun_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 1000
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "LSFL V"
+				type = light_tank_artillery_equipment_5
+				upgrades = 
+				{
+					tank_art_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 1000
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "lauernder Jaguar"
+				type = light_tank_destroyer_equipment_5
+				upgrades = 
+				{
+					tank_at_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 1000
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Roland"
+				type = light_tank_aa_equipment_5
+				upgrades = 
+				{
+					tank_aa_upgrade = 20
+					tank_armor_upgrade = 15
+					tank_engine_upgrade = 1000
+					tank_reliability_upgrade = 20
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+		every_country =
+		{
+			limit = 
+			{
+				is_puppet_of = ROOT
+				NOT = { has_country_flag = has_Jag}
+				NOT = 
+				{
+					has_license = #Tank
+					{
+						from = OVERLORD
+						equipment = 
+						{
+							type = light_tank_equipment_5
+							version = 1
+						}
+					}
+					has_license = #SPG
+					{
+						from = OVERLORD
+						equipment = 
+						{
+							type = light_tank_artillery_equipment_5
+							version = 1
+						}
+					}
+					has_license = #TD
+					{
+						from = OVERLORD
+						equipment = 
+						{
+							type = light_tank_destroyer_equipment_5
+							version = 1
+						}
+					}
+					has_license = #SPAA
+					{
+						from = OVERLORD
+						equipment = 
+						{
+							type = light_tank_aa_equipment_5
+							version = 1
+						}
+					}
+				}
+			}
+			ROOT =
+			{
+				create_production_license =	#Tank
+				{
+					target = PREV
+					equipment = 
+					{
+						type	= light_tank_equipment_5
+						version = 1
+					}
+					cost_factor = 0
+				}
+				create_production_license =	#SPG
+				{
+					target = PREV
+					equipment = 
+					{
+						type	= light_tank_artillery_equipment_5
+						version = 1
+					}
+					cost_factor = 0
+				}
+				create_production_license =	#TD
+				{
+					target = PREV
+					equipment = 
+					{
+						type	= light_tank_destroyer_equipment_5
+						version = 1
+					}
+					cost_factor = 0
+				}
+				create_production_license =	#SPAA
+				{
+					target = PREV
+					equipment = 
+					{
+						type	= light_tank_aa_equipment_5
+						version = 1
+					}
+					cost_factor = 0
+				}
+			}
+		}
+	}
+	
+	make_E-75 =
+	{
+		if =
+		{
+			limit =
+			{
+				NOT = { has_country_flag = has_E-75}
+			}
+			set_country_flag = has_E-75
+			if =
+			{
+				limit =
+				{
+					has_tech = main_battle_tank_a	#Endsieg
+				}
+				hidden_effect = 
+				{
+					set_technology = 
+					{
+						main_battle_tank_td_a	= 1
+						main_battle_tank_art_a	= 1
+						main_battle_tank_spaa_a	= 1
+						popup = no
+					}
+				}
+			}
+			if =
+			{
+				limit =
+				{
+					has_tech = main_battle_tank2	#Add Tech
+				}
+				hidden_effect = 
+				{
+					set_technology = 
+					{
+						modern_td2		= 1
+						modern_art2		= 1
+						modern_spaa2	= 1
+						popup = no
+					}
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "E-75"
+				type = modern_tank_equipment_2
+				upgrades = 
+				{
+					tank_gun_upgrade = 50
+					tank_armor_upgrade = 45
+					tank_engine_upgrade = 1000
+					tank_reliability_upgrade = 50
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "WT E-75"
+				type = modern_tank_artillery_equipment_2
+				upgrades = 
+				{
+					tank_art_upgrade = 50
+					tank_armor_upgrade = 45
+					tank_engine_upgrade = 1000
+					tank_reliability_upgrade = 50
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "StuG E-75"
+				type = modern_tank_destroyer_equipment_2
+				upgrades = 
+				{
+					tank_at_upgrade = 50
+					tank_armor_upgrade = 45
+					tank_engine_upgrade = 1000
+					tank_reliability_upgrade = 50
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Kugelblitz II"
+				type = modern_tank_aa_equipment_2
+				upgrades = 
+				{
+					tank_aa_upgrade = 50
+					tank_armor_upgrade = 45
+					tank_engine_upgrade = 1000
+					tank_reliability_upgrade = 50
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+		
+		every_country =
+		{
+			limit = 
+			{
+				is_puppet_of = ROOT
+				NOT = { has_country_flag = has_E-75}
+				NOT = 
+				{
+					OR =
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = modern_tank_equipment_2
+								version = 1
+							}
+						}
+						has_license = #SPG
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = modern_tank_artillery_equipment_2
+								version = 1
+							}
+						}
+						has_license = #TD
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = modern_tank_destroyer_equipment_2
+								version = 1
+							}
+						}
+						has_license = #SPAA
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = modern_tank_aa_equipment_2
+								version = 1
+							}
+						}
+					}
+				}
+			}
+			ROOT =
+			{
+				create_production_license =	#Tank
+				{
+					target = PREV
+					equipment = 
+					{
+						type	= modern_tank_equipment_2
+						version = 1
+					}
+					cost_factor = 0
+				}
+				create_production_license =	#SPG
+				{
+					target = PREV
+					equipment = 
+					{
+						type	= modern_tank_artillery_equipment_2
+						version = 1
+					}
+					cost_factor = 0
+				}
+				create_production_license =	#TD
+				{
+					target = PREV
+					equipment = 
+					{
+						type	= modern_tank_destroyer_equipment_2
+						version = 1
+					}
+					cost_factor = 0
+				}
+				create_production_license =	#SPAA
+				{
+					target = PREV
+					equipment = 
+					{
+						type	= modern_tank_aa_equipment_2
+						version = 1
+					}
+					cost_factor = 0
+				}
+			}
+		}
+	}
+	

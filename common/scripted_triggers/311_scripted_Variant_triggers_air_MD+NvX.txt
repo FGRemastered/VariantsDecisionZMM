@@ -1,0 +1,80 @@
+# Millennium Dawn Modern Day + Novum Vexillum
+# This file contains the checks for the decisions
+
+	can_TP2 =
+	{
+		has_tech = transport_plane2
+		NOT = { has_country_flag = has_TP2 }
+	}
+	
+	can_F4 =
+	{
+		has_tech = fighter4
+		NOT = { has_country_flag = has_F4 }
+		notTNO = yes
+	}
+	
+	can_F5 =
+	{
+		has_tech = fighter5
+		NOT = { has_country_flag = has_F5 }
+		notTNO = yes
+	}
+	
+	can_F6 =
+	{
+		has_tech = fighter6
+		NOT = { has_country_flag = has_F6 }
+		notTNO = yes
+	}
+	
+	can_F7 =
+	{
+		has_tech = fighter7
+		NOT = { has_country_flag = has_F7 }
+		notTNO = yes
+	}
+	
+	can_F8 =
+	{
+		has_tech = fighter8
+		NOT = { has_country_flag = has_F8 }
+		notTNO = yes
+	}
+	
+	can_CV_F4 =
+	{
+		has_tech = fighter4
+		NOT = { has_country_flag = has_CV_F4 }
+		notTNO = yes
+	}
+	
+	can_CV_F5 =
+	{
+		has_tech = fighter5
+		NOT = { has_country_flag = has_CV_F5 }
+		notTNO = yes
+	}
+	
+	can_CV_F6 =
+	{
+		has_tech = fighter6
+		NOT = { has_country_flag = has_CV_F6 }
+		notTNO = yes
+	}
+	
+	can_CV_F7 =
+	{
+		has_tech = fighter7
+		NOT = { has_country_flag = has_CV_F7 }
+		notTNO = yes
+	}
+	
+	can_CV_F8 =
+	{
+		has_tech = fighter8
+		NOT = { has_country_flag = has_CV_F8 }
+		notTNO = yes
+	}
+	
+	

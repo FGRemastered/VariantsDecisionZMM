@@ -1,0 +1,198 @@
+# The New Order - MBT's
+# This file contains the checks for the decisions
+
+	can_TNO_E-50 =
+	{
+		NOT = { has_DLC = "No Step Back" }
+		OR =
+		{
+			AND = #ROOT can do
+			{
+				has_tech  = MBT_1950
+				NOT = { has_country_flag = has_TNO_E-50}
+			}
+			AND = #PUPPET can do
+			{
+				has_tech  = MBT_1950
+				any_country =
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_TNO_E-50}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = MBT_equipment_1
+								version = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		AND =
+		{
+			has_start_date > 1950.01.01
+			has_start_date < 1999.12.31
+		}
+	}
+	
+	can_TNO_E-75 =
+	{
+		NOT = { has_DLC = "No Step Back" }
+		OR =
+		{
+			AND = #ROOT can do
+			{
+				has_tech  = MBT_1960
+				NOT = { has_country_flag = has_TNO_E-75}
+			}
+			AND = #PUPPET can do
+			{
+				has_tech  = MBT_1960
+				any_country =
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_TNO_E-75}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = MBT_equipment_2
+								version = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		AND =
+		{
+			has_start_date > 1950.01.01
+			has_start_date < 1999.12.31
+		}
+	}
+	
+	can_TNO_Löwe =
+	{
+		NOT = { has_DLC = "No Step Back" }
+		OR =
+		{
+			AND = #ROOT can do
+			{
+				has_tech  = MBT_1970
+				NOT = { has_country_flag = has_TNO_Löwe}
+			}
+			AND = #PUPPET can do
+			{
+				has_tech  = MBT_1970
+				any_country =
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_TNO_Löwe}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = MBT_equipment_3
+								version = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		AND =
+		{
+			has_start_date > 1950.01.01
+			has_start_date < 1999.12.31
+		}
+	}
+	
+	can_TNO_Leopard2 =
+	{
+		NOT = { has_DLC = "No Step Back" }
+		OR =
+		{
+			AND = #ROOT can do
+			{
+				has_tech  = MBT_1980
+				NOT = { has_country_flag = has_TNO_Leopard2}
+			}
+			AND = #PUPPET can do
+			{
+				has_tech  = MBT_1980
+				any_country =
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_TNO_Leopard2}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = MBT_equipment_4
+								version = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		AND =
+		{
+			has_start_date > 1950.01.01
+			has_start_date < 1999.12.31
+		}
+	}
+	
+	can_TNO_Leopard2A5 =
+	{
+		OR =
+		{
+			AND = #ROOT can do
+			{
+				has_tech  = MBT_1990
+				NOT = { has_country_flag = has_TNO_Leopard2A5}
+			}
+			AND = #PUPPET can do
+			{
+				has_tech  = MBT_1990
+				any_country =
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_TNO_Leopard2A5}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = MBT_equipment_5
+								version = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		AND =
+		{
+			has_start_date > 1950.01.01
+			has_start_date < 1999.12.31
+		}
+	}
+	
+	

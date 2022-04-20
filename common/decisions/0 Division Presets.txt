@@ -1,0 +1,317 @@
+"Division Presets" =
+{
+	"Garrisson" =
+	{
+		visible = { can_Div_Garrisson = yes }
+		available = { custom_trigger_tooltip = { tooltip = "Has not clicked this button yet" can_Div_Garrisson = yes } }
+		complete_effect = { make_Div_Garrisson = yes }
+	}
+###########################################################################################################################
+###############################						Infanteriedivision						###############################
+###########################################################################################################################
+	
+	Infanteriedivision =
+	{
+		visible = { can_Div_Inf = yes }
+		available =
+		{
+			OR =
+			{
+				custom_trigger_tooltip = 
+				{
+					tooltip = "Has not clicked this button yet"
+					can_Div_L_Inf		= yes
+				}
+				custom_trigger_tooltip = 
+				{
+					tooltip = has_Trucks_tt
+					can_Div_Mot_Inf		= yes
+				}
+				custom_trigger_tooltip = 
+				{
+					tooltip = has_Mechs_tt
+					make_Div_Mech_Inf	= yes
+				}
+			}
+		}
+		complete_effect = 
+		{
+			if =
+			{
+				limit = { can_Div_Mech_Inf = yes }
+				make_Div_Mech_Inf = yes
+			}
+			else_if =
+			{
+				limit = { can_Div_Mot_Inf = yes }
+				make_Div_Mot_Inf = yes
+			}
+			else = { make_Div_L_Inf = yes }
+		}
+	}
+	
+###########################################################################################################################
+###############################						Kavalleriedivision						###############################
+###########################################################################################################################
+	
+	"Kavalleriedivision" =
+	{
+		visible =
+		{
+			OR =
+			{	
+				can_Div_L_Kav = yes
+				can_Div_M_Kav = yes
+				can_Div_H_Kav = yes
+				can_Div_S_Kav = yes
+				can_Div_N_Kav = yes
+			}
+			can_Div_Pz_MotMech = yes
+		}
+		available =
+		{
+			custom_trigger_tooltip = 
+			{
+				tooltip = has_Tanks_tt
+				OR =
+				{	
+					can_Div_L_Kav = yes
+					can_Div_M_Kav = yes
+					can_Div_H_Kav = yes
+					can_Div_S_Kav = yes
+					can_Div_N_Kav = yes
+				}
+			}
+			custom_trigger_tooltip = 
+			{
+				tooltip = has_Trucks_tt
+				can_Div_Pz_MotMech = yes
+			}
+		}
+		complete_effect = 
+		{
+			if = #Light
+			{
+				limit =
+				{
+					can_Div_L_Kav = yes
+					can_Mech = yes
+				}
+				make_Div_L_Kav_Mech = yes
+			}
+			else_if = 
+			{
+				limit =
+				{
+					can_Div_L_Kav = yes
+					can_Mech = yes
+				}
+				make_Div_L_Kav_Mot = yes
+			}
+			if = #Medium
+			{
+				limit =
+				{
+					can_Div_M_Kav = yes
+					can_Mech = yes
+				}
+				make_Div_M_Kav_Mech = yes
+			}
+			else_if = 
+			{
+				limit =
+				{
+					can_Div_M_Kav = yes
+					can_Mech = yes
+				}
+				make_Div_M_Kav_Mot = yes
+			}
+			if = #Heavy
+			{
+				limit =
+				{
+					can_Div_H_Kav = yes
+					can_Mech = yes
+				}
+				make_Div_H_Kav_Mech = yes
+			}
+			else_if = 
+			{
+				limit =
+				{
+					can_Div_H_Kav = yes
+					can_Mech = yes
+				}
+				make_Div_H_Kav_Mot = yes
+			}
+			if = #Superheavy
+			{
+				limit =
+				{
+					can_Div_S_Kav = yes
+					can_Mech = yes
+				}
+				make_Div_S_Kav_Mech = yes
+			}
+			else_if = 
+			{
+				limit =
+				{
+					can_Div_S_Kav = yes
+					can_Mech = yes
+				}
+				make_Div_S_Kav_Mot = yes
+			}
+			if = #Modern
+			{
+				limit =
+				{
+					can_Div_N_Kav = yes
+					can_Mech = yes
+				}
+				make_Div_N_Kav_Mech = yes
+			}
+			else_if = 
+			{
+				limit =
+				{
+					can_Div_N_Kav = yes
+					can_Mech = yes
+				}
+				make_Div_N_Kav_Mot = yes
+			}
+		}
+	}
+###########################################################################################################################
+###############################							Panzerdivision						###############################
+###########################################################################################################################
+	
+	"Panzerdivision" =
+	{
+		visible =
+		{
+			OR =
+			{
+				can_Div_L_Pz = yes
+				can_Div_M_Pz = yes
+				can_Div_H_Pz = yes
+				can_Div_S_Pz = yes
+				can_Div_N_Pz = yes
+			}
+			can_Div_Pz_MotMech = yes
+		}
+		available =
+		{
+			custom_trigger_tooltip = 
+			{
+				tooltip = has_TankVariants_tt
+				OR =
+				{
+					can_Div_L_Pz = yes
+					can_Div_M_Pz = yes
+					can_Div_H_Pz = yes
+					can_Div_S_Pz = yes
+					can_Div_N_Pz = yes
+				}
+			}
+			custom_trigger_tooltip = 
+			{
+				tooltip = has_Trucks_tt
+				can_Div_Pz_MotMech = yes
+			}
+		}
+		complete_effect = 
+		{
+			if = #Lights
+			{
+				limit =
+				{
+					can_Div_L_Pz = yes
+					can_Mech = yes
+				}
+				make_Div_L_Pz_Mech = yes
+			}
+			else_if =
+			{
+				limit =
+				{
+					can_Div_L_Pz = yes
+					can_Mot = yes
+				}
+				make_Div_L_Pz_Mot = yes
+			}
+			if = #Mediums
+			{
+				limit =
+				{
+					can_Div_M_Pz = yes
+					can_Mech = yes
+				}
+				make_Div_M_Pz_Mech = yes
+			}
+			else_if =
+			{
+				limit =
+				{
+					can_Div_M_Pz = yes
+					can_Mot = yes
+				}
+				make_Div_M_Pz_Mot = yes
+			}
+			if = #Heavys
+			{
+				limit =
+				{
+					can_Div_H_Pz = yes
+					can_Mech = yes
+				}
+				make_Div_H_Pz_Mech = yes
+			}
+			else_if =
+			{
+				limit =
+				{
+					can_Div_H_Pz = yes
+					can_Mot = yes
+				}
+				make_Div_H_Pz_Mot = yes
+			}
+			if = #Superheavys
+			{
+				limit =
+				{
+					can_Div_S_Pz = yes
+					can_Mech = yes
+				}
+				make_Div_S_Pz_Mech = yes
+			}
+			else_if =
+			{
+				limit =
+				{
+					can_Div_S_Pz = yes
+					can_Mot = yes
+				}
+				make_Div_S_Pz_Mot = yes
+			}
+			if = #Moderns
+			{
+				limit =
+				{
+					can_Div_N_Pz = yes
+					can_Mech = yes
+				}
+				make_Div_N_Pz_Mech = yes
+			}
+			else_if =
+			{
+				limit =
+				{
+					can_Div_N_Pz = yes
+					can_Mot = yes
+				}
+				make_Div_N_Pz_Mot = yes
+			}
+		}
+	}
+

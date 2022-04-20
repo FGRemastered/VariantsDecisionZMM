@@ -1,0 +1,60 @@
+	"Division Presets" = 
+	{
+		visible = 
+		{
+			OR =
+			{
+				has_start_date < 1950.01.01
+				has_start_date > 1999.12.31
+			}
+		}
+	}
+
+	"Small Arms and Artillery" = 
+	{
+		visible =  { always = yes }
+		icon = army_reform
+	}
+
+	"Armor Variants" =
+	{
+		visible = { always = yes }
+		icon = ger_military_buildup
+	}
+
+	"TNO Armor Variants" =
+	{
+		visible = 
+		{
+			OR =
+			{
+				has_start_date > 1950.01.01
+				has_start_date < 1999.12.31
+			}
+		}
+		icon = ger_military_buildup
+	}
+
+	"Modern Armor Variants" =
+	{
+		visible = { has_start_date > 1999.12.31 }
+		icon = ger_military_buildup
+	}
+
+	"Plane Variants" =
+	{
+		visible = { always = yes }
+		icon = generic_air
+	}
+
+	"Ship Variants" =
+	{
+		visible = { always = yes }
+		icon = generic_naval
+	}
+
+	"CheatVariants" = #Depending on how orthodox you see it, using this mod is cheating in on itself. But I think we can go further.
+	{
+		visible = { has_country_flag = VCheater }
+	}
+

@@ -1,0 +1,928 @@
+#Heavy Tanks
+#This file contains the creation of the variants, so it can be called from anywhere it's needed.
+
+	make_GrT =
+	{
+		if =
+		{
+			limit =
+			{
+				has_DLC = "No Step Back"
+				NOT = { has_country_flag = has_GrT}
+			}
+			set_country_flag = has_GrT
+			create_equipment_variant = 
+			{
+				name = "Großtraktor"
+				type = heavy_tank_chassis_1
+				modules =
+				{
+					main_armament_slot		=	tank_heavy_cannon_3
+					turret_type_slot		=	tank_heavy_three_man_tank_turret
+					suspension_type_slot	=	tank_interleaved_suspension	#Breakthrough is everything
+					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
+					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
+					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
+					special_type_slot_2		=	armor_skirts
+					special_type_slot_3		=	stabilizer
+					special_type_slot_4		=	auto_loader
+					
+				}
+				# upgrades = 
+				# {
+					# tank_gun_upgrade = 20
+					# tank_armor_upgrade = 15
+					# tank_engine_upgrade = 100
+					# tank_reliability_upgrade = 200
+					# ZMM_LAND_prod_upgrade = 119
+				# }
+			}
+			create_equipment_variant = 
+			{
+				name = "Heupferd"
+				type = heavy_tank_artillery_chassis_1
+				modules =
+				{
+					main_armament_slot		=	tank_heavy_howitzer
+					turret_type_slot		=	tank_heavy_fixed_superstructure_turret
+					suspension_type_slot	=	tank_interleaved_suspension	#Breakthrough is everything
+					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
+					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
+					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
+					special_type_slot_2		=	dozer_blade
+					special_type_slot_3		=	stabilizer
+					special_type_slot_4		=	auto_loader
+					
+				}
+				# upgrades = 
+				# {
+					# tank_art_upgrade = 20
+					# tank_armor_upgrade = 15
+					# tank_engine_upgrade = 100
+					# tank_reliability_upgrade = 200
+					# ZMM_LAND_prod_upgrade = 119
+				# }
+			}
+			create_equipment_variant = 
+			{
+				name = "Sturer Emil"
+				type = heavy_tank_destroyer_chassis_1
+				modules =
+				{
+					main_armament_slot		=	tank_super_heavy_cannon																		#tank_high_velocity_cannon_3
+					turret_type_slot		=	tank_heavy_fixed_superstructure_turret
+					suspension_type_slot	=	tank_interleaved_suspension	#Breakthrough is everything
+					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
+					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
+					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
+					special_type_slot_2		=	armor_skirts
+					special_type_slot_3		=	stabilizer
+					special_type_slot_4		=	auto_loader
+					
+				}
+				# upgrades = 
+				# {
+					# tank_at_upgrade = 20
+					# tank_armor_upgrade = 15
+					# tank_engine_upgrade = 100
+					# tank_reliability_upgrade = 200
+					# ZMM_LAND_prod_upgrade = 119
+				# }
+			}
+			create_equipment_variant = 
+			{
+				name = "SFlaK Großtraktor"
+				type = heavy_tank_aa_chassis_1
+				modules =
+				{
+					main_armament_slot		=	tank_anti_air_cannon_3
+					turret_type_slot		=	tank_heavy_three_man_tank_turret
+					suspension_type_slot	=	tank_interleaved_suspension	#Breakthrough is everything
+					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
+					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
+					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
+					special_type_slot_2		=	armor_skirts
+					special_type_slot_3		=	stabilizer
+					special_type_slot_4		=	auto_loader
+					
+				}
+				# upgrades = 
+				# {
+					# tank_aa_upgrade = 20
+					# tank_armor_upgrade = 15
+					# tank_engine_upgrade = 100
+					# tank_reliability_upgrade = 200
+					# ZMM_LAND_prod_upgrade = 119
+				# }
+			}
+			create_equipment_variant = 
+			{
+				name = "FlammPanzer GrT"
+				type = heavy_tank_flame_chassis_1
+				modules =
+				{
+					main_armament_slot		=	flamethrower
+					turret_type_slot		=	tank_heavy_three_man_tank_turret
+					suspension_type_slot	=	tank_interleaved_suspension	#Because Breakthrough is everything
+					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
+					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
+					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
+					special_type_slot_2		=	armor_skirts
+					special_type_slot_3		=	dozer_blade
+					special_type_slot_4		=	auto_loader
+					
+				}
+				# upgrades = 
+				# {
+					# tank_gun_upgrade = 20
+					# tank_armor_upgrade = 15
+					# tank_engine_upgrade = 1000
+					# tank_reliability_upgrade = 200
+					# ZMM_LAND_prod_upgrade = 119
+				# }
+			}
+		}
+		
+		if =
+		{
+			limit =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				NOT = { has_country_flag = has_GrT}
+			}
+			set_country_flag = has_GrT
+			hidden_effect = {
+				set_technology = 
+				{
+					basic_heavy_art = 1
+					basic_heavy_td = 1
+					basic_heavy_spaa = 1
+					popup = no
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Großtraktor"
+				type = heavy_tank_equipment_1
+				upgrades = 
+				{
+					tank_gun_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 200
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Heupferd"
+				type = heavy_tank_artillery_equipment_1
+				upgrades = 
+				{
+					tank_art_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 200
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Sturer Emil"
+				type = heavy_tank_destroyer_equipment_1
+				upgrades = 
+				{
+					tank_at_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 200
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "SFlaK Großtraktor"
+				type = heavy_tank_aa_equipment_1
+				upgrades = 
+				{
+					tank_aa_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 200
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+		
+		if =
+		{
+			limit = { NOT = { has_DLC = "No Step Back" } }
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_GrT}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = heavy_tank_equipment_1
+								version = 1
+							}
+						}
+						has_license = #SPG
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = heavy_tank_artillery_equipment_1
+								version = 1
+							}
+						}
+						has_license = #TD
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = heavy_tank_destroyer_equipment_1
+								version = 1
+							}
+						}
+						has_license = #SPAA
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = heavy_tank_aa_equipment_1
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= heavy_tank_equipment_1
+							version = 1
+						}
+						cost_factor = 0
+					}
+					create_production_license =	#SPG
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= heavy_tank_artillery_equipment_1
+							version = 1
+						}
+						cost_factor = 0
+					}
+					create_production_license =	#TD
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= heavy_tank_destroyer_equipment_1
+							version = 1
+						}
+						cost_factor = 0
+					}
+					create_production_license =	#SPAA
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= heavy_tank_aa_equipment_1
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	make_Pz_VI =
+	{
+		if =
+		{
+			limit =
+			{
+				has_DLC = "No Step Back"
+				NOT = { has_country_flag = has_Pz_VI}
+			}
+			set_country_flag = has_Pz_VI
+			create_equipment_variant = 
+			{
+				name = "Tiger"
+				type = heavy_tank_chassis_2
+				modules =
+				{
+					main_armament_slot		=	tank_heavy_cannon_3
+					turret_type_slot		=	tank_heavy_three_man_tank_turret
+					suspension_type_slot	=	tank_interleaved_suspension	#Breakthrough is everything
+					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
+					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
+					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
+					special_type_slot_2		=	armor_skirts
+					special_type_slot_3		=	stabilizer
+					special_type_slot_4		=	auto_loader
+					
+				}
+				# upgrades = 
+				# {
+					# tank_gun_upgrade = 20
+					# tank_armor_upgrade = 15
+					# tank_engine_upgrade = 100
+					# tank_reliability_upgrade = 200
+					# ZMM_LAND_prod_upgrade = 119
+				# }
+			}
+			create_equipment_variant = 
+			{
+				name = "Sturmtiger"
+				type = heavy_tank_artillery_chassis_2
+				modules =
+				{
+					main_armament_slot		=	tank_heavy_howitzer
+					turret_type_slot		=	tank_heavy_fixed_superstructure_turret
+					suspension_type_slot	=	tank_interleaved_suspension	#Breakthrough is everything
+					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
+					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
+					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
+					special_type_slot_2		=	dozer_blade
+					special_type_slot_3		=	stabilizer
+					special_type_slot_4		=	auto_loader
+					
+				}
+				# upgrades = 
+				# {
+					# tank_art_upgrade = 20
+					# tank_armor_upgrade = 15
+					# tank_engine_upgrade = 100
+					# tank_reliability_upgrade = 200
+					# ZMM_LAND_prod_upgrade = 119
+				# }
+			}
+			create_equipment_variant = 
+			{
+				name = "Elefant"
+				type = heavy_tank_destroyer_chassis_2
+				modules =
+				{
+					main_armament_slot		=	tank_super_heavy_cannon																		#tank_high_velocity_cannon_3
+					turret_type_slot		=	tank_heavy_fixed_superstructure_turret
+					suspension_type_slot	=	tank_interleaved_suspension	#Breakthrough is everything
+					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
+					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
+					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
+					special_type_slot_2		=	armor_skirts
+					special_type_slot_3		=	stabilizer
+					special_type_slot_4		=	auto_loader
+					
+				}
+				# upgrades = 
+				# {
+					# tank_at_upgrade = 20
+					# tank_armor_upgrade = 15
+					# tank_engine_upgrade = 100
+					# tank_reliability_upgrade = 200
+					# ZMM_LAND_prod_upgrade = 119
+				# }
+			}
+			create_equipment_variant = 
+			{
+				name = "SFlaK VI"
+				type = heavy_tank_aa_chassis_2
+				modules =
+				{
+					main_armament_slot		=	tank_anti_air_cannon_3
+					turret_type_slot		=	tank_heavy_three_man_tank_turret
+					suspension_type_slot	=	tank_interleaved_suspension	#Breakthrough is everything
+					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
+					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
+					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
+					special_type_slot_2		=	armor_skirts
+					special_type_slot_3		=	stabilizer
+					special_type_slot_4		=	auto_loader
+					
+				}
+				# upgrades = 
+				# {
+					# tank_aa_upgrade = 20
+					# tank_armor_upgrade = 15
+					# tank_engine_upgrade = 100
+					# tank_reliability_upgrade = 200
+					# ZMM_LAND_prod_upgrade = 119
+				# }
+			}
+			create_equipment_variant = 
+			{
+				name = "FlammPanzer Tiger"
+				type = heavy_tank_flame_chassis_2
+				modules =
+				{
+					main_armament_slot		=	flamethrower
+					turret_type_slot		=	tank_heavy_three_man_tank_turret
+					suspension_type_slot	=	tank_interleaved_suspension	#Because Breakthrough is everything
+					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
+					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
+					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
+					special_type_slot_2		=	armor_skirts
+					special_type_slot_3		=	dozer_blade
+					special_type_slot_4		=	auto_loader
+					
+				}
+				# upgrades = 
+				# {
+					# tank_gun_upgrade = 20
+					# tank_armor_upgrade = 15
+					# tank_engine_upgrade = 1000
+					# tank_reliability_upgrade = 200
+					# ZMM_LAND_prod_upgrade = 119
+				# }
+			}
+		}
+		
+		if =
+		{
+			limit =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				NOT = { has_country_flag = has_Pz_VI}
+			}
+			set_country_flag = has_Pz_VI
+			hidden_effect = {
+				set_technology = 
+				{
+					improved_heavy_art = 1
+					improved_heavy_td = 1
+					improved_heavy_spaa = 1
+					popup = no
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Tiger"
+				type = heavy_tank_equipment_2
+				upgrades = 
+				{
+					tank_gun_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 200
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Sturmtiger"
+				type = heavy_tank_artillery_equipment_2
+				upgrades = 
+				{
+					tank_art_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 200
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Elefant"
+				type = heavy_tank_destroyer_equipment_2
+				upgrades = 
+				{
+					tank_at_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 200
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "SFlaK VI"
+				type = heavy_tank_aa_equipment_2
+				upgrades = 
+				{
+					tank_aa_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 200
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+		if =
+		{
+			limit = { NOT = { has_DLC = "No Step Back" } }
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Pz_VI}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = heavy_tank_equipment_2
+								version = 1
+							}
+						}
+						has_license = #SPG
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = heavy_tank_artillery_equipment_2
+								version = 1
+							}
+						}
+						has_license = #TD
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = heavy_tank_destroyer_equipment_2
+								version = 1
+							}
+						}
+						has_license = #SPAA
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = heavy_tank_aa_equipment_2
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= heavy_tank_equipment_2
+							version = 1
+						}
+						cost_factor = 0
+					}
+					create_production_license =	#SPG
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= heavy_tank_artillery_equipment_2
+							version = 1
+						}
+						cost_factor = 0
+					}
+					create_production_license =	#TD
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= heavy_tank_destroyer_equipment_2
+							version = 1
+						}
+						cost_factor = 0
+					}
+					create_production_license =	#SPAA
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= heavy_tank_aa_equipment_2
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	
+	make_Pz_VI_2 =
+	{
+		if =
+		{
+			limit =
+			{
+				has_DLC = "No Step Back"
+				NOT = { has_country_flag = has_Pz_VI_2}
+			}
+			set_country_flag = has_Pz_VI_2
+			create_equipment_variant = 
+			{
+				name = "Königstiger"
+				type = heavy_tank_chassis_3
+				modules =
+				{
+					main_armament_slot		=	tank_heavy_cannon_3
+					turret_type_slot		=	tank_heavy_three_man_tank_turret
+					suspension_type_slot	=	tank_interleaved_suspension	#Breakthrough is everything
+					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
+					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
+					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
+					special_type_slot_2		=	armor_skirts
+					special_type_slot_3		=	stabilizer
+					special_type_slot_4		=	auto_loader
+					
+				}
+				# upgrades = 
+				# {
+					# tank_gun_upgrade = 20
+					# tank_armor_upgrade = 15
+					# tank_engine_upgrade = 100
+					# tank_reliability_upgrade = 200
+					# ZMM_LAND_prod_upgrade = 119
+				# }
+			}
+			create_equipment_variant = 
+			{
+				name = "GW Tiger"
+				type = heavy_tank_artillery_chassis_3
+				modules =
+				{
+					main_armament_slot		=	tank_heavy_howitzer
+					turret_type_slot		=	tank_heavy_fixed_superstructure_turret
+					suspension_type_slot	=	tank_interleaved_suspension	#Breakthrough is everything
+					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
+					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
+					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
+					special_type_slot_2		=	dozer_blade
+					special_type_slot_3		=	stabilizer
+					special_type_slot_4		=	auto_loader
+					
+				}
+				# upgrades = 
+				# {
+					# tank_art_upgrade = 20
+					# tank_armor_upgrade = 15
+					# tank_engine_upgrade = 100
+					# tank_reliability_upgrade = 200
+					# ZMM_LAND_prod_upgrade = 119
+				# }
+			}
+			create_equipment_variant = 
+			{
+				name = "Jagdtiger"
+				type = heavy_tank_destroyer_chassis_3
+				modules =
+				{
+					main_armament_slot		=	tank_super_heavy_cannon																		#tank_high_velocity_cannon_3
+					turret_type_slot		=	tank_heavy_fixed_superstructure_turret
+					suspension_type_slot	=	tank_interleaved_suspension	#Breakthrough is everything
+					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
+					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
+					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
+					special_type_slot_2		=	armor_skirts
+					special_type_slot_3		=	stabilizer
+					special_type_slot_4		=	auto_loader
+					
+				}
+				# upgrades = 
+				# {
+					# tank_at_upgrade = 20
+					# tank_armor_upgrade = 15
+					# tank_engine_upgrade = 100
+					# tank_reliability_upgrade = 200
+					# ZMM_LAND_prod_upgrade = 119
+				# }
+			}
+			create_equipment_variant = 
+			{
+				name = "SFlaK VI-2"
+				type = heavy_tank_aa_chassis_3
+				modules =
+				{
+					main_armament_slot		=	tank_anti_air_cannon_3
+					turret_type_slot		=	tank_heavy_three_man_tank_turret
+					suspension_type_slot	=	tank_interleaved_suspension	#Breakthrough is everything
+					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
+					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
+					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
+					special_type_slot_2		=	armor_skirts
+					special_type_slot_3		=	stabilizer
+					special_type_slot_4		=	auto_loader
+					
+				}
+				# upgrades = 
+				# {
+					# tank_aa_upgrade = 20
+					# tank_armor_upgrade = 15
+					# tank_engine_upgrade = 100
+					# tank_reliability_upgrade = 200
+					# ZMM_LAND_prod_upgrade = 119
+				# }
+			}
+			create_equipment_variant = 
+			{
+				name = "FlammPanzer Königstiger"
+				type = heavy_tank_flame_chassis_3
+				modules =
+				{
+					main_armament_slot		=	flamethrower
+					turret_type_slot		=	tank_heavy_three_man_tank_turret
+					suspension_type_slot	=	tank_interleaved_suspension	#Because Breakthrough is everything
+					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
+					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
+					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
+					special_type_slot_2		=	armor_skirts
+					special_type_slot_3		=	dozer_blade
+					special_type_slot_4		=	auto_loader
+					
+				}
+				# upgrades = 
+				# {
+					# tank_gun_upgrade = 20
+					# tank_armor_upgrade = 15
+					# tank_engine_upgrade = 1000
+					# tank_reliability_upgrade = 200
+					# ZMM_LAND_prod_upgrade = 119
+				# }
+			}
+		}
+		
+		if =
+		{
+			limit =
+			{
+				NOT = { has_DLC = "No Step Back" }
+				NOT = { has_country_flag = has_Pz_VI_2}
+			}
+			set_country_flag = has_Pz_VI_2
+			hidden_effect = {
+				set_technology = 
+				{
+					advanced_heavy_art = 1
+					advanced_heavy_td = 1
+					advanced_heavy_spaa = 1
+					popup = no
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Königstiger"
+				type = heavy_tank_equipment_3
+				upgrades = 
+				{
+					tank_gun_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 200
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "GW Tiger"
+				type = heavy_tank_artillery_equipment_3
+				upgrades = 
+				{
+					tank_art_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 200
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Jagdtiger"
+				type = heavy_tank_destroyer_equipment_3
+				upgrades = 
+				{
+					tank_at_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 200
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "SFlaK VI-2"
+				type = heavy_tank_aa_equipment_3
+				upgrades = 
+				{
+					tank_aa_upgrade = 95
+					tank_armor_upgrade = 90
+					tank_engine_upgrade = 200
+					tank_reliability_upgrade = 100
+					ZMM_LAND_prod_upgrade = 99
+				}
+			}
+		}
+		if =
+		{
+			limit = { NOT = { has_DLC = "No Step Back" } }
+			every_country =
+			{
+				limit = 
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Pz_VI_2}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = heavy_tank_equipment_3
+								version = 1
+							}
+						}
+						has_license = #SPG
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = heavy_tank_artillery_equipment_3
+								version = 1
+							}
+						}
+						has_license = #TD
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = heavy_tank_destroyer_equipment_3
+								version = 1
+							}
+						}
+						has_license = #SPAA
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = heavy_tank_aa_equipment_3
+								version = 1
+							}
+						}
+					}
+				}
+				ROOT =
+				{
+					create_production_license =	#Tank
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= heavy_tank_equipment_3
+							version = 1
+						}
+						cost_factor = 0
+					}
+					create_production_license =	#SPG
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= heavy_tank_artillery_equipment_3
+							version = 1
+						}
+						cost_factor = 0
+					}
+					create_production_license =	#TD
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= heavy_tank_destroyer_equipment_3
+							version = 1
+						}
+						cost_factor = 0
+					}
+					create_production_license =	#SPAA
+					{
+						target = PREV
+						equipment = 
+						{
+							type	= heavy_tank_aa_equipment_3
+							version = 1
+						}
+						cost_factor = 0
+					}
+				}
+			}
+		}
+	}
+	

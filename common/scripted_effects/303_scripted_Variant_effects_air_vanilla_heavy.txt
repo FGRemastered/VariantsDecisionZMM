@@ -1,0 +1,316 @@
+# Heavy Planes - TRA, STRAT, Rocket
+# This file contains the creation of the variants, so it can be called from anywhere it's needed.
+
+	make_TP1 =
+	{
+		if =
+		{
+			limit =
+			{
+				NOT = {has_country_flag = has_TP1}
+			}
+			set_country_flag = has_TP1
+			create_equipment_variant = 
+			{
+				name = "Ju 152"
+				type = transport_plane_equipment_1
+				upgrades = 
+				{
+					plane_range_upgrade = 190
+					plane_engine_upgrade = 200
+					plane_reliability_upgrade = 205
+					ZMM_TRA_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_STRAT1 =
+	{
+		if =
+		{
+			limit =
+			{
+				NOT = { has_country_flag = has_STRAT1 }
+			}
+			set_country_flag = has_STRAT1
+			create_equipment_variant = 
+			{
+				name = "Ju 89"
+				type = strat_bomber_equipment_1
+				upgrades = 
+				{
+					plane_bomb_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_STRAT2 =
+	{
+		if =
+		{
+			limit =
+			{
+				NOT = { has_country_flag = has_STRAT2 }
+			}
+			set_country_flag = has_STRAT2
+			create_equipment_variant = 
+			{
+				name = "Ju 189"
+				type = strat_bomber_equipment_2
+				upgrades = 
+				{
+					plane_bomb_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_STRAT3 =
+	{
+		if =
+		{
+			limit =
+			{
+				NOT = { has_country_flag = has_STRAT3 }
+			}
+			set_country_flag = has_STRAT3
+			create_equipment_variant = 
+			{
+				name = "Ju 289"
+				type = strat_bomber_equipment_3
+				upgrades = 
+				{
+					plane_bomb_upgrade = 50
+					plane_range_upgrade = 45
+					plane_engine_upgrade = 100
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_JSTRAT =
+	{
+		if =
+		{
+			limit =
+			{
+				NOT = { has_country_flag = has_JSTRAT }
+			}
+			set_country_flag = has_JSTRAT
+			create_equipment_variant = 
+			{
+				name = "Hammer"
+				type = jet_strat_bomber_equipment_1
+				upgrades = 
+				{
+					plane_bomb_upgrade = 95
+					plane_range_upgrade = 90
+					plane_engine_upgrade = 200
+					plane_reliability_upgrade = 110
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_V1 =
+	{
+		set_country_flag = has_V1
+		create_equipment_variant = 
+		{
+			name = "V1"
+			type = guided_missile_equipment_1
+			upgrades = 
+			{
+				plane_bomb_upgrade = 45
+				plane_range_upgrade = 99
+				plane_engine_upgrade = 99
+				plane_reliability_upgrade = 150
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+		create_equipment_variant = 
+		{
+			name = "Komet"
+			type = rocket_interceptor_equipment_1
+			upgrades = 
+			{
+				plane_gun_upgrade = 95
+				plane_range_upgrade = 90
+				plane_engine_upgrade = 200
+				plane_reliability_upgrade = 250
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_V2 =
+	{
+		set_country_flag = has_V2
+		create_equipment_variant = 
+		{
+			name = "V2"
+			type = guided_missile_equipment_2
+			upgrades = 
+			{
+				plane_bomb_upgrade = 45
+				plane_range_upgrade = 99
+				plane_engine_upgrade = 99
+				plane_reliability_upgrade = 150
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+		create_equipment_variant = 
+		{
+			name = "Luftfaust"
+			type = rocket_interceptor_equipment_2
+			upgrades = 
+			{
+				plane_gun_upgrade = 95
+				plane_range_upgrade = 90
+				plane_engine_upgrade = 200
+				plane_reliability_upgrade = 250
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_V3 =
+	{
+		set_country_flag = has_V3
+		create_equipment_variant = 
+		{
+			name = "V3"
+			type = guided_missile_equipment_3
+			upgrades = 
+			{
+				plane_bomb_upgrade = 45
+				plane_range_upgrade = 99
+				plane_engine_upgrade = 99
+				plane_reliability_upgrade = 150
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+		create_equipment_variant = 
+		{
+			name = "Volksjäger"
+			type = rocket_interceptor_equipment_3
+			upgrades = 
+			{
+				plane_gun_upgrade = 95
+				plane_range_upgrade = 90
+				plane_engine_upgrade = 200
+				plane_reliability_upgrade = 250
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_V4 =
+	{
+		set_country_flag = has_V4
+		create_equipment_variant = 
+		{
+			name = "V4 'Faust des Reiches'"
+			type = guided_missile_equipment_4
+			upgrades = 
+			{
+				plane_bomb_upgrade = 45
+				plane_range_upgrade = 99
+				plane_engine_upgrade = 99
+				plane_reliability_upgrade = 150
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_V5 =
+	{
+		set_country_flag = has_V5
+		if =
+		{
+			limit = { has_tech = rocket_engines_5 }
+			create_equipment_variant = 
+			{
+				name = "V5 'Atomfaust des Reiches'"
+				type = guided_missile_equipment_5
+				upgrades = 
+				{
+					plane_bomb_upgrade = 45
+					plane_range_upgrade = 99
+					plane_engine_upgrade = 99
+					plane_reliability_upgrade = 150
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+		if =
+		{
+			limit = { has_tech = nuke_rocket_engines }
+			create_equipment_variant = 
+			{
+				name = "V5 'Atomfaust des Reiches'"
+				type = icbm_missile_equipment_1
+				upgrades = 
+				{
+					plane_bomb_upgrade = 45
+					plane_range_upgrade = 99
+					plane_engine_upgrade = 99
+					plane_reliability_upgrade = 150
+					ZMM_AIR_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_V6 =
+	{
+		set_country_flag = has_V6
+		create_equipment_variant = 
+		{
+			name = "V6"
+			type = guided_missile_equipment_6
+			upgrades = 
+			{
+				plane_bomb_upgrade = 45
+				plane_range_upgrade = 99
+				plane_engine_upgrade = 99
+				plane_reliability_upgrade = 150
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	make_V7 =
+	{
+		set_country_flag = has_V7
+		create_equipment_variant = 
+		{
+			name = "V7"
+			type = guided_missile_equipment_7
+			upgrades = 
+			{
+				plane_bomb_upgrade = 45
+				plane_range_upgrade = 99
+				plane_engine_upgrade = 99
+				plane_reliability_upgrade = 150
+				ZMM_AIR_prod_upgrade = 99
+			}
+		}
+	}
+	
+	
+	
+	

@@ -1,0 +1,70 @@
+# The New Order - APC's
+# This file contains the checks for the decisions
+
+	can_TNO_Kätzchen =
+	{
+		OR =
+		{
+			AND = #ROOT can do
+			{
+				has_tech  = APC_1950
+				NOT = { has_country_flag = has_TNO_Kätzchen}
+			}
+			AND = #PUPPET can do
+			{
+				has_tech  = APC_1950
+				any_country =
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_TNO_Kätzchen}
+					NOT = 
+					{
+						has_license = #APC
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = APC_equipment_1
+								version = 1
+							}
+						}
+					}
+				}
+			}
+		}
+		AND =
+		{
+			has_start_date > 1950.01.01
+			has_start_date < 1999.12.31
+		}
+	}
+	
+	can_TNO =
+	{
+		
+	}
+	
+	can_TNO =
+	{
+		
+	}
+	
+	can_TNO =
+	{
+		
+	}
+	
+	can_TNO =
+	{
+		
+	}
+	
+	can_TNO =
+	{
+		
+	}
+	
+	can_TNO =
+	{
+		
+	}

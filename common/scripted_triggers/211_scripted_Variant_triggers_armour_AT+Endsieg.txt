@@ -1,0 +1,243 @@
+#Add Technologies and Endsieg
+#This file contains the checks for the decisions
+
+	can_Puma =
+	{
+		NOT = { has_DLC = "No Step Back" }
+		OR =
+		{
+			has_tech = advanced_light_tank_a	#Endsieg
+			has_tech = light_tank4				#Add Tech
+		}
+		any_country =
+		{
+			OR =
+			{
+				tag = ROOT
+				is_puppet_of = ROOT
+			}
+			NOT = 
+			{
+				OR =
+				{
+					has_country_flag = has_Puma
+					AND =
+					{
+						OR =
+						{
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = light_tank_equipment_4
+									version = 1
+								}
+							}
+							has_license = #Tank
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = light_tank_equipment_5
+									version = 1
+								}
+							}
+						}
+						OR =
+						{
+							has_license = #SPG
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = light_tank_artillery_equipment_4
+									version = 1
+								}
+							}
+							has_license = #SPG
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = light_tank_artillery_equipment_5
+									version = 1
+								}
+							}
+						}
+						OR =
+						{
+							has_license = #TD
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = light_tank_destroyer_equipment_4
+									version = 1
+								}
+							}
+							has_license = #TD
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = light_tank_destroyer_equipment_5
+									version = 1
+								}
+							}
+						}
+						OR =
+						{
+							has_license = #SPAA
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = light_tank_aa_equipment_4
+									version = 1
+								}
+							}
+							has_license = #SPAA
+							{
+								from = OVERLORD
+								equipment = 
+								{
+									type = light_tank_aa_equipment_5
+									version = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	can_Jag =
+	{
+		NOT = { has_DLC = "No Step Back" }
+		OR =
+		{
+			has_tech = advanced_light_tank_b	#Endsieg
+			has_tech = light_tank5				#Add Tech
+		}
+		any_country =
+		{
+			OR =
+			{
+				tag = ROOT
+				is_puppet_of = ROOT
+			}
+			NOT = 
+			{
+				OR =
+				{
+					has_country_flag = has_Jag
+					AND =
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = light_tank_equipment_5
+								version = 1
+							}
+						}
+						has_license = #SPG
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = light_tank_artillery_equipment_5
+								version = 1
+							}
+						}
+						has_license = #TD
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = light_tank_destroyer_equipment_5
+								version = 1
+							}
+						}
+						has_license = #SPAA
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = light_tank_aa_equipment_5
+								version = 1
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	can_E-75 =
+	{
+		NOT = { has_DLC = "No Step Back" }
+		OR =
+		{
+			has_tech = main_battle_tank_a	#Endsieg
+			has_tech = main_battle_tank2	#Add Tech
+		}
+		any_country =
+		{
+			OR =
+			{
+				tag = ROOT
+				is_puppet_of = ROOT
+			}
+			NOT = 
+			{
+				OR =
+				{
+					has_country_flag = has_E-75
+					AND =
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = modern_tank_equipment_2
+								version = 1
+							}
+						}
+						has_license = #SPG
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = modern_tank_artillery_equipment_2
+								version = 1
+							}
+						}
+						has_license = #TD
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = modern_tank_destroyer_equipment_2
+								version = 1
+							}
+						}
+						has_license = #SPAA
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = modern_tank_aa_equipment_2
+								version = 1
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
