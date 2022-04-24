@@ -5,7 +5,7 @@ Works with MtG, LaR and NSB on or off
 
 > Is this balanced?
 
-Heck, no! But I feel free to download the files and tweak things yourself.
+Heck, no! But feel free to download the files and tweak things yourself.
 
 > Is it fun, seeing those heavy tanks get overrun by your lights?
 
