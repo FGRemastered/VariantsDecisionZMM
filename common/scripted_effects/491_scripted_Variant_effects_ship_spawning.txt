@@ -34,103 +34,203 @@
 			#################################
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = ship_hull_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = ship_hull_light_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 		}
 	}
@@ -168,103 +268,203 @@
 			#################################
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 			create_ship = 
 			{
-				type = light_cruiser_4
-				equipment_variant = "Moderner Leichter Kreuzer"
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
 			}
 		}
 	}
@@ -693,6 +893,86 @@
 				equipment_variant = "Admiral Hipper Klasse"
 			}
 			#################################
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
+			create_ship = 
+			{
+				type = destroyer_4
+				equipment_variant = "Moderner Zerstörer"
+			}
 			create_ship = 
 			{
 				type = destroyer_4

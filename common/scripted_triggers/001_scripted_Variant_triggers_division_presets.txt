@@ -56,7 +56,24 @@
 				# NOT = { has_country_flag = has_GarrissonAC }
 			# }
 		# }
-		NOT = { has_country_flag = has_Garrisson }
+		OR = 
+		{
+			NOT = { has_country_flag = has_Garrisson }
+			AND =
+			{
+				OR = #Superheavy Tank
+				{
+					has_tech = super_heavy_tank
+					has_tech = super_heavy_tank_chassis
+					has_license = 
+					{
+						from = OVERLORD
+						archetype = super_heavy_tank_chassis
+					}
+				}
+				NOT = { has_country_flag = has_GarrissonMaus }
+			}
+		}
 	}
 	############################################################
 	can_Div_Inf =

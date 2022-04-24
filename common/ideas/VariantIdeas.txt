@@ -121,4 +121,72 @@ ideas =
 			
 		}
 	}
+	
+	general_staff_2 = 
+	{	
+		allowed = {
+			original_tag = GER
+			always = no
+		}
+
+		allowed_civil_war = { always = yes }
+
+		removal_cost = -1
+		
+		modifier = {
+			army_org_Factor						= 0.05
+			planning_speed						= 0.25
+			mobilization_speed					= 3.0
+			production_speed_supply_node_factor	= 1.00
+			production_speed_rail_way_factor	= 1.00
+		}
+	}
+	
+	GER_autarky_idea2 = 
+	{
+		allowed = {
+			original_tag = GER
+			always = no
+		}
+
+		allowed_civil_war = { always = yes }
+		
+		removal_cost = -1
+
+		picture = generic_exploit_mines
+
+		modifier = {
+			production_speed_arms_factory_factor = 0.1
+			production_speed_dockyard_factor = 0.1
+			production_speed_industrial_complex_factor = 0.1
+		}
+	}
+
+	GER_grosraumwirtschaft2 = 
+	{
+		allowed = {
+			original_tag = GER
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+		
+		removal_cost = -1
+
+		picture = generic_build_infrastructure
+
+		modifier = {
+			production_speed_buildings_factor			= 0.20
+			production_speed_infrastructure_factor		= 1.00
+			production_speed_rail_way_factor			= 1.00
+			production_speed_supply_node_factor			= 1.00
+			production_factory_efficiency_gain_factor	= 0.50
+			industrial_capacity_factory					= 0.20
+			industrial_capacity_dockyard				= 0.20
+			equipment_conversion_speed					= 0.20
+			supply_node_range							= 0.20
+		}
+	}
 }

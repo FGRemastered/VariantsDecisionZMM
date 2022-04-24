@@ -1192,7 +1192,7 @@
 			create_equipment_variant = 
 			{
 				name = "Tauchpanzer III"
-				type = medium_tank_chassis_1
+				type = medium_tank_amphibious_chassis_1
 				modules =
 				{
 					main_armament_slot		=	tank_medium_cannon_2
@@ -1201,9 +1201,9 @@
 					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
 					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
 					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
-					special_type_slot_2		=	armor_skirts
+					special_type_slot_2		=	amphibious_drive			#That's all there is to an amphibious tank
 					special_type_slot_3		=	stabilizer
-					special_type_slot_4		=	amphibious_drive			#That's all there is to an amphibious tank
+					special_type_slot_4		=	auto_loader
 					
 				}
 				# upgrades = 
@@ -1291,7 +1291,7 @@
 			create_equipment_variant = 
 			{
 				name = "Amphibienpanzer IV"
-				type = medium_tank_chassis_2
+				type = medium_tank_amphibious_chassis_2
 				modules =
 				{
 					main_armament_slot		=	tank_medium_cannon_2
@@ -1300,9 +1300,9 @@
 					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
 					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
 					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
-					special_type_slot_2		=	armor_skirts
+					special_type_slot_2		=	amphibious_drive			#That's all there is to an amphibious tank
 					special_type_slot_3		=	stabilizer
-					special_type_slot_4		=	amphibious_drive			#That's all there is to an amphibious tank
+					special_type_slot_4		=	auto_loader
 					
 				}
 				# upgrades = 
@@ -1353,7 +1353,7 @@
 			create_equipment_variant = 
 			{
 				name = "Schwimmpanther"
-				type = medium_tank_chassis_3
+				type = medium_tank_amphibious_chassis_3
 				modules =
 				{
 					main_armament_slot		=	tank_medium_cannon_2
@@ -1362,9 +1362,9 @@
 					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
 					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
 					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
-					special_type_slot_2		=	armor_skirts
+					special_type_slot_2		=	amphibious_drive			#That's all there is to an amphibious tank
 					special_type_slot_3		=	stabilizer
-					special_type_slot_4		=	amphibious_drive			#That's all there is to an amphibious tank
+					special_type_slot_4		=	auto_loader
 					
 				}
 				# upgrades = 
@@ -1392,7 +1392,7 @@
 			create_equipment_variant = 
 			{
 				name = "Amphibienpanzer VI"
-				type = heavy_tank_chassis_2
+				type = heavy_tank_amphibious_chassis_2
 				modules =
 				{
 					main_armament_slot		=	tank_medium_cannon_2
@@ -1401,9 +1401,9 @@
 					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
 					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
 					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
-					special_type_slot_2		=	armor_skirts
+					special_type_slot_2		=	amphibious_drive			#That's all there is to an amphibious tank
 					special_type_slot_3		=	stabilizer
-					special_type_slot_4		=	amphibious_drive			#That's all there is to an amphibious tank
+					special_type_slot_4		=	auto_loader
 					
 				}
 				# upgrades = 
@@ -1431,7 +1431,7 @@
 			create_equipment_variant = 
 			{
 				name = "Amphibienpanzer VI-2"
-				type = heavy_tank_chassis_3
+				type = heavy_tank_amphibious_chassis_3
 				modules =
 				{
 					main_armament_slot		=	tank_medium_cannon_2
@@ -1440,9 +1440,9 @@
 					armor_type_slot			=	tank_cast_armor				#Only the best!						#+20% production cost
 					engine_type_slot		=	tank_gas_turbine_engine		#Gotta go fast!
 					special_type_slot_1		=	tank_radio_3				#aka. the Radio slot
-					special_type_slot_2		=	armor_skirts
+					special_type_slot_2		=	amphibious_drive			#That's all there is to an amphibious tank
 					special_type_slot_3		=	stabilizer
-					special_type_slot_4		=	amphibious_drive			#That's all there is to an amphibious tank
+					special_type_slot_4		=	auto_loader
 					
 				}
 				# upgrades = 

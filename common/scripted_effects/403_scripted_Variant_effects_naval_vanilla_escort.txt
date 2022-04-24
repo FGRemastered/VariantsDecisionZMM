@@ -1,0 +1,1527 @@
+# Escort ships - CA. CL, DD
+# This file contains the creation of the variants, so it can be called from anywhere it's needed.
+
+	make_CA1 =
+	{	
+		if = 
+		{
+			limit = 
+			{
+				has_tech = early_ship_hull_cruiser	#MtG
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CA1 }
+			}
+			set_country_flag = has_CA1
+			create_equipment_variant = 
+			{
+				name = "Früher Schwerer Kreuzer"
+				type = ship_hull_cruiser_1
+				name_group = GER_CA_SIMPLE
+				role_icon_index = 1
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_medium_battery_4
+					fixed_ship_anti_air_slot 			= ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot 				= ship_radar_4
+					fixed_ship_engine_slot				= cruiser_ship_engine_4
+					fixed_ship_secondaries_slot 		= dp_ship_secondaries
+					fixed_ship_armor_slot 				= ship_armor_cruiser_4
+					
+					mid_1_custom_slot 					= ship_medium_battery_4
+					mid_2_custom_slot 					= dp_ship_secondaries
+					rear_1_custom_slot 					= ship_airplane_launcher_2
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 124 #Armor increases prod cost by 25%
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Früher Schwerer Kreuzerrumpf"
+				type = ship_hull_cruiser_1
+				role_icon_index = 1
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = early_ship_hull_cruiser	#MtG
+				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_CA1 }
+			}
+			set_country_flag = has_CA1
+			create_equipment_variant = 
+			{
+				name = "Früher Schwerer Kreuzer"
+				type = ship_hull_cruiser_1
+				name_group = GER_CA_SIMPLE
+				role_icon_index = 1
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_medium_battery_8
+					fixed_ship_anti_air_slot 			= sam_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_7	#Fire control increases prod cost by +2%
+					fixed_ship_radar_slot 				= ship_radar_8
+					fixed_ship_sonar_slot				= ship_sonar_8
+					fixed_ship_engine_slot				= cruiser_ship_nuclear_engine_2
+					fixed_ship_armor_slot 				= ship_armor_cruiser_8			#Armor increases prod cost by +16.8%
+					
+					front_1_custom_slot					= ssm_2
+					mid_1_custom_slot 					= sam_3
+					mid_2_custom_slot 					= ship_torpedo_8
+					rear_1_custom_slot 					= ship_airplane_launcher_4
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 117
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Früher Schwerer Kreuzerrumpf"
+				type = ship_hull_cruiser_1
+				role_icon_index = 1
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = early_heavy_cruiser		#Vanilla
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CA1 }
+			}
+			set_country_flag = has_CA1
+			create_equipment_variant = 
+			{
+				name = "Früher Schwerer Kreuzer"
+				type = heavy_cruiser_1
+				name_group = GER_CA_SIMPLE
+				role_icon_index = 1
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_CA2 =
+	{	
+		set_country_flag = has_CA2
+		if = 
+		{
+			limit = 
+			{
+				has_tech = basic_ship_hull_cruiser	#MtG
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CA2 }
+			}
+			set_country_flag = has_CA2
+			create_equipment_variant = 
+			{
+				name = "Einfacher Schwerer Kreuzer"
+				type = ship_hull_cruiser_2
+				name_group = GER_CA_SIMPLE
+				role_icon_index = 1
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_medium_battery_4
+					fixed_ship_anti_air_slot 			= ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot 				= ship_radar_4
+					fixed_ship_engine_slot				= cruiser_ship_engine_4
+					fixed_ship_secondaries_slot 		= dp_ship_secondaries
+					fixed_ship_armor_slot 				= ship_armor_cruiser_4
+					
+					front_1_custom_slot					= ship_medium_battery_4
+					mid_1_custom_slot 					= ship_torpedo_4
+					mid_2_custom_slot 					= dp_ship_secondaries
+					rear_1_custom_slot 					= ship_airplane_launcher_2
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 124 #Armor increases prod cost by 25%
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Einfacher Schwerer Kreuzerrumpf"
+				type = ship_hull_cruiser_2
+				role_icon_index = 1
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = basic_ship_hull_cruiser	#MtG
+				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_CA2 }
+			}
+			set_country_flag = has_CA2
+			create_equipment_variant = 
+			{
+				name = "Einfacher Schwerer Kreuzer"
+				type = ship_hull_cruiser_2
+				name_group = GER_CA_SIMPLE
+				role_icon_index = 1
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_medium_battery_8
+					fixed_ship_anti_air_slot 			= sam_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_7	#Fire control increases prod cost by +2%
+					fixed_ship_radar_slot 				= ship_radar_8
+					fixed_ship_sonar_slot				= ship_sonar_8
+					fixed_ship_engine_slot				= cruiser_ship_nuclear_engine_2
+					fixed_ship_armor_slot 				= ship_armor_cruiser_8			#Armor increases prod cost by +16.8%
+					
+					front_1_custom_slot					= ssm_2
+					mid_1_custom_slot 					= sam_3
+					mid_2_custom_slot 					= ship_torpedo_8
+					rear_1_custom_slot 					= ship_airplane_launcher_4
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 117
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Einfacher Schwerer Kreuzerrumpf"
+				type = ship_hull_cruiser_2
+				role_icon_index = 1
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = basic_heavy_cruiser #Vanilla
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CA2 }
+			}
+			set_country_flag = has_CA2
+			create_equipment_variant = 
+			{
+				name = "Einfacher Schwerer Kreuzer"
+				type = heavy_cruiser_2
+				name_group = GER_CA_SIMPLE
+				role_icon_index = 1
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_CA3 =
+	{	
+		if = 
+		{
+			limit = 
+			{
+				has_tech = improved_ship_hull_cruiser	#MtG
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CA3 }
+			}
+			set_country_flag = has_CA3
+			create_equipment_variant = 
+			{
+				name = "Verbesserter Schwerer Kreuzer"
+				type = ship_hull_cruiser_3
+				name_group = GER_CA_SIMPLE
+				role_icon_index = 1
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_medium_battery_4
+					fixed_ship_anti_air_slot 			= ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot 				= ship_radar_4
+					fixed_ship_engine_slot				= cruiser_ship_engine_4
+					fixed_ship_secondaries_slot 		= dp_ship_secondaries
+					fixed_ship_armor_slot 				= ship_armor_cruiser_4
+					
+					front_1_custom_slot					= ship_medium_battery_4
+					mid_1_custom_slot 					= ship_torpedo_4
+					mid_2_custom_slot 					= dp_ship_secondaries
+					rear_1_custom_slot 					= ship_airplane_launcher_2
+					rear_2_custom_slot					= ship_medium_battery_4
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 124 #Armor increases prod cost by 25%
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Verbesserter Schwerer Kreuzerrumpf"
+				type = ship_hull_cruiser_3
+				role_icon_index = 1
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = improved_ship_hull_cruiser	#MtG
+				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_CA3 }
+			}
+			set_country_flag = has_CA3
+			create_equipment_variant = 
+			{
+				name = "Verbesserter Schwerer Kreuzer"
+				type = ship_hull_cruiser_3
+				name_group = GER_CA_SIMPLE
+				role_icon_index = 1
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_medium_battery_8
+					fixed_ship_anti_air_slot 			= sam_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_7	#Fire control increases prod cost by +2%
+					fixed_ship_radar_slot 				= ship_radar_8
+					fixed_ship_sonar_slot				= ship_sonar_8
+					fixed_ship_engine_slot				= cruiser_ship_nuclear_engine_2
+					fixed_ship_armor_slot 				= ship_armor_cruiser_8			#Armor increases prod cost by +16.8%
+					
+					front_1_custom_slot					= ssm_2
+					mid_1_custom_slot 					= sam_3
+					mid_2_custom_slot 					= ship_torpedo_8
+					rear_1_custom_slot 					= ship_airplane_launcher_4
+					rear_2_custom_slot					= ssm_2
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 117
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Verbesserter Schwerer Kreuzerrumpf"
+				type = ship_hull_cruiser_3
+				role_icon_index = 1
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = improved_heavy_cruiser	#Vanilla
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CA3 }
+			}
+			set_country_flag = has_CA3
+			create_equipment_variant = 
+			{
+				name = "Verbesserter Schwerer Kreuzer"
+				type = heavy_cruiser_3
+				name_group = GER_CA_SIMPLE
+				role_icon_index = 1
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_CA4 =
+	{	
+		if = 
+		{
+			limit = 
+			{
+				has_tech = advanced_ship_hull_cruiser	#MtG
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CA4 }
+			}
+			set_country_flag = has_CA4
+			create_equipment_variant = 
+			{
+				name = "Admiral Hipper Klasse"
+				type = ship_hull_cruiser_4
+				name_group = GER_CA_SIMPLE
+				role_icon_index = 1
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_medium_battery_4
+					fixed_ship_anti_air_slot 			= ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot 				= ship_radar_4
+					fixed_ship_engine_slot				= cruiser_ship_engine_4
+					fixed_ship_secondaries_slot 		= dp_ship_secondaries
+					fixed_ship_armor_slot 				= ship_armor_cruiser_4
+					
+					front_1_custom_slot					= ship_medium_battery_4
+					mid_1_custom_slot 					= ship_torpedo_4
+					mid_2_custom_slot 					= dp_ship_secondaries
+					rear_1_custom_slot 					= ship_airplane_launcher_2
+					rear_2_custom_slot					= ship_medium_battery_4
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 124 #Armor increases prod cost by 25%
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Moderner Schwerer Kreuzerrumpf"
+				type = ship_hull_cruiser_4
+				role_icon_index = 1
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = advanced_ship_hull_cruiser	#MtG
+				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_CA4 }
+			}
+			set_country_flag = has_CA4
+			create_equipment_variant = 
+			{
+				name = "Admiral Hipper Klasse"
+				type = ship_hull_cruiser_4
+				name_group = GER_CA_SIMPLE
+				role_icon_index = 1
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_medium_battery_8
+					fixed_ship_anti_air_slot 			= sam_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_7	#Fire control increases prod cost by +2%
+					fixed_ship_radar_slot 				= ship_radar_8
+					fixed_ship_sonar_slot				= ship_sonar_8
+					fixed_ship_engine_slot				= cruiser_ship_nuclear_engine_2
+					fixed_ship_armor_slot 				= ship_armor_cruiser_8			#Armor increases prod cost by +16.8%
+					
+					front_1_custom_slot					= ssm_2
+					mid_1_custom_slot 					= sam_3
+					mid_2_custom_slot 					= ship_torpedo_8
+					rear_1_custom_slot 					= ship_airplane_launcher_4
+					rear_2_custom_slot					= ssm_2
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 117
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Moderner Schwerer Kreuzerrumpf"
+				type = ship_hull_cruiser_4
+				role_icon_index = 1
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = advanced_heavy_cruiser	#Vanilla
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CA4 }
+			}
+			set_country_flag = has_CA4
+			create_equipment_variant = 
+			{
+				name = "Admiral Hipper Klasse"
+				type = heavy_cruiser_4
+				name_group = GER_CA_SIMPLE
+				role_icon_index = 1
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_CL1 =
+	{	
+		if = 
+		{
+			limit = 
+			{
+				has_tech = early_ship_hull_cruiser	#MtG
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CL1 }
+			}
+			set_country_flag = has_CL1
+			create_equipment_variant = 
+			{
+				name = "Früher Leichter Kreuzer"
+				type = ship_hull_cruiser_1
+				name_group = GER_CL_SIMPLE
+				role_icon_index = 2
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_light_medium_battery_4
+					fixed_ship_anti_air_slot 			= ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_sonar_2
+					fixed_ship_radar_slot 				= ship_radar_4
+					fixed_ship_engine_slot				= cruiser_ship_engine_4
+					fixed_ship_secondaries_slot 		= dp_ship_secondaries
+					fixed_ship_armor_slot 				= ship_armor_cruiser_4
+					
+					mid_1_custom_slot 					= ship_torpedo_4
+					mid_2_custom_slot 					= ship_torpedo_4
+					rear_1_custom_slot 					= ship_airplane_launcher_2
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 124 #Armor increases prod cost by 25%
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Früher Leichter Kreuzerrumpf"
+				type = ship_hull_cruiser_1
+				role_icon_index = 2
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = early_ship_hull_cruiser	#MtG
+				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_CL1 }
+			}
+			set_country_flag = has_CL1
+			create_equipment_variant = 
+			{
+				name = "Früher Leichter Kreuzer"
+				type = ship_hull_cruiser_1
+				name_group = GER_CL_SIMPLE
+				role_icon_index = 2
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_light_medium_battery_8
+					fixed_ship_anti_air_slot 			= sam_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_7	#Fire control increases prod cost by +2%
+					fixed_ship_radar_slot 				= ship_radar_8
+					fixed_ship_sonar_slot				= ship_sonar_8
+					fixed_ship_engine_slot				= cruiser_ship_nuclear_engine_2
+					fixed_ship_armor_slot 				= ship_armor_cruiser_8			#Armor increases prod cost by +16.8%
+					
+					front_1_custom_slot					= ssm_2
+					mid_1_custom_slot 					= sam_3
+					mid_2_custom_slot 					= ship_torpedo_8
+					rear_1_custom_slot 					= ship_airplane_launcher_4
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 117
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Früher Leichter Kreuzerrumpf"
+				type = ship_hull_cruiser_1
+				role_icon_index = 2
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = early_light_cruiser	#Vanilla
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CL1 }
+			}
+			set_country_flag = has_CL1
+			create_equipment_variant = 
+			{
+				name = "Früher Leichter Kreuzer"
+				type = light_cruiser_1
+				name_group = GER_CL_SIMPLE
+				role_icon_index = 2
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_CL2 =
+	{	
+		if = 
+		{
+			limit = 
+			{
+				has_tech = basic_ship_hull_cruiser	#MtG
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CL2 }
+			}
+			set_country_flag = has_CL2
+			create_equipment_variant = 
+			{
+				name = "Einfacher Leichter Kreuzer"
+				type = ship_hull_cruiser_2
+				name_group = GER_CL_SIMPLE
+				role_icon_index = 2
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_light_medium_battery_4
+					fixed_ship_anti_air_slot 			= ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_sonar_2
+					fixed_ship_radar_slot 				= ship_radar_4
+					fixed_ship_engine_slot				= cruiser_ship_engine_4
+					fixed_ship_secondaries_slot 		= dp_ship_secondaries
+					fixed_ship_armor_slot 				= ship_armor_cruiser_4
+					
+					front_1_custom_slot					= ship_light_medium_battery_4
+					mid_1_custom_slot 					= ship_torpedo_4
+					mid_2_custom_slot 					= ship_torpedo_4
+					rear_1_custom_slot 					= ship_airplane_launcher_2
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 124 #Armor increases prod cost by 25%
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Einfacher Leichter Kreuzerrumpf"
+				type = ship_hull_cruiser_2
+				role_icon_index = 2
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = basic_ship_hull_cruiser	#MtG
+				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_CL2 }
+			}
+			set_country_flag = has_CL2
+			create_equipment_variant = 
+			{
+				name = "Einfacher Leichter Kreuzer"
+				type = ship_hull_cruiser_2
+				name_group = GER_CL_SIMPLE
+				role_icon_index = 2
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_light_medium_battery_8
+					fixed_ship_anti_air_slot 			= sam_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_7	#Fire control increases prod cost by +2%
+					fixed_ship_radar_slot 				= ship_radar_8
+					fixed_ship_sonar_slot				= ship_sonar_8
+					fixed_ship_engine_slot				= cruiser_ship_nuclear_engine_2
+					fixed_ship_armor_slot 				= ship_armor_cruiser_8			#Armor increases prod cost by +16.8%
+					
+					front_1_custom_slot					= ssm_2
+					mid_1_custom_slot 					= sam_3
+					mid_2_custom_slot 					= ship_torpedo_8
+					rear_1_custom_slot 					= ship_airplane_launcher_4
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 117
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Einfacher Leichter Kreuzerrumpf"
+				type = ship_hull_cruiser_2
+				role_icon_index = 2
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = basic_light_cruiser	#Vanilla
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CL2 }
+			}
+			set_country_flag = has_CL2
+			create_equipment_variant = 
+			{
+				name = "Einfacher Leichter Kreuzer"
+				type = light_cruiser_2
+				name_group = GER_CL_SIMPLE
+				role_icon_index = 2
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_CL3 =
+	{	
+		if = 
+		{
+			limit = 
+			{
+				has_tech = improved_ship_hull_cruiser	#MtG
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CL3 }
+			}
+			set_country_flag = has_CL3
+			create_equipment_variant = 
+			{
+				name = "Verbesserter Leichter Kreuzer"
+				type = ship_hull_cruiser_3
+				name_group = GER_CL_SIMPLE
+				role_icon_index = 2
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_light_medium_battery_4
+					fixed_ship_anti_air_slot 			= ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_sonar_2
+					fixed_ship_radar_slot 				= ship_radar_4
+					fixed_ship_engine_slot				= cruiser_ship_engine_4
+					fixed_ship_secondaries_slot 		= dp_ship_secondaries
+					fixed_ship_armor_slot 				= ship_armor_cruiser_4
+					
+					front_1_custom_slot					= ship_light_medium_battery_4
+					mid_1_custom_slot 					= ship_torpedo_4
+					mid_2_custom_slot 					= ship_torpedo_4
+					rear_1_custom_slot 					= ship_airplane_launcher_2
+					rear_2_custom_slot					= ship_depth_charge_4
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 124 #Armor increases prod cost by 25%
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Verbesserter Leichter Kreuzerrumpf"
+				type = ship_hull_cruiser_3
+				role_icon_index = 2
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = improved_ship_hull_cruiser	#MtG
+				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_CL3 }
+			}
+			set_country_flag = has_CL3
+			create_equipment_variant = 
+			{
+				name = "Verbesserter Leichter Kreuzer"
+				type = ship_hull_cruiser_3
+				name_group = GER_CL_SIMPLE
+				role_icon_index = 2
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_light_medium_battery_8
+					fixed_ship_anti_air_slot 			= sam_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_7	#Fire control increases prod cost by +2%
+					fixed_ship_radar_slot 				= ship_radar_8
+					fixed_ship_sonar_slot				= ship_sonar_8
+					fixed_ship_engine_slot				= cruiser_ship_nuclear_engine_2
+					fixed_ship_armor_slot 				= ship_armor_cruiser_8			#Armor increases prod cost by +16.8%
+					
+					front_1_custom_slot					= ssm_2
+					mid_1_custom_slot 					= sam_3
+					mid_2_custom_slot 					= ship_torpedo_8
+					rear_1_custom_slot 					= ship_airplane_launcher_4
+					rear_2_custom_slot					= ship_depth_charge_8
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 117
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Verbesserter Leichter Kreuzerrumpf"
+				type = ship_hull_cruiser_3
+				role_icon_index = 2
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = improved_light_cruiser	#Vanilla
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CL3 }
+			}
+			set_country_flag = has_CL3
+			create_equipment_variant = 
+			{
+				name = "Verbesserter Leichter Kreuzer"
+				type = light_cruiser_3
+				name_group = GER_CL_SIMPLE
+				role_icon_index = 2
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_CL4 =
+	{	
+		if = 
+		{
+			limit = 
+			{
+				has_tech = advanced_ship_hull_cruiser	#MtG
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CL4 }
+			}
+			set_country_flag = has_CL4
+			create_equipment_variant = 
+			{
+				name = "Moderner Leichter Kreuzer"
+				type = ship_hull_cruiser_4
+				name_group = GER_CL_SIMPLE
+				role_icon_index = 2
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_light_medium_battery_4
+					fixed_ship_anti_air_slot 			= ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_sonar_2
+					fixed_ship_radar_slot 				= ship_radar_4
+					fixed_ship_engine_slot				= cruiser_ship_engine_4
+					fixed_ship_secondaries_slot 		= dp_ship_secondaries
+					fixed_ship_armor_slot 				= ship_armor_cruiser_4
+					
+					front_1_custom_slot					= ship_light_medium_battery_4
+					mid_1_custom_slot 					= ship_torpedo_4
+					mid_2_custom_slot 					= ship_torpedo_4
+					rear_1_custom_slot 					= ship_airplane_launcher_2
+					rear_2_custom_slot					= ship_depth_charge_4
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 124
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Moderner Leichter Kreuzerrumpf"
+				type = ship_hull_cruiser_4
+				role_icon_index = 2
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = advanced_ship_hull_cruiser	#MtG
+				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_CL4 }
+			}
+			set_country_flag = has_CL4
+			create_equipment_variant = 
+			{
+				name = "Moderner Leichter Kreuzer"
+				type = ship_hull_cruiser_4
+				name_group = GER_CL_SIMPLE
+				role_icon_index = 2
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_light_medium_battery_8
+					fixed_ship_anti_air_slot 			= sam_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_7	#Fire control increases prod cost by +2%
+					fixed_ship_radar_slot 				= ship_radar_8
+					fixed_ship_sonar_slot				= ship_sonar_8
+					fixed_ship_engine_slot				= cruiser_ship_nuclear_engine_2
+					fixed_ship_armor_slot 				= ship_armor_cruiser_8			#Armor increases prod cost by +16.8%
+					
+					front_1_custom_slot					= ssm_2
+					mid_1_custom_slot 					= sam_3
+					mid_2_custom_slot 					= ship_torpedo_8
+					rear_1_custom_slot 					= ship_airplane_launcher_4
+					rear_2_custom_slot					= ship_depth_charge_8
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 117
+				}
+			}
+			create_equipment_variant = 
+			{
+				name = "Moderner Leichter Kreuzerrumpf"
+				type = ship_hull_cruiser_4
+				role_icon_index = 2
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = advanced_light_cruiser	#Vanilla
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CL4 }
+			}
+			set_country_flag = has_CL4
+			create_equipment_variant = 
+			{
+				name = "Moderner Leichter Kreuzer"
+				type = light_cruiser_4
+				name_group = GER_CL_SIMPLE
+				role_icon_index = 2
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_DD1 =
+	{
+		if = 
+		{
+			limit = 
+			{
+				has_tech = early_ship_hull_light	#MtG
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_DD1 }
+			}
+			set_country_flag = has_DD1
+			create_equipment_variant = 
+			{
+				name = "Früher Zerstörer"
+				type = ship_hull_light_1
+				name_group = GER_DD_HISTORICAL
+				role_icon_index = 2
+				modules =
+				{
+					fixed_ship_battery_slot 			= dp_light_battery
+					fixed_ship_anti_air_slot 			= ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_sonar_2
+					fixed_ship_radar_slot 				= ship_radar_4
+					fixed_ship_engine_slot				= light_ship_engine_4
+					fixed_ship_torpedo_slot 			= ship_torpedo_4
+					
+					mid_1_custom_slot 					= ship_torpedo_4
+					rear_1_custom_slot 					= ship_depth_charge_4
+				}
+				upgrades = 
+				{
+					ship_torpedo_upgrade = 99
+					destroyer_engine_upgrade = 200
+					ship_ASW_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = early_ship_hull_light	#MtG
+				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_DD1 }
+			}
+			set_country_flag = has_DD1
+			create_equipment_variant = 
+			{
+				name = "Früher Zerstörer"
+				type = ship_hull_light_1
+				name_group = GER_DD_HISTORICAL
+				role_icon_index = 2
+				modules =
+				{
+					fixed_ship_battery_slot 			= dp_light_battery_8
+					fixed_ship_anti_air_slot 			= ship_anti_air_8
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_7 #Fire control increases prod cost by +2%
+					fixed_ship_radar_slot 				= ship_radar_8
+					fixed_ship_sonar_slot				= ship_sonar_8
+					fixed_ship_engine_slot				= light_ship_engine_8
+					fixed_ship_torpedo_slot 			= ship_torpedo_8
+					
+					mid_1_custom_slot 					= ship_torpedo_8
+					rear_1_custom_slot 					= ship_depth_charge_8
+				}
+				upgrades = 
+				{
+					ship_torpedo_upgrade = 99
+					destroyer_engine_upgrade = 200
+					ship_ASW_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 101
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = early_destroyer		#Vanilla
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_DD1 }
+			}
+			set_country_flag = has_DD1
+			create_equipment_variant = 
+			{
+				name = "Früher Zerstörer"
+				type = destroyer_1
+				name_group = GER_DD_HISTORICAL
+				role_icon_index = 2
+				upgrades = 
+				{
+					ship_torpedo_upgrade = 99
+					destroyer_engine_upgrade = 200
+					ship_ASW_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_DD2 =
+	{
+		if = 
+		{
+			limit = 
+			{
+				has_tech = basic_ship_hull_light	#MtG
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_DD2 }
+			}
+			set_country_flag = has_DD2
+			create_equipment_variant = 
+			{
+				name = "Einfacher Zerstörer"
+				type = ship_hull_light_2
+				name_group = GER_DD_HISTORICAL
+				role_icon_index = 2
+				modules =
+				{
+					fixed_ship_battery_slot 			= dp_light_battery
+					fixed_ship_anti_air_slot 			= ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_sonar_2
+					fixed_ship_radar_slot 				= ship_radar_4
+					fixed_ship_engine_slot				= light_ship_engine_4
+					fixed_ship_torpedo_slot 			= ship_torpedo_4
+					
+					mid_1_custom_slot 					= ship_torpedo_4
+					rear_1_custom_slot 					= ship_depth_charge_4
+				}
+				upgrades = 
+				{
+					ship_torpedo_upgrade = 99
+					destroyer_engine_upgrade = 200
+					ship_ASW_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = basic_ship_hull_light	#MtG
+				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_DD2 }
+			}
+			set_country_flag = has_DD2
+			create_equipment_variant = 
+			{
+				name = "Einfacher Zerstörer"
+				type = ship_hull_light_2
+				name_group = GER_DD_HISTORICAL
+				role_icon_index = 2
+				modules =
+				{
+					fixed_ship_battery_slot 			= dp_light_battery_8
+					fixed_ship_anti_air_slot 			= ship_anti_air_8
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_7 #Fire control increases prod cost by +2%
+					fixed_ship_radar_slot 				= ship_radar_8
+					fixed_ship_sonar_slot				= ship_sonar_8
+					fixed_ship_engine_slot				= light_ship_engine_8
+					fixed_ship_torpedo_slot 			= ship_torpedo_8
+					
+					mid_1_custom_slot 					= ship_torpedo_8
+					rear_1_custom_slot 					= ship_depth_charge_8
+				}
+				upgrades = 
+				{
+					ship_torpedo_upgrade = 99
+					destroyer_engine_upgrade = 200
+					ship_ASW_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 101
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = basic_destroyer		#Vanilla
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_DD2 }
+			}
+			set_country_flag = has_DD2
+			create_equipment_variant = 
+			{
+				name = "Einfacher Zerstörer"
+				type = destroyer_2
+				name_group = GER_DD_HISTORICAL
+				role_icon_index = 2
+				upgrades = 
+				{
+					ship_torpedo_upgrade = 99
+					destroyer_engine_upgrade = 200
+					ship_ASW_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_DD3 =
+	{
+		if = 
+		{
+			limit = 
+			{
+				has_tech = improved_ship_hull_light	#MtG
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_DD3 }
+			}
+			set_country_flag = has_DD3
+			create_equipment_variant = 
+			{
+				name = "Verbesserter Zerstörer"
+				type = ship_hull_light_3
+				name_group = GER_DD_HISTORICAL
+				role_icon_index = 2
+				modules =
+				{
+					fixed_ship_battery_slot 			= dp_light_battery
+					fixed_ship_anti_air_slot 			= ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_sonar_2
+					fixed_ship_radar_slot 				= ship_radar_4
+					fixed_ship_engine_slot				= light_ship_engine_4
+					fixed_ship_torpedo_slot 			= ship_torpedo_4
+					
+					front_1_custom_slot					= ship_depth_charge_4
+					mid_1_custom_slot 					= ship_torpedo_4
+					rear_1_custom_slot 					= ship_depth_charge_4
+				}
+				upgrades = 
+				{
+					ship_torpedo_upgrade = 99
+					destroyer_engine_upgrade = 200
+					ship_ASW_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = improved_ship_hull_light	#MtG
+				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_DD3 }
+			}
+			set_country_flag = has_DD3
+			create_equipment_variant = 
+			{
+				name = "Verbesserter Zerstörer"
+				type = ship_hull_light_3
+				name_group = GER_DD_HISTORICAL
+				role_icon_index = 2
+				modules =
+				{
+					fixed_ship_battery_slot 			= dp_light_battery_8
+					fixed_ship_anti_air_slot 			= ship_anti_air_8
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_7 #Fire control increases prod cost by +2%
+					fixed_ship_radar_slot 				= ship_radar_8
+					fixed_ship_sonar_slot				= ship_sonar_8
+					fixed_ship_engine_slot				= light_ship_engine_8
+					fixed_ship_torpedo_slot 			= ship_torpedo_8
+					
+					front_1_custom_slot					= ship_depth_charge_8
+					mid_1_custom_slot 					= ship_torpedo_8
+					rear_1_custom_slot 					= ship_depth_charge_8
+				}
+				upgrades = 
+				{
+					ship_torpedo_upgrade = 99
+					destroyer_engine_upgrade = 200
+					ship_ASW_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 101
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = improved_destroyer		#Vanilla
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_DD3 }
+			}
+			set_country_flag = has_DD3
+			create_equipment_variant = 
+			{
+				name = "Verbesserter Zerstörer"
+				type = destroyer_3
+				name_group = GER_DD_HISTORICAL
+				role_icon_index = 2
+				upgrades = 
+				{
+					ship_torpedo_upgrade = 99
+					destroyer_engine_upgrade = 200
+					ship_ASW_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_DD4 =
+	{
+		if = 
+		{
+			limit = 
+			{
+				has_tech = advanced_ship_hull_light	#MtG
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_DD4 }
+			}
+			set_country_flag = has_DD4
+			create_equipment_variant = 
+			{
+				name = "Moderner Zerstörer"
+				type = ship_hull_light_4
+				name_group = GER_DD_HISTORICAL
+				role_icon_index = 2
+				modules =
+				{
+					fixed_ship_battery_slot 			= dp_light_battery
+					fixed_ship_anti_air_slot 			= ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_sonar_2
+					fixed_ship_radar_slot 				= ship_radar_4
+					fixed_ship_engine_slot				= light_ship_engine_4
+					fixed_ship_torpedo_slot 			= ship_torpedo_4
+					
+					front_1_custom_slot					= ship_depth_charge_4
+					mid_1_custom_slot 					= ship_torpedo_4
+					mid_2_custom_slot 					= ship_torpedo_4
+					rear_1_custom_slot 					= ship_depth_charge_4
+				}
+				upgrades = 
+				{
+					ship_torpedo_upgrade = 99
+					destroyer_engine_upgrade = 200
+					ship_ASW_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = advanced_ship_hull_light	#MtG
+				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_DD4 }
+			}
+			set_country_flag = has_DD4
+			create_equipment_variant = 
+			{
+				name = "Moderner Zerstörer"
+				type = ship_hull_light_4
+				name_group = GER_DD_HISTORICAL
+				role_icon_index = 2
+				modules =
+				{
+					fixed_ship_battery_slot 			= dp_light_battery_8
+					fixed_ship_anti_air_slot 			= sam_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_7	#Fire control increases prod cost by +2%
+					fixed_ship_radar_slot 				= ship_radar_8
+					fixed_ship_sonar_slot				= ship_sonar_8
+					fixed_ship_engine_slot				= light_ship_engine_8
+					fixed_ship_torpedo_slot 			= ship_torpedo_8
+					
+					front_1_custom_slot					= ship_depth_charge_8
+					mid_1_custom_slot 					= ship_torpedo_8
+					mid_2_custom_slot 					= ship_depth_charge_8
+					rear_1_custom_slot 					= ship_depth_charge_8
+				}
+				upgrades = 
+				{
+					ship_torpedo_upgrade = 99
+					destroyer_engine_upgrade = 220
+					ship_ASW_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 101
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = advanced_destroyer		#Vanilla
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_DD4 }
+			}
+			set_country_flag = has_DD4
+			create_equipment_variant = 
+			{
+				name = "Moderner Zerstörer"
+				type = destroyer_4
+				name_group = GER_DD_HISTORICAL
+				role_icon_index = 2
+				upgrades = 
+				{
+					ship_torpedo_upgrade = 99
+					destroyer_engine_upgrade = 200
+					ship_ASW_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}

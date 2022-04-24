@@ -14,112 +14,153 @@
 	
 	make_Div_Garrisson =
 	{
-		# if =
-		# {
-			# limit = 
-			# {
-				# OR =
-				# {
-					# has_tech = armored_car1
-					# has_tech = armored_car 
-					# has_license = 
-					# {
-						# from = OVERLORD
-						# archetype = armored_car_equipment
-					# }
-				# }
-			# }
-			# set_country_flag = has_GarrissonAC
-			
-		# }
-		# else =
-		# {
-			# set_country_flag = has_GarrissonC
-			
-		# }
-		set_country_flag = has_Garrisson
-		division_template =
+		if =
 		{
-			name = "Miliztrupp"
-			priority = 0
-			template_counter = 42	# Militia
-			regiments =
+			limit = { NOT = { has_country_flag = has_Garrisson } }
+			set_country_flag = has_Garrisson
+			division_template =
 			{
-				cavalry =			{x = 0 y = 0}
-				cavalry =			{x = 0 y = 1}
-				cavalry =			{x = 0 y = 2}
-				cavalry =			{x = 0 y = 3}
-				cavalry =			{x = 0 y = 4}
-				
-				cavalry =			{x = 1 y = 0}
-				cavalry =			{x = 1 y = 1}
-				cavalry =			{x = 1 y = 2}
-				cavalry =			{x = 1 y = 3}
-				cavalry =			{x = 1 y = 4}
-				
-				cavalry =			{x = 2 y = 0}
-				cavalry =			{x = 2 y = 1}
-				cavalry =			{x = 2 y = 2}
-				cavalry =			{x = 2 y = 3}
-				cavalry =			{x = 2 y = 4}
-				
-				cavalry =			{x = 3 y = 0}
-				cavalry =			{x = 3 y = 1}
-				cavalry =			{x = 3 y = 2}
-				cavalry =			{x = 3 y = 3}
-				cavalry =			{x = 3 y = 4}
-				
-				cavalry =			{x = 4 y = 0}
-				cavalry =			{x = 4 y = 1}
-				cavalry =			{x = 4 y = 2}
-				cavalry =			{x = 4 y = 3}
-				cavalry =			{x = 4 y = 4}
+				name = "Miliztrupp"
+				priority = 0
+				template_counter = 42	# Militia
+				regiments =
+				{
+					cavalry =			{x = 0 y = 0}
+					cavalry =			{x = 0 y = 1}
+					cavalry =			{x = 0 y = 2}
+					cavalry =			{x = 0 y = 3}
+					cavalry =			{x = 0 y = 4}
+					
+					cavalry =			{x = 1 y = 0}
+					cavalry =			{x = 1 y = 1}
+					cavalry =			{x = 1 y = 2}
+					cavalry =			{x = 1 y = 3}
+					cavalry =			{x = 1 y = 4}
+					
+					cavalry =			{x = 2 y = 0}
+					cavalry =			{x = 2 y = 1}
+					cavalry =			{x = 2 y = 2}
+					cavalry =			{x = 2 y = 3}
+					cavalry =			{x = 2 y = 4}
+					
+					cavalry =			{x = 3 y = 0}
+					cavalry =			{x = 3 y = 1}
+					cavalry =			{x = 3 y = 2}
+					cavalry =			{x = 3 y = 3}
+					cavalry =			{x = 3 y = 4}
+					
+					cavalry =			{x = 4 y = 0}
+					cavalry =			{x = 4 y = 1}
+					cavalry =			{x = 4 y = 2}
+					cavalry =			{x = 4 y = 3}
+					cavalry =			{x = 4 y = 4}
+				}
+				support =
+				{
+					military_police =	{x = 0 y = 0}
+				}
 			}
-			support =
+			division_template =
 			{
-				military_police =	{x = 0 y = 0}
+				name = "Militärpolizeidivision"
+				priority = 0
+				template_counter = 13	# Fist
+				regiments =
+				{
+					armored_car =		{x = 0 y = 0}
+					armored_car =		{x = 0 y = 1}
+					armored_car =		{x = 0 y = 2}
+					armored_car =		{x = 0 y = 3}
+					armored_car =		{x = 0 y = 4}
+					
+					armored_car =		{x = 1 y = 0}
+					armored_car =		{x = 1 y = 1}
+					armored_car =		{x = 1 y = 2}
+					armored_car =		{x = 1 y = 3}
+					armored_car =		{x = 1 y = 4}
+					
+					armored_car =		{x = 2 y = 0}
+					armored_car =		{x = 2 y = 1}
+					armored_car =		{x = 2 y = 2}
+					armored_car =		{x = 2 y = 3}
+					armored_car =		{x = 2 y = 4}
+					
+					armored_car =		{x = 3 y = 0}
+					armored_car =		{x = 3 y = 1}
+					armored_car =		{x = 3 y = 2}
+					armored_car =		{x = 3 y = 3}
+					armored_car =		{x = 3 y = 4}
+					
+					armored_car =		{x = 4 y = 0}
+					armored_car =		{x = 4 y = 1}
+					armored_car =		{x = 4 y = 2}
+					armored_car =		{x = 4 y = 3}
+					armored_car =		{x = 4 y = 4}
+				}
+				support =
+				{
+					military_police =	{x = 0 y = 0}
+				}
 			}
 		}
-		division_template =
+		if =
 		{
-			name = "Militärpolizeidivision"
-			priority = 0
-			template_counter = 13	# Fist
-			regiments =
-			{
-				armored_car =		{x = 0 y = 0}
-				armored_car =		{x = 0 y = 1}
-				armored_car =		{x = 0 y = 2}
-				armored_car =		{x = 0 y = 3}
-				armored_car =		{x = 0 y = 4}
-				
-				armored_car =		{x = 1 y = 0}
-				armored_car =		{x = 1 y = 1}
-				armored_car =		{x = 1 y = 2}
-				armored_car =		{x = 1 y = 3}
-				armored_car =		{x = 1 y = 4}
-				
-				armored_car =		{x = 2 y = 0}
-				armored_car =		{x = 2 y = 1}
-				armored_car =		{x = 2 y = 2}
-				armored_car =		{x = 2 y = 3}
-				armored_car =		{x = 2 y = 4}
-				
-				armored_car =		{x = 3 y = 0}
-				armored_car =		{x = 3 y = 1}
-				armored_car =		{x = 3 y = 2}
-				armored_car =		{x = 3 y = 3}
-				armored_car =		{x = 3 y = 4}
-				
-				armored_car =		{x = 4 y = 0}
-				armored_car =		{x = 4 y = 1}
-				armored_car =		{x = 4 y = 2}
-				armored_car =		{x = 4 y = 3}
-				armored_car =		{x = 4 y = 4}
+			limit = 
+			{ 
+				OR = #Superheavy Tank
+				{
+					has_tech = super_heavy_tank
+					has_tech = super_heavy_tank_chassis
+					has_license = 
+					{
+						from = OVERLORD
+						archetype = super_heavy_tank_chassis
+					}
+				}
+				NOT = { has_country_flag = has_GarrissonMaus }
 			}
-			support =
+			set_country_flag = has_GarrissonMaus
+			division_template =
 			{
-				military_police =	{x = 0 y = 0}
+				name = "Mausekolonie"
+				priority = 0
+				template_counter = 13	# Fist
+				regiments =
+				{
+					super_heavy_armor =		{x = 0 y = 0}
+					super_heavy_armor =		{x = 0 y = 1}
+					super_heavy_armor =		{x = 0 y = 2}
+					super_heavy_armor =		{x = 0 y = 3}
+					super_heavy_armor =		{x = 0 y = 4}
+					
+					super_heavy_armor =		{x = 1 y = 0}
+					super_heavy_armor =		{x = 1 y = 1}
+					super_heavy_armor =		{x = 1 y = 2}
+					super_heavy_armor =		{x = 1 y = 3}
+					super_heavy_armor =		{x = 1 y = 4}
+					
+					super_heavy_armor =		{x = 2 y = 0}
+					super_heavy_armor =		{x = 2 y = 1}
+					super_heavy_armor =		{x = 2 y = 2}
+					super_heavy_armor =		{x = 2 y = 3}
+					super_heavy_armor =		{x = 2 y = 4}
+					
+					super_heavy_armor =		{x = 3 y = 0}
+					super_heavy_armor =		{x = 3 y = 1}
+					super_heavy_armor =		{x = 3 y = 2}
+					super_heavy_armor =		{x = 3 y = 3}
+					super_heavy_armor =		{x = 3 y = 4}
+					
+					super_heavy_armor =		{x = 4 y = 0}
+					super_heavy_armor =		{x = 4 y = 1}
+					super_heavy_armor =		{x = 4 y = 2}
+					super_heavy_armor =		{x = 4 y = 3}
+					super_heavy_armor =		{x = 4 y = 4}
+				}
+				support =
+				{
+					military_police =		{x = 0 y = 0}
+				}
 			}
 		}
 	}
@@ -130,7 +171,7 @@
 		division_template =
 		{
 			name= "Leichte Infanteriedivision"
-			priority = 2
+			priority = 1
 			template_counter = 7	# Pawn
 			regiments = 
 			{
@@ -163,7 +204,7 @@
 		division_template =
 		{
 			name= "Motorisierte Infanteriedivision"
-			priority = 2
+			priority = 1
 			template_counter = 7	# Pawn
 			regiments = 
 			{
@@ -196,7 +237,7 @@
 		division_template =
 		{
 			name= "Mechanisierte Infanteriedivision"
-			priority = 2
+			priority = 1
 			template_counter = 7	# Pawn
 			regiments = 
 			{
@@ -229,7 +270,7 @@
 		division_template =
 		{
 			name= "Leichte Kavalleriedivision"
-			priority = 3
+			priority = 2
 			template_counter = 5	# Knight
 			regiments = 
 			{
@@ -237,16 +278,19 @@
 				mechanized =		{x = 0 y = 1}
 				mechanized =		{x = 0 y = 2}
 				mechanized =		{x = 0 y = 3}
+				mechanized =		{x = 0 y = 4}
 				
 				light_armor = 		{x = 1 y = 0}
 				light_armor = 		{x = 1 y = 1}
 				light_armor = 		{x = 1 y = 2}
 				light_armor = 		{x = 1 y = 3}
+				light_armor = 		{x = 1 y = 4}
 				
 				light_armor = 		{x = 2 y = 0}
 				light_armor = 		{x = 2 y = 1}
 				light_armor = 		{x = 2 y = 2}
 				light_armor = 		{x = 2 y = 3}
+				light_armor = 		{x = 2 y = 4}
 			}
 	
 			support = 
@@ -266,7 +310,7 @@
 		division_template =
 		{
 			name= "Leichte Kavalleriedivision"
-			priority = 3
+			priority = 2
 			template_counter = 5	# Knight
 			regiments = 
 			{
@@ -274,16 +318,19 @@
 				motorized =			{x = 0 y = 1}
 				motorized =			{x = 0 y = 2}
 				motorized =			{x = 0 y = 3}
+				motorized =			{x = 0 y = 4}
 				
 				light_armor = 		{x = 1 y = 0}
 				light_armor = 		{x = 1 y = 1}
 				light_armor = 		{x = 1 y = 2}
 				light_armor = 		{x = 1 y = 3}
+				light_armor = 		{x = 1 y = 4}
 				
 				light_armor = 		{x = 2 y = 0}
 				light_armor = 		{x = 2 y = 1}
 				light_armor = 		{x = 2 y = 2}
 				light_armor = 		{x = 2 y = 3}
+				light_armor = 		{x = 2 y = 4}
 			}
 	
 			support = 
@@ -303,7 +350,7 @@
 		division_template =
 		{
 			name= "Mittlere Kavalleriedivision"
-			priority = 3
+			priority = 2
 			template_counter = 5	# Knight
 			regiments = 
 			{
@@ -311,16 +358,19 @@
 				mechanized =		{x = 0 y = 1}
 				mechanized =		{x = 0 y = 2}
 				mechanized =		{x = 0 y = 3}
+				mechanized =		{x = 0 y = 4}
 				
 				medium_armor = 		{x = 1 y = 0}
 				medium_armor = 		{x = 1 y = 1}
 				medium_armor = 		{x = 1 y = 2}
 				medium_armor = 		{x = 1 y = 3}
+				medium_armor = 		{x = 1 y = 4}
 				
 				medium_armor = 		{x = 2 y = 0}
 				medium_armor = 		{x = 2 y = 1}
 				medium_armor = 		{x = 2 y = 2}
 				medium_armor = 		{x = 2 y = 3}
+				medium_armor = 		{x = 2 y = 4}
 			}
 	
 			support = 
@@ -340,7 +390,7 @@
 		division_template =
 		{
 			name= "Mittlere Kavalleriedivision"
-			priority = 3
+			priority = 2
 			template_counter = 5	# Knight
 			regiments = 
 			{
@@ -348,16 +398,19 @@
 				motorized =			{x = 0 y = 1}
 				motorized =			{x = 0 y = 2}
 				motorized =			{x = 0 y = 3}
+				motorized =			{x = 0 y = 4}
 				
 				medium_armor = 		{x = 1 y = 0}
 				medium_armor = 		{x = 1 y = 1}
 				medium_armor = 		{x = 1 y = 2}
 				medium_armor = 		{x = 1 y = 3}
+				medium_armor = 		{x = 1 y = 4}
 				
 				medium_armor = 		{x = 2 y = 0}
 				medium_armor = 		{x = 2 y = 1}
 				medium_armor = 		{x = 2 y = 2}
 				medium_armor = 		{x = 2 y = 3}
+				medium_armor = 		{x = 2 y = 4}
 			}
 	
 			support = 
@@ -377,7 +430,7 @@
 		division_template =
 		{
 			name= "Schwere Kavalleriedivision"
-			priority = 3
+			priority = 2
 			template_counter = 5	# Knight
 			regiments = 
 			{
@@ -385,16 +438,19 @@
 				mechanized =		{x = 0 y = 1}
 				mechanized =		{x = 0 y = 2}
 				mechanized =		{x = 0 y = 3}
+				mechanized =		{x = 0 y = 4}
 				
 				heavy_armor = 		{x = 1 y = 0}
 				heavy_armor = 		{x = 1 y = 1}
 				heavy_armor = 		{x = 1 y = 2}
 				heavy_armor = 		{x = 1 y = 3}
+				heavy_armor = 		{x = 1 y = 4}
 				
 				heavy_armor = 		{x = 2 y = 0}
 				heavy_armor = 		{x = 2 y = 1}
 				heavy_armor = 		{x = 2 y = 2}
 				heavy_armor = 		{x = 2 y = 3}
+				heavy_armor = 		{x = 2 y = 4}
 			}
 	
 			support = 
@@ -414,7 +470,7 @@
 		division_template =
 		{
 			name= "Schwere Kavalleriedivision"
-			priority = 3
+			priority = 2
 			template_counter = 5	# Knight
 			regiments = 
 			{
@@ -422,16 +478,19 @@
 				motorized =			{x = 0 y = 1}
 				motorized =			{x = 0 y = 2}
 				motorized =			{x = 0 y = 3}
+				motorized =			{x = 0 y = 4}
 				
 				heavy_armor = 		{x = 1 y = 0}
 				heavy_armor = 		{x = 1 y = 1}
 				heavy_armor = 		{x = 1 y = 2}
 				heavy_armor = 		{x = 1 y = 3}
+				heavy_armor = 		{x = 1 y = 4}
 				
 				heavy_armor = 		{x = 2 y = 0}
 				heavy_armor = 		{x = 2 y = 1}
 				heavy_armor = 		{x = 2 y = 2}
 				heavy_armor = 		{x = 2 y = 3}
+				heavy_armor = 		{x = 2 y = 4}
 			}
 	
 			support = 
@@ -451,7 +510,7 @@
 		division_template =
 		{
 			name= "Überschwere Kavalleriedivision"
-			priority = 3
+			priority = 2
 			template_counter = 5	# Knight
 			regiments = 
 			{
@@ -459,16 +518,19 @@
 				mechanized =		{x = 0 y = 1}
 				mechanized =		{x = 0 y = 2}
 				mechanized =		{x = 0 y = 3}
+				mechanized =		{x = 0 y = 4}
 				
 				super_heavy_armor = {x = 1 y = 0}
 				super_heavy_armor = {x = 1 y = 1}
 				super_heavy_armor = {x = 1 y = 2}
 				super_heavy_armor = {x = 1 y = 3}
+				super_heavy_armor = {x = 1 y = 4}
 				
 				super_heavy_armor = {x = 2 y = 0}
 				super_heavy_armor = {x = 2 y = 1}
 				super_heavy_armor = {x = 2 y = 2}
 				super_heavy_armor = {x = 2 y = 3}
+				super_heavy_armor = {x = 2 y = 4}
 			}
 	
 			support = 
@@ -488,7 +550,7 @@
 		division_template =
 		{
 			name= "Überschwere Kavalleriedivision"
-			priority = 3
+			priority = 2
 			template_counter = 5	# Knight
 			regiments = 
 			{
@@ -496,16 +558,19 @@
 				motorized =			{x = 0 y = 1}
 				motorized =			{x = 0 y = 2}
 				motorized =			{x = 0 y = 3}
+				motorized =			{x = 0 y = 4}
 				
 				super_heavy_armor = {x = 1 y = 0}
 				super_heavy_armor = {x = 1 y = 1}
 				super_heavy_armor = {x = 1 y = 2}
 				super_heavy_armor = {x = 1 y = 3}
+				super_heavy_armor = {x = 1 y = 4}
 				
 				super_heavy_armor = {x = 2 y = 0}
 				super_heavy_armor = {x = 2 y = 1}
 				super_heavy_armor = {x = 2 y = 2}
 				super_heavy_armor = {x = 2 y = 3}
+				super_heavy_armor = {x = 2 y = 4}
 			}
 	
 			support = 
@@ -525,7 +590,7 @@
 		division_template =
 		{
 			name= "Moderne Kavalleriedivision"
-			priority = 3
+			priority = 2
 			template_counter = 5	# Knight
 			regiments = 
 			{
@@ -533,16 +598,19 @@
 				mechanized =		{x = 0 y = 1}
 				mechanized =		{x = 0 y = 2}
 				mechanized =		{x = 0 y = 3}
+				mechanized =		{x = 0 y = 4}
 				
 				modern_armor = 		{x = 1 y = 0}
 				modern_armor = 		{x = 1 y = 1}
 				modern_armor = 		{x = 1 y = 2}
 				modern_armor = 		{x = 1 y = 3}
+				modern_armor = 		{x = 1 y = 4}
 				
 				modern_armor = 		{x = 2 y = 0}
 				modern_armor = 		{x = 2 y = 1}
 				modern_armor = 		{x = 2 y = 2}
 				modern_armor = 		{x = 2 y = 3}
+				modern_armor = 		{x = 2 y = 4}
 			}
 	
 			support = 
@@ -562,7 +630,7 @@
 		division_template =
 		{
 			name= "Moderne Kavalleriedivision"
-			priority = 3
+			priority = 2
 			template_counter = 5	# Knight
 			regiments = 
 			{
@@ -570,16 +638,19 @@
 				motorized =			{x = 0 y = 1}
 				motorized =			{x = 0 y = 2}
 				motorized =			{x = 0 y = 3}
+				motorized =			{x = 0 y = 4}
 				
 				modern_armor = 		{x = 1 y = 0}
 				modern_armor = 		{x = 1 y = 1}
 				modern_armor = 		{x = 1 y = 2}
 				modern_armor = 		{x = 1 y = 3}
+				modern_armor = 		{x = 1 y = 4}
 				
 				modern_armor = 		{x = 2 y = 0}
 				modern_armor = 		{x = 2 y = 1}
 				modern_armor = 		{x = 2 y = 2}
 				modern_armor = 		{x = 2 y = 3}
+				modern_armor = 		{x = 2 y = 4}
 			}
 	
 			support = 
@@ -599,7 +670,7 @@
 		division_template =
 		{
 			name= "Leichte Panzerdivision"
-			priority = 3
+			priority = 2
 			template_counter = 6	# Rook
 			regiments = 
 			{
@@ -645,7 +716,7 @@
 		division_template =
 		{
 			name= "Leichte Panzerdivision"
-			priority = 3
+			priority = 2
 			template_counter = 6	# Rook
 			regiments = 
 			{
@@ -691,7 +762,7 @@
 		division_template =
 		{
 			name= "Mittlere Panzerdivision"
-			priority = 3
+			priority = 2
 			template_counter = 6	# Rook
 			regiments = 
 			{
@@ -738,7 +809,7 @@
 		division_template =
 		{
 			name= "Mittlere Panzerdivision"
-			priority = 3
+			priority = 2
 			template_counter = 6	# Rook
 			regiments = 
 			{
@@ -785,7 +856,7 @@
 		division_template =
 		{
 			name= "Schwere Panzerdivision"
-			priority = 3
+			priority = 2
 			template_counter = 6	# Rook
 			regiments = 
 			{
@@ -832,7 +903,7 @@
 		division_template =
 		{
 			name= "Schwere Panzerdivision"
-			priority = 3
+			priority = 2
 			template_counter = 6	# Rook
 			regiments = 
 			{
@@ -879,7 +950,7 @@
 		division_template =
 		{
 			name= "Überschwere Panzerdivision"
-			priority = 3
+			priority = 2
 			template_counter = 6	# Rook
 			regiments = 
 			{
@@ -926,7 +997,7 @@
 		division_template =
 		{
 			name= "Überschwere Panzerdivision"
-			priority = 3
+			priority = 2
 			template_counter = 6	# Rook
 			regiments = 
 			{
@@ -973,7 +1044,7 @@
 		division_template =
 		{
 			name= "Moderne Panzerdivision"
-			priority = 3
+			priority = 2
 			template_counter = 6	# Rook
 			regiments = 
 			{
@@ -1020,7 +1091,7 @@
 		division_template =
 		{
 			name= "Moderne Panzerdivision"
-			priority = 3
+			priority = 2
 			template_counter = 6	# Rook
 			regiments = 
 			{

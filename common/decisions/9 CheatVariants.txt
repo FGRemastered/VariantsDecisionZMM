@@ -25,11 +25,7 @@
 			custom_trigger_tooltip = 
 			{
 				tooltip = "Select whether you use Add Technologies or not in the Ship Variants!"
-				OR =
-				{
-					has_global_flag = has_vanilla
-					has_global_flag = has_Add_Tech
-				}
+				is_AT_or_not_trigger = yes
 			}
 		}
 		complete_effect =
@@ -40,18 +36,15 @@
 				{
 					has_DLC = "Man the Guns"
 					has_global_flag = has_Vanilla
-					NOT =
+					NOT =	# The NOT trigger is also an AND trigger, you dumb fuck.
 					{
-						AND =
-						{
-							has_tech = early_ship_hull_carrier
-							has_tech = advanced_ship_hull_carrier
-							has_tech = ship_hull_super_heavy
-							has_tech = advanced_ship_hull_heavy
-							has_tech = advanced_ship_hull_cruiser
-							has_tech = advanced_ship_hull_light
-							has_tech = advanced_ship_hull_submarine
-						}
+						has_tech = early_ship_hull_carrier
+						has_tech = advanced_ship_hull_carrier
+						has_tech = ship_hull_super_heavy
+						has_tech = advanced_ship_hull_heavy
+						has_tech = advanced_ship_hull_cruiser
+						has_tech = advanced_ship_hull_light
+						has_tech = advanced_ship_hull_submarine
 					}
 				}
 				set_technology =
@@ -68,25 +61,32 @@
 					
 					popup = no
 				}
+				make_CV0	= yes
+				make_CV4	= yes
+				make_SHBB1	= yes
+				make_BB4	= yes
+				make_BC4	= yes
+				make_CA4	= yes
+				make_CL4	= yes
+				make_DD4	= yes
+				make_SS4	= yes
+				make_SC		= yes
 			}
 			if =	#Add Tech
 			{
 				limit = 
 				{
 					has_DLC = "Man the Guns"
-					has_global_flag = has_Add_Tech
-					NOT =
+					has_global_flag = has_mod_add_technologies
+					NOT =	# The NOT trigger is also an AND trigger, you dumb fuck.
 					{
-						AND =
-						{
-							has_tech = early_ship_hull_carrier
-							has_tech = advanced_ship_hull_carrier
-							has_tech = tech_ship_hull_super_heavy_2
-							has_tech = advanced_ship_hull_heavy
-							has_tech = advanced_ship_hull_cruiser
-							has_tech = advanced_ship_hull_light
-							has_tech = advanced_ship_hull_submarine
-						}
+						has_tech = early_ship_hull_carrier
+						has_tech = advanced_ship_hull_carrier
+						has_tech = tech_ship_hull_super_heavy_2
+						has_tech = advanced_ship_hull_heavy
+						has_tech = advanced_ship_hull_cruiser
+						has_tech = advanced_ship_hull_light
+						has_tech = advanced_ship_hull_submarine
 					}
 				}
 				set_technology =
@@ -102,6 +102,16 @@
 					
 					popup = no
 				}
+				make_CV0	= yes
+				make_CV4	= yes
+				make_SHBB2	= yes
+				make_BB4	= yes
+				make_BC4	= yes
+				make_CA4	= yes
+				make_CL4	= yes
+				make_DD4	= yes
+				make_SS4	= yes
+				make_SC		= yes
 			}
 			if =	#Vanilla
 			{
@@ -111,16 +121,13 @@
 					NOT =
 					{
 						has_DLC = "Man the Guns"
-						OR =
-						{
-							has_tech = advanced_carrier
-							has_tech = heavy_battleship2
-							has_tech = basic_battlecruiser
-							has_tech = advanced_heavy_cruiser
-							has_tech = advanced_light_cruiser
-							has_tech = advanced_destroyer
-							has_tech = advanced_submarine
-						}
+						has_tech = advanced_carrier
+						has_tech = heavy_battleship2
+						has_tech = basic_battlecruiser
+						has_tech = advanced_heavy_cruiser
+						has_tech = advanced_light_cruiser
+						has_tech = advanced_destroyer
+						has_tech = advanced_submarine
 					}
 				}
 				set_technology =
@@ -135,50 +142,83 @@
 					
 					popup = no
 				}
+				make_CV4	= yes
+				make_SHBB2	= yes
+				make_BB4	= yes
+				make_BC4	= yes
+				make_CA4	= yes
+				make_CL4	= yes
+				make_DD4	= yes
+				make_SS4	= yes
 			}
-			activate_decision = "CV 0"
-			activate_decision = "CV IV"
-			activate_decision = "CA IV"
-			activate_decision = "DD IV"
-			activate_decision = "SH BB I"
-			activate_decision = "SH BB II"
-			activate_decision = "CL IV"
-			activate_decision = "BB IV"
-			activate_decision = "Cruiser Submarine (SC)"
-			activate_decision = "SS IV"
 			
-			#set_country_flag = has_CV0
 			set_country_flag = has_CV1
 			set_country_flag = has_CV2
 			set_country_flag = has_CV3
-			#set_country_flag = has_CV4
-			#set_country_flag = has_SH_BB1
-			#set_country_flag = has_SH_BB2
 			set_country_flag = has_BB1
 			set_country_flag = has_BB2
 			set_country_flag = has_BB3
-			#set_country_flag = has_BB4
 			set_country_flag = has_BC1
 			set_country_flag = has_BC2
 			set_country_flag = has_CA1
 			set_country_flag = has_CA2
 			set_country_flag = has_CA3
-			#set_country_flag = has_CA4
 			set_country_flag = has_CL1
 			set_country_flag = has_CL2
 			set_country_flag = has_CL3
-			#set_country_flag = has_CL4
 			set_country_flag = has_DD1
 			set_country_flag = has_DD2
 			set_country_flag = has_DD3
-			#set_country_flag = has_DD4
 			set_country_flag = has_SS1
 			set_country_flag = has_SS2
 			set_country_flag = has_SS3
-			#set_country_flag = has_SS4
-			#set_country_flag = has_SC
+			set_country_flag = has_preDN
+			set_country_flag = has_PzS
+			set_country_flag = has_CDS
+			set_country_flag = has_CLT
 			
 			set_country_flag = has_good_Ships
+		}
+	}
+	"Hochseeflotte" =
+	{
+		visible	= 
+		{
+			has_country_flag = has_good_Ships
+			NOT = { has_country_flag = has_Hochseeflotte }
+		}
+		available = 
+		{
+			custom_trigger_tooltip = 
+			{
+				tooltip = "Only available once you have Carrier Variants of Fighter 1, CAS 1 and Naval-Bomber 1"
+				has_country_flag = has_CV_F1
+				has_country_flag = has_CV_CAS1
+				has_country_flag = has_NAV1
+			}
+		}
+		complete_effect = 
+		{ 
+			if =
+			{
+				limit = { has_dlc = "Man the Guns" }
+				custom_effect_tooltip = "Spawn the Hochseeflotte! ( MtG - Version )"
+				hidden_effect = 
+				{
+					load_oob = "make_Hochseeflotte_MtG"
+					set_country_flag = has_Hochseeflotte
+				}
+			}
+			if =
+			{
+				limit = { NOT = { has_dlc = "Man the Guns" } }
+				custom_effect_tooltip = "Spawn the Hochseeflotte! ( Legacy - Version )"
+				hidden_effect = 
+				{
+					load_oob = "make_Hochseeflotte"
+					set_country_flag = has_Hochseeflotte
+				}
+			}
 		}
 	}
 	"Trägerflottille" =
@@ -209,7 +249,7 @@
 				{
 					has_dlc = "Man the Guns"
 					has_global_flag = has_vanilla
-					NOT = { has_tech = ship_hull_super_heavy2 }	#MtG
+					NOT = { has_tech = ship_hull_super_heavy2 }	# MtG (Used to exclude NVx)
 				}
 				make_BB_Flottilla_MtG = yes
 			}
@@ -229,7 +269,7 @@
 					has_dlc = "Man the Guns"
 					OR =
 					{
-						has_global_flag = has_Add_Tech		#AT
+						has_global_flag = has_mod_add_technologies		#AT
 						has_tech = ship_hull_super_heavy2	#NVx
 					}
 				}

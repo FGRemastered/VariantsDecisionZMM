@@ -1,0 +1,476 @@
+# Submarines - SS, SC
+# This file contains the creation of the variants, so it can be called from anywhere it's needed.
+
+	make_SS1 =
+	{
+		if = 
+		{
+			limit = 
+			{
+				has_tech = early_ship_hull_submarine	#MtG
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_SS1 }
+			}
+			set_country_flag = has_SS1
+			create_equipment_variant = 
+			{
+				name = "Badewanne"
+				type = ship_hull_submarine_1
+				name_group = GER_SS_SIMPLE
+				role_icon_index = 6
+				modules =
+				{
+					fixed_ship_engine_slot				= sub_ship_engine_4
+					fixed_ship_torpedo_slot 			= ship_torpedo_sub_4
+					
+					rear_1_custom_slot 					= ship_torpedo_sub_4
+				}
+				upgrades = 
+				{
+					sub_torpedo_upgrade = 99
+					sub_stealth_upgrade = 99
+					sub_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 89
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = early_ship_hull_submarine	#MtG
+				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_SS1 }
+			}
+			set_country_flag = has_SS1
+			create_equipment_variant = 
+			{
+				name = "Badewanne"
+				type = ship_hull_submarine_1
+				name_group = GER_SS_SIMPLE
+				role_icon_index = 6
+				modules =
+				{
+					fixed_ship_engine_slot				= sub_ship_nuclear_engine_3
+					fixed_ship_torpedo_slot 			= ship_torpedo_sub_8
+					fixed_ship_anti_air_slot			= ship_anti_air_8
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_7 #Fire control increases prod cost by +2%
+					fixed_ship_radar_slot				= ship_radar_8
+					fixed_ship_sonar_slot				= ship_sonar_8
+					fixed_ship_sub_snorkel_slot			= ship_sub_snorkel_2
+					
+					rear_1_custom_slot 					= ssm_2
+				}
+				upgrades = 
+				{
+					sub_torpedo_upgrade = 99
+					sub_stealth_upgrade = 99
+					sub_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 91		# Modular Construction focus DECREASES cost by -10%
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = early_submarine				#Vanilla
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_SS1 }
+			}
+			set_country_flag = has_SS1
+			create_equipment_variant = 
+			{
+				name = "Badewanne"
+				type = submarine_1
+				name_group = GER_SS_SIMPLE
+				role_icon_index = 6
+				upgrades = 
+				{
+					sub_torpedo_upgrade = 99
+					sub_stealth_upgrade = 99
+					sub_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 89
+				}
+			}
+		}
+	}
+	
+	make_SS2 =
+	{
+		if = 
+		{
+			limit = 
+			{
+				has_tech = basic_ship_hull_submarine	#MtG
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_SS2 }
+			}
+			set_country_flag = has_SS2
+			create_equipment_variant = 
+			{
+				name = "U-2"
+				type = ship_hull_submarine_2
+				name_group = GER_SS_SIMPLE
+				role_icon_index = 6
+				modules =
+				{
+					fixed_ship_engine_slot				= sub_ship_engine_4
+					fixed_ship_torpedo_slot 			= ship_torpedo_sub_4
+					
+					rear_1_custom_slot 					= ship_torpedo_sub_4
+				}
+				upgrades = 
+				{
+					sub_torpedo_upgrade = 99
+					sub_stealth_upgrade = 99
+					sub_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 89
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = basic_ship_hull_submarine	#MtG
+				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_SS2 }
+			}
+			set_country_flag = has_SS2
+			create_equipment_variant = 
+			{
+				name = "U-2"
+				type = ship_hull_submarine_2
+				name_group = GER_SS_SIMPLE
+				role_icon_index = 6
+				modules =
+				{
+					fixed_ship_engine_slot				= sub_ship_nuclear_engine_3
+					fixed_ship_torpedo_slot 			= ship_torpedo_sub_8
+					fixed_ship_anti_air_slot			= ship_anti_air_8
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_7 #Fire control increases prod cost by +2%
+					fixed_ship_radar_slot				= ship_radar_8
+					fixed_ship_sonar_slot				= ship_sonar_8
+					fixed_ship_sub_snorkel_slot			= ship_sub_snorkel_2
+					
+					rear_1_custom_slot 					= ssm_2
+				}
+				upgrades = 
+				{
+					sub_torpedo_upgrade = 99
+					sub_stealth_upgrade = 99
+					sub_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 91		# Modular Construction focus DECREASES cost by -10%
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = basic_submarine				#Vanilla
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_SS2 }
+			}
+			set_country_flag = has_SS2
+			create_equipment_variant = 
+			{
+				name = "U-2"
+				type = submarine_2
+				name_group = GER_SS_SIMPLE
+				role_icon_index = 6
+				upgrades = 
+				{
+					sub_torpedo_upgrade = 99
+					sub_stealth_upgrade = 99
+					sub_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 89
+				}
+			}
+		}
+	}
+	
+	make_SS3 =
+	{
+		if = 
+		{
+			limit = 
+			{
+				has_tech = improved_ship_hull_submarine	#MtG
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_SS3 }
+			}
+			set_country_flag = has_SS3
+			create_equipment_variant = 
+			{
+				name = "U-3"
+				type = ship_hull_submarine_3
+				name_group = GER_SS_SIMPLE
+				role_icon_index = 6
+				modules =
+				{
+					fixed_ship_engine_slot				= sub_ship_engine_4
+					fixed_ship_torpedo_slot 			= ship_torpedo_sub_4
+					
+					front_1_custom_slot					= ship_torpedo_sub_4
+					mid_1_custom_slot					= ship_sub_snorkel_2 
+					rear_1_custom_slot 					= ship_torpedo_sub_4
+				}
+				upgrades = 
+				{
+					sub_torpedo_upgrade = 99
+					sub_stealth_upgrade = 99
+					sub_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 89
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = improved_ship_hull_submarine	#MtG
+				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_SS3 }
+			}
+			set_country_flag = has_SS3
+			create_equipment_variant = 
+			{
+				name = "U-3"
+				type = ship_hull_submarine_3
+				name_group = GER_SS_SIMPLE
+				role_icon_index = 6
+				modules =
+				{
+					fixed_ship_engine_slot				= sub_ship_nuclear_engine_3
+					fixed_ship_torpedo_slot 			= ship_torpedo_sub_8
+					fixed_ship_anti_air_slot			= ship_anti_air_8
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_7 #Fire control increases prod cost by +2%
+					fixed_ship_radar_slot				= ship_radar_8
+					fixed_ship_sonar_slot				= ship_sonar_8
+					fixed_ship_sub_snorkel_slot			= ship_sub_snorkel_2
+					
+					front_1_custom_slot					= ship_airplane_launcher_4
+					rear_1_custom_slot 					= ssm_2
+				}
+				upgrades = 
+				{
+					sub_torpedo_upgrade = 99
+					sub_stealth_upgrade = 99
+					sub_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 91		# Modular Construction focus DECREASES cost by -10%
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = improved_submarine			#Vanilla
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_SS3 }
+			}
+			set_country_flag = has_SS3
+			create_equipment_variant = 
+			{
+				name = "U-3"
+				type = submarine_3
+				name_group = GER_SS_SIMPLE
+				role_icon_index = 6
+				upgrades = 
+				{
+					sub_torpedo_upgrade = 99
+					sub_stealth_upgrade = 99
+					sub_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 89
+				}
+			}
+		}
+	}
+	
+	make_SS4 =
+	{
+		if = 
+		{
+			limit = 
+			{
+				has_tech = advanced_ship_hull_submarine	#MtG
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_SS4 }
+			}
+			set_country_flag = has_SS4
+			create_equipment_variant = 
+			{
+				name = "Modernes U-Boot"
+				type = ship_hull_submarine_4
+				name_group = GER_SS_SIMPLE
+				role_icon_index = 6
+				modules =
+				{
+					fixed_ship_engine_slot				= sub_ship_engine_4
+					fixed_ship_torpedo_slot 			= ship_torpedo_sub_4
+					
+					front_1_custom_slot					= ship_torpedo_sub_4
+					mid_1_custom_slot					= ship_sub_snorkel_2 
+					rear_1_custom_slot 					= ship_torpedo_sub_4
+				}
+				upgrades = 
+				{
+					sub_torpedo_upgrade = 99
+					sub_stealth_upgrade = 99
+					sub_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 89
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = advanced_ship_hull_submarine	#MtG
+				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_SS4 }
+			}
+			set_country_flag = has_SS4
+			create_equipment_variant = 
+			{
+				name = "Modernes U-Boot"
+				type = ship_hull_submarine_4
+				name_group = GER_SS_SIMPLE
+				role_icon_index = 6
+				modules =
+				{
+					fixed_ship_engine_slot				= sub_ship_nuclear_engine_3
+					fixed_ship_torpedo_slot 			= ship_torpedo_sub_8
+					fixed_ship_anti_air_slot			= ship_anti_air_8
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_7 #Fire control increases prod cost by +2%
+					fixed_ship_radar_slot				= ship_radar_8
+					fixed_ship_sonar_slot				= ship_sonar_8
+					fixed_ship_sub_snorkel_slot			= ship_sub_snorkel_2
+					
+					front_1_custom_slot					= ship_airplane_launcher_4
+					rear_1_custom_slot 					= ssm_2
+				}
+				upgrades = 
+				{
+					sub_torpedo_upgrade = 99
+					sub_stealth_upgrade = 99
+					sub_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 91		# Modular Construction focus DECREASES cost by -10%
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = advanced_submarine			#Vanilla
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_SS4 }
+			}
+			set_country_flag = has_SS4
+			create_equipment_variant = 
+			{
+				name = "Modernes U-Boot"
+				type = submarine_4
+				name_group = GER_SS_SIMPLE
+				role_icon_index = 6
+				upgrades = 
+				{
+					sub_torpedo_upgrade = 99
+					sub_stealth_upgrade = 99
+					sub_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 89
+				}
+			}
+		}
+	}
+	
+	make_SC =
+	{
+		if =
+		{
+			limit =
+			{
+				has_tech = cruiser_submarines
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_SC }
+			}
+			set_country_flag = has_SC
+			create_equipment_variant = 
+			{
+				name = "Kreuzer U-Boot"
+				type = ship_hull_cruiser_submarine
+				name_group = GER_SC_SIMPLE
+				role_icon_index = 1
+				modules =
+				{
+					fixed_ship_engine_slot				= sub_ship_engine_4
+					fixed_ship_torpedo_slot 			= ship_torpedo_sub_4
+					
+					front_1_custom_slot					= ship_torpedo_sub_4
+					mid_1_custom_slot					= ship_radar_4
+					rear_1_custom_slot 					= ship_torpedo_sub_4
+				}
+				upgrades = 
+				{
+					sub_torpedo_upgrade = 199
+					sub_stealth_upgrade = 199
+					sub_engine_upgrade = 199
+					ship_reliability_upgrade = 200
+					ZMM_NAVAL_prod_upgrade = 89
+				}
+			}
+		}
+		if =
+		{
+			limit =
+			{
+				has_tech = cruiser_submarines
+				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_SC }
+			}
+			set_country_flag = has_SC
+			create_equipment_variant = 
+			{
+				name = "Kreuzer U-Boot"
+				type = ship_hull_cruiser_submarine
+				name_group = GER_SC_SIMPLE
+				role_icon_index = 1
+				modules =
+				{
+					fixed_ship_engine_slot				= sub_ship_nuclear_engine_3
+					fixed_ship_torpedo_slot 			= ship_torpedo_sub_8
+					fixed_ship_anti_air_slot			= ship_anti_air_8
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_7 #Fire control increases prod cost by +2%
+					fixed_ship_radar_slot				= ship_radar_8
+					fixed_ship_sonar_slot				= ship_sonar_8
+					fixed_ship_sub_snorkel_slot			= ship_sub_snorkel_2
+					
+					front_1_custom_slot					= ship_airplane_launcher_4
+					rear_1_custom_slot 					= ssm_2
+				}
+				upgrades = 
+				{
+					sub_torpedo_upgrade = 99
+					sub_stealth_upgrade = 99
+					sub_engine_upgrade = 200
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 91		# Modular Construction focus DECREASES cost by -10%
+				}
+			}
+		}
+	}

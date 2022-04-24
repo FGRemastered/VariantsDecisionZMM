@@ -3,14 +3,19 @@
 
 	make_CV0 =
 	{
-		set_country_flag = has_CV0
 		if = 
 		{
-			limit = { has_global_flag = has_vanilla }
+			limit = 
+			{
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CV0 }
+			}
+			set_country_flag = has_CV0
 			create_equipment_variant = 
 			{
 				name = "Flugzeugkreuzer"
 				type = ship_hull_carrier_conversion_ca
+				name_group = GER_GENERIC_CV_SIMPLE
 				role_icon_index = 7
 				modules =
 				{
@@ -36,11 +41,14 @@
 			limit = 
 			{
 				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_CV0 }
 			}
+			set_country_flag = has_CV0
 			create_equipment_variant = 
 			{
 				name = "Flugzeugkreuzer"
 				type = ship_hull_carrier_conversion_ca
+				name_group = GER_GENERIC_CV_SIMPLE
 				role_icon_index = 7
 				modules =
 				{
@@ -65,18 +73,20 @@
 	
 	make_CV1 =
 	{
-		set_country_flag = has_CV1
 		if = 
 		{
 			limit = 
 			{
 				has_tech = early_ship_hull_carrier	#MtG
 				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CV1 }
 			}
+			set_country_flag = has_CV1
 			create_equipment_variant = 
 			{
 				name = "Flugzeugdampfer"
 				type = ship_hull_carrier_conversion_bb
+				name_group = GER_CV_SIMPLE
 				role_icon_index = 7
 				modules =
 				{
@@ -105,11 +115,14 @@
 			{
 				has_tech = early_ship_hull_carrier	#MtG
 				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_CV1 }
 			}
+			set_country_flag = has_CV1
 			create_equipment_variant = 
 			{
 				name = "Flugzeugdampfer"
 				type = ship_hull_carrier_conversion_bb
+				name_group = GER_CV_SIMPLE
 				role_icon_index = 7
 				modules =
 				{
@@ -138,11 +151,14 @@
 			{
 				has_tech = early_carrier	#Vanilla
 				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CV1 }
 			}
+			set_country_flag = has_CV1
 			create_equipment_variant = 
 			{
 				name = "Flugzeugdampfer"
 				type = carrier_1
+				name_group = GER_CV_SIMPLE
 				role_icon_index = 7
 				upgrades = 
 				{
@@ -158,18 +174,20 @@
 	
 	make_CV2 =
 	{
-		set_country_flag = has_CV2
 		if = 
 		{
 			limit = 
 			{
 				has_tech = basic_ship_hull_carrier	#MtG
 				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CV2 }
 			}
+			set_country_flag = has_CV2
 			create_equipment_variant = 
 			{
 				name = "Einfacher Flugzeugträger"
 				type = ship_hull_carrier_1
+				name_group = GER_CV_SIMPLE
 				role_icon_index = 7
 				modules =
 				{
@@ -198,11 +216,14 @@
 			{
 				has_tech = basic_ship_hull_carrier	#MtG
 				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_CV2 }
 			}
+			set_country_flag = has_CV2
 			create_equipment_variant = 
 			{
 				name = "Einfacher Flugzeugträger"
 				type = ship_hull_carrier_1
+				name_group = GER_CV_SIMPLE
 				role_icon_index = 7
 				modules =
 				{
@@ -231,11 +252,14 @@
 			{
 				has_tech = basic_carrier	#Vanilla
 				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CV2 }
 			}
+			set_country_flag = has_CV2
 			create_equipment_variant = 
 			{
 				name = "Einfacher Flugzeugträger"
 				type = carrier_2
+				name_group = GER_CV_SIMPLE
 				role_icon_index = 7
 				upgrades = 
 				{
@@ -251,18 +275,20 @@
 	
 	make_CV3 =
 	{
-		set_country_flag = has_CV3
 		if = 
 		{
 			limit = 
 			{
 				has_tech = improved_ship_hull_carrier	#MtG
 				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CV3 }
 			}
+			set_country_flag = has_CV3
 			create_equipment_variant = 
 			{
 				name = "Verbesserter Flugzeugträger"
 				type = ship_hull_carrier_2
+				name_group = GER_CV_SIMPLE
 				role_icon_index = 7
 				modules =
 				{
@@ -292,11 +318,14 @@
 			{
 				has_tech = improved_ship_hull_carrier	#MtG
 				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_CV3 }
 			}
+			set_country_flag = has_CV3
 			create_equipment_variant = 
 			{
 				name = "Verbesserter Flugzeugträger"
 				type = ship_hull_carrier_2
+				name_group = GER_CV_SIMPLE
 				role_icon_index = 7
 				modules =
 				{
@@ -326,11 +355,14 @@
 			{
 				has_tech = improved_carrier	#Vanilla
 				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CV3 }
 			}
+			set_country_flag = has_CV3
 			create_equipment_variant = 
 			{
 				name = "Verbesserter Flugzeugträger"
 				type = carrier_3
+				name_group = GER_CV_SIMPLE
 				role_icon_index = 7
 				upgrades = 
 				{
@@ -346,18 +378,20 @@
 	
 	make_CV4 =
 	{
-		set_country_flag = has_CV4
 		if = 
 		{
 			limit = 
 			{
 				has_tech = advanced_ship_hull_carrier	#MtG
 				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CV4 }
 			}
+			set_country_flag = has_CV4
 			create_equipment_variant = 
 			{
 				name = "Graf Zeppelin Klasse"
 				type = ship_hull_carrier_3
+				name_group = GER_CV_SIMPLE
 				role_icon_index = 7
 				modules =
 				{
@@ -388,11 +422,14 @@
 			{
 				has_tech = advanced_ship_hull_carrier	#MtG
 				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_CV4 }
 			}
+			set_country_flag = has_CV4
 			create_equipment_variant = 
 			{
 				name = "Graf Zeppelin Klasse"
 				type = ship_hull_carrier_3
+				name_group = GER_CV_SIMPLE
 				role_icon_index = 7
 				modules =
 				{
@@ -424,11 +461,14 @@
 			{
 				has_tech = advanced_carrier	#Vanilla
 				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CV4 }
 			}
+			set_country_flag = has_CV4
 			create_equipment_variant = 
 			{
 				name = "Graf Zeppelin Klasse"
 				type = carrier_4
+				name_group = GER_CV_SIMPLE
 				role_icon_index = 7
 				upgrades = 
 				{

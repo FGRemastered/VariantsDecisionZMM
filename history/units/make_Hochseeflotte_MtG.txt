@@ -1,0 +1,1933 @@
+# 6389	= Kiel
+# 241	= Wilhelmshaven
+# 6332	= Königsberg
+# 6325	= Hamburg-Hafen
+# 9347	= Hamburg
+# 3326	= Bremen
+# 362	= Danzig
+units =
+{
+	fleet =
+	{
+		name = "Hochseeflotte"			
+		naval_base = 6389	# Kiel
+		task_force = 
+		{
+			name = "Keks"
+			location = 241	# Wilhelmshaven
+			ship = 
+			{
+				name = "Bismarck" 
+				definition = battleship
+				equipment = 
+				{ 
+					ship_hull_super_heavy_1 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Bismarck Klasse" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 1" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 2" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 3" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 4" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+		}
+		task_force = 
+		{
+			name = "Eis"
+			location = 241	# Wilhelmshaven
+			ship = 
+			{
+				name = "Tirpitz" 
+				definition = battleship
+				equipment = 
+				{ 
+					ship_hull_super_heavy_1 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Bismarck Klasse" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 5" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 6" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 7" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 8" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+		}
+		task_force = 
+		{
+			name = "Feuer"
+			location = 241	# Wilhelmshaven
+			ship = 
+			{
+				name = "Roon" 
+				definition = battleship
+				equipment = 
+				{ 
+					ship_hull_super_heavy_1 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Bismarck Klasse" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 9" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 10" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 11" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 12" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+		}
+		task_force = 
+		{
+			name = "Preußen"
+			location = 241	# Wilhelmshaven
+			ship = 
+			{
+				name = "Friedrich der Große" 
+				definition = battleship
+				equipment = 
+				{ 
+					ship_hull_super_heavy_1 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Bismarck Klasse" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 13" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 14" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 15" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 16" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+		}
+		task_force = 
+		{
+			name = "Pudding"
+			location = 6389	# Kiel
+			ship = 
+			{
+				name = "Prinz Eugen" 
+				definition = battle_cruiser
+				equipment = 
+				{ 
+					ship_hull_heavy_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Prinz Eugen Klasse" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 17" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 18" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 19" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 20" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+		}
+		task_force = 
+		{
+			name = "Blut"
+			location = 6389	# Kiel
+			ship = 
+			{
+				name = "Admiral Hipper" 
+				definition = battle_cruiser
+				equipment = 
+				{ 
+					ship_hull_heavy_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Prinz Eugen Klasse" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 21" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 22" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 23" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 24" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+		}
+		task_force = 
+		{
+			name = "Gürkchen"
+			location = 6389	# Kiel
+			ship = 
+			{
+				name = "Admiral Graf Spee" 
+				definition = battle_cruiser
+				equipment = 
+				{ 
+					ship_hull_heavy_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Prinz Eugen Klasse" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 25" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 26" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 27" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 28" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+		}
+		task_force = 
+		{
+			name = "Eisen"
+			location = 6389	# Kiel
+			ship = 
+			{
+				name = "Deutschland" 
+				definition = battle_cruiser
+				equipment = 
+				{ 
+					ship_hull_heavy_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Prinz Eugen Klasse" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 29" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 30" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 31" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "LK 32" 
+				definition = light_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Leichter Kreuzer" 
+					}
+				}
+			}
+		}
+		task_force = 
+		{
+			name = "Kaffee"
+			location = 6332	# Königsberg
+			ship = 
+			{
+				name = "Graf Zeppelin" 
+				definition = carrier
+				equipment = 
+				{ 
+					ship_hull_carrier_3 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Graf Zeppelin Klasse" 
+					}
+				}
+				air_wings = 
+				{ 
+					cv_fighter_equipment_1 =
+					{ 
+						amount = 100
+						owner = GER 
+						version_name = "Bf 109T"
+					}
+					name = "Jäger 'Graf Zeppelin'"
+					cv_CAS_equipment_1 =
+					{ 
+						amount = 150
+						owner = GER 
+						version_name = "Ju 87T"
+					}
+					name = "StuKa 'Graf Zeppelin'"
+					cv_nav_bomber_equipment_1 =
+					{ 
+						amount = 250
+						owner = GER 
+						version_name = "Ju 86T"
+					}
+					name = "T-Bomber 'Graf Zeppelin'"
+				}
+			}
+			ship = 
+			{
+				name = "Schwerer Kreuzer I" 
+				definition = heavy_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Admiral Hipper Klasse" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Schwerer Kreuzer II" 
+				definition = heavy_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Admiral Hipper Klasse" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Schwerer Kreuzer III" 
+				definition = heavy_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Admiral Hipper Klasse" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Schwerer Kreuzer IV" 
+				definition = heavy_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Admiral Hipper Klasse" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z1 Leberecht Maass" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z2 Georg Thiele" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z3 Max Schultz" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z4 Richard Beitzen" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z5 Paul Jacobi" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z6 Theodor Riedel" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z7 Hermann Schoemann" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z8 Bruno Heinemann" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z9 Wolfgang Zenker" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z10 Hans Lody" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z11 Bernd von Arnim" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z12 Erich Giese" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z13 Erich Koellner" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z14 Friedrich Ihn" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z15 Erich Steinbrinck" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z16 Friedrich Eckholdt" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z17 Diether von Roeder" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z18 Hans Lüdemann" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z19 Hermann Kühne" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z20 Karl Galster" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z21 Wilhelm Heidkamp" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z22 Anton Schmidt" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z23 Nimitz" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z24" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z25" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z26" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z27" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z28" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z29" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z30" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z31" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z32" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z33" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z34" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z35" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z36" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z37" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z38" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z39" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z40" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+		}
+		task_force = 
+		{
+			name = "Hammer"
+			location = 6332	# Königsberg
+			ship = 
+			{
+				name = "Peter Strasser" 
+				definition = carrier
+				equipment = 
+				{ 
+					ship_hull_carrier_3 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Graf Zeppelin Klasse" 
+					}
+				}
+				air_wings = 
+				{ 
+					cv_fighter_equipment_1 =
+					{ 
+						amount = 100
+						owner = GER 
+						version_name = "Bf 109T"
+					}
+					name = "Jäger 'Peter Strasser'"
+					cv_CAS_equipment_1 =
+					{ 
+						amount = 150
+						owner = GER 
+						version_name = "Ju 87T"
+					}
+					name = "StuKa 'Peter Strasser'"
+					cv_nav_bomber_equipment_1 =
+					{ 
+						amount = 250
+						owner = GER 
+						version_name = "Ju 86T"
+					}
+					name = "T-Bomber 'Peter Strasser'"
+				}
+			}
+			ship = 
+			{
+				name = "Schwerer Kreuzer V" 
+				definition = heavy_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Admiral Hipper Klasse" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Schwerer Kreuzer VI" 
+				definition = heavy_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Admiral Hipper Klasse" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Schwerer Kreuzer VII" 
+				definition = heavy_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Admiral Hipper Klasse" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Schwerer Kreuzer VIII" 
+				definition = heavy_cruiser
+				equipment = 
+				{ 
+					ship_hull_cruiser_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Admiral Hipper Klasse" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z41" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z42" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z43" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z44" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z45" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z46" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z47" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z48" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z49" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z50" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z51" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z52" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z53" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z54" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z55" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z56" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z57" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z58" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z59" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z60" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z61" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z62" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z63"
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z64" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z65" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z66" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z67" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z68" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z69" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z70" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z71" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z72" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z73" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z74" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z75" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z76" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z77" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z78" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z79" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+			ship = 
+			{
+				name = "Z80" 
+				definition = destroyer
+				equipment = 
+				{ 
+					ship_hull_light_4 = 
+					{
+						amount = 1 
+						owner = GER 
+						version_name = "Moderner Zerstörer" 
+					}
+				}
+			}
+		}
+	}
+}

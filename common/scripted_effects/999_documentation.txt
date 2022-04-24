@@ -13,3 +13,32 @@
 # The second number is for the mod, in no particular order, but 0 is vanilla
 
 # The third is for the order they appear in the decisions
+
+	debug_tech_refineries =
+	{
+		every_country =
+		{
+			set_technology =
+			{
+				fuel_silos					= 1
+				fuel_refining				= 1
+				fuel_refining2				= 1
+				fuel_refining3				= 1
+				fuel_refining4				= 1
+				fuel_refining5				= 1
+				
+				synth_oil_experiments		= 1
+				oil_processing				= 1
+				improved_oil_processing		= 1
+				advanced_oil_processing		= 1
+				modern_oil_processing		= 1
+				
+				rubber_processing			= 1
+				improved_rubber_processing	= 1
+				advanced_rubber_processing	= 1
+				modern_rubber_processing	= 1
+				
+				popup = no
+			}
+		}
+	}

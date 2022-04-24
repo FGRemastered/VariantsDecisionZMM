@@ -34,6 +34,7 @@
  CheatEvent.2.a: "Build fuel refineries and silos in every owned state"
  CheatEvent.2.b: "Build fuel refineries and silos in every state controlled by you or your puppets"
  CheatEvent.2.c: "Build fuel refineries and silos in every controlled core state"
+ CheatEvent.2.d: "Build fuel refineries and silos in every state of every country"
  
  CheatEvent.3.tt: "Tech Bonuses"
  CheatEvent.3.a: "Tech Bonus (Tanks)"

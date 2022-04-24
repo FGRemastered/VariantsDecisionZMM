@@ -1,0 +1,194 @@
+# "Special Snowflake hulls" - preDN, PzS, CDS, CT
+# This file contains the creation of the variants, so it can be called from anywhere it's needed.
+
+	make_preDN =
+	{
+		if = 
+		{
+			limit = 
+			{
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_preDN }
+			}
+			set_country_flag = has_preDN
+			create_equipment_variant = 
+			{
+				name = "Zwanzig-Minuten Schiff"
+				type = ship_hull_pre_dreadnought
+				role_icon_index = 1
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_heavy_battery_4
+					fixed_ship_anti_air_slot 			= ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot 				= ship_radar_4
+					fixed_ship_engine_slot				= heavy_ship_engine_4
+					fixed_ship_secondaries_slot 		= dp_ship_secondaries
+					fixed_ship_armor_slot 				= ship_armor_bb_3
+					
+					front_1_custom_slot					= ship_heavy_battery_4
+					mid_1_custom_slot 					= dp_ship_secondaries
+					rear_1_custom_slot 					= ship_heavy_battery_4
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 119 #Armor increases prod cost by 20%
+				}
+			}
+		}
+	}
+	
+	make_PzS =
+	{
+		if = 
+		{
+			limit = 
+			{
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_PzS }
+			}
+			set_country_flag = has_PzS
+			create_equipment_variant = 
+			{
+				name = "Panzerschiff"
+				type = ship_hull_cruiser_panzerschiff
+				role_icon_index = 1
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_medium_battery_4
+					fixed_ship_anti_air_slot 			= ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot 				= ship_radar_4
+					fixed_ship_engine_slot				= cruiser_ship_engine_4
+					fixed_ship_secondaries_slot 		= dp_ship_secondaries
+					fixed_ship_armor_slot 				= ship_armor_cruiser_4
+					
+					mid_1_custom_slot 					= ship_medium_battery_4
+					mid_2_custom_slot 					= dp_ship_secondaries
+					rear_1_custom_slot 					= ship_airplane_launcher_2
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 119 #Armor increases prod cost by 20%
+				}
+			}
+		}
+	}
+	
+	make_CDS =
+	{
+		if = 
+		{
+			limit = 
+			{
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CDS }
+			}
+			set_country_flag = has_CDS
+			create_equipment_variant = 
+			{
+				name = "Küstenwächterschiff"
+				type = ship_hull_cruiser_coastal_defense_ship
+				role_icon_index = 1
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_medium_battery_4
+					fixed_ship_anti_air_slot 			= ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot 				= ship_radar_4
+					fixed_ship_engine_slot				= cruiser_ship_engine_4
+					fixed_ship_secondaries_slot 		= dp_ship_secondaries
+					fixed_ship_armor_slot 				= ship_armor_cruiser_4
+					
+					mid_1_custom_slot 					= ship_medium_battery_4
+					mid_2_custom_slot 					= dp_ship_secondaries
+					rear_1_custom_slot 					= ship_airplane_launcher_2
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 119 #Armor increases prod cost by 20%
+				}
+			}
+		}
+	}
+	
+	make_CLT =
+	{
+		if = 
+		{
+			limit = 
+			{
+				has_tech = torpedo_cruiser_mtg
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CLT }
+			}
+			set_country_flag = has_CLT
+			create_equipment_variant = 
+			{
+				name = "Torpedoboot"
+				type = ship_hull_torpedo_cruiser
+				role_icon_index = 2
+				modules =
+				{
+					fixed_ship_battery_slot 			= ship_light_medium_battery_4
+					fixed_ship_anti_air_slot 			= ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot 				= ship_radar_4
+					fixed_ship_engine_slot				= cruiser_ship_engine_4
+					fixed_ship_secondaries_slot 		= dp_ship_secondaries
+					fixed_ship_armor_slot 				= ship_armor_cruiser_4
+					
+					front_1_custom_slot					= ship_torpedo_4
+					mid_1_custom_slot 					= ship_torpedo_4
+					mid_2_custom_slot 					= ship_torpedo_4
+					rear_1_custom_slot 					= ship_torpedo_4
+					rear_2_custom_slot					= ship_depth_charge_4
+				}
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_armor_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 124 #Armor increases prod cost by 25%
+				}
+			}
+		}
+		if = 
+		{
+			limit = 
+			{
+				has_tech = torpedo_cruiser	#Vanilla
+				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_CLT }
+			}
+			set_country_flag = has_CLT
+			create_equipment_variant = 
+			{
+				name = "Torpedoboot"
+				type = torpedo_cruiser
+				role_icon_index = 2
+				upgrades = 
+				{
+					ship_gun_upgrade = 99
+					ship_anti_air_upgrade = 99
+					ship_engine_upgrade = 99
+					ship_reliability_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	

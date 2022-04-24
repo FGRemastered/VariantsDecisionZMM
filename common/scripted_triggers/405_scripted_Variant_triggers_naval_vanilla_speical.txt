@@ -1,0 +1,37 @@
+# "Special Snowflake hulls" - preDN, PzS, CDS, CT
+# This file contains the checks for the decisions
+
+	can_preDN =
+	{
+		has_tech = pre_dreadnoughts	# MtG and only MtG!
+		has_dlc = "Man the Guns"
+		NOT = { has_country_flag = has_preDN }
+		hidden_trigger = { has_global_flag = has_vanilla }
+	}
+	
+	can_PzS =
+	{
+		has_tech = panzerschiffe	# MtG and only MtG!
+		has_dlc = "Man the Guns"
+		NOT = { has_country_flag = has_PzS }
+		hidden_trigger = { has_global_flag = has_vanilla }
+	}
+	
+	can_CDS =
+	{
+		has_tech = coastal_defense_ships	# MtG and only MtG!
+		has_dlc = "Man the Guns"
+		NOT = { has_country_flag = has_CDS }
+		hidden_trigger = { has_global_flag = has_vanilla }
+	}
+	
+	can_CLT =
+	{
+		OR =
+		{
+			has_tech = torpedo_cruiser_mtg
+			has_tech = torpedo_cruiser
+		}
+		NOT = { has_country_flag = has_CLT }
+		hidden_trigger = { has_global_flag = has_vanilla }
+	}

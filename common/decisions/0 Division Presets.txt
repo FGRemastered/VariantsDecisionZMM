@@ -38,15 +38,19 @@
 		{
 			if =
 			{
-				limit = { can_Div_Mech_Inf = yes }
-				make_Div_Mech_Inf = yes
+				limit = { can_Div_L_Inf = yes }
+				make_Div_L_Inf = yes
 			}
-			else_if =
+			if =
 			{
 				limit = { can_Div_Mot_Inf = yes }
 				make_Div_Mot_Inf = yes
 			}
-			else = { make_Div_L_Inf = yes }
+			if =
+			{
+				limit = { can_Div_Mech_Inf = yes }
+				make_Div_Mech_Inf = yes
+			}
 		}
 	}
 	

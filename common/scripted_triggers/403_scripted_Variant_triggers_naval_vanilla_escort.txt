@@ -1,0 +1,136 @@
+# Escort ships - CA. CL, DD
+# This file contains the checks for the decisions
+
+	can_CA1 =
+	{	
+		OR =
+		{
+			has_tech = early_heavy_cruiser		#Vanilla
+			has_tech = early_ship_hull_cruiser	#MtG
+		}
+		NOT = { has_country_flag = has_CA1 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_CA2 =
+	{	
+		OR =
+		{
+			has_tech = basic_heavy_cruiser		#Vanilla
+			has_tech = basic_ship_hull_cruiser	#MtG
+		}
+		NOT = { has_country_flag = has_CA2 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_CA3 =
+	{	
+		OR =
+		{
+			has_tech = improved_heavy_cruiser		#Vanilla
+			has_tech = improved_ship_hull_cruiser	#MtG
+		}
+		NOT = { has_country_flag = has_CA3 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_CA4 =
+	{	
+		OR =
+		{
+			has_tech = advanced_heavy_cruiser		#Vanilla
+			has_tech = advanced_ship_hull_cruiser	#MtG
+		}
+		NOT = { has_country_flag = has_CA4 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_CL1 =
+	{	
+		OR =
+		{
+			has_tech = early_light_cruiser		#Vanilla
+			has_tech = early_ship_hull_cruiser	#MtG
+		}
+		NOT = { has_country_flag = has_CL1 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_CL2 =
+	{	
+		OR =
+		{
+			has_tech = basic_light_cruiser		#Vanilla
+			has_tech = basic_ship_hull_cruiser	#MtG
+		}
+		NOT = { has_country_flag = has_CL2 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_CL3 =
+	{	
+		OR =
+		{
+			has_tech = improved_light_cruiser		#Vanilla
+			has_tech = improved_ship_hull_cruiser	#MtG
+		}
+		NOT = { has_country_flag = has_CL3 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_CL4 =
+	{	
+		OR =
+		{
+			has_tech = advanced_light_cruiser		#Vanilla
+			has_tech = advanced_ship_hull_cruiser	#MtG
+		}
+		NOT = { has_country_flag = has_CL4 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_DD1 =
+	{	
+		OR =
+		{
+			has_tech = early_destroyer			#Vanilla
+			has_tech = early_ship_hull_light	#MtG
+		}
+		NOT = { has_country_flag = has_DD1 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_DD2 =
+	{	
+		OR =
+		{
+			has_tech = basic_destroyer			#Vanilla
+			has_tech = basic_ship_hull_light	#MtG
+		}
+		NOT = { has_country_flag = has_DD2 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_DD3 =
+	{	
+		OR =
+		{
+			has_tech = improved_destroyer		#Vanilla
+			has_tech = improved_ship_hull_light	#MtG
+		}
+		NOT = { has_country_flag = has_DD3 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_DD4 =
+	{	
+		OR =
+		{
+			has_tech = advanced_destroyer		#Vanilla
+			has_tech = advanced_ship_hull_light	#MtG
+		}
+		NOT = { has_country_flag = has_DD4 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	

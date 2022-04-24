@@ -15,30 +15,30 @@ add_namespace = CheatEvent
 		
 		option = 
 		{
-			name = CheatEvent.0.a					#Nevermind
+			name = CheatEvent.0.a					# Nevermind
 			ai_will_do =  { base = 100 }
 		}
 		option = 
 		{
-			name = CheatEvent.0.b					#Miscallaneous
+			name = CheatEvent.0.b					# Miscallaneous
 			ai_will_do =  { base = 0 }
 			country_event = { id = CheatEvent.1 }
 		}
 		option = 
 		{
-			name = CheatEvent.0.c					#Oil Refineries and Storage
+			name = CheatEvent.0.c					# Oil Refineries and Storage
 			ai_will_do =  { base = 0 }
 			country_event = { id = CheatEvent.2 }
 		}
 		option = 
 		{
-			name = CheatEvent.0.d					#Tech Bonuses
+			name = CheatEvent.0.d					# Tech Bonuses
 			ai_will_do =  { base = 0 }
 			country_event = { id = CheatEvent.3 }
 		}
 		option = 
 		{
-			name = CheatEvent.0.e					#Endsieg Stuff
+			name = CheatEvent.0.e					# Endsieg Stuff
 			ai_will_do =  { base = 0 }
 			country_event = { id = CheatEvent.4 }
 		}
@@ -46,7 +46,7 @@ add_namespace = CheatEvent
 	
 	country_event =
 	{
-		id	= CheatEvent.1					
+		id	= CheatEvent.1							# Miscallaneous
 		title	= CheatEvent.1.tt
 		desc = { text = CheatEvent.1.dd }
 		is_triggered_only = yes
@@ -95,7 +95,7 @@ add_namespace = CheatEvent
 						original_tag = GEA
 					}
 					NOT = { has_autonomy_state = kr_colonial_government }
-					is_ally_with = GER
+					is_in_faction_with = GER
 				}
 				ROOT =
 				{
@@ -151,7 +151,7 @@ add_namespace = CheatEvent
 	
 	country_event =
 	{
-		id	= CheatEvent.2					
+		id	= CheatEvent.2							# Oil Refineries and Storage
 		title	= CheatEvent.2.tt
 		desc = { text = CheatEvent.2.dd }
 		is_triggered_only = yes
@@ -360,11 +360,65 @@ add_namespace = CheatEvent
 				}
 			}
 		}
+		option = 
+		{
+			name = CheatEvent.2.d
+			ai_will_do =  { base = 0 }
+			if = 
+			{
+				limit = 
+				{
+					has_tech  = enable_synthetic_refinery_5
+					has_tech  = enable_fuel_silo_5
+				}
+				every_state = 
+				{
+					limit = { controller = { exists = yes } }
+					add_building_construction = 
+					{
+						type = synthetic_refinery
+						level = 10
+						instant_build = yes
+					}
+					add_building_construction = 
+					{
+						type = fuel_silo
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+			if =
+			{
+				limit = 
+				{
+					has_tech = synth_oil_experiments
+					NOT = {has_tech  = enable_synthetic_refinery_5}
+				}
+				every_state = 
+				{
+					limit = { controller = { exists = yes } }
+					add_extra_state_shared_building_slots = 6
+					add_building_construction = 
+					{
+						type = synthetic_refinery
+						level = 3
+						instant_build = yes
+					}
+					add_building_construction = 
+					{
+						type = fuel_silo
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+		}
 	}
 	
 	country_event =
 	{
-		id	= CheatEvent.3					
+		id	= CheatEvent.3							# Tech Bonuses
 		title	= CheatEvent.3.tt
 		desc = { text = CheatEvent.3.dd }
 		is_triggered_only = yes
@@ -433,7 +487,7 @@ add_namespace = CheatEvent
 	
 	country_event =
 	{
-		id	= CheatEvent.4					
+		id	= CheatEvent.4							# Endsieg Stuff
 		title	= CheatEvent.4.tt
 		desc = { text = CheatEvent.4.dd }
 		is_triggered_only = yes

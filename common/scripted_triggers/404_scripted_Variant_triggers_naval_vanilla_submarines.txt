@@ -1,0 +1,53 @@
+# Submarines - SS, SC
+# This file contains the checks for the decisions
+
+	can_SS1 =
+	{	
+		OR =
+		{
+			has_tech = early_submarine				#Vanilla
+			has_tech = early_ship_hull_submarine	#MtG
+		}
+		NOT = { has_country_flag = has_SS1 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_SS2 =
+	{	
+		OR =
+		{
+			has_tech = basic_submarine				#Vanilla
+			has_tech = basic_ship_hull_submarine	#MtG
+		}
+		NOT = { has_country_flag = has_SS2 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_SS3 =
+	{	
+		OR =
+		{
+			has_tech = improved_submarine			#Vanilla
+			has_tech = improved_ship_hull_submarine	#MtG
+		}
+		NOT = { has_country_flag = has_SS3 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_SS4 =
+	{	
+		OR =
+		{
+			has_tech = advanced_submarine			#Vanilla
+			has_tech = advanced_ship_hull_submarine	#MtG
+		}
+		NOT = { has_country_flag = has_SS4 }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}
+	
+	can_SC =
+	{	
+		has_tech = cruiser_submarines
+		NOT = { has_country_flag = has_SC }
+		hidden_trigger = { is_AT_or_not_trigger = yes }
+	}

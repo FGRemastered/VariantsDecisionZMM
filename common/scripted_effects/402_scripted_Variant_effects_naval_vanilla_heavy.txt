@@ -3,18 +3,20 @@
 
 	make_SHBB1 =
 	{
-		set_country_flag = has_SH_BB1
 		if = 
 		{
 			limit = 
 			{
 				has_tech = heavy_battleship			#Vanilla
 				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_SH_BB1 }
 			}
+			set_country_flag = has_SH_BB1
 			create_equipment_variant = 
 			{
 				name = "Bismarck Klasse"
 				type = SH_battleship_1
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				upgrades = 
 				{
@@ -32,11 +34,14 @@
 			{
 				has_tech = ship_hull_super_heavy	#MtG
 				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_SH_BB1 }
 			}
+			set_country_flag = has_SH_BB1
 			create_equipment_variant = 
 			{
 				name = "Bismarck Klasse"
 				type = ship_hull_super_heavy_1
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -86,11 +91,14 @@
 			{
 				has_tech = ship_hull_super_heavy1	#NVx
 				NOT = { has_global_flag = has_mod_add_technologies }
+				NOT = { has_country_flag = has_SH_BB1 }
 			}
+			set_country_flag = has_SH_BB1
 			create_equipment_variant = 
 			{
 				name = "Yamato Klasse"
 				type = ship_hull_super_heavy_1
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -140,11 +148,14 @@
 			{
 				has_tech = ship_hull_super_heavy	#MtG
 				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_SH_BB1 }
 			}
+			set_country_flag = has_SH_BB1
 			create_equipment_variant = 
 			{
 				name = "Yamato Klasse"
 				type = ship_hull_super_heavy_1
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -192,18 +203,20 @@
 	
 	make_SHBB2 =
 	{
-		set_country_flag = has_SH_BB2
 		if =
 		{
 			limit = 
 			{
 				has_tech = heavy_battleship2		#Vanilla
 				has_global_flag = has_vanilla
+				NOT = { has_country_flag = has_SH_BB2 }
 			}
+			set_country_flag = has_SH_BB2
 			create_equipment_variant = 
 			{
 				name = "Bismarck Klasse"
 				type = SH_battleship_2
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				upgrades = 
 				{
@@ -221,11 +234,14 @@
 			{
 				has_tech = ship_hull_super_heavy2	#NVx
 				NOT = { has_global_flag = has_mod_add_technologies }
+				NOT = { has_country_flag = has_SH_BB2 }
 			}
+			set_country_flag = has_SH_BB2
 			create_equipment_variant = 
 			{
 				name = "Bismarck Klasse"
 				type = ship_hull_super_heavy_2
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -275,11 +291,14 @@
 			{
 				has_tech = tech_ship_hull_super_heavy_2	#AddTech
 				has_global_flag = has_mod_add_technologies
+				NOT = { has_country_flag = has_SH_BB2 }
 			}
+			set_country_flag = has_SH_BB2
 			create_equipment_variant = 
 			{
 				name = "Bismarck Klasse"
 				type = ship_hull_super_heavy_2
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -340,6 +359,7 @@
 			{
 				name = "Schlachtschiff 1"
 				type = ship_hull_heavy_1
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -393,6 +413,7 @@
 			{
 				name = "Schlachtschiff 1"
 				type = ship_hull_heavy_1
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -447,6 +468,7 @@
 			{
 				name = "Schlachtschiff 1"
 				type = battleship_1
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				upgrades = 
 				{
@@ -475,6 +497,7 @@
 			{
 				name = "Schlachtkreuzer 1"
 				type = ship_hull_heavy_1
+				name_group = GER_BC_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -514,6 +537,7 @@
 			{
 				name = "Schlachtkreuzer 1"
 				type = ship_hull_battlecruiser_1
+				name_group = GER_BC_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -554,6 +578,7 @@
 			{
 				name = "Früher Schlachtkreuzer"
 				type = battle_cruiser_1
+				name_group = GER_BC_SIMPLE
 				role_icon_index = 1
 				upgrades = 
 				{
@@ -582,6 +607,7 @@
 			{
 				name = "Schlachtschiff 2"
 				type = ship_hull_heavy_2
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -635,6 +661,7 @@
 			{
 				name = "Schlachtschiff 2"
 				type = ship_hull_heavy_2
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -689,6 +716,7 @@
 			{
 				name = "Schlachtschiff 2"
 				type = battleship_2
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				upgrades = 
 				{
@@ -717,6 +745,7 @@
 			{
 				name = "Schlachtkreuzer 2"
 				type = ship_hull_heavy_2
+				name_group = GER_BC_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -756,6 +785,7 @@
 			{
 				name = "Schlachtkreuzer 2"
 				type = ship_hull_heavy_2
+				name_group = GER_BC_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -796,6 +826,7 @@
 			{
 				name = "Prinz Eugen Klasse"
 				type = battle_cruiser_2
+				name_group = GER_BC_SIMPLE
 				role_icon_index = 1
 				upgrades = 
 				{
@@ -824,6 +855,7 @@
 			{
 				name = "Schlachtschiff 3"
 				type = ship_hull_heavy_3
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -878,6 +910,7 @@
 			{
 				name = "Schlachtschiff 3"
 				type = ship_hull_heavy_3
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -933,6 +966,7 @@
 			{
 				name = "Schlachtschiff 3"
 				type = battleship_3
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				upgrades = 
 				{
@@ -961,6 +995,7 @@
 			{
 				name = "Schlachtkreuzer 3"
 				type = ship_hull_heavy_3
+				name_group = GER_BC_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -1001,6 +1036,7 @@
 			{
 				name = "Schlachtkreuzer 3"
 				type = ship_hull_battlecruiser_2
+				name_group = GER_BC_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -1046,6 +1082,7 @@
 			{
 				name = "Hindenburg Klasse"
 				type = ship_hull_heavy_4
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -1100,6 +1137,7 @@
 			{
 				name = "Hindenburg Klasse"
 				type = ship_hull_heavy_4
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -1155,6 +1193,7 @@
 			{
 				name = "Schlachtschiff 4"
 				type = battleship_4
+				name_group = GER_BB_SIMPLE
 				role_icon_index = 1
 				upgrades = 
 				{
@@ -1183,6 +1222,7 @@
 			{
 				name = "Prinz Eugen Klasse"
 				type = ship_hull_heavy_4
+				name_group = GER_BC_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -1223,6 +1263,7 @@
 			{
 				name = "Prinz Eugen Klasse"
 				type = ship_hull_heavy_4
+				name_group = GER_BC_SIMPLE
 				role_icon_index = 1
 				modules =
 				{
@@ -1248,30 +1289,6 @@
 					ship_engine_upgrade = 99
 					ship_reliability_upgrade = 99
 					ZMM_NAVAL_prod_upgrade = 117 #Armor increases prod cost by 16.8%
-				}
-			}
-		}
-		if = 
-		{
-			limit = 
-			{
-				has_tech = advanced_battleship	#Vanilla
-				has_global_flag = has_vanilla
-				NOT = { has_country_flag = has_BC4 }
-			}
-			set_country_flag = has_BC4
-			create_equipment_variant = 
-			{
-				name = "Schlachtschiff 4"
-				type = battleship_4
-				role_icon_index = 1
-				upgrades = 
-				{
-					ship_gun_upgrade = 99
-					ship_armor_upgrade = 99
-					ship_engine_upgrade = 99
-					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 99
 				}
 			}
 		}
