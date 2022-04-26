@@ -5,13 +5,53 @@
 		visible = { has_country_flag = VCheater }
 		complete_effect = { clr_country_flag = VCheater }
 	}
+	"Kriegsmarine Schiffe" =
+	{
+		visible =
+		{ 
+			NOT =
+			{
+				OR =
+				{
+					has_country_flag = KMS_On
+					has_country_flag = SMS_On
+					has_country_flag = IMS_On
+				}
+			}
+		}
+		complete_effect =  { set_country_flag = KMS_On }
+	}
+	"Seiner Majestät Schiffe" =
+	{
+		visible =
+		{ 
+			NOT =
+			{
+				OR =
+				{
+					has_country_flag = KMS_On
+					has_country_flag = SMS_On
+					has_country_flag = IMS_On
+				}
+			}
+		}
+		complete_effect =  { set_country_flag = SMS_On }
+	}
 	"Ihrer Majestät Schiffe" =
 	{
 		visible = 
 		{
 			OR =
 			{
-				NOT = { has_country_flag = IMS_On }
+				NOT =
+				{
+					OR =
+					{
+						has_country_flag = KMS_On
+						has_country_flag = SMS_On
+						has_country_flag = IMS_On
+					}
+				}
 				has_country_leader 	= { name = "Victoria" }
 			}
 		}
@@ -201,7 +241,19 @@
 		{ 
 			if =
 			{
-				limit = { has_dlc = "Man the Guns" }
+				limit = 
+				{
+					has_dlc = "Man the Guns"
+					NOT =
+					{
+						OR =
+						{
+							has_country_flag = KMS_On
+							has_country_flag = SMS_On
+							has_country_flag = IMS_On
+						}
+					}
+				}
 				custom_effect_tooltip = "Spawn the Hochseeflotte! ( MtG - Version )"
 				hidden_effect = 
 				{
@@ -211,11 +263,115 @@
 			}
 			if =
 			{
-				limit = { NOT = { has_dlc = "Man the Guns" } }
+				limit = 
+				{
+					has_dlc = "Man the Guns"
+					has_country_flag = KMS_On
+				}
+				custom_effect_tooltip = "Spawn the Hochseeflotte of the Kriegsmarine! ( MtG - Version )"
+				hidden_effect = 
+				{
+					load_oob = "make_KMS_Hochseeflotte_MtG"
+					set_country_flag = has_Hochseeflotte
+				}
+			}
+			if =
+			{
+				limit = 
+				{
+					has_dlc = "Man the Guns"
+					has_country_flag = SMS_On
+				}
+				custom_effect_tooltip = "Spawn the Imperial Hochseeflotte! ( MtG - Version )"
+				hidden_effect = 
+				{
+					load_oob = "make_SMS_Hochseeflotte_MtG"
+					set_country_flag = has_Hochseeflotte
+				}
+			}
+			if =
+			{
+				limit = 
+				{
+					has_dlc = "Man the Guns"
+					OR =
+					{
+						has_country_flag = IMS_On
+						has_country_leader 	= { name = "Victoria" }
+					}
+				}
+				custom_effect_tooltip = "Spawn the Victorian Hochseeflotte! ( MtG - Version )"
+				hidden_effect = 
+				{
+					load_oob = "make_IMS_Hochseeflotte_MtG"
+					set_country_flag = has_Hochseeflotte
+				}
+			}
+			if =
+			{
+				limit =
+				{
+					NOT =
+					{
+						has_dlc = "Man the Guns"
+						OR =
+						{
+							has_country_flag = KMS_On
+							has_country_flag = SMS_On
+							has_country_flag = IMS_On
+						}
+					}
+				}
 				custom_effect_tooltip = "Spawn the Hochseeflotte! ( Legacy - Version )"
 				hidden_effect = 
 				{
 					load_oob = "make_Hochseeflotte"
+					set_country_flag = has_Hochseeflotte
+				}
+			}
+			if =
+			{
+				limit =
+				{
+					NOT = { has_dlc = "Man the Guns" }
+					has_country_flag = KMS_On
+				}
+				custom_effect_tooltip = "Spawn the Hochseeflotte of the Kriegsmarine! ( Legacy - Version )"
+				hidden_effect = 
+				{
+					load_oob = "make_KMS_Hochseeflotte"
+					set_country_flag = has_Hochseeflotte
+				}
+			}
+			if =
+			{
+				limit =
+				{
+					NOT = { has_dlc = "Man the Guns" }
+					has_country_flag = SMS_On
+				}
+				custom_effect_tooltip = "Spawn the Imperial Hochseeflotte! ( Legacy - Version )"
+				hidden_effect = 
+				{
+					load_oob = "make_SMS_Hochseeflotte"
+					set_country_flag = has_Hochseeflotte
+				}
+			}
+			if =
+			{
+				limit =
+				{
+					NOT = { has_dlc = "Man the Guns" }
+					OR =
+					{
+						has_country_flag = IMS_On
+						has_country_leader 	= { name = "Victoria" }
+					}
+				}
+				custom_effect_tooltip = "Spawn the Victorian Hochseeflotte! ( Legacy - Version )"
+				hidden_effect = 
+				{
+					load_oob = "make_IMS_Hochseeflotte"
 					set_country_flag = has_Hochseeflotte
 				}
 			}
