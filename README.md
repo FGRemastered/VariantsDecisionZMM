@@ -5,11 +5,13 @@ Works with MtG, LaR and NSB on or off
 
 > Is this balanced?
 
-Heck, no! But feel free to download the files and tweak things yourself.
+Heck, no!
 
 > Is it fun, seeing those heavy tanks get overrun by your lights?
 
 Absolutely.
+
+Feel free to download the files and tweak things yourself.
 
 Compatible with Endsieg, Kaiserreich (fixed), Road to 56 (fixed) and Add Technologies. (If it uses the vanilla equipment names. it's compatible.)
 
