@@ -33,11 +33,6 @@
 				}
 			}
 		}
-		AND =
-		{
-			has_start_date > 1950.01.01
-			has_start_date < 1999.12.31
-		}
 	}
 	
 	can_TNO_Pz_IV =
@@ -71,11 +66,6 @@
 					}
 				}
 			}
-		}
-		AND =
-		{
-			has_start_date > 1950.01.01
-			has_start_date < 1999.12.31
 		}
 	}
 	
@@ -111,11 +101,6 @@
 				}
 			}
 		}
-		AND =
-		{
-			has_start_date > 1950.01.01
-			has_start_date < 1999.12.31
-		}
 	}
 	
 	can_TNO_Leopard =
@@ -150,11 +135,6 @@
 				}
 			}
 		}
-		AND =
-		{
-			has_start_date > 1950.01.01
-			has_start_date < 1999.12.31
-		}
 	}
 	
 	can_TNO_Leopard1A3 =
@@ -188,10 +168,5 @@
 					}
 				}
 			}
-		}
-		AND =
-		{
-			has_start_date > 1950.01.01
-			has_start_date < 1999.12.31
 		}
 	}

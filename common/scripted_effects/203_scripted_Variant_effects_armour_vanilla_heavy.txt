@@ -216,7 +216,11 @@
 		
 		if =
 		{
-			limit = { NOT = { has_DLC = "No Step Back" } }
+			limit = 
+			{ 
+				NOT = { has_DLC = "No Step Back" }
+				has_DLC = "Death or Dishonor"
+			}
 			every_country =
 			{
 				limit = 
@@ -524,7 +528,11 @@
 		}
 		if =
 		{
-			limit = { NOT = { has_DLC = "No Step Back" } }
+			limit = 
+			{ 
+				NOT = { has_DLC = "No Step Back" }
+				has_DLC = "Death or Dishonor"
+			}
 			every_country =
 			{
 				limit = 
@@ -832,7 +840,11 @@
 		}
 		if =
 		{
-			limit = { NOT = { has_DLC = "No Step Back" } }
+			limit = 
+			{ 
+				NOT = { has_DLC = "No Step Back" }
+				has_DLC = "Death or Dishonor"
+			}
 			every_country =
 			{
 				limit = 

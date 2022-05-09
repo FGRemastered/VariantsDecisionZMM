@@ -108,7 +108,7 @@
 				limit =
 				{
 					can_Div_L_Kav = yes
-					can_Mech = yes
+					can_Mot = yes
 				}
 				make_Div_L_Kav_Mot = yes
 			}
@@ -126,7 +126,7 @@
 				limit =
 				{
 					can_Div_M_Kav = yes
-					can_Mech = yes
+					can_Mot = yes
 				}
 				make_Div_M_Kav_Mot = yes
 			}
@@ -144,7 +144,7 @@
 				limit =
 				{
 					can_Div_H_Kav = yes
-					can_Mech = yes
+					can_Mot = yes
 				}
 				make_Div_H_Kav_Mot = yes
 			}
@@ -162,7 +162,7 @@
 				limit =
 				{
 					can_Div_S_Kav = yes
-					can_Mech = yes
+					can_Mot = yes
 				}
 				make_Div_S_Kav_Mot = yes
 			}
@@ -180,7 +180,7 @@
 				limit =
 				{
 					can_Div_N_Kav = yes
-					can_Mech = yes
+					can_Mot = yes
 				}
 				make_Div_N_Kav_Mot = yes
 			}

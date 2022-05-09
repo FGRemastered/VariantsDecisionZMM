@@ -4,146 +4,134 @@
 
 	"Wiesel" =
 	{
-		visible = { can_Wiesel = yes }
-		complete_effect = { make_Wiesel = yes }
+		visible			= { can_Wiesel = yes }
+		complete_effect	= { make_Wiesel = yes }
 	}
 	
 	"Marder" =	#Not to be confused with StuG I
 	{
-		visible = { can_Marder = yes }
-		complete_effect = { make_Marder = yes }
+		visible			= { can_Marder = yes }
+		complete_effect	= { make_Marder = yes }
 	}
 	
 	"Spz 2 Luchs" = #Not to be confused with LSFlaK I. 
 	{				#I'm starting to see a pattern here...
 					#A lot of recycling, too...
-		visible = { can_Luchs = yes }
-		complete_effect = { make_Luchs = yes }
+		visible			= { can_Luchs = yes }
+		complete_effect	= { make_Luchs = yes }
 	}
 	
 	"Leopard 1" = #Not to be confused with Light Tank III: Leopard, because there's totally a difference between them. /s
 	{
-		visible = { can_Leo1 = yes }
-		complete_effect = { make_Leo1 = yes }
+		visible			= { can_Leo1 = yes }
+		complete_effect	= { make_Leo1 = yes }
 	}
 	
 	"Leopard 1A6" = #Not to be confused with Light Tank III: Leopard, because there's totally a difference between them. /s
 	{
-		visible = { can_Leo1A6 = yes }
-		complete_effect = { make_Leo1A6 = yes }
+		visible			= { can_Leo1A6 = yes }
+		complete_effect	= { make_Leo1A6 = yes }
 	}
 
 	"E-50" =
 	{
-		visible = { can_E-50_2 = yes }
-		complete_effect = { make_E-50_2 = yes }
+		visible			= { can_E-50_2 = yes }
+		complete_effect	= { make_E-50_2 = yes }
 	}
 	
 	"Leopard 2" =
 	{
-		visible = { can_Leo2 = yes }
-		complete_effect = { make_Leo2 = yes }
+		visible			= { can_Leo2 = yes }
+		complete_effect	= { make_Leo2 = yes }
 	}
 	
 	"Leopard 2A4" =
 	{
-		visible = { can_Leo2A4 = yes }
-		complete_effect = { make_Leo2A4 = yes }
+		visible			= { can_Leo2A4 = yes }
+		complete_effect	= { make_Leo2A4 = yes }
 	}
 	
 	"Leopard 2A5" =
 	{
-		visible = { can_Leo2A5 = yes }
-		complete_effect = { make_Leo2A5 = yes }
+		visible			= { can_Leo2A5 = yes }
+		complete_effect	= { make_Leo2A5 = yes }
 	}
 	
 	"Leopard 2A6" =
 	{
-		visible = { can_Leo2A6 = yes }
-		complete_effect = { make_Leo2A6 = yes }
+		visible			= { can_Leo2A6 = yes }
+		complete_effect	= { make_Leo2A6 = yes }
 	}
 	
 	"Leopard 2A7" =
 	{
-		visible = { can_Leo2A7 = yes }
-		complete_effect = { make_Leo2A7 = yes }
+		visible			= { can_Leo2A7 = yes }
+		complete_effect	= { make_Leo2A7 = yes }
 	}
 	
 	"Leopard 2A7V" =
 	{
-		visible = { can_Leo2A7V = yes }
-		complete_effect = { make_Leo2A7V = yes }
+		visible			= { can_Leo2A7V = yes }
+		complete_effect	= { make_Leo2A7V = yes }
 	}
 	
 	"Leopard 3" =
 	{
-		visible = { can_Leo3 = yes }
-		complete_effect = { make_Leo3 = yes }
+		visible			= { can_Leo3 = yes }
+		complete_effect	= { make_Leo3 = yes }
 	}
 
 	"Panzerhaubitze 2000" =
 	{
-		visible = { can_PzH2k = yes }
-		complete_effect = { make_PzH2k = yes }
+		visible			= { can_PzH2k = yes }
+		complete_effect	= { make_PzH2k = yes }
 	}
 	
 	"Panzerhaubitze 3000" =
 	{
-		visible = { can_PzH3k = yes }
-		complete_effect = { make_PzH3k = yes }
+		visible			= { can_PzH3k = yes }
+		complete_effect	= { make_PzH3k = yes }
 	}
 	
 	"Panzerhaubitze 5000" = #Because 4k is soo yesterday
 	{
-		visible = { can_Pz5k = yes }
-		complete_effect = { make_PzH5k = yes }
+		visible			= { can_Pz5k = yes }
+		complete_effect	= { make_PzH5k = yes }
 	}
 	
 	"Radpanzer I" =
 	{
-		visible = 
-		{
-			can_MD_Radpanzer_I = yes }
-		complete_effect = { make_MD_Radpanzer_I = yes }
+		visible			= { can_MD_Radpanzer_I = yes }
+		complete_effect	= { make_MD_Radpanzer_I = yes }
 	}
 	
 	"Radpanzer II" =
 	{
-		visible = 
-		{
-			can_MD_Radpanzer_II = yes }
-		complete_effect = { make_MD_Radpanzer_II = yes }
+		visible			= { can_MD_Radpanzer_II = yes }
+		complete_effect	= { make_MD_Radpanzer_II = yes }
 	}
 	
 	"Radpanzer III" =
 	{
-		visible = 
-		{
-			can_MD_Radpanzer_III = yes }
-		complete_effect = { make_MD_Radpanzer_III = yes }
+		visible			= { can_MD_Radpanzer_III = yes }
+		complete_effect	= { make_MD_Radpanzer_III = yes }
 	}
 	
 	"Radpanzer IV" =
 	{
-		visible = 
-		{
-			can_MD_Radpanzer_IV = yes }
-		complete_effect = { make_MD_Radpanzer_IV = yes }
+		visible			= { can_MD_Radpanzer_IV = yes }
+		complete_effect	= { make_MD_Radpanzer_IV = yes }
 	}
 	
 	"Radpanzer V" =
 	{
-		visible = 
-		{
-			can_MD_Radpanzer_V = yes }
-		complete_effect = { make_MD_Radpanzer_V = yes }
+		visible			= { can_MD_Radpanzer_V = yes }
+		complete_effect	= { make_MD_Radpanzer_V = yes }
 	}
 	
 	"Radpanzer VI" =
 	{
-		visible = 
-		{
-			can_MD_Radpanzer_VI = yes }
-		complete_effect = { make_MD_Radpanzer_VI = yes }
+		visible			= { can_MD_Radpanzer_VI = yes }
+		complete_effect	= { make_MD_Radpanzer_VI = yes }
 	}
 	

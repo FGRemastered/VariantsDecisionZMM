@@ -5,6 +5,54 @@
 		visible = { has_country_flag = VCheater }
 		complete_effect = { clr_country_flag = VCheater }
 	}
+	"Open the Advanced Cheat menu" =
+	{
+		visible = { always = yes }
+		complete_effect = { country_event = { id = CheatEvent.0 } }
+	}
+	"Manpower, please" =
+	{
+		visible = 
+		{
+			has_country_flag = VCheater 
+			NOT = 
+			{ 
+				has_idea = militarism_focus
+				has_idea = military_youth_focus
+				has_idea = paramilitarism_focus
+				has_idea = ideological_fanaticism_focus
+			}
+		}
+		complete_effect = 
+		{ 
+			add_ideas = 
+			{ 
+				militarism_focus 
+				military_youth_focus 
+				paramilitarism_focus 
+				ideological_fanaticism_focus 
+			}
+		}
+	}
+	"Improve my tanks, please" =
+	{
+		visible = 
+		{
+			has_country_flag = VCheater 
+			NOT = { has_idea = VarCheapTanks } 
+		}
+		complete_effect = { add_ideas = { VarCheapTanks } }
+	}
+	"Mobile Warfare goes brrr" =
+	{
+		visible = 
+		{
+			has_country_flag = VCheater
+			NOT = { has_tech = MW_Boost }
+		}
+		available = { NOT = { has_tech = mobile_warfare } }
+		complete_effect = { set_technology = { MW_Boost = 1 } }
+	}
 	"Kriegsmarine Schiffe" =
 	{
 		visible =
@@ -19,7 +67,11 @@
 				}
 			}
 		}
-		complete_effect =  { set_country_flag = KMS_On }
+		complete_effect = 
+		{ 
+			custom_effect_tooltip = "Enables the namelists with the 'KMS'-prefix"
+			set_country_flag = KMS_On
+		}
 	}
 	"Seiner Majestät Schiffe" =
 	{
@@ -35,7 +87,11 @@
 				}
 			}
 		}
-		complete_effect =  { set_country_flag = SMS_On }
+		complete_effect = 
+		{ 
+			custom_effect_tooltip = "Enables the namelists with the 'SMS'-prefix"
+			set_country_flag = SMS_On
+		}
 	}
 	"Ihrer Majestät Schiffe" =
 	{
@@ -55,7 +111,11 @@
 				has_country_leader 	= { name = "Victoria" }
 			}
 		}
-		complete_effect =  { set_country_flag = IMS_On }
+		complete_effect = 
+		{ 
+			custom_effect_tooltip = "Enables the namelists with the 'IMS'-prefix"
+			set_country_flag = IMS_On
+		}
 	}
 	"Make the best ships! (Vanilla + MtG)" =
 	{
@@ -158,9 +218,9 @@
 				limit = 
 				{
 					has_global_flag = has_Vanilla
+					NOT = { has_DLC = "Man the Guns" }	# Has to be seperate, or it won't work.
 					NOT =
 					{
-						has_DLC = "Man the Guns"
 						has_tech = advanced_carrier
 						has_tech = heavy_battleship2
 						has_tech = basic_battlecruiser

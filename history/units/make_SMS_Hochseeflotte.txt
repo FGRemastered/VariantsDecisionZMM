@@ -1,3 +1,10 @@
+# 6389	= Kiel
+# 241	= Wilhelmshaven
+# 6332	= Königsberg
+# 6325	= Hamburg-Hafen
+# 9347	= Hamburg
+# 3326	= Bremen
+# 362	= Danzig
 units =
 {
 	fleet =
@@ -12,6 +19,7 @@ units =
 			{
 				name = "SMS Bismarck" 
 				definition = battleship
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					SH_battleship_2 = 
@@ -26,6 +34,7 @@ units =
 			{
 				name = "SM LK 1" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -40,6 +49,7 @@ units =
 			{
 				name = "SM LK 2" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -54,6 +64,7 @@ units =
 			{
 				name = "SM LK 3" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -68,6 +79,7 @@ units =
 			{
 				name = "SM LK 4" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -87,6 +99,7 @@ units =
 			{
 				name = "SMS Tirpitz" 
 				definition = battleship
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					SH_battleship_2 = 
@@ -101,6 +114,7 @@ units =
 			{
 				name = "SM LK 5" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -115,6 +129,7 @@ units =
 			{
 				name = "SM LK 6" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -129,6 +144,7 @@ units =
 			{
 				name = "SM LK 7" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -143,6 +159,7 @@ units =
 			{
 				name = "SM LK 8" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -162,6 +179,7 @@ units =
 			{
 				name = "SMS Roon" 
 				definition = battleship
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					SH_battleship_2 = 
@@ -176,6 +194,7 @@ units =
 			{
 				name = "SM LK 9" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -190,6 +209,7 @@ units =
 			{
 				name = "SM LK 10" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -204,6 +224,7 @@ units =
 			{
 				name = "SM LK 11" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -218,6 +239,7 @@ units =
 			{
 				name = "SM LK 12" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -237,6 +259,7 @@ units =
 			{
 				name = "SMS Friedrich der Große" 
 				definition = battleship
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					SH_battleship_2 = 
@@ -251,6 +274,7 @@ units =
 			{
 				name = "SM LK 13" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -265,6 +289,7 @@ units =
 			{
 				name = "SM LK 14" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -279,6 +304,7 @@ units =
 			{
 				name = "SM LK 15" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -293,6 +319,7 @@ units =
 			{
 				name = "SM LK 16" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -312,6 +339,7 @@ units =
 			{
 				name = "SMS Prinz Eugen" 
 				definition = battle_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_heavy_4 = 
@@ -326,6 +354,7 @@ units =
 			{
 				name = "SM LK 17" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -340,6 +369,7 @@ units =
 			{
 				name = "SM LK 18" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -354,6 +384,7 @@ units =
 			{
 				name = "SM LK 19" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -368,6 +399,7 @@ units =
 			{
 				name = "SM LK 20" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -387,6 +419,7 @@ units =
 			{
 				name = "SMS Admiral Hipper" 
 				definition = battle_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_heavy_4 = 
@@ -401,6 +434,7 @@ units =
 			{
 				name = "SM LK 21" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -415,6 +449,7 @@ units =
 			{
 				name = "SM LK 22" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -429,6 +464,7 @@ units =
 			{
 				name = "SM LK 23" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -443,6 +479,7 @@ units =
 			{
 				name = "SM LK 24" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -462,6 +499,7 @@ units =
 			{
 				name = "SMS Admiral Graf Spee" 
 				definition = battle_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_heavy_4 = 
@@ -476,6 +514,7 @@ units =
 			{
 				name = "SM LK 25" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -490,6 +529,7 @@ units =
 			{
 				name = "SM LK 26" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -504,6 +544,7 @@ units =
 			{
 				name = "SM LK 27" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -518,6 +559,7 @@ units =
 			{
 				name = "SM LK 28" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -537,6 +579,7 @@ units =
 			{
 				name = "SMS Deutschland" 
 				definition = battle_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_heavy_4 = 
@@ -551,6 +594,7 @@ units =
 			{
 				name = "SM LK 29" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -565,6 +609,7 @@ units =
 			{
 				name = "SM LK 30" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -579,6 +624,7 @@ units =
 			{
 				name = "SM LK 31" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -593,6 +639,7 @@ units =
 			{
 				name = "SM LK 32" 
 				definition = light_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					light_cruiser_4 = 
@@ -612,6 +659,7 @@ units =
 			{
 				name = "SMS Graf Zeppelin" 
 				definition = carrier
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_carrier_3 = 
@@ -629,27 +677,31 @@ units =
 						owner = GER 
 						version_name = "Bf 109T"
 					}
-					name = "Jäger 'Graf Zeppelin'"
+						name = "Jäger 'Graf Zeppelin'"
+						start_experience_factor = 0.3
 					cv_CAS_equipment_1 =
 					{ 
 						amount = 150
 						owner = GER 
 						version_name = "Ju 87T"
 					}
-					name = "StuKa 'Graf Zeppelin'"
+						name = "StuKa 'Graf Zeppelin'"
+						start_experience_factor = 0.3
 					cv_nav_bomber_equipment_1 =
 					{ 
 						amount = 250
 						owner = GER 
 						version_name = "Ju 86T"
 					}
-					name = "T-Bomber 'Graf Zeppelin'"
+						name = "T-Bomber 'Graf Zeppelin'"
+						start_experience_factor = 0.3
 				}
 			}
 			ship = 
 			{
 				name = "SM Schwerer Kreuzer I" 
 				definition = heavy_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					heavy_cruiser_4 = 
@@ -664,6 +716,7 @@ units =
 			{
 				name = "SM Schwerer Kreuzer II" 
 				definition = heavy_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					heavy_cruiser_4 = 
@@ -678,6 +731,7 @@ units =
 			{
 				name = "SM Schwerer Kreuzer III" 
 				definition = heavy_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					heavy_cruiser_4 = 
@@ -692,6 +746,7 @@ units =
 			{
 				name = "SM Schwerer Kreuzer IV" 
 				definition = heavy_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					heavy_cruiser_4 = 
@@ -706,6 +761,7 @@ units =
 			{
 				name = "SM Z1 Leberecht Maass" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -720,6 +776,7 @@ units =
 			{
 				name = "SM Z2 Georg Thiele" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -734,6 +791,7 @@ units =
 			{
 				name = "SM Z3 Max Schultz" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -748,6 +806,7 @@ units =
 			{
 				name = "SM Z4 Richard Beitzen" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -762,6 +821,7 @@ units =
 			{
 				name = "SM Z5 Paul Jacobi" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -776,6 +836,7 @@ units =
 			{
 				name = "SM Z6 Theodor Riedel" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -790,6 +851,7 @@ units =
 			{
 				name = "SM Z7 Hermann Schoemann" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -804,6 +866,7 @@ units =
 			{
 				name = "SM Z8 Bruno Heinemann" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -818,6 +881,7 @@ units =
 			{
 				name = "SM Z9 Wolfgang Zenker" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -832,6 +896,7 @@ units =
 			{
 				name = "SM Z10 Hans Lody" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -846,6 +911,7 @@ units =
 			{
 				name = "SM Z11 Bernd von Arnim" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -860,6 +926,7 @@ units =
 			{
 				name = "SM Z12 Erich Giese" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -874,6 +941,7 @@ units =
 			{
 				name = "SM Z13 Erich Koellner" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -888,6 +956,7 @@ units =
 			{
 				name = "SM Z14 Friedrich Ihn" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -902,6 +971,7 @@ units =
 			{
 				name = "SM Z15 Erich Steinbrinck" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -916,6 +986,7 @@ units =
 			{
 				name = "SM Z16 Friedrich Eckholdt" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -930,6 +1001,7 @@ units =
 			{
 				name = "SM Z17 Diether von Roeder" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -944,6 +1016,7 @@ units =
 			{
 				name = "SM Z18 Hans Lüdemann" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -958,6 +1031,7 @@ units =
 			{
 				name = "SM Z19 Hermann Kühne" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -972,6 +1046,7 @@ units =
 			{
 				name = "SM Z20 Karl Galster" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -986,6 +1061,7 @@ units =
 			{
 				name = "SM Z21 Wilhelm Heidkamp" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1000,6 +1076,7 @@ units =
 			{
 				name = "SM Z22 Anton Schmidt" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1014,6 +1091,7 @@ units =
 			{
 				name = "SM Z23 Nimitz" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1028,6 +1106,7 @@ units =
 			{
 				name = "SM Z24" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1042,6 +1121,7 @@ units =
 			{
 				name = "SM Z25" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1056,6 +1136,7 @@ units =
 			{
 				name = "SM Z26" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1070,6 +1151,7 @@ units =
 			{
 				name = "SM Z27" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1084,6 +1166,7 @@ units =
 			{
 				name = "SM Z28" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1098,6 +1181,7 @@ units =
 			{
 				name = "SM Z29" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1112,6 +1196,7 @@ units =
 			{
 				name = "SM Z30" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1126,6 +1211,7 @@ units =
 			{
 				name = "SM Z31" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1140,6 +1226,7 @@ units =
 			{
 				name = "SM Z32" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1154,6 +1241,7 @@ units =
 			{
 				name = "SM Z33" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1168,6 +1256,7 @@ units =
 			{
 				name = "SM Z34" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1182,6 +1271,7 @@ units =
 			{
 				name = "SM Z35" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1196,6 +1286,7 @@ units =
 			{
 				name = "SM Z36" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1210,6 +1301,7 @@ units =
 			{
 				name = "SM Z37" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1224,6 +1316,7 @@ units =
 			{
 				name = "SM Z38" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1238,6 +1331,7 @@ units =
 			{
 				name = "SM Z39" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1252,6 +1346,7 @@ units =
 			{
 				name = "SM Z40" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1271,6 +1366,7 @@ units =
 			{
 				name = "SMS Peter Strasser" 
 				definition = carrier
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_carrier_3 = 
@@ -1288,27 +1384,31 @@ units =
 						owner = GER 
 						version_name = "Bf 109T"
 					}
-					name = "Jäger 'Peter Strasser'"
+						name = "Jäger 'Peter Strasser'"
+						start_experience_factor = 0.3
 					cv_CAS_equipment_1 =
 					{ 
 						amount = 150
 						owner = GER 
 						version_name = "Ju 87T"
 					}
-					name = "StuKa 'Peter Strasser'"
+						name = "StuKa 'Peter Strasser'"
+						start_experience_factor = 0.3
 					cv_nav_bomber_equipment_1 =
 					{ 
 						amount = 250
 						owner = GER 
 						version_name = "Ju 86T"
 					}
-					name = "T-Bomber 'Peter Strasser'"
+						name = "T-Bomber 'Peter Strasser'"
+						start_experience_factor = 0.3
 				}
 			}
 			ship = 
 			{
 				name = "SM Schwerer Kreuzer V" 
 				definition = heavy_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					heavy_cruiser_4 = 
@@ -1323,6 +1423,7 @@ units =
 			{
 				name = "SM Schwerer Kreuzer VI" 
 				definition = heavy_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					heavy_cruiser_4 = 
@@ -1337,6 +1438,7 @@ units =
 			{
 				name = "SM Schwerer Kreuzer VII" 
 				definition = heavy_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					heavy_cruiser_4 = 
@@ -1351,6 +1453,7 @@ units =
 			{
 				name = "SM Schwerer Kreuzer VIII" 
 				definition = heavy_cruiser
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					heavy_cruiser_4 = 
@@ -1365,6 +1468,7 @@ units =
 			{
 				name = "SM Z41" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1379,6 +1483,7 @@ units =
 			{
 				name = "SM Z42" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1393,6 +1498,7 @@ units =
 			{
 				name = "SM Z43" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1407,6 +1513,7 @@ units =
 			{
 				name = "SM Z44" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1421,6 +1528,7 @@ units =
 			{
 				name = "SM Z45" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1435,6 +1543,7 @@ units =
 			{
 				name = "SM Z46" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1449,6 +1558,7 @@ units =
 			{
 				name = "SM Z47" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1463,6 +1573,7 @@ units =
 			{
 				name = "SM Z48" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1477,6 +1588,7 @@ units =
 			{
 				name = "SM Z49" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1491,6 +1603,7 @@ units =
 			{
 				name = "SM Z50" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1505,6 +1618,7 @@ units =
 			{
 				name = "SM Z51" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1519,6 +1633,7 @@ units =
 			{
 				name = "SM Z52" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1533,6 +1648,7 @@ units =
 			{
 				name = "SM Z53" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1547,6 +1663,7 @@ units =
 			{
 				name = "SM Z54" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1561,6 +1678,7 @@ units =
 			{
 				name = "SM Z55" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1575,6 +1693,7 @@ units =
 			{
 				name = "SM Z56" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1589,6 +1708,7 @@ units =
 			{
 				name = "SM Z57" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1603,6 +1723,7 @@ units =
 			{
 				name = "SM Z58" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1617,6 +1738,7 @@ units =
 			{
 				name = "SM Z59" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1631,6 +1753,7 @@ units =
 			{
 				name = "SM Z60" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1645,6 +1768,7 @@ units =
 			{
 				name = "SM Z61" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1659,6 +1783,7 @@ units =
 			{
 				name = "SM Z62" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1673,6 +1798,7 @@ units =
 			{
 				name = "SM Z63"
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1687,6 +1813,7 @@ units =
 			{
 				name = "SM Z64" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1701,6 +1828,7 @@ units =
 			{
 				name = "SM Z65" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1715,6 +1843,7 @@ units =
 			{
 				name = "SM Z66" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1729,6 +1858,7 @@ units =
 			{
 				name = "SM Z67" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1743,6 +1873,7 @@ units =
 			{
 				name = "SM Z68" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1757,6 +1888,7 @@ units =
 			{
 				name = "SM Z69" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1771,6 +1903,7 @@ units =
 			{
 				name = "SM Z70" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1785,6 +1918,7 @@ units =
 			{
 				name = "SM Z71" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1799,6 +1933,7 @@ units =
 			{
 				name = "SM Z72" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1813,6 +1948,7 @@ units =
 			{
 				name = "SM Z73" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1827,6 +1963,7 @@ units =
 			{
 				name = "SM Z74" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1841,6 +1978,7 @@ units =
 			{
 				name = "SM Z75" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1855,6 +1993,7 @@ units =
 			{
 				name = "SM Z76" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1869,6 +2008,7 @@ units =
 			{
 				name = "SM Z77" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1883,6 +2023,7 @@ units =
 			{
 				name = "SM Z78" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1897,6 +2038,7 @@ units =
 			{
 				name = "SM Z79" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 
@@ -1911,6 +2053,7 @@ units =
 			{
 				name = "SM Z80" 
 				definition = destroyer
+				start_experience_factor = 0.3	# Level 2 Trained
 				equipment = 
 				{ 
 					ship_hull_light_4 = 

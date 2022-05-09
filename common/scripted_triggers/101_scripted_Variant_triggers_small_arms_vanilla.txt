@@ -1,0 +1,203 @@
+# Small Arms - Support & Infantry Equipment 
+# This file contains the checks for the decisions
+
+	can_ZA =
+	{
+		has_tech = tech_support
+		NOT =  { has_country_flag = has_ZA }
+	}
+	
+	can_G98 =
+	{
+		OR =
+		{
+			AND =
+			{
+				has_tech = infantry_weapons				#Vanilla
+				NOT = { has_country_flag = has_G98 }
+			}
+			AND =
+			{
+				has_tech = early_infantry_weapons		#Endsieg
+				NOT = { has_tech = infantry_weapons }
+				NOT = { has_country_flag = has_G88 }
+			}
+			AND =
+			{
+				has_tech = infantry_weapons_1			#TNO
+				NOT = { has_country_flag = has_TNO_Kar98k }
+			}
+		}
+	}
+	
+	can_Kar98k =
+	{
+		OR =
+		{
+			AND =
+			{
+				has_tech = infantry_weapons1				#Vanilla
+				NOT = { has_country_flag = has_Kar98k }
+			}
+			AND =
+			{
+				has_tech = infantry_weapons1				#NvX
+				has_start_date > 1999.12.31
+				NOT = { has_country_flag = has_HK33 }
+			}
+			AND =
+			{
+				has_tech = early_infantry_weapons2			#Endsieg
+				NOT = { has_tech = infantry_weapons }
+				NOT = { has_country_flag = has_Kar98 }
+			}
+			AND =
+			{
+				has_tech = infantry_weapons_2				#TNO
+				NOT = { has_country_flag = has_TNO_StG44 }
+			}
+		}
+	}
+	
+	can_MP40 =
+	{
+		OR =
+		{
+			AND =
+			{
+				has_tech = improved_infantry_weapons		#Vanilla
+				NOT = { has_country_flag = has_MP40 }
+			}
+			AND =
+			{
+				has_tech = infantry_weapons2				#NvX
+				has_start_date > 1999.12.31
+				NOT = { has_country_flag = has_G36 }
+			}
+			AND =
+			{
+				has_tech = early_infantry_weapons3			#Endsieg
+				NOT = { has_tech = infantry_weapons }
+				NOT = { has_country_flag = has_MP18 }
+			}
+			AND =
+			{
+				has_tech = infantry_weapons_3				#TNO
+				NOT = { has_country_flag = has_TNO_G1 }
+			}
+		}
+	}
+	
+	can_StG44 =
+	{
+		OR =
+		{
+			AND =
+			{
+				has_tech = advanced_infantry_weapons	#Vanilla
+				NOT = { has_country_flag = has_StG44 }
+			}
+			AND =
+			{
+				has_tech = infantry_weapons3			#NvX
+				has_start_date > 1999.12.31
+				NOT = { has_country_flag = has_HK416C }
+			}
+			AND =
+			{
+				has_tech = early_infantry_weapons4		#Endsieg (WWI)
+				NOT = { has_tech = infantry_weapons }
+				NOT = { has_country_flag = has_Kar98AZ }
+			}
+			AND =
+			{
+				has_tech = infantry_weapons_4			#TNO
+				NOT = { has_country_flag = has_TNO_G3 }
+			}
+		}
+	}
+	
+	can_StG45 =
+	{
+		OR =
+		{
+			AND =
+			{
+				has_tech = advanced_infantry_weapons_b		#RT56
+				NOT = { has_tech = early_infantry_weapons5 }	#Do not fire when Endsieg
+				NOT = { has_country_flag = has_StG45_RT56 }
+			}
+			AND =
+			{
+				has_tech = infantry_weapons4				#NVx
+				has_start_date > 1999.12.31
+				NOT = { has_country_flag = has_HK416D }
+			}
+			AND =
+			{
+				has_tech = early_infantry_weapons5			#Endsieg (WWI)
+				NOT = { has_tech = infantry_weapons }
+				NOT = { has_country_flag = has_Kar98b }
+			}
+			AND =
+			{
+				has_tech = early_infantry_weapons5
+				has_tech = advanced_infantry_weapons_b		#Endsieg (WWII)
+				NOT = { has_country_flag = has_StG45 }
+			}
+			AND =
+			{
+				has_tech = infantry_weapons_5				#TNO
+				NOT = { has_country_flag = has_TNO_G11 }
+			}
+		}
+	}
+	
+	can_G3 =
+	{	
+		OR =
+		{
+			AND =
+			{
+				has_tech = advanced_infantry_weapons_e	
+				NOT =
+				{
+					OR =
+					{
+						has_country_flag = has_G3_RT56		#RT56
+						has_country_flag = has_G3			#Endsieg
+					}
+				}
+			}
+			AND =
+			{
+				has_tech = infantry_weapons5				#NVx
+				has_start_date > 1999.12.31
+				NOT = { has_country_flag = has_HK433 }
+			}
+			AND =
+			{
+				has_tech = infantry_weapons_6				#TNO
+				NOT = { has_country_flag = has_TNO_G11E }
+			}
+		}
+	}
+	
+	can_G11 =
+	{
+		OR =
+		{
+			AND =
+			{
+				has_tech = advanced_infantry_weapons_f	#RT56
+				NOT = { has_country_flag = has_G11E }
+			}
+			AND =
+			{
+				has_tech = infantry_weapons6			#NVx
+				has_start_date > 1999.12.31
+				NOT = { has_country_flag = has_G11E }
+			}
+			#Endsieg has nothing that applies here
+		}
+	}

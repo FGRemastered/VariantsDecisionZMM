@@ -1,0 +1,244 @@
+# Artillery - Field Guns
+#This file contains the creation of the variants, so it can be called from anywhere it's needed.
+
+	make_Art0 = 
+	{
+		if =
+		{
+			limit = { NOT = { has_country_flag = has_Art0 } }
+			set_country_flag = has_Art0
+			create_equipment_variant = 
+			{
+				name = "lFH 18"
+				type = artillery_equipment_1
+				upgrades = 
+				{
+					ART_reliability_upgrade = 10
+					ART_SA_upgrade = 10
+					ART_HA_upgrade = 5
+					ART_defence_upgrade = 10
+					ART_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_Art1 = 
+	{
+		if =
+		{
+			limit = { NOT = { has_country_flag = has_Art1 } }
+			set_country_flag = has_Art1
+			create_equipment_variant = 
+			{
+				name = "15 cm sFH 18"
+				type = artillery_equipment_2
+				upgrades = 
+				{
+					ART_reliability_upgrade = 10
+					ART_SA_upgrade = 10
+					ART_HA_upgrade = 5
+					ART_defence_upgrade = 10
+					ART_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_Art2 = 
+	{
+		if =
+		{
+			limit = { NOT = { has_country_flag = has_Art2 } }
+			set_country_flag = has_Art2
+			create_equipment_variant = 
+			{
+				name = "15 cm Kanone 18"
+				type = artillery_equipment_3
+				upgrades = 
+				{
+					ART_reliability_upgrade = 10
+					ART_SA_upgrade = 10
+					ART_HA_upgrade = 5
+					ART_defence_upgrade = 10
+					ART_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_AT0 = 
+	{
+		if =
+		{
+			limit = { NOT = { has_country_flag = has_AT0 } }
+			set_country_flag = has_AT0
+			create_equipment_variant = 
+			{
+				name = "PaK 36"
+				type = anti_tank_equipment_1
+				upgrades = 
+				{
+					AT_reliability_upgrade = 10
+					AT_pierce_upgrade = 10
+					AT_HA_upgrade = 5
+					AT_defence_upgrade = 10
+					AT_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_AT1 = 
+	{
+		if =
+		{
+			limit = { NOT = { has_country_flag = has_AT1 } }
+			set_country_flag = has_AT1
+			create_equipment_variant = 
+			{
+				name = "PaK 40"
+				type = anti_tank_equipment_2
+				upgrades = 
+				{
+					AT_reliability_upgrade = 10
+					AT_pierce_upgrade = 10
+					AT_HA_upgrade = 5
+					AT_defence_upgrade = 10
+					AT_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_AT2 = 
+	{
+		if =
+		{
+			limit = { NOT = { has_country_flag = has_AT2 } }
+			set_country_flag = has_AT2
+			create_equipment_variant = 
+			{
+				name = "PaK 44"
+				type = anti_tank_equipment_3
+				upgrades = 
+				{
+					AT_reliability_upgrade = 10
+					AT_pierce_upgrade = 10
+					AT_HA_upgrade = 5
+					AT_defence_upgrade = 10
+					AT_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_AA0 = 
+	{
+		if =
+		{
+			limit = { NOT = { has_country_flag = has_AA0 } }
+			set_country_flag = has_AA0
+			create_equipment_variant = 
+			{
+				name = "2cm FlaK 30"
+				type = anti_air_equipment_1
+				upgrades = 
+				{
+					AA_reliability_upgrade = 10
+					AA_AA_upgrade = 10
+					AA_HA_upgrade = 5
+					AA_defence_upgrade = 10
+					AA_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_AA1 = 
+	{
+		if =
+		{
+			limit = { NOT = { has_country_flag = has_AA1 } }
+			set_country_flag = has_AA1
+			create_equipment_variant = 
+			{
+				name = "2cm FlaK-Vierling 38"
+				type = anti_air_equipment_2
+				upgrades = 
+				{
+					AA_reliability_upgrade = 10
+					AA_AA_upgrade = 10
+					AA_HA_upgrade = 5
+					AA_defence_upgrade = 10
+					AA_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_AA2 = 
+	{
+		if =
+		{
+			limit = { NOT = { has_country_flag = has_AA2 } }
+			set_country_flag = has_AA2
+			create_equipment_variant = 
+			{
+				name = "88mm FlaK-Vierling 41"
+				type = anti_air_equipment_3
+				upgrades = 
+				{
+					AA_reliability_upgrade = 10
+					AA_AA_upgrade = 10
+					AA_HA_upgrade = 5
+					AA_defence_upgrade = 10
+					AA_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_RA1 = 
+	{
+		if =
+		{
+			limit = { NOT = { has_country_flag = has_RA1 } }
+			set_country_flag = has_RA1
+			create_equipment_variant = 
+			{
+				name = "Nebelwerfer 41"
+				type = rocket_artillery_equipment_1
+				upgrades = 
+				{
+					ART_reliability_upgrade = 20
+					ART_SA_upgrade = 20
+					ART_HA_upgrade = 15
+					ART_defence_upgrade = 20
+					ART_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_RA2 = 
+	{
+		if =
+		{
+			limit = { NOT = { has_country_flag = has_RA2 } }
+			set_country_flag = has_RA2
+			create_equipment_variant = 
+			{
+				name = "Nebelwerfer 42"
+				type = rocket_artillery_equipment_2
+				upgrades = 
+				{
+					ART_reliability_upgrade = 20
+					ART_SA_upgrade = 20
+					ART_HA_upgrade = 15
+					ART_defence_upgrade = 20
+					ART_prod_upgrade = 99
+				}
+			}
+		}
+	}

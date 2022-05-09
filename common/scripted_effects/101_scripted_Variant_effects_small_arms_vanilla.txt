@@ -1,0 +1,639 @@
+# Small Arms - Support & Infantry Equipment
+#This file contains the creation of the variants, so it can be called from anywhere it's needed.
+
+	make_ZA = 
+	{
+		if =
+		{
+			limit = { NOT = { has_country_flag = has_ZA } }
+			set_country_flag = has_ZA
+			create_equipment_variant = 
+			{
+				name = "ZA"
+				type = support_equipment_1
+				upgrades = 
+				{
+					SUPP_reliability_upgrade = 5
+					SUPP_prod_upgrade = 99
+				}
+			}
+		}
+	}
+	
+	make_G98 = 
+	{
+		if =
+		{
+			limit =
+			{
+				has_tech = infantry_weapons
+				NOT = { has_country_flag = has_G98 }
+			}
+			set_country_flag = has_G98
+			create_equipment_variant = 
+			{
+				name = "G98"
+				type = infantry_equipment_0
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+		if =
+		{
+			limit =
+			{
+				has_tech = early_infantry_weapons
+				NOT = { has_tech = infantry_weapons }
+				NOT = { has_country_flag = has_G88 }
+			}
+			set_country_flag = has_G88
+			create_equipment_variant = 
+			{
+				name = "G88"
+				type = early_infantry_equipment_0
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+		if =
+		{
+			limit =
+			{
+				has_tech = infantry_weapons_1
+				NOT = { has_country_flag = has_TNO_Kar98k }
+			}
+			set_country_flag = has_TNO_Kar98k
+			create_equipment_variant = 
+			{
+				name = "Kar98k"
+				type = infantry_equipment_0
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+	}
+	
+	make_Kar98k = 
+	{
+		if =
+		{
+			limit = 
+			{
+				has_tech = infantry_weapons1
+				has_start_date > 1999.12.31
+				NOT = { has_country_flag = has_HK33 }
+			}
+			set_country_flag = has_HK33
+			create_equipment_variant = 
+			{
+				name = "HK33"
+				type = infantry_equipment_1
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+		if =
+		{
+			limit = 
+			{
+				has_tech = infantry_weapons1
+				NOT = { has_country_flag = has_Kar98k }
+				NOT = { has_country_flag = has_HK33 }
+			}
+			set_country_flag = has_Kar98k
+			create_equipment_variant = 
+			{
+				name = "Kar98k"
+				type = infantry_equipment_1
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+		if =
+		{
+			limit = 
+			{
+				has_tech = early_infantry_weapons2
+				NOT = { has_tech = infantry_weapons1 }
+				NOT = { has_country_flag = has_Kar98 }
+			}
+			set_country_flag = has_Kar98
+			create_equipment_variant = 
+			{
+				name = "Kar98"
+				type = early_infantry_equipment_1
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+		if =
+		{
+			limit = 
+			{
+				has_tech = infantry_weapons_2
+				NOT = { has_country_flag = has_TNO_StG44 }
+			}
+			set_country_flag = has_TNO_StG44
+			create_equipment_variant = 
+			{
+				name = "StG44"
+				type = infantry_equipment_1
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+	}
+	
+	make_MP40 = 
+	{
+		
+		if =
+		{
+			limit = 
+			{
+				has_tech = infantry_weapons2
+				has_start_date > 1999.12.31
+				NOT = { has_country_flag = has_G36 }
+			}
+			set_country_flag = has_G36
+			create_equipment_variant = 
+			{
+				name = "G36"
+				type = infantry_equipment_2
+				upgrades = 
+				{
+					INF_reliability_upgrade = 15
+					INF_SA_upgrade = 15
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 20
+					INF_prod_upgrade = 95
+				}
+			}
+		}
+		if =
+		{
+			limit = 
+			{
+				has_tech = improved_infantry_weapons
+				NOT = { has_country_flag = has_MP40 }
+			}
+			set_country_flag = has_MP40
+			create_equipment_variant = 
+			{
+				name = "MP40"
+				type = infantry_equipment_2
+				upgrades = 
+				{
+					INF_reliability_upgrade = 15
+					INF_SA_upgrade = 15
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 20
+					INF_prod_upgrade = 95
+				}
+			}
+		}
+		if =
+		{
+			limit = 
+			{
+				has_tech = early_infantry_weapons2
+				NOT = { has_tech = improved_infantry_weapons }
+				NOT = { has_country_flag = has_MP18 }
+			}
+			set_country_flag = has_MP18
+			create_equipment_variant = 
+			{
+				name = "MP18"
+				type = early_infantry_equipment_2
+				upgrades = 
+				{
+					INF_reliability_upgrade = 15
+					INF_SA_upgrade = 15
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 20
+					INF_prod_upgrade = 95
+				}
+			}
+		}
+		if =
+		{
+			limit = 
+			{
+				has_tech = infantry_weapons_3
+				NOT = { has_country_flag = has_TNO_G1 }
+			}
+			set_country_flag = has_TNO_G1
+			create_equipment_variant = 
+			{
+				name = "G1"
+				type = infantry_equipment_2
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+	}
+	
+	make_StG44 = 
+	{
+		
+		if =
+		{
+			limit = 
+			{
+				has_tech = infantry_weapons3
+				has_start_date > 1999.12.31
+				NOT = { has_country_flag = has_HK416C }
+			}
+			set_country_flag = has_HK416C
+			create_equipment_variant = 
+			{
+				name = "HK416C"
+				type = infantry_equipment_3
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+		if =
+		{
+			limit = 
+			{
+				has_tech = advanced_infantry_weapons
+				NOT = { has_country_flag = has_StG44 }
+			}
+			set_country_flag = has_StG44
+			create_equipment_variant = 
+			{
+				name = "StG 44"
+				type = infantry_equipment_3
+				upgrades = 
+				{
+					INF_reliability_upgrade = 30
+					INF_SA_upgrade = 25
+					INF_HA_upgrade = 20
+					INF_defence_upgrade = 50
+					INF_prod_upgrade = 95
+				}
+			}
+		}
+		if =
+		{
+			limit = 
+			{
+				has_tech = early_infantry_weapons4
+				NOT = { has_tech = advanced_infantry_weapons }
+				NOT = { has_country_flag = has_Kar98AZ }
+			}
+			set_country_flag = has_Kar98AZ
+			create_equipment_variant = 
+			{
+				name = "Kar98AZ"
+				type = early_infantry_equipment_3
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+		if =
+		{
+			limit = 
+			{
+				has_tech = infantry_weapons_4
+				NOT = { has_country_flag = has_TNO_G3 }
+			}
+			set_country_flag = has_TNO_G3
+			create_equipment_variant = 
+			{
+				name = "G3"
+				type = infantry_equipment_3
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+	}
+	
+	make_StG45 = 
+	{
+		if =
+		{
+			limit = 
+			{
+				has_tech = infantry_weapons4
+				has_start_date > 1999.12.31
+				NOT = { has_country_flag = has_HK416D }
+			}
+			set_country_flag = has_HK416D
+			create_equipment_variant = 
+			{
+				name = "HK416D"
+				type = infantry_equipment_4
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+		if =
+		{
+			limit = 
+			{
+				has_tech = advanced_infantry_weapons_b
+				NOT = { has_tech = early_infantry_weapons5 }
+				NOT = { has_country_flag = has_StG45_RT56 }
+			}
+			set_country_flag = has_StG45_RT56
+			create_equipment_variant = 
+			{
+				name = "StG 45(M)"
+				type = infantry_equipment_x
+				upgrades = 
+				{
+					INF_reliability_upgrade = 30
+					INF_SA_upgrade = 25
+					INF_HA_upgrade = 20
+					INF_defence_upgrade = 50
+					INF_prod_upgrade = 95
+				}
+			}
+		}
+		if =
+		{
+			limit = 
+			{
+				has_tech = early_infantry_weapons5
+				NOT = { has_tech = advanced_infantry_weapons_b }
+				NOT = { has_country_flag = has_Kar98b }
+			}
+			set_country_flag = has_Kar98b
+			create_equipment_variant = 
+			{
+				name = "Kar98b"
+				type = early_infantry_equipment_4
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+		if =
+		{
+			limit = 
+			{
+				has_tech = early_infantry_weapons5
+				has_tech = advanced_infantry_weapons_b
+				NOT = { has_country_flag = has_StG45 }
+			}
+			set_country_flag = has_StG45
+			create_equipment_variant = 
+			{
+				name = "StG 45(M)"
+				type = infantry_equipment_4
+				upgrades = 
+				{
+					INF_reliability_upgrade = 30
+					INF_SA_upgrade = 25
+					INF_HA_upgrade = 20
+					INF_defence_upgrade = 50
+					INF_prod_upgrade = 95
+				}
+			}
+		}
+		if =
+		{
+			limit = 
+			{
+				has_tech = infantry_weapons_5
+				NOT = { has_country_flag = has_TNO_G11 }
+			}
+			set_country_flag = has_TNO_G11
+			create_equipment_variant = 
+			{
+				name = "G11"
+				type = infantry_equipment_4
+				upgrades = 
+				{
+					INF_reliability_upgrade = 30
+					INF_SA_upgrade = 25
+					INF_HA_upgrade = 20
+					INF_defence_upgrade = 50
+					INF_prod_upgrade = 95
+				}
+			}
+		}
+	}
+	
+	make_G3 = 
+	{
+		if =
+		{
+			limit = 
+			{
+				has_tech = infantry_weapons5
+				has_start_date > 1999.12.31
+				NOT = { has_country_flag = has_HK433 }
+			}
+			set_country_flag = has_HK433
+			create_equipment_variant = 
+			{
+				name = "HK433"
+				type = infantry_equipment_5
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+		if =
+		{
+			limit = 
+			{
+				has_tech = advanced_infantry_weapons_e
+				NOT = { has_tech = early_infantry_weapons5 }
+				NOT = { has_country_flag = has_G3_RT56 }
+			}
+			set_country_flag = has_G3_RT56
+			create_equipment_variant = 
+			{
+				name = "G3"
+				type = infantry_equipment_x_2
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+		if =
+		{
+			limit = 
+			{
+				has_tech = early_infantry_weapons5
+				has_tech = advanced_infantry_weapons_e
+				NOT = { has_country_flag = has_G3 }
+			}
+			set_country_flag = has_G3
+			create_equipment_variant = 
+			{
+				name = "G3"
+				type = infantry_equipment_5
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+		if =
+		{
+			limit = 
+			{
+				has_tech = infantry_weapons_6
+				NOT = { has_country_flag = has_TNO_G11E }
+			}
+			set_country_flag = has_TNO_G11E
+			create_equipment_variant = 
+			{
+				name = "G11E"
+				type = infantry_equipment_5
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+	}
+	
+	make_G11 = 
+	{
+		if =
+		{
+			limit = 
+			{
+				has_tech = infantry_weapons6
+				has_start_date > 1999.12.31
+				NOT = { has_country_flag = has_G11E }
+			}
+			set_country_flag = has_G11E
+			create_equipment_variant = 
+			{
+				name = "G11E"
+				type = infantry_equipment_6
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+		if =
+		{
+			limit = 
+			{
+				has_tech = advanced_infantry_weapons_f
+				NOT = { has_country_flag = has_G11E }
+			}
+			set_country_flag = has_G11E
+			create_equipment_variant = 
+			{
+				name = "G11E"
+				type = infantry_equipment_x_3
+				upgrades = 
+				{
+					INF_reliability_upgrade = 10
+					INF_SA_upgrade = 10
+					INF_HA_upgrade = 5
+					INF_defence_upgrade = 10
+					INF_prod_upgrade = 90
+				}
+			}
+		}
+	}

@@ -32,39 +32,67 @@
 				}
 			}
 		}
-		AND =
+	}
+	
+	can_TNO_Ozelot =
+	{
+		OR =
 		{
-			has_start_date > 1950.01.01
-			has_start_date < 1999.12.31
+			AND = #ROOT can do
+			{
+				has_tech  = APC_1960
+				NOT = { has_country_flag = has_Ozelot}
+			}
+			AND = #PUPPET can do
+			{
+				has_tech  = APC_1960
+				any_country =
+				{
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_Ozelot}
+					NOT = 
+					{
+						has_license = #Tank
+						{
+							from = OVERLORD
+							equipment = 
+							{
+								type = APC_equipment_2
+								version = 1
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 	
-	can_TNO =
+	can_TNO_ =
 	{
 		
 	}
 	
-	can_TNO =
+	can_TNO_ =
 	{
 		
 	}
 	
-	can_TNO =
+	can_TNO_ =
 	{
 		
 	}
 	
-	can_TNO =
+	can_TNO_ =
 	{
 		
 	}
 	
-	can_TNO =
+	can_TNO_ =
 	{
 		
 	}
 	
-	can_TNO =
+	can_TNO_ =
 	{
 		
 	}

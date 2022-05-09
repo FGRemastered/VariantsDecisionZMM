@@ -8,7 +8,7 @@
 			limit =
 			{
 				NOT = { has_DLC = "No Step Back" }
-				NOT = { has_country_flag = has_TNO_E-50}
+				NOT = { has_country_flag = has_TNO_E-50 }
 			}
 			set_country_flag = has_TNO_E-50
 			create_equipment_variant = 
@@ -27,13 +27,17 @@
 		}
 		if =
 		{
-			limit = { NOT = { has_DLC = "No Step Back" } }
+			limit = 
+			{ 
+				NOT = { has_DLC = "No Step Back" }
+				has_DLC = "Death or Dishonor"
+			}
 			every_country =
 			{
 				limit = 
 				{
 					is_puppet_of = ROOT
-					NOT = { has_country_flag = has_TNO_E-50}
+					NOT = { has_country_flag = has_TNO_E-50 }
 					NOT = 
 					{
 						has_license = #Tank
@@ -71,7 +75,7 @@
 			limit =
 			{
 				NOT = { has_DLC = "No Step Back" }
-				NOT = { has_country_flag = has_TNO_E-75}
+				NOT = { has_country_flag = has_TNO_E-75 }
 			}
 			set_country_flag = has_TNO_E-75
 			create_equipment_variant = 
@@ -90,13 +94,17 @@
 		}
 		if =
 		{
-			limit = { NOT = { has_DLC = "No Step Back" } }
+			limit = 
+			{ 
+				NOT = { has_DLC = "No Step Back" }
+				has_DLC = "Death or Dishonor"
+			}
 			every_country =
 			{
 				limit = 
 				{
 					is_puppet_of = ROOT
-					NOT = { has_country_flag = has_TNO_E-75}
+					NOT = { has_country_flag = has_TNO_E-75 }
 					NOT = 
 					{
 						has_license = #Tank
@@ -134,7 +142,7 @@
 			limit =
 			{
 				NOT = { has_DLC = "No Step Back" }
-				NOT = { has_country_flag = has_TNO_Löwe}
+				NOT = { has_country_flag = has_TNO_Löwe }
 			}
 			set_country_flag = has_TNO_Löwe
 			create_equipment_variant = 
@@ -153,13 +161,17 @@
 		}
 		if =
 		{
-			limit = { NOT = { has_DLC = "No Step Back" } }
+			limit = 
+			{ 
+				NOT = { has_DLC = "No Step Back" }
+				has_DLC = "Death or Dishonor"
+			}
 			every_country =
 			{
 				limit = 
 				{
 					is_puppet_of = ROOT
-					NOT = { has_country_flag = has_TNO_Löwe}
+					NOT = { has_country_flag = has_TNO_Löwe }
 					NOT = 
 					{
 						has_license = #Tank
@@ -196,7 +208,7 @@
 		{
 			limit =
 			{
-				NOT = { has_country_flag = has_TNO_Leopard2}
+				NOT = { has_country_flag = has_TNO_Leopard2 }
 			}
 			set_country_flag = has_TNO_Leopard2
 			create_equipment_variant = 
@@ -213,36 +225,44 @@
 				}
 			}
 		}
-		every_country =
+		if =
 		{
 			limit = 
+			{ 
+				NOT = { has_DLC = "No Step Back" }
+				has_DLC = "Death or Dishonor"
+			}
+			every_country =
 			{
-				is_puppet_of = ROOT
-				NOT = { has_country_flag = has_TNO_Leopard2}
-				NOT = 
+				limit = 
 				{
-					has_license = #Tank
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_TNO_Leopard2 }
+					NOT = 
 					{
-						from = OVERLORD
-						equipment = 
+						has_license = #Tank
 						{
-							type = MBT_equipment_4
-							version = 1
+							from = OVERLORD
+							equipment = 
+							{
+								type = MBT_equipment_4
+								version = 1
+							}
 						}
 					}
 				}
-			}
-			ROOT =
-			{
-				create_production_license =	#Tank
+				ROOT =
 				{
-					target = PREV
-					equipment = 
+					create_production_license =	#Tank
 					{
-						type	= MBT_equipment_4
-						version = 1
+						target = PREV
+						equipment = 
+						{
+							type	= MBT_equipment_4
+							version = 1
+						}
+						cost_factor = 0
 					}
-					cost_factor = 0
 				}
 			}
 		}
@@ -254,7 +274,7 @@
 		{
 			limit =
 			{
-				NOT = { has_country_flag = has_TNO_Leopard2A5}
+				NOT = { has_country_flag = has_TNO_Leopard2A5 }
 			}
 			set_country_flag = has_TNO_Leopard2A5
 			create_equipment_variant = 
@@ -271,36 +291,44 @@
 				}
 			}
 		}
-		every_country =
+		if =
 		{
 			limit = 
+			{ 
+				NOT = { has_DLC = "No Step Back" }
+				has_DLC = "Death or Dishonor"
+			}
+			every_country =
 			{
-				is_puppet_of = ROOT
-				NOT = { has_country_flag = has_TNO_Leopard2A5}
-				NOT = 
+				limit = 
 				{
-					has_license = #Tank
+					is_puppet_of = ROOT
+					NOT = { has_country_flag = has_TNO_Leopard2A5 }
+					NOT = 
 					{
-						from = OVERLORD
-						equipment = 
+						has_license = #Tank
 						{
-							type = MBT_equipment_5
-							version = 1
+							from = OVERLORD
+							equipment = 
+							{
+								type = MBT_equipment_5
+								version = 1
+							}
 						}
 					}
 				}
-			}
-			ROOT =
-			{
-				create_production_license =	#Tank
+				ROOT =
 				{
-					target = PREV
-					equipment = 
+					create_production_license =	#Tank
 					{
-						type	= MBT_equipment_5
-						version = 1
+						target = PREV
+						equipment = 
+						{
+							type	= MBT_equipment_5
+							version = 1
+						}
+						cost_factor = 0
 					}
-					cost_factor = 0
 				}
 			}
 		}

@@ -1,13 +1,6 @@
 	"Division Presets" = 
 	{
-		visible = 
-		{
-			OR =
-			{
-				has_start_date < 1950.01.01
-				has_start_date > 1999.12.31
-			}
-		}
+		visible = { notTNO = yes }
 	}
 
 	"Small Arms and Artillery" = 
@@ -24,14 +17,7 @@
 
 	"TNO Armor Variants" =
 	{
-		visible = 
-		{
-			OR =
-			{
-				has_start_date > 1950.01.01
-				has_start_date < 1999.12.31
-			}
-		}
+		visible = { notTNO = no }
 		icon = ger_military_buildup
 	}
 
@@ -55,6 +41,6 @@
 
 	"CheatVariants" = #Depending on how orthodox you see it, using this mod is cheating in on itself. But I think we can go further.
 	{
-		visible = { has_country_flag = VCheater }
+		visible = { always = yes }
 	}
 

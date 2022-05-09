@@ -7,8 +7,8 @@
 			can_Traktor = yes
 			notTNO = yes
 		}
-		ai_will_do = { ifPlayerIsPuppetNotNSB = yes }	#The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
-		complete_effect = { make_Traktor = yes }
+		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		complete_effect	= { make_Traktor = yes }
 	}
 	
 	"Panzer I" = 
@@ -18,8 +18,8 @@
 			can_Pz_I = yes
 			notTNO = yes
 		}
-		ai_will_do = { ifPlayerIsPuppetNotNSB = yes }	#The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
-		complete_effect = { make_Pz_I = yes }
+		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		complete_effect	= { make_Pz_I = yes }
 	}
 	
 	"Panzer II" =
@@ -29,8 +29,8 @@
 			can_Pz_II = yes
 			notTNO = yes
 		}
-		ai_will_do = { ifPlayerIsPuppetNotNSB = yes }	#The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
-		complete_effect = { make_Pz_II = yes }
+		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		complete_effect	= { make_Pz_II = yes }
 	}
 	
 	"Leopard" =
@@ -40,8 +40,8 @@
 			can_Leo = yes
 			notTNO = yes
 		}
-		ai_will_do = { ifPlayerIsPuppetNotNSB = yes }	#The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
-		complete_effect = { make_Leo = yes }
+		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		complete_effect	= { make_Leo = yes }
 	}
 	
 	"light4.tt" = #Puma
@@ -51,8 +51,8 @@
 			can_Puma = yes
 			notTNO = yes
 		}
-		ai_will_do = { ifPlayerIsPuppetNotNSB = yes }	#The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
-		complete_effect = { make_Puma = yes }
+		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		complete_effect	= { make_Puma = yes }
 	}
 	
 	"light5.tt" = #Jaguar
@@ -62,8 +62,8 @@
 			can_Jag = yes
 			notTNO = yes
 		}
-		ai_will_do = { ifPlayerIsPuppetNotNSB = yes }	#The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
-		complete_effect = { make_Jag = yes }
+		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		complete_effect	= { make_Jag = yes }
 	}
 	
 	"Panzer III" =
@@ -73,8 +73,8 @@
 			can_Pz_III = yes
 			notTNO = yes
 		}
-		ai_will_do = { ifPlayerIsPuppetNotNSB = yes }	#The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
-		complete_effect = { make_Pz_III = yes }
+		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		complete_effect	= { make_Pz_III = yes }
 	}
 	
 	"Panzer IV" =
@@ -84,8 +84,8 @@
 			can_Pz_IV = yes
 			notTNO = yes
 		}
-		ai_will_do = { ifPlayerIsPuppetNotNSB = yes }	#The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
-		complete_effect = { make_Pz_IV = yes }
+		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		complete_effect	= { make_Pz_IV = yes }
 	}
 	
 	"Panther" =
@@ -95,8 +95,8 @@
 			can_Pz_V = yes
 			notTNO = yes
 		}
-		ai_will_do = { ifPlayerIsPuppetNotNSB = yes }	#The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
-		complete_effect = { make_Pz_V = yes }
+		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		complete_effect	= { make_Pz_V = yes }
 	}
 	
 	"heavy1.tt" =	#Großtraktor
@@ -106,8 +106,8 @@
 			can_GrT = yes
 			notTNO = yes
 		}
-		ai_will_do = { ifPlayerIsPuppetNotNSB = yes }	#The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
-		complete_effect = { make_GrT = yes }
+		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		complete_effect	= { make_GrT = yes }
 	}
 	"Tiger" =
 	{
@@ -116,8 +116,8 @@
 			can_Pz_VI = yes
 			notTNO = yes
 		}
-		ai_will_do = { ifPlayerIsPuppetNotNSB = yes }	#The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
-		complete_effect = { make_Pz_VI = yes }
+		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		complete_effect	= { make_Pz_VI = yes }
 	}
 	
 	"heavy3.tt" = #Königstiger
@@ -127,8 +127,8 @@
 			can_Pz_VI_2 = yes
 			notTNO = yes
 		}
-		ai_will_do = { ifPlayerIsPuppetNotNSB = yes }	#The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
-		complete_effect = { make_Pz_VI_2 = yes }
+		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		complete_effect	= { make_Pz_VI_2 = yes }
 	}
 	
 	"Maus" =
@@ -138,8 +138,8 @@
 			can_Maus = yes
 			notTNO = yes
 		}
-		ai_will_do = { ifPlayerIsPuppetNotNSB = yes }	#The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
-		complete_effect = { make_Maus = yes }
+		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		complete_effect	= { make_Maus = yes }
 	}
 	
 	"modern.tt" = #Entwicklungspanzer 50 aka. E-50
@@ -149,8 +149,8 @@
 			can_E-50 = yes
 			notTNO = yes
 		}
-		ai_will_do = { ifPlayerIsPuppetNotNSB = yes }	#The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
-		complete_effect = { make_E-50 = yes }
+		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		complete_effect	= { make_E-50 = yes }
 	}
 	
 	"modern2.tt" = #Entwicklungspanzer 75 aka. E-75
@@ -160,8 +160,8 @@
 			can_E-75 = yes
 			notTNO = yes
 		}
-		ai_will_do = { ifPlayerIsPuppetNotNSB = yes }	#The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
-		complete_effect = { make_E-75 = yes }
+		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		complete_effect	= { make_E-75 = yes }
 	}
 	
 	"Schwimmpanzer II" = 
@@ -171,8 +171,8 @@
 			can_schwimmpanzer_II = yes
 			notTNO = yes
 		}
-		ai_will_do = { ifPlayerIsPuppetNotNSB = yes }	#The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
-		complete_effect = { make_schwimmpanzer_II = yes }
+		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		complete_effect	= { make_schwimmpanzer_II = yes }
 	}
 	
 	"Tauchpanzer III" = 
@@ -182,8 +182,8 @@
 			can_tauchpanzer_III = yes
 			notTNO = yes
 		}
-		ai_will_do = { ifPlayerIsPuppetNotNSB = yes }	#The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
-		complete_effect = { make_tauchpanzer_III = yes }
+		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		complete_effect	= { make_tauchpanzer_III = yes }
 	}
 	
 	"Amphibienpanzer IV" = 
@@ -193,7 +193,7 @@
 			can_AmPz_IV = yes
 			notTNO = yes
 		}
-		complete_effect = { make_AmPz_IV = yes }
+		complete_effect	= { make_AmPz_IV = yes }
 	}
 	
 	"Schwimmpanther" = 
@@ -203,7 +203,7 @@
 			can_AmPz_V = yes
 			notTNO = yes
 		}
-		complete_effect = { make_AmPz_V = yes }
+		complete_effect	= { make_AmPz_V = yes }
 	}
 	
 	"Amphibienpanzer VI" = 
@@ -213,7 +213,7 @@
 			can_AmPz_VI = yes
 			notTNO = yes
 		}
-		complete_effect = { make_AmPz_VI = yes }
+		complete_effect	= { make_AmPz_VI = yes }
 	}
 	
 	"Amphibienpanzer VI Ausf. B" = 
@@ -223,7 +223,7 @@
 			can_AmPz_VI_2 = yes
 			notTNO = yes
 		}
-		complete_effect = { make_AmPz_VI_2 = yes }
+		complete_effect	= { make_AmPz_VI_2 = yes }
 	}
 	
 
@@ -233,112 +233,112 @@
 
 	"VW Feger" = 
 	{
-		visible = { can_VWF = yes }
-		ai_will_do = { ifPlayerIsPuppet = yes }	#The AI will only ever do this, if you play as their puppet
-		complete_effect = { make_VWF = yes }
+		visible			= { can_VWF = yes }
+		ai_will_do		= { ifPlayerIsPuppet = yes }
+		complete_effect	= { make_VWF = yes }
 	}
 	
 	"Katyusha" = 
 	{
-		visible = { can_Katyusha = yes }
-		ai_will_do = { ifPlayerIsPuppet = yes }	#The AI will only ever do this, if you play as their puppet
-		complete_effect = { make_Katyusha = yes }
+		visible			= { can_Katyusha = yes }
+		ai_will_do		= { ifPlayerIsPuppet = yes }
+		complete_effect	= { make_Katyusha = yes }
 	}
 	
 	"Sfz 11" = 
 	{
-		visible = { can_Sfz_11 = yes }
-		ai_will_do = { ifPlayerIsPuppet = yes }	#The AI will only ever do this, if you play as their puppet
-		complete_effect = { make_Sfz_11 = yes }
+		visible			= { can_Sfz_11 = yes }
+		ai_will_do		= { ifPlayerIsPuppet = yes }
+		complete_effect	= { make_Sfz_11 = yes }
 	}
 	
 	"Sfz 251" = 
 	{
-		visible = { can_Sfz_251 = yes }
-		ai_will_do = { ifPlayerIsPuppet = yes }	#The AI will only ever do this, if you play as their puppet
-		complete_effect = { make_Sfz_251 = yes }
+		visible			= { can_Sfz_251 = yes }
+		ai_will_do		= { ifPlayerIsPuppet = yes }
+		complete_effect	= { make_Sfz_251 = yes }
 	}
 	
 	"mech3.tt" = # Sfz 251/20
 	{
-		visible = { can_Sfz_251_20 = yes }
-		ai_will_do = { ifPlayerIsPuppet = yes }	#The AI will only ever do this, if you play as their puppet
-		complete_effect = { make_Sfz_251_20 = yes }
+		visible			= { can_Sfz_251_20 = yes }
+		ai_will_do		= { ifPlayerIsPuppet = yes }
+		complete_effect	= { make_Sfz_251_20 = yes }
 	}
 	
 	"mech4.tt" = #Kätzchen
 	{
-		visible = { can_Kätzchen = yes }
-		ai_will_do = { ifPlayerIsPuppet = yes }	#The AI will only ever do this, if you play as their puppet
-		complete_effect = { make_Kätzchen = yes }
+		visible			= { can_Kätzchen = yes }
+		ai_will_do		= { ifPlayerIsPuppet = yes }
+		complete_effect	= { make_Kätzchen = yes }
 	}
 	
 	"mech5.tt" = #Ozelot
 	{
-		visible = { can_Ozelot = yes }
-		ai_will_do = { ifPlayerIsPuppet = yes }	#The AI will only ever do this, if you play as their puppet
-		complete_effect = { make_Ozelot = yes }
+		visible			= { can_Ozelot = yes }
+		ai_will_do		= { ifPlayerIsPuppet = yes }
+		complete_effect	= { make_Ozelot = yes }
 	}
 	
 	"Spz Luchs" = 
 	{
-		visible = { can_Spz_Luchs = yes }
-		complete_effect = { make_Spz_Luchs = yes }
+		visible			= { can_Spz_Luchs = yes }
+		complete_effect	= { make_Spz_Luchs = yes }
 	}
 	
 	"Spz Puma" = 
 	{
-		visible = { can_Spz_Puma = yes }
-		complete_effect = { make_Spz_Puma = yes }
+		visible			= { can_Spz_Puma = yes }
+		complete_effect	= { make_Spz_Puma = yes }
 	}
 	
 	"LWS I" = 
 	{
-		visible = { can_LWS_I = yes }
-		ai_will_do = { ifPlayerIsPuppet = yes }	#The AI will only ever do this, if you play as their puppet
-		complete_effect = { make_LWS_I = yes }
+		visible			= { can_LWS_I = yes }
+		ai_will_do		= { ifPlayerIsPuppet = yes }
+		complete_effect	= { make_LWS_I = yes }
 	}
 	
 	"LWS II" = 
 	{
-		visible = { can_LWS_II = yes }
-		ai_will_do = { ifPlayerIsPuppet = yes }	#The AI will only ever do this, if you play as their puppet
-		complete_effect = { make_LWS_II = yes }
+		visible			= { can_LWS_II = yes }
+		ai_will_do		= { ifPlayerIsPuppet = yes }
+		complete_effect	= { make_LWS_II = yes }
 	}
 	
 	"LWS III" = 
 	{
-		visible = { can_LWS_III = yes }
-		complete_effect = { make_LWS_III = yes }
+		visible			= { can_LWS_III = yes }
+		complete_effect	= { make_LWS_III = yes }
 	}
 ###################################################
 #					Armored Cars				  #
 ###################################################	
 	"Sfz 222" =
 	{
-		visible = { can_Radpanzer_I = yes }
-		ai_will_do = { ifPlayerIsPuppet = yes }	#The AI will only ever do this, if you play as their puppet
-		complete_effect = { make_Radpanzer_I = yes }
+		visible			= { can_Radpanzer_I = yes }
+		ai_will_do		= { ifPlayerIsPuppet = yes }
+		complete_effect	= { make_Radpanzer_I = yes }
 	}
 	
 	"Sfz 231" =
 	{
-		visible = { can_Radpanzer_II = yes }
-		ai_will_do = { ifPlayerIsPuppet = yes }	#The AI will only ever do this, if you play as their puppet
-		complete_effect = { make_Radpanzer_II = yes }
+		visible			= { can_Radpanzer_II = yes }
+		ai_will_do		= { ifPlayerIsPuppet = yes }
+		complete_effect	= { make_Radpanzer_II = yes }
 	}
 	
 	"Sfz 234" =
 	{
-		visible = { can_Radpanzer_III = yes }
-		ai_will_do = { ifPlayerIsPuppet = yes }	#The AI will only ever do this, if you play as their puppet
-		complete_effect = { make_Radpanzer_III = yes }
+		visible			= { can_Radpanzer_III = yes }
+		ai_will_do		= { ifPlayerIsPuppet = yes }
+		complete_effect	= { make_Radpanzer_III = yes }
 	}
 	
 	"PaKwagen" =
 	{
-		visible = { can_PaKwagen = yes }
-		ai_will_do = { ifPlayerIsPuppet = yes }	#The AI will only ever do this, if you play as their puppet
-		complete_effect = { make_PaKwagen = yes }
+		visible			= { can_PaKwagen = yes }
+		ai_will_do		= { ifPlayerIsPuppet = yes }
+		complete_effect	= { make_PaKwagen = yes }
 	}
 }

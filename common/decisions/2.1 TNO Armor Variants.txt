@@ -8,197 +8,77 @@
 #
 	"TNO Panzer III" =
 	{
-		visible =
-		{
-			can_TNO_Pz_III = yes
-		}
-		complete_effect = 
-		{
-			make_TNO_Pz_III = yes
-		}
+		visible			= { can_TNO_Pz_III = yes }
+		complete_effect	= { make_TNO_Pz_III = yes }
 	}
 	
 	"TNO Panzer IV" =
 	{
-		visible =
-		{
-			can_TNO_Pz_IV = yes
-		}
-		complete_effect = 
-		{
-			make_TNO_Pz_IV = yes
-		}
+		visible			= { can_TNO_Pz_IV = yes }
+		complete_effect	= { make_TNO_Pz_IV = yes }
 	}
 	
 	"TNO Panther" =
 	{
-		visible =
-		{
-			can_TNO_Pz_V = yes
-		}
-		complete_effect = 
-		{
-			make_TNO_Pz_V = yes
-		}
+		visible			= { can_TNO_Pz_V = yes }
+		complete_effect	= { make_TNO_Pz_V = yes }
 	}
 	
 	"TNO Leopard" =
 	{
-		visible =
-		{
-			can_TNO_Leopard = yes
-		}
-		complete_effect = 
-		{
-			make_TNO_Leopard = yes
-		}
+		visible			= { can_TNO_Leopard = yes }
+		complete_effect	= { make_TNO_Leopard = yes }
 	}
 	
 	"TNO Leopard 1A3" =
 	{
-		visible =
-		{
-			can_TNO_Leopard1A3 = yes
-		}
-		complete_effect = 
-		{
-			make_TNO_Leopard1A3 = yes
-		}
+		visible			= { can_TNO_Leopard1A3 = yes }
+		complete_effect	= { make_TNO_Leopard1A3 = yes }
 	}
 #
 #	TNO MBT's
 #
 	"TNO E-50" =
 	{
-		visible =
-		{
-			can_TNO_E-50 = yes
-		}
-		complete_effect = 
-		{
-			make_TNO_E-50 = yes
-		}
+		visible			= { can_TNO_E-50 = yes }
+		complete_effect	= { make_TNO_E-50 = yes }
 	}
 	
 	"TNO E-75" =
 	{
-		visible =
-		{
-			can_TNO_E-75 = yes
-		}
-		complete_effect = 
-		{
-			make_TNO_E-75 = yes
-		}
+		visible			= { can_TNO_E-75 = yes }
+		complete_effect	= { make_TNO_E-75 = yes }
 	}
 	
 	"TNO Löwe" =
 	{
-		visible =
-		{
-			can_TNO_Löwe = yes
-		}
-		complete_effect = 
-		{
-			make_TNO_Löwe = yes
-		}
+		visible			= { can_TNO_Löwe = yes }
+		complete_effect	= { make_TNO_Löwe = yes }
 	}
 	
 	"TNO Leopard 2" =
 	{
-		visible =
-		{
-			can_TNO_Leopard2 = yes
-		}
-		complete_effect = 
-		{
-			make_TNO_Leopard2 = yes
-		}
+		visible			= { can_TNO_Leopard2 = yes }
+		complete_effect	= { make_TNO_Leopard2 = yes }
 	}
 	
 	"TNO Leopard 2A5" =
 	{
-		visible =
-		{
-			can_TNO_Leopard2A5 = yes
-		}
-		complete_effect = 
-		{
-			make_TNO_Leopard2A5 = yes
-		}
+		visible			= { can_TNO_Leopard2A5 = yes }
+		complete_effect	= { make_TNO_Leopard2A5 = yes }
 	}
 #
 #	TNO APC's
 #
 	"TNO Kätzchen" =
 	{
-		visible =
-		{
-			can_TNO_Kätzchen = yes
-		}
-		complete_effect = 
-		{
-			make_TNO_Kätzchen = yes
-		}
+		visible			= { can_TNO_Kätzchen = yes }
+		complete_effect	= { make_TNO_Kätzchen = yes }
 	}
 	
 	"TNO Ozelot" =
 	{
-		visible =
-		{
-			OR =
-			{
-				AND = #ROOT can do
-				{
-					has_tech  = APC_1960
-					NOT = { has_country_flag = has_Ozelot}
-				}
-				AND = #PUPPET can do
-				{
-					has_tech  = APC_1960
-					any_country =
-					{
-						is_puppet_of = ROOT
-						NOT = { has_country_flag = has_Ozelot}
-						NOT = 
-						{
-							has_license = #Tank
-							{
-								from = OVERLORD
-								equipment = 
-								{
-									type = APC_equipment_2
-									version = 1
-								}
-							}
-						}
-					}
-				}
-			}
-			AND =
-			{
-				has_start_date > 1950.01.01
-				has_start_date < 1999.12.31
-			}
-		}
-		ai_will_do = #The AI will only ever do this, if you play as their puppet and since the NSB integration is incomplete it won't if you have it enabled
-		{
-			base = 0
-			modifier =
-			{
-				any_country =
-				{
-					is_puppet_of = ROOT
-					is_ai = no
-				}
-				add = 100
-			}
-			modifier =
-			{
-				NOT = { has_DLC = "No Step Back" }
-				add = -100
-			}
-		}
+		visible			= { can_TNO_Ozelot = yes }
 		complete_effect = 
 		{
 			if =

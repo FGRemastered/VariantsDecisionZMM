@@ -19,174 +19,74 @@ ideas =
 				}
 			}
 		}
-		MobileWarfareBoost =
+		general_staff_2 = 
+		{	
+			allowed = {
+				original_tag = GER
+				always = no
+			}
+
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+			
+			modifier = {
+				army_org_Factor						= 0.05
+				planning_speed						= 0.25
+				mobilization_speed					= 3.0
+				production_speed_supply_node_factor	= 1.00
+				production_speed_rail_way_factor	= 1.00
+			}
+		}
+		
+		GER_autarky_idea2 = 
 		{
-			picture					= mobile_warfare #idea_war_economy
-			removal_cost			= -1
-			allowed					= { always = no }
-			allowed_civil_war		= { always = no }
+			allowed = {
+				original_tag = GER
+				always = no
+			}
+
+			allowed_civil_war = { always = yes }
 			
-			# Army
-			planning_speed = 0.7
-			army_speed_factor = 0.10
-			org_loss_when_moving = -0.1
-			mobilization_speed = 2.0	# +200%
-			conscription = 0.05			# +5% recruitable pop
-			no_supply_grace = 96
-			resistance_damage_to_garrison_on_our_occupied_states	= 0.3	# Danage to enemies
-			resistance_damage_to_garrison							= -0.25	# Danage to us
-			# Tanks
-			category_all_armor = 
-			{
-				breakthrough		= 0.40
-				maximum_speed		= 0.10
-				default_morale		= 0.7
+			removal_cost = -1
+
+			picture = generic_exploit_mines
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_dockyard_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
 			}
-			category_tanks = 
-			{
-				max_organisation	= 5
-				breakthrough		= 0.20
+		}
+
+		GER_grosraumwirtschaft2 = 
+		{
+			allowed = {
+				original_tag = GER
+				always = no
 			}
-			armored_car = 
-			{
-				max_organisation	= 17
-				maximum_speed		= 0.1
-				default_morale		= 0.8
-				breakthrough		= 0.20
-				suppression = 0.5
+
+			allowed_civil_war = {
+				always = yes
 			}
-			# Mobile Units
-			motorized = 
-			{
-				maximum_speed		= 0.1
-				default_morale		= 0.2
-				max_organisation	= 20
-			}
-			mechanized = 
-			{
-				maximum_speed		= 0.1
-				default_morale		= 0.2
-				max_organisation	= 20
-			}
-			amphibious_mechanized = 
-			{
-				maximum_speed		= 0.1
-				default_morale		= 0.2
-				max_organisation	= 20
-			}
-			bicycle_battalion =				# Personal Addition - Think of them as Shocktroops
-			{
-				maximum_speed		= 0.2
-				default_morale		= 0.2
-			}
-			mot_artillery_brigade = 
-			{
-				maximum_speed		= 0.1
-				default_morale		= 0.2
-			}
-			mot_rocket_artillery_brigade = # Rarty, but on a Truck - Devs forgot this
-			{
-				maximum_speed		= 0.1
-				default_morale		= 0.2
-			}
-			mot_anti_tank_brigade = 
-			{
-				maximum_speed		= 0.1
-				default_morale		= 0.2
-			}
-			mot_anti_air_brigade = 
-			{
-				maximum_speed		= 0.1
-				default_morale		= 0.2
-			}
-			motorized_rocket_brigade = # Katyushas - Devs forgot this
-			{
-				maximum_speed		= 0.1
-				default_morale		= 0.2
-			}
-			# Infantry
-			category_all_infantry = 
-			{
-				max_organisation	= 45
-				default_morale		= 0.2
-			}
-			# Tactics
-			enable_tactic = tactic_unexpected_thrust
-			enable_tactic = tactic_delay
-			enable_tactic = tactic_elastic_defense
-			enable_tactic = tactic_blitz
-			enable_tactic = tactic_breakthrough
-			enable_tactic = tactic_overwhelming_fire
-			enable_tactic = tactic_backhand_blow
 			
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				production_speed_buildings_factor			= 0.20
+				production_speed_infrastructure_factor		= 1.00
+				production_speed_rail_way_factor			= 1.00
+				production_speed_supply_node_factor			= 1.00
+				production_factory_efficiency_gain_factor	= 0.50
+				industrial_capacity_factory					= 0.20
+				industrial_capacity_dockyard				= 0.20
+				equipment_conversion_speed					= 0.20
+				supply_node_range							= 0.20
+			}
 		}
 	}
 	
-	general_staff_2 = 
-	{	
-		allowed = {
-			original_tag = GER
-			always = no
-		}
-
-		allowed_civil_war = { always = yes }
-
-		removal_cost = -1
-		
-		modifier = {
-			army_org_Factor						= 0.05
-			planning_speed						= 0.25
-			mobilization_speed					= 3.0
-			production_speed_supply_node_factor	= 1.00
-			production_speed_rail_way_factor	= 1.00
-		}
-	}
 	
-	GER_autarky_idea2 = 
-	{
-		allowed = {
-			original_tag = GER
-			always = no
-		}
-
-		allowed_civil_war = { always = yes }
-		
-		removal_cost = -1
-
-		picture = generic_exploit_mines
-
-		modifier = {
-			production_speed_arms_factory_factor = 0.1
-			production_speed_dockyard_factor = 0.1
-			production_speed_industrial_complex_factor = 0.1
-		}
-	}
-
-	GER_grosraumwirtschaft2 = 
-	{
-		allowed = {
-			original_tag = GER
-			always = no
-		}
-
-		allowed_civil_war = {
-			always = yes
-		}
-		
-		removal_cost = -1
-
-		picture = generic_build_infrastructure
-
-		modifier = {
-			production_speed_buildings_factor			= 0.20
-			production_speed_infrastructure_factor		= 1.00
-			production_speed_rail_way_factor			= 1.00
-			production_speed_supply_node_factor			= 1.00
-			production_factory_efficiency_gain_factor	= 0.50
-			industrial_capacity_factory					= 0.20
-			industrial_capacity_dockyard				= 0.20
-			equipment_conversion_speed					= 0.20
-			supply_node_range							= 0.20
-		}
-	}
 }
