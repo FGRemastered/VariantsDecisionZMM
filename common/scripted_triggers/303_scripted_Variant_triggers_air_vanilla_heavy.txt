@@ -4,6 +4,7 @@
 	can_TP1 =
 	{
 		always = yes 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_TP1 }
 		notTNO = yes
 	}
@@ -11,6 +12,7 @@
 	can_STRAT1 =
 	{
 		has_tech = strategic_bomber1 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_STRAT1 }
 		notTNO = yes
 	}
@@ -18,6 +20,7 @@
 	can_STRAT2 =
 	{
 		has_tech = strategic_bomber2 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_STRAT2 }
 		notTNO = yes
 	}
@@ -25,6 +28,7 @@
 	can_STRAT3 =
 	{
 		has_tech = strategic_bomber3 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_STRAT3 }
 		notTNO = yes
 	}
@@ -32,6 +36,7 @@
 	can_JSTRAT =
 	{
 		has_tech = jet_strategic_bomber1 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_JSTRAT1 }
 		notTNO = yes
 	}
@@ -39,6 +44,7 @@
 	can_V1 =
 	{
 		has_tech = rocket_engines 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_V1 }
 		notTNO = yes
 	}
@@ -46,6 +52,7 @@
 	can_V2 =
 	{
 		has_tech = improved_rocket_engines 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_V2 }
 		notTNO = yes
 	}
@@ -53,6 +60,7 @@
 	can_V3 =
 	{
 		has_tech = advanced_rocket_engines 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_V3 }
 		notTNO = yes
 	}
@@ -64,6 +72,7 @@
 			has_tech = rocket_engines_4
 			has_tech = modern_rocket_engines
 		}
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_V4 }
 		notTNO = yes
 	}
@@ -75,6 +84,7 @@
 			has_tech = rocket_engines_5
 			has_tech = nuke_rocket_engines
 		}
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_V5 }
 		notTNO = yes
 	}
@@ -82,6 +92,7 @@
 	can_V6 =
 	{
 		has_tech = rocket_engines_6
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_V6 }
 		notTNO = yes
 	}
@@ -89,6 +100,7 @@
 	can_V7 =
 	{
 		has_tech = rocket_engines_7
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_V7 }
 		notTNO = yes
 	}

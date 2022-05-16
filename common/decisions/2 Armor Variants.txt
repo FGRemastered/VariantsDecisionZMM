@@ -1,5 +1,29 @@
 "Armor Variants"  = 
 {
+	"Maximum Discount" =
+	{
+		visible			= { always = yes } # NOT = { has_DLC = "No Step Back" } }
+		available		= { NOT = { check_variable = { Pz_discount = 99 } } }
+		complete_effect	= { Pz_discount99 = yes }
+	}
+	"Safe Discount" =
+	{
+		visible			= { always = yes } # NOT = { has_DLC = "No Step Back" } }
+		available		= { NOT = { check_variable = { Pz_discount = 89 } } }
+		complete_effect	= { Pz_discount89 = yes }
+	}
+	"Half Discount" =
+	{
+		visible			= { always = yes } # NOT = { has_DLC = "No Step Back" } }
+		available		= { NOT = { check_variable = { Pz_discount = 50 } } }
+		complete_effect	= { Pz_discount50 = yes }
+	}
+	"No Discount" =
+	{
+		visible			= { always = yes } # NOT = { has_DLC = "No Step Back" }
+		available		= { NOT = { check_variable = { Pz_discount = 0 } } }
+		complete_effect	= { Pz_discount00 = yes }
+	}
 	"Traktorprojekt" =
 	{
 		visible =

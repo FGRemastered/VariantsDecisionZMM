@@ -9,6 +9,7 @@
 			has_tech = advanced_light_tank_a	#Endsieg
 			has_tech = light_tank4				#Add Tech
 		}
+		has_variable = Pz_discount
 		any_country =
 		{
 			OR =
@@ -121,6 +122,7 @@
 			has_tech = advanced_light_tank_b	#Endsieg
 			has_tech = light_tank5				#Add Tech
 		}
+		has_variable = Pz_discount
 		any_country =
 		{
 			OR =
@@ -185,6 +187,7 @@
 			has_tech = main_battle_tank_a	#Endsieg
 			has_tech = main_battle_tank2	#Add Tech
 		}
+		has_variable = Pz_discount
 		any_country =
 		{
 			OR =

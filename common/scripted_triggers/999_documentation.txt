@@ -27,7 +27,7 @@
 		modifier =
 		{
 			NOT = { has_DLC = "No Step Back" }
-			add = -100
+			factor = 0
 		}
 	}
 	

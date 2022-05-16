@@ -10,6 +10,7 @@
 		}
 		NOT = { has_country_flag = has_SS1 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_SS2 =
@@ -21,6 +22,7 @@
 		}
 		NOT = { has_country_flag = has_SS2 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_SS3 =
@@ -32,6 +34,7 @@
 		}
 		NOT = { has_country_flag = has_SS3 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_SS4 =
@@ -43,6 +46,7 @@
 		}
 		NOT = { has_country_flag = has_SS4 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_SC =
@@ -50,4 +54,5 @@
 		has_tech = cruiser_submarines
 		NOT = { has_country_flag = has_SC }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}

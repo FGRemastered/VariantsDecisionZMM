@@ -3,6 +3,8 @@
 
 	can_TNO_Kätzchen =
 	{
+		NOT = { has_DLC = "No Step Back" }
+		has_variable = Pz_discount
 		OR =
 		{
 			AND = #ROOT can do
@@ -36,6 +38,8 @@
 	
 	can_TNO_Ozelot =
 	{
+		NOT = { has_DLC = "No Step Back" }
+		has_variable = Pz_discount
 		OR =
 		{
 			AND = #ROOT can do

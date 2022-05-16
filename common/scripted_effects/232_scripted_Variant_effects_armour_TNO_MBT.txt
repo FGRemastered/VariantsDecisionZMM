@@ -21,7 +21,7 @@
 					tank_armor_upgrade = 15
 					tank_engine_upgrade = 200
 					tank_reliability_upgrade = 20
-					ZMM_LAND_prod_upgrade = 99
+					ZMM_LAND_prod_upgrade = Pz_discount
 				}
 			}
 		}
@@ -88,7 +88,7 @@
 					tank_armor_upgrade = 15
 					tank_engine_upgrade = 200
 					tank_reliability_upgrade = 20
-					ZMM_LAND_prod_upgrade = 99
+					ZMM_LAND_prod_upgrade = Pz_discount
 				}
 			}
 		}
@@ -155,7 +155,7 @@
 					tank_armor_upgrade = 15
 					tank_engine_upgrade = 200
 					tank_reliability_upgrade = 20
-					ZMM_LAND_prod_upgrade = 99
+					ZMM_LAND_prod_upgrade = Pz_discount
 				}
 			}
 		}
@@ -221,7 +221,7 @@
 					tank_armor_upgrade = 15
 					tank_engine_upgrade = 200
 					tank_reliability_upgrade = 20
-					ZMM_LAND_prod_upgrade = 99
+					ZMM_LAND_prod_upgrade = Pz_discount
 				}
 			}
 		}
@@ -287,7 +287,7 @@
 					tank_armor_upgrade = 15
 					tank_engine_upgrade = 200
 					tank_reliability_upgrade = 20
-					ZMM_LAND_prod_upgrade = 99
+					ZMM_LAND_prod_upgrade = Pz_discount
 				}
 			}
 		}

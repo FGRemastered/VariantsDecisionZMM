@@ -1,0 +1,10 @@
+on_actions =
+{
+	on_startup =
+	{
+		INF_Discount99	= yes
+		Pz_discount99	= yes
+		AIR_discount99	= yes
+		NAV_discount99	= yes
+	}
+}

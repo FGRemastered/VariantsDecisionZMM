@@ -5,6 +5,7 @@
 	{
 		# is_Tuesday = yes
 		has_tech = early_bomber 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_TAC0 }
 		notTNO = yes
 	}
@@ -12,6 +13,7 @@
 	can_TAC1 =
 	{
 		has_tech = tactical_bomber1 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_TAC1 }
 		notTNO = yes
 	}
@@ -19,6 +21,7 @@
 	can_TAC2 =
 	{
 		has_tech = tactical_bomber2 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_TAC2 } 
 		notTNO = yes
 	}
@@ -26,6 +29,7 @@
 	can_TAC3 =
 	{
 		has_tech = tactical_bomber3 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_TAC3 }
 		notTNO = yes
 	}
@@ -33,6 +37,7 @@
 	can_JTAC1 =
 	{
 		has_tech = jet_tactical_bomber1 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_JTAC1 }
 		notTNO = yes
 	}
@@ -40,6 +45,7 @@
 	can_JTAC2 =
 	{
 		has_tech = jet_tactical_bomber2 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_JTAC2 }
 		notTNO = yes
 	}
@@ -47,6 +53,7 @@
 	can_HF1 =
 	{
 		has_tech = heavy_fighter1 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_HF1 }
 		notTNO = yes
 	}
@@ -54,6 +61,7 @@
 	can_HF2 =
 	{
 		has_tech = heavy_fighter2 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_HF2 }
 		notTNO = yes
 	}
@@ -61,6 +69,7 @@
 	can_HF3 =
 	{
 		has_tech = heavy_fighter3 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_HF3 }
 		notTNO = yes
 	}
@@ -72,6 +81,7 @@
 			has_tech = scout_plane1 
 			has_tech = scout_plane #GW Redux
 		}
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_Scout1 }
 		notTNO = yes
 	}
@@ -79,6 +89,7 @@
 	can_Scout2 =
 	{
 		has_tech = scout_plane2 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_Scout2 }
 		notTNO = yes
 	}

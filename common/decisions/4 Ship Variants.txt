@@ -13,6 +13,30 @@
 		complete_effect = { set_global_flag = has_vanilla }
 	}
 	
+	"Maximum Discount" =
+	{
+		visible			= { always = yes }
+		available		= { NOT = { check_variable = { NAV_discount = 99 } } }
+		complete_effect	= { NAV_Discount99 = yes }
+	}
+	"Safe Discount" =
+	{
+		visible			= { always = yes }
+		available		= { NOT = { check_variable = { NAV_discount = 89 } } }
+		complete_effect	= { NAV_Discount89 = yes }
+	}
+	"Half Discount" =
+	{
+		visible			= { always = yes }
+		available		= { NOT = { check_variable = { NAV_discount = 50 } } }
+		complete_effect	= { NAV_Discount50 = yes }
+	}
+	"No Discount" =
+	{
+		visible			= { always = yes }
+		available		= { NOT = { check_variable = { NAV_discount = 0 } } }
+		complete_effect	= { NAV_Discount00 = yes }
+	}
 	# Träger - CV
 	"CV 0" =
 	{

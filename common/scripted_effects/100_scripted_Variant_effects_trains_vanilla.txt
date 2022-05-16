@@ -1,0 +1,80 @@
+# Trains and Railway Gun
+#This file contains the creation of the variants, so it can be called from anywhere it's needed.
+
+	make_Train1 = 
+	{
+		if =
+		{
+			limit = { NOT = { has_country_flag = has_Train1 } }
+			set_country_flag = has_Train1
+			create_equipment_variant = 
+			{
+				name = "Güterzug"
+				type = train_equipment_1
+				upgrades = 
+				{
+					Train_armour_upgrade	= 95
+					Train_prod_upgrade		= INF_discount
+				}
+			}
+		}
+	}
+	
+	make_Train2 = 
+	{
+		if =
+		{
+			limit = { NOT = { has_country_flag = has_Train2 } }
+			set_country_flag = has_Train2
+			create_equipment_variant = 
+			{
+				name = "Leichtbauzug"
+				type = train_equipment_2
+				upgrades = 
+				{
+					Train_armour_upgrade	= 95
+					Train_prod_upgrade		= INF_discount
+				}
+			}
+		}
+	}
+	
+	make_Train3 = 
+	{
+		if =
+		{
+			limit = { NOT = { has_country_flag = has_Train3 } }
+			set_country_flag = has_Train3
+			create_equipment_variant = 
+			{
+				name = "Panzerzug"
+				type = train_equipment_3
+				upgrades = 
+				{
+					Train_armour_upgrade	= 95
+					Train_prod_upgrade		= INF_discount
+				}
+			}
+		}
+	}
+	
+	make_BFRG = 
+	{
+		if =
+		{
+			limit = { NOT = { has_country_flag = has_BFRG } }
+			set_country_flag = has_BFRG
+			create_equipment_variant = 
+			{
+				name = "Bertha"
+				type = railway_gun_equipment_1
+				upgrades = 
+				{
+					RW_ART_attack_upgrade		= 95
+					RW_ART_engine_upgrade		= 200
+					RW_ART_reliability_upgrade	= 100
+					RW_ART_prod_upgrade			= BFRG_discount
+				}
+			}
+		}
+	}

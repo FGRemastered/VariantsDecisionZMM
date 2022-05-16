@@ -4,6 +4,7 @@
 	can_TNO_E-50 =
 	{
 		NOT = { has_DLC = "No Step Back" }
+		has_variable = Pz_discount
 		OR =
 		{
 			AND = #ROOT can do
@@ -38,6 +39,7 @@
 	can_TNO_E-75 =
 	{
 		NOT = { has_DLC = "No Step Back" }
+		has_variable = Pz_discount
 		OR =
 		{
 			AND = #ROOT can do
@@ -72,6 +74,7 @@
 	can_TNO_Löwe =
 	{
 		NOT = { has_DLC = "No Step Back" }
+		has_variable = Pz_discount
 		OR =
 		{
 			AND = #ROOT can do
@@ -106,6 +109,7 @@
 	can_TNO_Leopard2 =
 	{
 		NOT = { has_DLC = "No Step Back" }
+		has_variable = Pz_discount
 		OR =
 		{
 			AND = #ROOT can do
@@ -139,6 +143,8 @@
 	
 	can_TNO_Leopard2A5 =
 	{
+		NOT = { has_DLC = "No Step Back" }
+		has_variable = Pz_discount
 		OR =
 		{
 			AND = #ROOT can do

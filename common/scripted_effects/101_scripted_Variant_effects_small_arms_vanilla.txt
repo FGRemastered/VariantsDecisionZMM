@@ -14,7 +14,7 @@
 				upgrades = 
 				{
 					SUPP_reliability_upgrade = 5
-					SUPP_prod_upgrade = 99
+					SUPP_prod_upgrade = INF_discount
 				}
 			}
 		}
@@ -40,7 +40,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -63,7 +63,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -85,7 +85,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -112,7 +112,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -135,7 +135,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -158,7 +158,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -180,7 +180,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -208,7 +208,7 @@
 					INF_SA_upgrade = 15
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 20
-					INF_prod_upgrade = 95
+					INF_prod_upgrade = INF_discount_95 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -230,7 +230,7 @@
 					INF_SA_upgrade = 15
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 20
-					INF_prod_upgrade = 95
+					INF_prod_upgrade = INF_discount_95 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -253,7 +253,7 @@
 					INF_SA_upgrade = 15
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 20
-					INF_prod_upgrade = 95
+					INF_prod_upgrade = INF_discount_95 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -275,7 +275,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -303,7 +303,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -325,7 +325,7 @@
 					INF_SA_upgrade = 25
 					INF_HA_upgrade = 20
 					INF_defence_upgrade = 50
-					INF_prod_upgrade = 95
+					INF_prod_upgrade = INF_discount_95 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -348,7 +348,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -370,7 +370,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -397,7 +397,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -420,7 +420,7 @@
 					INF_SA_upgrade = 25
 					INF_HA_upgrade = 20
 					INF_defence_upgrade = 50
-					INF_prod_upgrade = 95
+					INF_prod_upgrade = INF_discount_95 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -443,7 +443,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -466,7 +466,7 @@
 					INF_SA_upgrade = 25
 					INF_HA_upgrade = 20
 					INF_defence_upgrade = 50
-					INF_prod_upgrade = 95
+					INF_prod_upgrade = INF_discount_95 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -488,7 +488,7 @@
 					INF_SA_upgrade = 25
 					INF_HA_upgrade = 20
 					INF_defence_upgrade = 50
-					INF_prod_upgrade = 95
+					INF_prod_upgrade = INF_discount_95 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -515,7 +515,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -538,7 +538,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -561,7 +561,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -583,7 +583,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -610,7 +610,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}
@@ -632,7 +632,7 @@
 					INF_SA_upgrade = 10
 					INF_HA_upgrade = 5
 					INF_defence_upgrade = 10
-					INF_prod_upgrade = 90
+					INF_prod_upgrade = INF_discount_90 # Precautionary measure to prevent integer overflow
 				}
 			}
 		}

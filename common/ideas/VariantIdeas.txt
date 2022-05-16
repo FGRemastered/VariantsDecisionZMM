@@ -5,6 +5,7 @@ ideas =
 		VarCheapTanks =
 		{
 			picture					= generic_production_bonus
+			name					= "Cheap Tanks"
 			removal_cost			= -1
 			allowed					= { always = no }
 			allowed_civil_war		= { always = no }
@@ -16,6 +17,28 @@ ideas =
 					maximum_speed	= 2.00
 					build_cost_ic	= -1.19
 					instant			= yes
+				}
+				amphibious =
+				{
+					build_cost_ic	= -0.10
+					instant			= yes
+				}
+			}
+		}
+		MagicHospitals =
+		{
+			picture					= fin_red_cross
+			name					= "Magic Hospitals"
+			removal_cost			= -1
+			allowed					= { always = no }
+			allowed_civil_war		= { always = no }
+			equipment_bonus = 
+			{
+				field_hospital = 
+				{
+					casualty_trickleback	=  0.50		# 20% + 3x10%
+					experience_loss_factor	= -0.60		# 10% + 3x10%
+					instant					= 	yes
 				}
 			}
 		}
@@ -75,15 +98,15 @@ ideas =
 			picture = generic_build_infrastructure
 
 			modifier = {
-				production_speed_buildings_factor			= 0.20
+				production_speed_buildings_factor			= 0.05
 				production_speed_infrastructure_factor		= 1.00
 				production_speed_rail_way_factor			= 1.00
 				production_speed_supply_node_factor			= 1.00
 				production_factory_efficiency_gain_factor	= 0.50
-				industrial_capacity_factory					= 0.20
-				industrial_capacity_dockyard				= 0.20
+				industrial_capacity_factory					= 0.05
+				industrial_capacity_dockyard				= 0.05
 				equipment_conversion_speed					= 0.20
-				supply_node_range							= 0.20
+				supply_node_range							= 0.50
 			}
 		}
 	}

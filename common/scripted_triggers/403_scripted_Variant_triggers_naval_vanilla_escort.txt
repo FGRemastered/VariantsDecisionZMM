@@ -10,6 +10,7 @@
 		}
 		NOT = { has_country_flag = has_CA1 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_CA2 =
@@ -21,6 +22,7 @@
 		}
 		NOT = { has_country_flag = has_CA2 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_CA3 =
@@ -32,6 +34,7 @@
 		}
 		NOT = { has_country_flag = has_CA3 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_CA4 =
@@ -43,6 +46,7 @@
 		}
 		NOT = { has_country_flag = has_CA4 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_CL1 =
@@ -54,6 +58,7 @@
 		}
 		NOT = { has_country_flag = has_CL1 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_CL2 =
@@ -65,6 +70,7 @@
 		}
 		NOT = { has_country_flag = has_CL2 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_CL3 =
@@ -76,6 +82,7 @@
 		}
 		NOT = { has_country_flag = has_CL3 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_CL4 =
@@ -87,6 +94,7 @@
 		}
 		NOT = { has_country_flag = has_CL4 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_DD1 =
@@ -98,6 +106,7 @@
 		}
 		NOT = { has_country_flag = has_DD1 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_DD2 =
@@ -109,6 +118,7 @@
 		}
 		NOT = { has_country_flag = has_DD2 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_DD3 =
@@ -120,6 +130,7 @@
 		}
 		NOT = { has_country_flag = has_DD3 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_DD4 =
@@ -131,6 +142,7 @@
 		}
 		NOT = { has_country_flag = has_DD4 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	

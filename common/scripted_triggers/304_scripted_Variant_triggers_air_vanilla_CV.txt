@@ -4,6 +4,7 @@
 	can_CV_F0 =
 	{
 		has_tech = early_fighter 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_CV_F0 }
 		notTNO = yes
 	}
@@ -11,6 +12,7 @@
 	can_CV_F1 =
 	{
 		has_tech = fighter1 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_CV_F1 }
 		notTNO = yes
 	}
@@ -18,6 +20,7 @@
 	can_CV_F2 =
 	{
 		has_tech = fighter2 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_CV_F2 }
 		notTNO = yes
 	}
@@ -25,6 +28,7 @@
 	can_CV_F3 =
 	{
 		has_tech = fighter3 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_CV_F3 }
 		notTNO = yes
 	}
@@ -32,6 +36,7 @@
 	can_CV_CAS1 =
 	{
 		has_tech = CAS1 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_CV_CAS1 }
 		notTNO = yes
 	}
@@ -39,6 +44,7 @@
 	can_CV_CAS2 =
 	{
 		has_tech = CAS2 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_CV_CAS2 }
 		notTNO = yes
 	}
@@ -46,6 +52,7 @@
 	can_CV_CAS3 =
 	{
 		has_tech = CAS3 
+		has_variable = AIR_discount
 		NOT = { has_country_flag = has_CV_CAS3 }
 		notTNO = yes
 	}

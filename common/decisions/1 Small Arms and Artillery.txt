@@ -1,113 +1,139 @@
 "Small Arms and Artillery" = 
 {
+	"Maximum Discount" =
+	{
+		visible			= { always = yes }
+		available		= { NOT = { check_variable = { INF_discount = 99 } } }
+		complete_effect	= { INF_Discount99 = yes }
+	}
+	"Safe Discount" =
+	{
+		visible			= { always = yes }
+		available		= { NOT = { check_variable = { INF_discount = 89 } } }
+		complete_effect	= { INF_Discount89 = yes }
+	}
+	"Half Discount" =
+	{
+		visible			= { always = yes }
+		available		= { NOT = { check_variable = { INF_discount = 50 } } }
+		complete_effect	= { INF_Discount50 = yes }
+	}
+	"No Discount" =
+	{
+		visible			= { always = yes }
+		available		= { NOT = { check_variable = { INF_discount = 0 } } }
+		complete_effect	= { INF_Discount00 = yes }
+	}
+	"Civilian Train" =
+	{
+		visible			= { can_Train1 = yes }
+		complete_effect	= { make_Train1 = yes }
+	}
+	"Austerity Train" =
+	{
+		visible			= { can_Train2 = yes }
+		complete_effect	= { make_Train2 = yes }
+	}
+	"Armored Train" =
+	{
+		visible			= { can_Train3 = yes }
+		complete_effect	= { make_Train3 = yes }
+	}
+	"Railway Gun" =	# Big F****** Railway Gun
+	{
+		visible			= { can_BFRG = yes }
+		complete_effect	= { make_BFRG = yes }
+	}
 	"Support Equipment" =
 	{
 		visible			= { can_ZA = yes }
 		complete_effect	= { make_ZA = yes }
 	}
-	
 	"Gewehr 98" =
 	{
 		visible			= { can_G98 = yes }
 		complete_effect	= { make_G98 = yes }
 	}
-	
 	"Karabiner 98k" =
 	{
 		visible			= { can_Kar98k = yes }
 		complete_effect	= { make_Kar98k = yes }
 	}
-	
 	"MP40" =
 	{
 		visible			= { can_MP40 = yes }
 		complete_effect	= { make_MP40 = yes }
 	}
-	
 	"StG 44" =
 	{
 		visible			= { can_StG44 = yes }
 		complete_effect	= { make_StG44 = yes }
 	}
-	
 	"StG 45" =
 	{
 		visible			= { can_StG45 = yes }
 		complete_effect	= { make_StG45 = yes }
 	}
-	
 	"G3" =
 	{
 		visible			= { can_G3 = yes }
 		complete_effect	= { make_G3 = yes }
 	}
-	
 	"G11E" =
 	{
 		visible			= { can_G11 = yes }
 		complete_effect	= { make_G11 = yes }
 	}
-	
 	"GW Artillery" =
 	{
 		visible			= { can_Art0 = yes }
 		complete_effect	= { make_Art0 = yes }
 	}
-	
 	"Improved Artillery" =
 	{
 		visible			= { can_Art1 = yes }
 		complete_effect	= { make_Art1 = yes }
 	}
-	
 	"Advanced Artillery" =
 	{
 		visible			= { can_Art2 = yes }
 		complete_effect	= { make_Art2 = yes }
 	}
-	
 	"IW Anti-Tank" =
 	{
 		visible			= { can_AT0 = yes }
 		complete_effect	= { make_AT0 = yes }
 	}
-	
 	"Improved Anti-Tank" =
 	{
 		visible			= { can_AT1 = yes }
 		complete_effect	= { make_AT1 = yes }
 	}
-	
 	"Advanced Anti-Tank" =
 	{
 		visible			= { can_AT2 = yes }
 		complete_effect	= { make_AT2 = yes }
 	}
-	
 	"IW Anti-Air" =
 	{
 		visible			= { can_AA0 = yes }
 		complete_effect	= { make_AA0 = yes }
 	}
-	
 	"Improved Anti-Air" =
 	{
 		visible			= { can_AA1 = yes }
 		complete_effect	= { make_AA1 = yes }
 	}
-	
 	"Advanced Anti-Air" =
 	{
 		visible			= { can_AA2 = yes }
 		complete_effect	= { make_AA2 = yes }
 	}
-	
 	"Rocket Artillery I" =
 	{
 		visible			= { can_RA1 = yes }
 		complete_effect	= { make_RA1 = yes }
 	}
-	
 	"Rocket Artillery II" =
 	{
 		visible			= { can_RA2 = yes }

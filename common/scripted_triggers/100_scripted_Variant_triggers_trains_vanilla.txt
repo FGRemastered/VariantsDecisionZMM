@@ -1,0 +1,30 @@
+# Trains and Railway Gun
+# This file contains the checks for the decisions
+
+	can_Train1 =
+	{
+		has_tech = basic_train
+		has_variable = INF_discount
+		NOT =  { has_country_flag = has_Train1 }
+	}
+	
+	can_Train2 =
+	{
+		has_tech = wartime_train
+		has_variable = INF_discount
+		NOT =  { has_country_flag = has_Train2 }
+	}
+	
+	can_Train3 =
+	{
+		has_tech = armored_train
+		has_variable = INF_discount
+		NOT =  { has_country_flag = has_Train3 }
+	}
+	
+	can_BFRG =
+	{
+		has_tech = railway_gun
+		has_variable = INF_discount
+		NOT =  { has_country_flag = has_BFRG }
+	}

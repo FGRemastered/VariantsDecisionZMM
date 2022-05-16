@@ -7,6 +7,7 @@
 		has_dlc = "Man the Guns"
 		NOT = { has_country_flag = has_CV0 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_CV1 =
@@ -18,6 +19,7 @@
 		}
 		NOT = { has_country_flag = has_CV1 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_CV2 =
@@ -29,6 +31,7 @@
 		}
 		NOT = { has_country_flag = has_CV2 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_CV3 =
@@ -40,6 +43,7 @@
 		}
 		NOT = { has_country_flag = has_CV3 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}
 	
 	can_CV4 =
@@ -51,4 +55,5 @@
 		}
 		NOT = { has_country_flag = has_CV4 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
+		has_variable = NAV_discount
 	}

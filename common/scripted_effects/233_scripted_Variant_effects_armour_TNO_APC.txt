@@ -20,7 +20,7 @@
 					MECH_speed_upgrade = 100
 					MECH_armor_upgrade = 5
 					MECH_attack_upgrade = 90
-					MECH_prod_upgrade = 99
+					MECH_prod_upgrade = Pz_discount
 				}
 			}
 		}
