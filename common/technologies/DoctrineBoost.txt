@@ -6,23 +6,26 @@ technologies =
 		doctrine		= yes
 		research_cost	= 1
 		allow = { always = no }
-		modifier = 
-		{
-			tactic_unexpected_thrust_preferred_weight_factor = 1
-			tactic_backhand_blow_preferred_weight_factor = 1
-			army_speed_factor = 0.05
-			coordination_bonus = 0.05
-			org_loss_when_moving = -0.15
-			choose_preferred_tactics_cost = -15
-		}
+		# Tactics
+		enable_tactic = tactic_unexpected_thrust
+		enable_tactic = tactic_delay
+		enable_tactic = tactic_elastic_defense
+		enable_tactic = tactic_blitz
+		enable_tactic = tactic_breakthrough
+		enable_tactic = tactic_overwhelming_fire
+		enable_tactic = tactic_backhand_blow
 		
+		tactic_unexpected_thrust_preferred_weight_factor	= 1
+		tactic_backhand_blow_preferred_weight_factor		= 1
+		choose_preferred_tactics_cost = -15
 		# Army
-		planning_speed = 1.0		# +30%
-		army_speed_factor = 0.10
-		org_loss_when_moving = -0.1
+		planning_speed = 1.0			# +30%
+		coordination_bonus = 0.05
+		army_speed_factor = 0.15		# +5% from officer corps
+		org_loss_when_moving = -0.25	# +25% from officer corps
 		training_time_army_factor = -0.25
-		mobilization_speed = 2.0	# +200%
-		conscription = 0.05			# +5% recruitable pop
+		mobilization_speed = 2.0		# +200%
+		conscription = 0.05				# +5% recruitable pop
 		no_supply_grace = 96
 		resistance_damage_to_garrison_on_our_occupied_states	= 0.3	# Danage to enemies
 		resistance_damage_to_garrison							= -0.25	# Danage to us
@@ -101,14 +104,6 @@ technologies =
 			max_organisation	= 45
 			default_morale		= 1.0 # +0.8
 		}
-		# Tactics
-		enable_tactic = tactic_unexpected_thrust
-		enable_tactic = tactic_delay
-		enable_tactic = tactic_elastic_defense
-		enable_tactic = tactic_blitz
-		enable_tactic = tactic_breakthrough
-		enable_tactic = tactic_overwhelming_fire
-		enable_tactic = tactic_backhand_blow
 		
 	}
 }

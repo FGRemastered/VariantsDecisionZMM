@@ -17,7 +17,7 @@
 					ART_SA_upgrade = 10
 					ART_HA_upgrade = 5
 					ART_defence_upgrade = 10
-					ART_prod_upgrade = INF_discount
+					ART_prod_upgrade = var:INF_discount
 				}
 			}
 		}
@@ -39,7 +39,7 @@
 					ART_SA_upgrade = 10
 					ART_HA_upgrade = 5
 					ART_defence_upgrade = 10
-					ART_prod_upgrade = INF_discount
+					ART_prod_upgrade = var:INF_discount
 				}
 			}
 		}
@@ -61,7 +61,7 @@
 					ART_SA_upgrade = 10
 					ART_HA_upgrade = 5
 					ART_defence_upgrade = 10
-					ART_prod_upgrade = INF_discount
+					ART_prod_upgrade = var:INF_discount
 				}
 			}
 		}
@@ -83,7 +83,7 @@
 					AT_pierce_upgrade = 10
 					AT_HA_upgrade = 5
 					AT_defence_upgrade = 10
-					AT_prod_upgrade = INF_discount
+					AT_prod_upgrade = var:INF_discount
 				}
 			}
 		}
@@ -105,7 +105,7 @@
 					AT_pierce_upgrade = 10
 					AT_HA_upgrade = 5
 					AT_defence_upgrade = 10
-					AT_prod_upgrade = INF_discount
+					AT_prod_upgrade = var:INF_discount
 				}
 			}
 		}
@@ -127,7 +127,7 @@
 					AT_pierce_upgrade = 10
 					AT_HA_upgrade = 5
 					AT_defence_upgrade = 10
-					AT_prod_upgrade = INF_discount
+					AT_prod_upgrade = var:INF_discount
 				}
 			}
 		}
@@ -149,7 +149,7 @@
 					AA_AA_upgrade = 10
 					AA_HA_upgrade = 5
 					AA_defence_upgrade = 10
-					AA_prod_upgrade = INF_discount
+					AA_prod_upgrade = var:INF_discount
 				}
 			}
 		}
@@ -171,7 +171,7 @@
 					AA_AA_upgrade = 10
 					AA_HA_upgrade = 5
 					AA_defence_upgrade = 10
-					AA_prod_upgrade = INF_discount
+					AA_prod_upgrade = var:INF_discount
 				}
 			}
 		}
@@ -193,7 +193,7 @@
 					AA_AA_upgrade = 10
 					AA_HA_upgrade = 5
 					AA_defence_upgrade = 10
-					AA_prod_upgrade = INF_discount
+					AA_prod_upgrade = var:INF_discount
 				}
 			}
 		}
@@ -215,7 +215,7 @@
 					ART_SA_upgrade = 20
 					ART_HA_upgrade = 15
 					ART_defence_upgrade = 20
-					ART_prod_upgrade = INF_discount
+					ART_prod_upgrade = var:INF_discount
 				}
 			}
 		}
@@ -237,7 +237,7 @@
 					ART_SA_upgrade = 20
 					ART_HA_upgrade = 15
 					ART_defence_upgrade = 20
-					ART_prod_upgrade = INF_discount
+					ART_prod_upgrade = var:INF_discount
 				}
 			}
 		}

@@ -34,7 +34,7 @@
 					# tank_armor_upgrade = 15
 					# tank_engine_upgrade = 100
 					# tank_reliability_upgrade = 200
-					# ZMM_LAND_prod_upgrade = 119
+					# ZMM_LAND_prod_upgrade = var:Pz_discount_119
 				# }
 			}
 			create_equipment_variant = 
@@ -60,7 +60,7 @@
 					# tank_armor_upgrade = 15
 					# tank_engine_upgrade = 100
 					# tank_reliability_upgrade = 200
-					# ZMM_LAND_prod_upgrade = 119
+					# ZMM_LAND_prod_upgrade = var:Pz_discount_119
 				# }
 			}
 			create_equipment_variant = 
@@ -86,7 +86,7 @@
 					# tank_armor_upgrade = 15
 					# tank_engine_upgrade = 100
 					# tank_reliability_upgrade = 200
-					# ZMM_LAND_prod_upgrade = 119
+					# ZMM_LAND_prod_upgrade = var:Pz_discount_119
 				# }
 			}
 			create_equipment_variant = 
@@ -112,7 +112,7 @@
 					# tank_armor_upgrade = 15
 					# tank_engine_upgrade = 100
 					# tank_reliability_upgrade = 200
-					# ZMM_LAND_prod_upgrade = 119
+					# ZMM_LAND_prod_upgrade = var:Pz_discount_119
 				# }
 			}
 			create_equipment_variant = 
@@ -138,7 +138,7 @@
 					# tank_armor_upgrade = 15
 					# tank_engine_upgrade = 1000
 					# tank_reliability_upgrade = 200
-					# ZMM_LAND_prod_upgrade = 119
+					# ZMM_LAND_prod_upgrade = var:Pz_discount_119
 				# }
 			}
 		}
@@ -170,7 +170,7 @@
 					tank_armor_upgrade = 90
 					tank_engine_upgrade = 200
 					tank_reliability_upgrade = 100
-					ZMM_LAND_prod_upgrade = 99
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 			create_equipment_variant = 
@@ -183,7 +183,7 @@
 					tank_armor_upgrade = 90
 					tank_engine_upgrade = 200
 					tank_reliability_upgrade = 100
-					ZMM_LAND_prod_upgrade = 99
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 			create_equipment_variant = 
@@ -196,7 +196,7 @@
 					tank_armor_upgrade = 90
 					tank_engine_upgrade = 200
 					tank_reliability_upgrade = 100
-					ZMM_LAND_prod_upgrade = 99
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 			create_equipment_variant = 
@@ -209,7 +209,7 @@
 					tank_armor_upgrade = 90
 					tank_engine_upgrade = 200
 					tank_reliability_upgrade = 100
-					ZMM_LAND_prod_upgrade = 99
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 		}
@@ -231,7 +231,7 @@
 					{
 						has_license = #Tank
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = heavy_tank_equipment_1
@@ -240,7 +240,7 @@
 						}
 						has_license = #SPG
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = heavy_tank_artillery_equipment_1
@@ -249,7 +249,7 @@
 						}
 						has_license = #TD
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = heavy_tank_destroyer_equipment_1
@@ -258,7 +258,7 @@
 						}
 						has_license = #SPAA
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = heavy_tank_aa_equipment_1
@@ -347,7 +347,7 @@
 					# tank_armor_upgrade = 15
 					# tank_engine_upgrade = 100
 					# tank_reliability_upgrade = 200
-					# ZMM_LAND_prod_upgrade = 119
+					# ZMM_LAND_prod_upgrade = var:Pz_discount_119
 				# }
 			}
 			create_equipment_variant = 
@@ -373,7 +373,7 @@
 					# tank_armor_upgrade = 15
 					# tank_engine_upgrade = 100
 					# tank_reliability_upgrade = 200
-					# ZMM_LAND_prod_upgrade = 119
+					# ZMM_LAND_prod_upgrade = var:Pz_discount_119
 				# }
 			}
 			create_equipment_variant = 
@@ -399,7 +399,7 @@
 					# tank_armor_upgrade = 15
 					# tank_engine_upgrade = 100
 					# tank_reliability_upgrade = 200
-					# ZMM_LAND_prod_upgrade = 119
+					# ZMM_LAND_prod_upgrade = var:Pz_discount_119
 				# }
 			}
 			create_equipment_variant = 
@@ -425,7 +425,7 @@
 					# tank_armor_upgrade = 15
 					# tank_engine_upgrade = 100
 					# tank_reliability_upgrade = 200
-					# ZMM_LAND_prod_upgrade = 119
+					# ZMM_LAND_prod_upgrade = var:Pz_discount_119
 				# }
 			}
 			create_equipment_variant = 
@@ -451,7 +451,7 @@
 					# tank_armor_upgrade = 15
 					# tank_engine_upgrade = 1000
 					# tank_reliability_upgrade = 200
-					# ZMM_LAND_prod_upgrade = 119
+					# ZMM_LAND_prod_upgrade = var:Pz_discount_119
 				# }
 			}
 		}
@@ -483,7 +483,7 @@
 					tank_armor_upgrade = 90
 					tank_engine_upgrade = 200
 					tank_reliability_upgrade = 100
-					ZMM_LAND_prod_upgrade = 99
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 			create_equipment_variant = 
@@ -496,7 +496,7 @@
 					tank_armor_upgrade = 90
 					tank_engine_upgrade = 200
 					tank_reliability_upgrade = 100
-					ZMM_LAND_prod_upgrade = 99
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 			create_equipment_variant = 
@@ -509,7 +509,7 @@
 					tank_armor_upgrade = 90
 					tank_engine_upgrade = 200
 					tank_reliability_upgrade = 100
-					ZMM_LAND_prod_upgrade = 99
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 			create_equipment_variant = 
@@ -522,7 +522,7 @@
 					tank_armor_upgrade = 90
 					tank_engine_upgrade = 200
 					tank_reliability_upgrade = 100
-					ZMM_LAND_prod_upgrade = 99
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 		}
@@ -543,7 +543,7 @@
 					{
 						has_license = #Tank
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = heavy_tank_equipment_2
@@ -552,7 +552,7 @@
 						}
 						has_license = #SPG
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = heavy_tank_artillery_equipment_2
@@ -561,7 +561,7 @@
 						}
 						has_license = #TD
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = heavy_tank_destroyer_equipment_2
@@ -570,7 +570,7 @@
 						}
 						has_license = #SPAA
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = heavy_tank_aa_equipment_2
@@ -659,7 +659,7 @@
 					# tank_armor_upgrade = 15
 					# tank_engine_upgrade = 100
 					# tank_reliability_upgrade = 200
-					# ZMM_LAND_prod_upgrade = 119
+					# ZMM_LAND_prod_upgrade = var:Pz_discount_119
 				# }
 			}
 			create_equipment_variant = 
@@ -685,7 +685,7 @@
 					# tank_armor_upgrade = 15
 					# tank_engine_upgrade = 100
 					# tank_reliability_upgrade = 200
-					# ZMM_LAND_prod_upgrade = 119
+					# ZMM_LAND_prod_upgrade = var:Pz_discount_119
 				# }
 			}
 			create_equipment_variant = 
@@ -711,7 +711,7 @@
 					# tank_armor_upgrade = 15
 					# tank_engine_upgrade = 100
 					# tank_reliability_upgrade = 200
-					# ZMM_LAND_prod_upgrade = 119
+					# ZMM_LAND_prod_upgrade = var:Pz_discount_119
 				# }
 			}
 			create_equipment_variant = 
@@ -737,7 +737,7 @@
 					# tank_armor_upgrade = 15
 					# tank_engine_upgrade = 100
 					# tank_reliability_upgrade = 200
-					# ZMM_LAND_prod_upgrade = 119
+					# ZMM_LAND_prod_upgrade = var:Pz_discount_119
 				# }
 			}
 			create_equipment_variant = 
@@ -763,7 +763,7 @@
 					# tank_armor_upgrade = 15
 					# tank_engine_upgrade = 1000
 					# tank_reliability_upgrade = 200
-					# ZMM_LAND_prod_upgrade = 119
+					# ZMM_LAND_prod_upgrade = var:Pz_discount_119
 				# }
 			}
 		}
@@ -795,7 +795,7 @@
 					tank_armor_upgrade = 90
 					tank_engine_upgrade = 200
 					tank_reliability_upgrade = 100
-					ZMM_LAND_prod_upgrade = 99
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 			create_equipment_variant = 
@@ -808,7 +808,7 @@
 					tank_armor_upgrade = 90
 					tank_engine_upgrade = 200
 					tank_reliability_upgrade = 100
-					ZMM_LAND_prod_upgrade = 99
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 			create_equipment_variant = 
@@ -821,7 +821,7 @@
 					tank_armor_upgrade = 90
 					tank_engine_upgrade = 200
 					tank_reliability_upgrade = 100
-					ZMM_LAND_prod_upgrade = 99
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 			create_equipment_variant = 
@@ -834,7 +834,7 @@
 					tank_armor_upgrade = 90
 					tank_engine_upgrade = 200
 					tank_reliability_upgrade = 100
-					ZMM_LAND_prod_upgrade = 99
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 		}
@@ -855,7 +855,7 @@
 					{
 						has_license = #Tank
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = heavy_tank_equipment_3
@@ -864,7 +864,7 @@
 						}
 						has_license = #SPG
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = heavy_tank_artillery_equipment_3
@@ -873,7 +873,7 @@
 						}
 						has_license = #TD
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = heavy_tank_destroyer_equipment_3
@@ -882,7 +882,7 @@
 						}
 						has_license = #SPAA
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = heavy_tank_aa_equipment_3

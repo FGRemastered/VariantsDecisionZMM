@@ -1,0 +1,38 @@
+# These are the checks for whether the AI is allowed to use the decisions
+# Defaults to NO
+
+	ifPlayerIsPuppetNotNSB =	# The AI will only ever do this, if you play as their puppet, have the DoD DLC and since the NSB integration is incomplete, it won't if you have it enabled
+	{
+		base = 0
+		modifier =
+		{
+			has_DLC = "Death or Dishonor"
+			any_country =
+			{
+				is_puppet_of = ROOT
+				is_ai = no
+			}
+			add = 100
+		}
+		modifier =
+		{
+			NOT = { has_DLC = "No Step Back" }
+			factor = 0
+		}
+	}
+	
+	ifPlayerIsPuppet =	# The AI will only ever do this, if you play as their puppet. - For checks where NSB is not relevant.
+	{
+		base = 0
+		modifier =
+		{
+			any_country =
+			{
+				is_puppet_of = ROOT
+				is_ai = no
+			}
+			add = 100
+		}
+	}
+	
+	

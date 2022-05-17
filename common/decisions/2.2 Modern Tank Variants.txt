@@ -1,7 +1,8 @@
 ###################################################
 #					MODERN TANKS				  #
 ###################################################
-
+"Modern Armor Variants" =
+{
 	"Wiesel" =
 	{
 		visible			= { can_Wiesel = yes }
@@ -135,3 +136,4 @@
 		complete_effect	= { make_MD_Radpanzer_VI = yes }
 	}
 	
+}

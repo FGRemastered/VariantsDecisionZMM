@@ -33,7 +33,7 @@
 				custom_trigger_tooltip = 
 				{
 					tooltip = has_Mechs_tt
-					make_Div_Mech_Inf	= yes
+					can_Div_Mech_Inf	= yes
 				}
 			}
 		}

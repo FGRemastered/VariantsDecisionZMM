@@ -19,7 +19,7 @@
 					has_country_flag = has_VWF
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = motorized_equipment_1
@@ -49,7 +49,7 @@
 					has_country_flag = has_Katyusha
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = motorized_rocket_equipment_1
@@ -79,7 +79,7 @@
 					has_country_flag = has_Sfz_11
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = mechanized_equipment_1
@@ -88,7 +88,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = mechanized_equipment_2
@@ -97,7 +97,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = mechanized_equipment_3
@@ -106,7 +106,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = mechanized_equipment_4
@@ -115,7 +115,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = mechanized_equipment_5
@@ -146,7 +146,7 @@
 					has_country_flag = has_Sfz_251
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = mechanized_equipment_2
@@ -155,7 +155,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = mechanized_equipment_3
@@ -164,7 +164,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = mechanized_equipment_4
@@ -173,7 +173,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = mechanized_equipment_5
@@ -205,7 +205,7 @@
 					has_country_flag = has_Sfz_251_20
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = mechanized_equipment_3
@@ -214,7 +214,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = mechanized_equipment_4
@@ -223,7 +223,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = mechanized_equipment_5
@@ -253,7 +253,7 @@
 					has_country_flag = has_Kätzchen
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = mechanized_equipment_4
@@ -262,7 +262,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = mechanized_equipment_5
@@ -292,7 +292,7 @@
 					has_country_flag = has_Ozelot
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = mechanized_equipment_5
@@ -326,7 +326,7 @@
 					has_country_flag = has_LWS_I
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = amphibious_mechanized_equipment_1
@@ -335,7 +335,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = amphibious_mechanized_equipment_2
@@ -369,7 +369,7 @@
 					has_country_flag = has_LWS_II
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = amphibious_mechanized_equipment_2
@@ -414,7 +414,7 @@
 					has_country_flag = has_Radpanzer_I
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = gw_armored_car_equipment
@@ -423,7 +423,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = armored_car_equipment_1
@@ -432,7 +432,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = armored_car_equipment_2
@@ -441,7 +441,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = armored_car_at_equipment
@@ -450,7 +450,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = armored_car_equipment_8
@@ -484,7 +484,7 @@
 					has_country_flag = has_Radpanzer_II
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = armored_car_equipment_1
@@ -493,7 +493,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = armored_car_equipment_2
@@ -502,7 +502,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = armored_car_at_equipment
@@ -511,7 +511,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = armored_car_equipment_8
@@ -545,7 +545,7 @@
 					has_country_flag = has_Radpanzer_III
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = armored_car_equipment_2
@@ -554,7 +554,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = armored_car_at_equipment
@@ -563,7 +563,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = armored_car_equipment_8
@@ -598,7 +598,7 @@
 					has_country_flag = has_pakwagen
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = armored_car_at_equipment
@@ -607,7 +607,7 @@
 					}
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = armored_car_equipment_8

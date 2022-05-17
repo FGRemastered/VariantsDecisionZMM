@@ -23,7 +23,7 @@
 					{
 						has_license = #APC
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = APC_equipment_1
@@ -58,7 +58,7 @@
 					{
 						has_license = #Tank
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = APC_equipment_2

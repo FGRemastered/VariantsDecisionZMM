@@ -31,7 +31,7 @@
 					sub_stealth_upgrade = 99
 					sub_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 89
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -68,7 +68,7 @@
 					sub_stealth_upgrade = 99
 					sub_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 91		# Modular Construction focus DECREASES cost by -10%
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount_101
 				}
 			}
 		}
@@ -93,7 +93,7 @@
 					sub_stealth_upgrade = 99
 					sub_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 89
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -129,7 +129,7 @@
 					sub_stealth_upgrade = 99
 					sub_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 89
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -166,7 +166,7 @@
 					sub_stealth_upgrade = 99
 					sub_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 91		# Modular Construction focus DECREASES cost by -10%
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount_101
 				}
 			}
 		}
@@ -191,7 +191,7 @@
 					sub_stealth_upgrade = 99
 					sub_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 89
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -229,7 +229,7 @@
 					sub_stealth_upgrade = 99
 					sub_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 89
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -267,7 +267,7 @@
 					sub_stealth_upgrade = 99
 					sub_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 91		# Modular Construction focus DECREASES cost by -10%
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount_101
 				}
 			}
 		}
@@ -292,7 +292,7 @@
 					sub_stealth_upgrade = 99
 					sub_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 89
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -330,7 +330,7 @@
 					sub_stealth_upgrade = 99
 					sub_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 89
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -368,7 +368,7 @@
 					sub_stealth_upgrade = 99
 					sub_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 91		# Modular Construction focus DECREASES cost by -10%
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount_101
 				}
 			}
 		}
@@ -393,7 +393,7 @@
 					sub_stealth_upgrade = 99
 					sub_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 89
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -431,7 +431,7 @@
 					sub_stealth_upgrade = 199
 					sub_engine_upgrade = 199
 					ship_reliability_upgrade = 200
-					ZMM_NAVAL_prod_upgrade = 89
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -469,7 +469,7 @@
 					sub_stealth_upgrade = 99
 					sub_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 91		# Modular Construction focus DECREASES cost by -10%
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount_101
 				}
 			}
 		}

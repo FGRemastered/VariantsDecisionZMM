@@ -23,7 +23,7 @@
 					{
 						has_license = #Tank
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = IFV_equipment_1
@@ -58,7 +58,7 @@
 					{
 						has_license = #Tank
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = IFV_equipment_2
@@ -93,7 +93,7 @@
 					{
 						has_license = #Tank
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = IFV_equipment_3
@@ -128,7 +128,7 @@
 					{
 						has_license = #Tank
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = IFV_equipment_4
@@ -163,7 +163,7 @@
 					{
 						has_license = #Tank
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = IFV_equipment_5

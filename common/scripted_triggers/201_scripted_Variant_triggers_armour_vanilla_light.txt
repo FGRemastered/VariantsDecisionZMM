@@ -33,7 +33,7 @@
 								{
 									has_license = #Tank
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_equipment_1
@@ -42,7 +42,7 @@
 									}
 									has_license = #Tank
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_equipment_2
@@ -51,7 +51,7 @@
 									}
 									has_license = #Tank
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_equipment_3
@@ -60,7 +60,7 @@
 									}
 									has_license = #Tank
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_equipment_4
@@ -69,7 +69,7 @@
 									}
 									has_license = #Tank
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_equipment_5
@@ -78,7 +78,7 @@
 									}
 									# has_license = #Tank
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_chassis_1
@@ -86,7 +86,7 @@
 									# }
 									# has_license = #Tank
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_chassis_2
@@ -94,7 +94,7 @@
 									# }
 									# has_license = #Tank
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_chassis_3
@@ -105,7 +105,7 @@
 								{
 									has_license = #SPG
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_artillery_equipment_1
@@ -114,7 +114,7 @@
 									}
 									has_license = #SPG
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_artillery_equipment_2
@@ -123,7 +123,7 @@
 									}
 									has_license = #SPG
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_artillery_equipment_3
@@ -132,7 +132,7 @@
 									}
 									has_license = #SPG
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_artillery_equipment_4
@@ -141,7 +141,7 @@
 									}
 									has_license = #SPG
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_artillery_equipment_5
@@ -150,7 +150,7 @@
 									}
 									# has_license = #SPG
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_artillery_chassis_1
@@ -158,7 +158,7 @@
 									# }
 									# has_license = #SPG
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_artillery_chassis_2
@@ -166,7 +166,7 @@
 									# }
 									# has_license = #SPG
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_artillery_chassis_3
@@ -177,7 +177,7 @@
 								{
 									has_license = #TD
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_destroyer_equipment_1
@@ -186,7 +186,7 @@
 									}
 									has_license = #TD
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_destroyer_equipment_2
@@ -195,7 +195,7 @@
 									}
 									has_license = #TD
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_destroyer_equipment_3
@@ -204,7 +204,7 @@
 									}
 									has_license = #TD
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_destroyer_equipment_4
@@ -213,7 +213,7 @@
 									}
 									has_license = #TD
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_destroyer_equipment_5
@@ -222,7 +222,7 @@
 									}
 									# has_license = #TD
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_destroyer_chassis_1
@@ -230,7 +230,7 @@
 									# }
 									# has_license = #TD
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_destroyer_chassis_2
@@ -238,7 +238,7 @@
 									# }
 									# has_license = #TD
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_destroyer_chassis_3
@@ -249,7 +249,7 @@
 								{
 									has_license = #SPAA
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_aa_equipment_1
@@ -258,7 +258,7 @@
 									}
 									has_license = #SPAA
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_aa_equipment_2
@@ -267,7 +267,7 @@
 									}
 									has_license = #SPAA
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_aa_equipment_3
@@ -276,7 +276,7 @@
 									}
 									has_license = #SPAA
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_aa_equipment_4
@@ -285,7 +285,7 @@
 									}
 									has_license = #SPAA
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_aa_equipment_5
@@ -294,7 +294,7 @@
 									}
 									# has_license = #SPAA
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_aa_chassis_1
@@ -302,7 +302,7 @@
 									# }
 									# has_license = #SPAA
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_aa_chassis_2
@@ -310,7 +310,7 @@
 									# }
 									# has_license = #SPAA
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_aa_chassis_3
@@ -357,7 +357,7 @@
 								{
 									has_license = #Tank
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_equipment_2
@@ -366,7 +366,7 @@
 									}
 									has_license = #Tank
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_equipment_3
@@ -375,7 +375,7 @@
 									}
 									has_license = #Tank
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_equipment_4
@@ -384,7 +384,7 @@
 									}
 									has_license = #Tank
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_equipment_5
@@ -393,7 +393,7 @@
 									}
 									# has_license = #Tank
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_chassis_1
@@ -401,7 +401,7 @@
 									# }
 									# has_license = #Tank
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_chassis_2
@@ -409,7 +409,7 @@
 									# }
 									# has_license = #Tank
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_chassis_3
@@ -420,7 +420,7 @@
 								{
 									has_license = #SPG
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_artillery_equipment_2
@@ -429,7 +429,7 @@
 									}
 									has_license = #SPG
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_artillery_equipment_3
@@ -438,7 +438,7 @@
 									}
 									has_license = #SPG
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_artillery_equipment_4
@@ -447,7 +447,7 @@
 									}
 									has_license = #SPG
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_artillery_equipment_5
@@ -456,7 +456,7 @@
 									}
 									# has_license = #SPG
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_artillery_chassis_1
@@ -464,7 +464,7 @@
 									# }
 									# has_license = #SPG
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_artillery_chassis_2
@@ -472,7 +472,7 @@
 									# }
 									# has_license = #SPG
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_artillery_chassis_3
@@ -483,7 +483,7 @@
 								{
 									has_license = #TD
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_destroyer_equipment_2
@@ -492,7 +492,7 @@
 									}
 									has_license = #TD
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_destroyer_equipment_3
@@ -501,7 +501,7 @@
 									}
 									has_license = #TD
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_destroyer_equipment_4
@@ -510,7 +510,7 @@
 									}
 									has_license = #TD
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_destroyer_equipment_5
@@ -519,7 +519,7 @@
 									}
 									# has_license = #TD
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_destroyer_chassis_1
@@ -527,7 +527,7 @@
 									# }
 									# has_license = #TD
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_destroyer_chassis_2
@@ -535,7 +535,7 @@
 									# }
 									# has_license = #TD
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_destroyer_chassis_3
@@ -546,7 +546,7 @@
 								{
 									has_license = #SPAA
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_aa_equipment_2
@@ -555,7 +555,7 @@
 									}
 									has_license = #SPAA
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_aa_equipment_3
@@ -564,7 +564,7 @@
 									}
 									has_license = #SPAA
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_aa_equipment_4
@@ -573,7 +573,7 @@
 									}
 									has_license = #SPAA
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_aa_equipment_5
@@ -582,7 +582,7 @@
 									}
 									# has_license = #SPAA
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_aa_chassis_1
@@ -590,7 +590,7 @@
 									# }
 									# has_license = #SPAA
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_aa_chassis_2
@@ -598,7 +598,7 @@
 									# }
 									# has_license = #SPAA
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_aa_chassis_3
@@ -645,7 +645,7 @@
 								{
 									has_license = #Tank
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_equipment_3
@@ -654,7 +654,7 @@
 									}
 									has_license = #Tank
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_equipment_4
@@ -663,7 +663,7 @@
 									}
 									has_license = #Tank
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_equipment_5
@@ -672,7 +672,7 @@
 									}
 									# has_license = #Tank
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_chassis_1
@@ -680,7 +680,7 @@
 									# }
 									# has_license = #Tank
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_chassis_2
@@ -688,7 +688,7 @@
 									# }
 									# has_license = #Tank
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_chassis_3
@@ -699,7 +699,7 @@
 								{
 									has_license = #SPG
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_artillery_equipment_3
@@ -708,7 +708,7 @@
 									}
 									has_license = #SPG
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_artillery_equipment_4
@@ -717,7 +717,7 @@
 									}
 									has_license = #SPG
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_artillery_equipment_5
@@ -726,7 +726,7 @@
 									}
 									# has_license = #SPG
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_artillery_chassis_1
@@ -734,7 +734,7 @@
 									# }
 									# has_license = #SPG
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_artillery_chassis_2
@@ -742,7 +742,7 @@
 									# }
 									# has_license = #SPG
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_artillery_chassis_3
@@ -753,7 +753,7 @@
 								{
 									has_license = #TD
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_destroyer_equipment_3
@@ -762,7 +762,7 @@
 									}
 									has_license = #TD
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_destroyer_equipment_4
@@ -771,7 +771,7 @@
 									}
 									has_license = #TD
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_destroyer_equipment_5
@@ -780,7 +780,7 @@
 									}
 									# has_license = #TD
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_destroyer_chassis_1
@@ -788,7 +788,7 @@
 									# }
 									# has_license = #TD
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_destroyer_chassis_2
@@ -796,7 +796,7 @@
 									# }
 									# has_license = #TD
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_destroyer_chassis_3
@@ -807,7 +807,7 @@
 								{
 									has_license = #SPAA
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_aa_equipment_3
@@ -816,7 +816,7 @@
 									}
 									has_license = #SPAA
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_aa_equipment_4
@@ -825,7 +825,7 @@
 									}
 									has_license = #SPAA
 									{
-										from = OVERLORD
+										FROM = OVERLORD
 										equipment = 
 										{
 											type = light_tank_aa_equipment_5
@@ -834,7 +834,7 @@
 									}
 									# has_license = #SPAA
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_aa_chassis_1
@@ -842,7 +842,7 @@
 									# }
 									# has_license = #SPAA
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_aa_chassis_2
@@ -850,7 +850,7 @@
 									# }
 									# has_license = #SPAA
 									# {
-										# from = OVERLORD
+										# FROM = OVERLORD
 										# equipment = 
 										# {
 											# type = light_tank_aa_chassis_3

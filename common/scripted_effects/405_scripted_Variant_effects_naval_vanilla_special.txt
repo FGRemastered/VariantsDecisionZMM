@@ -36,7 +36,7 @@
 					ship_armor_upgrade = 99
 					ship_engine_upgrade = 99
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 119 #Armor increases prod cost by 20%
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount_119 #Armor increases prod cost by 20%
 				}
 			}
 		}
@@ -78,7 +78,7 @@
 					ship_armor_upgrade = 99
 					ship_engine_upgrade = 99
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 119 #Armor increases prod cost by 20%
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount_119 #Armor increases prod cost by 20%
 				}
 			}
 		}
@@ -119,7 +119,7 @@
 					ship_armor_upgrade = 99
 					ship_engine_upgrade = 99
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 119 #Armor increases prod cost by 20%
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount_119 #Armor increases prod cost by 20%
 				}
 			}
 		}
@@ -163,7 +163,7 @@
 					ship_armor_upgrade = 99
 					ship_engine_upgrade = 99
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 124 #Armor increases prod cost by 25%
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount_124 #Armor increases prod cost by 25%
 				}
 			}
 		}
@@ -187,7 +187,7 @@
 					ship_anti_air_upgrade = 99
 					ship_engine_upgrade = 99
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = 99
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}

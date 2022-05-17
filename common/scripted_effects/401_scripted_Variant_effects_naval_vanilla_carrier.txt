@@ -32,7 +32,7 @@
 					carrier_armor_upgrade = 95
 					ship_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = NAV_discount
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -65,7 +65,7 @@
 					carrier_armor_upgrade = 95
 					ship_engine_upgrade = 200
 					ship_reliability_upgrade = 200
-					ZMM_NAVAL_prod_upgrade = NAV_discount	#AA8 +6
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount	#AA8 +6
 				}
 			}
 		}
@@ -105,7 +105,7 @@
 					carrier_armor_upgrade = 95
 					ship_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = NAV_discount
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -141,7 +141,7 @@
 					carrier_armor_upgrade = 95
 					ship_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = NAV_discount
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -166,7 +166,7 @@
 					carrier_armor_upgrade = 95
 					ship_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = NAV_discount
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -206,7 +206,7 @@
 					carrier_armor_upgrade = 95
 					ship_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = NAV_discount
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -242,7 +242,7 @@
 					carrier_armor_upgrade = 95
 					ship_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = NAV_discount
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -267,7 +267,7 @@
 					carrier_armor_upgrade = 95
 					ship_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = NAV_discount
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -308,7 +308,7 @@
 					carrier_armor_upgrade = 95
 					ship_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = NAV_discount
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -345,7 +345,7 @@
 					carrier_armor_upgrade = 95
 					ship_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = NAV_discount
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -370,7 +370,7 @@
 					carrier_armor_upgrade = 95
 					ship_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = NAV_discount
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -412,7 +412,7 @@
 					carrier_armor_upgrade = 95
 					ship_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = NAV_discount
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}
@@ -451,7 +451,7 @@
 					carrier_armor_upgrade = 95
 					ship_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = NAV_discount_109	#Armor +10
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount_109	#Armor +10
 				}
 			}
 		}
@@ -476,7 +476,7 @@
 					carrier_armor_upgrade = 95
 					ship_engine_upgrade = 200
 					ship_reliability_upgrade = 99
-					ZMM_NAVAL_prod_upgrade = NAV_discount
+					ZMM_NAVAL_prod_upgrade = var:NAV_discount
 				}
 			}
 		}

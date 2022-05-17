@@ -1,24 +1,24 @@
 "Plane Variants" =
 {
-	"Maximum Discount" =
+	"Maximum Discount (Air)" =
 	{
 		visible			= { always = yes }
 		available		= { NOT = { check_variable = { AIR_discount = 99 } } }
 		complete_effect	= { AIR_Discount99 = yes }
 	}
-	"Safe Discount" =
+	"Safe Discount (Air)" =
 	{
 		visible			= { always = yes }
 		available		= { NOT = { check_variable = { AIR_discount = 89 } } }
 		complete_effect	= { AIR_Discount89 = yes }
 	}
-	"Half Discount" =
+	"Half Discount (Air)" =
 	{
 		visible			= { always = yes }
 		available		= { NOT = { check_variable = { AIR_discount = 50 } } }
 		complete_effect	= { AIR_Discount50 = yes }
 	}
-	"No Discount" =
+	"No Discount (Air)" =
 	{
 		visible			= { always = yes }
 		available		= { NOT = { check_variable = { AIR_discount = 0 } } }

@@ -16,7 +16,7 @@
 					MOT_reliability_upgrade	= 70
 					MOT_speed_upgrade		= 100
 					MOT_hardness_upgrade	= 10
-					MOT_prod_upgrade		= Pz_discount
+					MOT_prod_upgrade		= var:Pz_discount
 				}
 			}
 		}
@@ -33,7 +33,7 @@
 						has_country_flag = has_VWF
 						has_license =
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = motorized_equipment_1
@@ -76,7 +76,7 @@
 					ART_HA_upgrade			= 15
 					ART_defence_upgrade		= 20
 					ART_speed_upgrade		= 100
-					ART_prod_upgrade		= Pz_discount
+					ART_prod_upgrade		= var:Pz_discount
 				}
 			}
 		}
@@ -93,7 +93,7 @@
 						has_country_flag = has_Katyusha
 						has_license =
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = motorized_rocket_equipment_1
@@ -134,12 +134,12 @@
 					tank_reliability_upgrade	= 10
 					tank_engine_upgrade			= 100
 					tank_armor_upgrade			= 5
-					mech_cost_upgrade			= Pz_discount_10
+					mech_cost_upgrade			= var:Pz_discount_10
 					# MECH_reliability_upgrade	= 100
 					# MECH_speed_upgrade		= 100
 					# MECH_armor_upgrade		= 13
 					# MECH_attack_upgrade		= 82
-					# MECH_prod_upgrade = Pz_discount
+					# MECH_prod_upgrade = var:Pz_discount
 				}
 			}
 		}
@@ -156,7 +156,7 @@
 					{
 						has_license =
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = mechanized_equipment_1
@@ -197,12 +197,12 @@
 					tank_reliability_upgrade	= 10
 					tank_engine_upgrade			= 100
 					tank_armor_upgrade			= 5
-					mech_cost_upgrade			= Pz_discount_10
+					mech_cost_upgrade			= var:Pz_discount_10
 					# MECH_reliability_upgrade = 100
 					# MECH_speed_upgrade = 100
 					# MECH_armor_upgrade = 8
 					# MECH_attack_upgrade = 87
-					# MECH_prod_upgrade = Pz_discount
+					# MECH_prod_upgrade = var:Pz_discount
 				}
 			}
 		}
@@ -219,7 +219,7 @@
 						{
 							has_license =
 							{
-								from = OVERLORD
+								FROM = OVERLORD
 								equipment = 
 								{
 									type = mechanized_equipment_2
@@ -260,12 +260,12 @@
 					tank_reliability_upgrade	= 10
 					tank_engine_upgrade			= 100
 					tank_armor_upgrade			= 5
-					mech_cost_upgrade			= Pz_discount_10
+					mech_cost_upgrade			= var:Pz_discount_10
 					# MECH_reliability_upgrade = 1000
 					# MECH_speed_upgrade = 1000
 					# MECH_armor_upgrade = 5
 					# MECH_attack_upgrade = 90
-					# MECH_prod_upgrade = Pz_discount
+					# MECH_prod_upgrade = var:Pz_discount
 				}
 			}
 		}
@@ -282,7 +282,7 @@
 					{
 						has_license =
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = mechanized_equipment_3
@@ -327,7 +327,7 @@
 					MECH_speed_upgrade = 1000
 					MECH_armor_upgrade = 5
 					MECH_attack_upgrade = 90
-					MECH_prod_upgrade = Pz_discount
+					MECH_prod_upgrade = var:Pz_discount
 				}
 			}
 		}
@@ -341,7 +341,7 @@
 				{
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = mechanized_equipment_4
@@ -385,7 +385,7 @@
 					MECH_speed_upgrade = 1000
 					MECH_armor_upgrade = 5
 					MECH_attack_upgrade = 90
-					MECH_prod_upgrade = Pz_discount
+					MECH_prod_upgrade = var:Pz_discount
 				}
 			}
 		}
@@ -399,7 +399,7 @@
 				{
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = mechanized_equipment_5
@@ -442,7 +442,7 @@
 					tank_reliability_upgrade	= 10
 					tank_engine_upgrade			= 100
 					tank_armor_upgrade			= 5
-					mech_cost_upgrade			= Pz_discount_10
+					mech_cost_upgrade			= var:Pz_discount_10
 				}
 			}
 		}
@@ -456,7 +456,7 @@
 				{
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = amphibious_mechanized_equipment_1
@@ -499,7 +499,7 @@
 					tank_reliability_upgrade	= 10
 					tank_engine_upgrade			= 100
 					tank_armor_upgrade			= 5
-					mech_cost_upgrade			= Pz_discount_10
+					mech_cost_upgrade			= var:Pz_discount_10
 				}
 	
 			}
@@ -514,7 +514,7 @@
 				{
 					has_license =
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						equipment = 
 						{
 							type = amphibious_mechanized_equipment_2
@@ -552,7 +552,7 @@
 				MECH_speed_upgrade = 100
 				MECH_armor_upgrade = 8
 				MECH_attack_upgrade = 87
-				MECH_prod_upgrade = Pz_discount
+				MECH_prod_upgrade = var:Pz_discount
 			}
 		}
 	}
@@ -577,7 +577,7 @@
 					tank_armor_upgrade = 2
 					ac_engine_upgrade = 200
 					tank_reliability_upgrade = 5
-					ZMM_LAND_prod_upgrade = Pz_discount
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 		}
@@ -599,7 +599,7 @@
 					tank_armor_upgrade = 2
 					ac_engine_upgrade = 200
 					tank_reliability_upgrade = 5
-					ZMM_LAND_prod_upgrade = Pz_discount
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 		}
@@ -617,7 +617,7 @@
 					{
 						has_license =
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = gw_armored_car_equipment
@@ -651,7 +651,7 @@
 					{
 						has_license =
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = armored_car_equipment_1
@@ -697,7 +697,7 @@
 					tank_armor_upgrade = 2
 					ac_engine_upgrade = 200
 					tank_reliability_upgrade = 5
-					ZMM_LAND_prod_upgrade = Pz_discount
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 		}
@@ -719,7 +719,7 @@
 					tank_armor_upgrade = 2
 					ac_engine_upgrade = 200
 					tank_reliability_upgrade = 5
-					ZMM_LAND_prod_upgrade = Pz_discount
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 		}
@@ -737,7 +737,7 @@
 					{
 						has_license =
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = armored_car_equipment_1
@@ -771,7 +771,7 @@
 					{
 						has_license =
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = armored_car_equipment_2
@@ -817,7 +817,7 @@
 					tank_armor_upgrade = 2
 					ac_engine_upgrade = 200
 					tank_reliability_upgrade = 5
-					ZMM_LAND_prod_upgrade = Pz_discount
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 		}
@@ -839,7 +839,7 @@
 					tank_armor_upgrade = 2
 					ac_engine_upgrade = 200
 					tank_reliability_upgrade = 5
-					ZMM_LAND_prod_upgrade = Pz_discount
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 		}
@@ -857,7 +857,7 @@
 					{
 						has_license =
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = armored_car_equipment_2
@@ -891,7 +891,7 @@
 					{
 						has_license =
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = armored_car_equipment_3
@@ -937,7 +937,7 @@
 					tank_armor_upgrade = 80
 					ac_engine_upgrade = 1000
 					tank_reliability_upgrade = 200
-					ZMM_LAND_prod_upgrade = Pz_discount
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 		}
@@ -959,7 +959,7 @@
 					tank_armor_upgrade = 80
 					ac_engine_upgrade = 1000
 					tank_reliability_upgrade = 200
-					ZMM_LAND_prod_upgrade = Pz_discount
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 		}
@@ -981,7 +981,7 @@
 					tank_armor_upgrade = 80
 					ac_engine_upgrade = 1000
 					tank_reliability_upgrade = 200
-					ZMM_LAND_prod_upgrade = Pz_discount
+					ZMM_LAND_prod_upgrade = var:Pz_discount
 				}
 			}
 		}
@@ -999,7 +999,7 @@
 					{
 						has_license =
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = armored_car_at_equipment
@@ -1033,7 +1033,7 @@
 					{
 						has_license =
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = armored_car_equipment_4
@@ -1067,7 +1067,7 @@
 					{
 						has_license =
 						{
-							from = OVERLORD
+							FROM = OVERLORD
 							equipment = 
 							{
 								type = armored_car_equipment_8

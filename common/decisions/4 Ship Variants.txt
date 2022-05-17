@@ -13,25 +13,25 @@
 		complete_effect = { set_global_flag = has_vanilla }
 	}
 	
-	"Maximum Discount" =
+	"Maximum Discount (Navy)" =
 	{
 		visible			= { always = yes }
 		available		= { NOT = { check_variable = { NAV_discount = 99 } } }
 		complete_effect	= { NAV_Discount99 = yes }
 	}
-	"Safe Discount" =
+	"Safe Discount (Navy)" =
 	{
 		visible			= { always = yes }
 		available		= { NOT = { check_variable = { NAV_discount = 89 } } }
 		complete_effect	= { NAV_Discount89 = yes }
 	}
-	"Half Discount" =
+	"Half Discount (Navy)" =
 	{
 		visible			= { always = yes }
 		available		= { NOT = { check_variable = { NAV_discount = 50 } } }
 		complete_effect	= { NAV_Discount50 = yes }
 	}
-	"No Discount" =
+	"No Discount (Navy)" =
 	{
 		visible			= { always = yes }
 		available		= { NOT = { check_variable = { NAV_discount = 0 } } }

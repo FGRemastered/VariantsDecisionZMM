@@ -16,30 +16,25 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.0.a					# Nevermind
-			ai_will_do =  { base = 100 }
 		}
 		option = 
 		{
 			name = CheatEvent.0.b					# Miscallaneous
-			ai_will_do =  { base = 0 }
 			country_event = { id = CheatEvent.1 }
 		}
 		option = 
 		{
 			name = CheatEvent.0.c					# Oil Refineries and Storage
-			ai_will_do =  { base = 0 }
 			country_event = { id = CheatEvent.2 }
 		}
 		option = 
 		{
 			name = CheatEvent.0.d					# Tech Bonuses
-			ai_will_do =  { base = 0 }
 			country_event = { id = CheatEvent.3 }
 		}
 		option = 
 		{
 			name = CheatEvent.0.e					# Endsieg Stuff
-			ai_will_do =  { base = 0 }
 			country_event = { id = CheatEvent.4 }
 		}
 	}
@@ -54,19 +49,16 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.1.a
-			ai_will_do =  { base = 0 }
 			set_rule = { can_boost_other_ideologies = yes }
 		}
 		option = 
 		{
 			name = CheatEvent.1.b
-			ai_will_do =  { base = 0 }
 			set_rule = { can_use_kamikaze_pilots = yes }
 		}
 		option = 
 		{
 			name = CheatEvent.1.c
-			ai_will_do =  { base = 0 }
 			every_country =
 			{
 				limit =
@@ -121,13 +113,11 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.1.d
-			ai_will_do =  { base = 0 }
 			set_country_flag = VCheater
 		}
 		option = 
 		{
 			name = CheatEvent.1.e
-			ai_will_do =  { base = 0 }
 			GER =
 			{
 				country_event = { id = germany.4 }
@@ -159,7 +149,6 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.2.a
-			ai_will_do =  { base = 0 }
 			if = 
 			{
 				limit = 
@@ -213,7 +202,6 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.2.b
-			ai_will_do =  { base = 0 }
 			if = 
 			{
 				limit = 
@@ -287,7 +275,6 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.2.c
-			ai_will_do =  { base = 0 }
 			if = 
 			{
 				limit = 
@@ -363,7 +350,6 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.2.d
-			ai_will_do =  { base = 0 }
 			if = 
 			{
 				limit = 
@@ -426,7 +412,6 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.3.a
-			ai_will_do =  { base = 0 }
 			add_tech_bonus = 
 			{
 				name = armor_bonus
@@ -438,7 +423,6 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.3.b
-			ai_will_do =  { base = 0 }
 			add_tech_bonus = 
 			{
 				name = armor_bonus
@@ -450,7 +434,6 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.3.c
-			ai_will_do =  { base = 0 }
 			add_tech_bonus = 
 			{
 				name = armor_bonus
@@ -462,7 +445,6 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.3.d
-			ai_will_do =  { base = 0 }
 			add_tech_bonus = 
 			{
 				name = armor_bonus
@@ -474,7 +456,6 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.3.e
-			ai_will_do =  { base = 0 }
 			add_tech_bonus = 
 			{
 				name = armor_bonus
@@ -495,7 +476,6 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.4.a		#Training
-			ai_will_do =  { base = 0 }
 			add_ideas =
 			{
 				minimal_training 
@@ -505,7 +485,6 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.4.b		#Speed
-			ai_will_do =  { base = 0 }
 			add_ideas =
 			{
 				specialist_training 
@@ -515,7 +494,6 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.4.c		#Discipline
-			ai_will_do =  { base = 0 }
 			add_ideas =
 			{
 				specialist_training
@@ -525,7 +503,6 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.4.d
-			ai_will_do =  { base = 0 }
 			every_country =
 			{
 				every_state =
@@ -603,7 +580,6 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.4.e
-			ai_will_do =  { base = 0 }
 			GER =
 			{
 				add_ideas = 

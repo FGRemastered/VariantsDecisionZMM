@@ -19,7 +19,7 @@
 					plane_range_upgrade = 190
 					plane_engine_upgrade = 200
 					plane_reliability_upgrade = 205
-					ZMM_TRA_prod_upgrade = AIR_discount
+					ZMM_TRA_prod_upgrade = var:AIR_discount
 				}
 			}
 		}
@@ -44,7 +44,7 @@
 					plane_range_upgrade = 45
 					plane_engine_upgrade = 100
 					plane_reliability_upgrade = 110
-					ZMM_AIR_prod_upgrade = AIR_discount
+					ZMM_AIR_prod_upgrade = var:AIR_discount
 				}
 			}
 		}
@@ -69,7 +69,7 @@
 					plane_range_upgrade = 45
 					plane_engine_upgrade = 100
 					plane_reliability_upgrade = 110
-					ZMM_AIR_prod_upgrade = AIR_discount
+					ZMM_AIR_prod_upgrade = var:AIR_discount
 				}
 			}
 		}
@@ -94,7 +94,7 @@
 					plane_range_upgrade = 45
 					plane_engine_upgrade = 100
 					plane_reliability_upgrade = 110
-					ZMM_AIR_prod_upgrade = AIR_discount
+					ZMM_AIR_prod_upgrade = var:AIR_discount
 				}
 			}
 		}
@@ -119,7 +119,7 @@
 					plane_range_upgrade = 90
 					plane_engine_upgrade = 200
 					plane_reliability_upgrade = 110
-					ZMM_AIR_prod_upgrade = AIR_discount
+					ZMM_AIR_prod_upgrade = var:AIR_discount
 				}
 			}
 		}
@@ -138,7 +138,7 @@
 				plane_range_upgrade = 99
 				plane_engine_upgrade = 99
 				plane_reliability_upgrade = 150
-				ZMM_AIR_prod_upgrade = AIR_discount
+				ZMM_AIR_prod_upgrade = var:AIR_discount
 			}
 		}
 		create_equipment_variant = 
@@ -151,7 +151,7 @@
 				plane_range_upgrade = 90
 				plane_engine_upgrade = 200
 				plane_reliability_upgrade = 250
-				ZMM_AIR_prod_upgrade = AIR_discount
+				ZMM_AIR_prod_upgrade = var:AIR_discount
 			}
 		}
 	}
@@ -169,7 +169,7 @@
 				plane_range_upgrade = 99
 				plane_engine_upgrade = 99
 				plane_reliability_upgrade = 150
-				ZMM_AIR_prod_upgrade = AIR_discount
+				ZMM_AIR_prod_upgrade = var:AIR_discount
 			}
 		}
 		create_equipment_variant = 
@@ -182,7 +182,7 @@
 				plane_range_upgrade = 90
 				plane_engine_upgrade = 200
 				plane_reliability_upgrade = 250
-				ZMM_AIR_prod_upgrade = AIR_discount
+				ZMM_AIR_prod_upgrade = var:AIR_discount
 			}
 		}
 	}
@@ -200,7 +200,7 @@
 				plane_range_upgrade = 99
 				plane_engine_upgrade = 99
 				plane_reliability_upgrade = 150
-				ZMM_AIR_prod_upgrade = AIR_discount
+				ZMM_AIR_prod_upgrade = var:AIR_discount
 			}
 		}
 		create_equipment_variant = 
@@ -213,7 +213,7 @@
 				plane_range_upgrade = 90
 				plane_engine_upgrade = 200
 				plane_reliability_upgrade = 250
-				ZMM_AIR_prod_upgrade = AIR_discount
+				ZMM_AIR_prod_upgrade = var:AIR_discount
 			}
 		}
 	}
@@ -231,7 +231,7 @@
 				plane_range_upgrade = 99
 				plane_engine_upgrade = 99
 				plane_reliability_upgrade = 150
-				ZMM_AIR_prod_upgrade = AIR_discount
+				ZMM_AIR_prod_upgrade = var:AIR_discount
 			}
 		}
 	}
@@ -252,7 +252,7 @@
 					plane_range_upgrade = 99
 					plane_engine_upgrade = 99
 					plane_reliability_upgrade = 150
-					ZMM_AIR_prod_upgrade = AIR_discount
+					ZMM_AIR_prod_upgrade = var:AIR_discount
 				}
 			}
 		}
@@ -269,7 +269,7 @@
 					plane_range_upgrade = 99
 					plane_engine_upgrade = 99
 					plane_reliability_upgrade = 150
-					ZMM_AIR_prod_upgrade = AIR_discount
+					ZMM_AIR_prod_upgrade = var:AIR_discount
 				}
 			}
 		}
@@ -288,7 +288,7 @@
 				plane_range_upgrade = 99
 				plane_engine_upgrade = 99
 				plane_reliability_upgrade = 150
-				ZMM_AIR_prod_upgrade = AIR_discount
+				ZMM_AIR_prod_upgrade = var:AIR_discount
 			}
 		}
 	}
@@ -306,7 +306,7 @@
 				plane_range_upgrade = 99
 				plane_engine_upgrade = 99
 				plane_reliability_upgrade = 150
-				ZMM_AIR_prod_upgrade = AIR_discount
+				ZMM_AIR_prod_upgrade = var:AIR_discount
 			}
 		}
 	}

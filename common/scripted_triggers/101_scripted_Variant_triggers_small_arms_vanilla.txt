@@ -5,6 +5,7 @@
 	{
 		has_tech = tech_support
 		NOT =  { has_country_flag = has_ZA }
+		has_variable = INF_discount
 	}
 	
 	can_G98 =

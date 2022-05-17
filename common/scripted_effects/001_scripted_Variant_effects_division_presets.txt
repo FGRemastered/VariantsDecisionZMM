@@ -113,7 +113,7 @@
 					has_tech = super_heavy_tank_chassis
 					has_license = 
 					{
-						from = OVERLORD
+						FROM = OVERLORD
 						archetype = super_heavy_tank_chassis
 					}
 				}

@@ -1,24 +1,24 @@
 "Armor Variants"  = 
 {
-	"Maximum Discount" =
+	"Maximum Discount (Tanks)" =
 	{
 		visible			= { always = yes } # NOT = { has_DLC = "No Step Back" } }
 		available		= { NOT = { check_variable = { Pz_discount = 99 } } }
 		complete_effect	= { Pz_discount99 = yes }
 	}
-	"Safe Discount" =
+	"Safe Discount (Tanks)" =
 	{
 		visible			= { always = yes } # NOT = { has_DLC = "No Step Back" } }
 		available		= { NOT = { check_variable = { Pz_discount = 89 } } }
 		complete_effect	= { Pz_discount89 = yes }
 	}
-	"Half Discount" =
+	"Half Discount (Tanks)" =
 	{
 		visible			= { always = yes } # NOT = { has_DLC = "No Step Back" } }
 		available		= { NOT = { check_variable = { Pz_discount = 50 } } }
 		complete_effect	= { Pz_discount50 = yes }
 	}
-	"No Discount" =
+	"No Discount (Tanks)" =
 	{
 		visible			= { always = yes } # NOT = { has_DLC = "No Step Back" }
 		available		= { NOT = { check_variable = { Pz_discount = 0 } } }
@@ -31,7 +31,7 @@
 			can_Traktor = yes
 			notTNO = yes
 		}
-		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		ai_will_do		= { mtth:ifPlayerIsPuppetNotNSB }
 		complete_effect	= { make_Traktor = yes }
 	}
 	
@@ -42,7 +42,7 @@
 			can_Pz_I = yes
 			notTNO = yes
 		}
-		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		ai_will_do		= { mtth:ifPlayerIsPuppetNotNSB }
 		complete_effect	= { make_Pz_I = yes }
 	}
 	
@@ -53,7 +53,7 @@
 			can_Pz_II = yes
 			notTNO = yes
 		}
-		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		ai_will_do		= { mtth:ifPlayerIsPuppetNotNSB }
 		complete_effect	= { make_Pz_II = yes }
 	}
 	
@@ -64,7 +64,7 @@
 			can_Leo = yes
 			notTNO = yes
 		}
-		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		ai_will_do		= { mtth:ifPlayerIsPuppetNotNSB }
 		complete_effect	= { make_Leo = yes }
 	}
 	
@@ -75,7 +75,7 @@
 			can_Puma = yes
 			notTNO = yes
 		}
-		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		ai_will_do		= { mtth:ifPlayerIsPuppetNotNSB }
 		complete_effect	= { make_Puma = yes }
 	}
 	
@@ -86,7 +86,7 @@
 			can_Jag = yes
 			notTNO = yes
 		}
-		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		ai_will_do		= { mtth:ifPlayerIsPuppetNotNSB }
 		complete_effect	= { make_Jag = yes }
 	}
 	
@@ -97,7 +97,7 @@
 			can_Pz_III = yes
 			notTNO = yes
 		}
-		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		ai_will_do		= { mtth:ifPlayerIsPuppetNotNSB }
 		complete_effect	= { make_Pz_III = yes }
 	}
 	
@@ -108,7 +108,7 @@
 			can_Pz_IV = yes
 			notTNO = yes
 		}
-		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		ai_will_do		= { mtth:ifPlayerIsPuppetNotNSB }
 		complete_effect	= { make_Pz_IV = yes }
 	}
 	
@@ -119,7 +119,7 @@
 			can_Pz_V = yes
 			notTNO = yes
 		}
-		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		ai_will_do		= { mtth:ifPlayerIsPuppetNotNSB }
 		complete_effect	= { make_Pz_V = yes }
 	}
 	
@@ -130,7 +130,7 @@
 			can_GrT = yes
 			notTNO = yes
 		}
-		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		ai_will_do		= { mtth:ifPlayerIsPuppetNotNSB }
 		complete_effect	= { make_GrT = yes }
 	}
 	"Tiger" =
@@ -140,7 +140,7 @@
 			can_Pz_VI = yes
 			notTNO = yes
 		}
-		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		ai_will_do		= { mtth:ifPlayerIsPuppetNotNSB }
 		complete_effect	= { make_Pz_VI = yes }
 	}
 	
@@ -151,7 +151,7 @@
 			can_Pz_VI_2 = yes
 			notTNO = yes
 		}
-		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		ai_will_do		= { mtth:ifPlayerIsPuppetNotNSB }
 		complete_effect	= { make_Pz_VI_2 = yes }
 	}
 	
@@ -162,7 +162,7 @@
 			can_Maus = yes
 			notTNO = yes
 		}
-		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		ai_will_do		= { mtth:ifPlayerIsPuppetNotNSB }
 		complete_effect	= { make_Maus = yes }
 	}
 	
@@ -173,7 +173,7 @@
 			can_E-50 = yes
 			notTNO = yes
 		}
-		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		ai_will_do		= { mtth:ifPlayerIsPuppetNotNSB }
 		complete_effect	= { make_E-50 = yes }
 	}
 	
@@ -184,7 +184,7 @@
 			can_E-75 = yes
 			notTNO = yes
 		}
-		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		ai_will_do		= { mtth:ifPlayerIsPuppetNotNSB }
 		complete_effect	= { make_E-75 = yes }
 	}
 	
@@ -195,7 +195,7 @@
 			can_schwimmpanzer_II = yes
 			notTNO = yes
 		}
-		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		ai_will_do		= { mtth:ifPlayerIsPuppetNotNSB }
 		complete_effect	= { make_schwimmpanzer_II = yes }
 	}
 	
@@ -206,7 +206,7 @@
 			can_tauchpanzer_III = yes
 			notTNO = yes
 		}
-		ai_will_do		= { ifPlayerIsPuppetNotNSB = yes }
+		ai_will_do		= { mtth:ifPlayerIsPuppetNotNSB }
 		complete_effect	= { make_tauchpanzer_III = yes }
 	}
 	
