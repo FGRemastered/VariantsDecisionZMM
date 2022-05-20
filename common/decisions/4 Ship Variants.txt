@@ -1,17 +1,15 @@
 "Ship Variants" =
 {
-	
-	# "Click here when playing with Add Technologies" =
-	# {
-		# visible = { is_AT_or_not_trigger = no }
-		# complete_effect = { set_global_flag = has_mod_add_technologies }
-	# }
-	
-	# "Click here when playing none of the above" =
-	# {
-		# visible = { is_AT_or_not_trigger = no }
-		# complete_effect = { set_global_flag = has_vanilla }
-	# }
+	"Click here when playing with Add Technologies" =
+	{
+		visible = { is_AT_or_not_trigger = no }
+		complete_effect = { set_global_flag = has_mod_add_technologies }
+	}
+	"Click here when playing none of the above" =
+	{
+		visible = { is_AT_or_not_trigger = no }
+		complete_effect = { set_global_flag = has_vanilla }
+	}
 	
 	# "Maximum Discount (Navy)" =
 	# {
