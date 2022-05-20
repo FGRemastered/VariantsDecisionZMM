@@ -14,7 +14,7 @@
 				upgrades = 
 				{
 					Train_armour_upgrade	= 95
-					Train_prod_upgrade		= var:INF_discount
+					Train_prod_upgrade		= 99
 				}
 			}
 		}
@@ -33,7 +33,7 @@
 				upgrades = 
 				{
 					Train_armour_upgrade	= 95
-					Train_prod_upgrade		= var:INF_discount
+					Train_prod_upgrade		= 99
 				}
 			}
 		}
@@ -52,7 +52,7 @@
 				upgrades = 
 				{
 					Train_armour_upgrade	= 95
-					Train_prod_upgrade		= var:INF_discount
+					Train_prod_upgrade		= 99
 				}
 			}
 		}
@@ -73,7 +73,7 @@
 					RW_ART_attack_upgrade		= 95
 					RW_ART_engine_upgrade		= 200
 					RW_ART_reliability_upgrade	= 100
-					RW_ART_prod_upgrade			= var:BFRG_discount
+					RW_ART_prod_upgrade			= 100
 				}
 			}
 		}

@@ -4,7 +4,7 @@
 	can_F0 =
 	{
 		has_tech = early_fighter 
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT =  { has_country_flag = has_F0 }
 		notTNO = yes
 	}
@@ -12,7 +12,7 @@
 	can_F1 =
 	{
 		has_tech = fighter1 
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT =  { has_country_flag = has_F1 }
 		notTNO = yes
 	}
@@ -20,7 +20,7 @@
 	can_F2 =
 	{
 		has_tech = fighter2 
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT =  { has_country_flag = has_F2 }
 		notTNO = yes
 	}
@@ -28,7 +28,7 @@
 	can_F3 =
 	{
 		has_tech = fighter3 
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT =  { has_country_flag = has_F3 }
 		notTNO = yes
 	}
@@ -36,7 +36,7 @@
 	can_JF1 =
 	{
 		has_tech = jet_fighter1 
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT =  { has_country_flag = has_JF1 }
 		notTNO = yes
 	}
@@ -44,7 +44,7 @@
 	can_JF2 =
 	{
 		has_tech = jet_fighter2 
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT = { has_country_flag = has_JF2 }
 		notTNO = yes
 	}
@@ -52,7 +52,7 @@
 	can_CAS1 =
 	{
 		has_tech = CAS1 
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT =  { has_country_flag = has_CAS1 }
 		notTNO = yes
 	}
@@ -60,7 +60,7 @@
 	can_CAS2 =
 	{
 		has_tech = CAS2 
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT = { has_country_flag = has_CAS2 }
 		notTNO = yes
 	}
@@ -68,7 +68,7 @@
 	can_CAS3 =
 	{
 		has_tech = CAS3 
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT = { has_country_flag = has_CAS3 }
 		notTNO = yes
 	}
@@ -80,7 +80,7 @@
 			has_tech = naval_bomber1
 			has_tech = cv_naval_bomber1
 		} 
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT =  { has_country_flag = has_NAV1 }
 		notTNO = yes
 	}
@@ -92,7 +92,7 @@
 			has_tech = naval_bomber2
 			has_tech = cv_naval_bomber2
 		}
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT = { has_country_flag = has_NAV2 }
 		notTNO = yes
 	}
@@ -104,7 +104,7 @@
 			has_tech = naval_bomber3
 			has_tech = cv_naval_bomber3
 		}
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT = { has_country_flag = has_NAV3 }
 		notTNO = yes
 	}

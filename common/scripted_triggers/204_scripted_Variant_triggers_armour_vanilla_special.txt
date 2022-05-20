@@ -22,7 +22,7 @@
 				NOT = { has_DLC = "No Step Back" }
 				has_tech = gwtank
 				NOT = { has_tech = basic_light_tank }
-				has_variable = Pz_discount
+				# has_variable = Pz_discount
 				any_country =
 				{
 					OR =
@@ -64,7 +64,7 @@
 			{
 				has_tech = super_heavy_tank
 				NOT = { has_DLC = "No Step Back" }
-				has_variable = Pz_discount
+				# has_variable = Pz_discount
 				any_country =
 				{
 					OR =
@@ -136,7 +136,7 @@
 			{
 				has_tech = main_battle_tank
 				NOT = { has_DLC = "No Step Back" }
-				has_variable = Pz_discount
+				# has_variable = Pz_discount
 				any_country =
 				{
 					OR =
@@ -260,7 +260,7 @@
 					has_tech = amphibious_tank1			#NvX
 				}
 				NOT = { has_DLC = "No Step Back" }
-				has_variable = Pz_discount
+				# has_variable = Pz_discount
 				any_country =
 				{
 					OR =
@@ -317,7 +317,7 @@
 			{
 				has_tech = amphibious_tank_2			#Vanilla
 				NOT = { has_DLC = "No Step Back" }
-				has_variable = Pz_discount
+				# has_variable = Pz_discount
 				any_country =
 				{
 					OR =
@@ -353,12 +353,12 @@
 			AND =
 			{
 				has_tech = amphibious_tank_3	#??? (AT?)
-				has_variable = Pz_discount
+				# has_variable = Pz_discount
 			}
 			AND =
 			{
 				has_tech = amphibious_tank3		#NvX
-				has_variable = Pz_discount
+				# has_variable = Pz_discount
 			}
 			AND =							#NSB
 			{

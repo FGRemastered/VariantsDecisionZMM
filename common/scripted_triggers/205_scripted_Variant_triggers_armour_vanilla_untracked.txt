@@ -4,7 +4,7 @@
 	can_VWF =
 	{
 		has_tech = motorised_infantry 
-		has_variable = Pz_discount
+		# has_variable = Pz_discount
 		any_country =
 		{
 			OR =
@@ -34,7 +34,7 @@
 	can_Katyusha =
 	{
 		has_tech = motorized_rocket_unit 
-		has_variable = Pz_discount
+		# has_variable = Pz_discount
 		any_country =
 		{
 			OR =
@@ -64,7 +64,7 @@
 	can_Sfz_11 =
 	{
 		has_tech = mechanised_infantry 
-		has_variable = Pz_discount_10
+		# has_variable = Pz_discount_10
 		any_country =
 		{
 			OR =
@@ -131,7 +131,7 @@
 	can_Sfz_251 =
 	{
 		has_tech = mechanised_infantry2 
-		has_variable = Pz_discount_10
+		# has_variable = Pz_discount_10
 		any_country =
 		{
 			OR =
@@ -190,7 +190,7 @@
 	{
 		# TNO uses this
 		has_tech = mechanised_infantry3 
-		has_variable = Pz_discount_10
+		# has_variable = Pz_discount_10
 		any_country =
 		{
 			OR =
@@ -238,7 +238,7 @@
 	can_Kätzchen =
 	{
 		has_tech = mechanised_infantry_a 
-		has_variable = Pz_discount_10
+		# has_variable = Pz_discount_10
 		any_country =
 		{
 			OR =
@@ -277,7 +277,7 @@
 	can_Ozelot =
 	{
 		has_tech = mechanised_infantry_b 
-		has_variable = Pz_discount_10
+		# has_variable = Pz_discount_10
 		any_country =
 		{
 			OR =
@@ -311,7 +311,7 @@
 			has_tech = amphibious_mechanized_infantry
 			has_tech = amphibious_mechanized_infantry1 #NVx I presume
 		}
-		has_variable = Pz_discount_10
+		# has_variable = Pz_discount_10
 		any_country =
 		{
 			OR =
@@ -354,7 +354,7 @@
 			has_tech = amphibious_mechanized_infantry_2
 			has_tech = amphibious_mechanized_infantry2 #NVx I presume
 		}
-		has_variable = Pz_discount_10
+		# has_variable = Pz_discount_10
 		any_country =
 		{
 			OR =
@@ -388,7 +388,7 @@
 			has_tech = amphibious_mechanized_infantry_3
 			has_tech = amphibious_mechanized_infantry3
 		}
-		has_variable = Pz_discount_10
+		# has_variable = Pz_discount_10
 		NOT = { has_country_flag = has_LWS_III}
 	}
 	

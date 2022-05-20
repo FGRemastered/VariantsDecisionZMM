@@ -2,14 +2,10 @@
 	GER_BB_SIMPLE = 
 	{
 		name = NAME_THEME_SIMPLE_BB
-
 		for_countries = { GER GEX MAF GEA }
-
 		type = ship
 		ship_types = { ship_hull_heavy battleship battle_cruiser }
-		
 		fallback_name = "Schlachtschiff %d"
-		
 		ordered = 
 		{
 			1 = { "Bismarck" }
@@ -20,17 +16,13 @@
 			6 = { "Ludendorff" }
 		}
 	}
-
-	GER_BC_SIMPLE = {
+	GER_BC_SIMPLE = 
+	{
 		name = NAME_THEME_SIMPLE_BC
-
 		for_countries = { GER GEX MAF GEA }
-
 		type = ship
 		ship_types = { ship_hull_heavy battleship battle_cruiser }
-		
 		fallback_name = "Schlachtkreuzer %d"
-
 		ordered = 
 		{
 			1 = { "Prinz Eugen" }
@@ -44,68 +36,53 @@
 			9 = { "Lützow" } 
 		}
 	}
-
-	GER_SS_SIMPLE = {
+	GER_SS_SIMPLE = 
+	{
 		name = NAME_THEME_SIMPLE_SS
-
 		for_countries = { GER GEX MAF GEA }
-
 		type = ship
 		ship_types = { ship_hull_submarine submarine }
-		
 		fallback_name = "U-%d"
 	}
-
-	GER_SC_SIMPLE = {
+	GER_SC_SIMPLE = 
+	{
 		name = NAME_THEME_SIMPLE_SC
-
 		for_countries = { GER GEX MAF GEA }
-
 		type = ship
 		ship_types = { ship_hull_submarine submarine }
-		
 		fallback_name = "KU-%s"
 	}
-
-	GER_CA_SIMPLE = {
+	GER_CA_SIMPLE = 
+	{
 		name = NAME_THEME_SIMPLE_CA
-
 		for_countries = { GER GEX MAF GEA }
 		type = ship
 		ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
-		
 		fallback_name = "Schwerer Kreuzer %s"
 	}
-
-	GER_CL_SIMPLE = {
+	GER_CL_SIMPLE = 
+	{
 		name = NAME_THEME_SIMPLE_CL
-
 		for_countries = { GER GEX MAF GEA }
 		type = ship
 		ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
-		
 		fallback_name = "LK%d"
 	}
-
-	GER_DD_SIMPLE = {
+	GER_DD_SIMPLE = 
+	{
 		name = NAME_THEME_SIMPLE_DD
-
 		for_countries = { GER GEX MAF GEA }
 		type = ship
 		ship_types = { ship_hull_light destroyer }
-		
 		fallback_name = "Z%d"
 	}
-
-	GER_CV_SIMPLE = {
+	GER_CV_SIMPLE = 
+	{
 		name = NAME_THEME_SIMPLE_CV
-
 		for_countries = { GER GEX MAF GEA }
 		type = ship
 		ship_types = { ship_hull_carrier carrier }
-		
 		fallback_name = "%d. Träger"
-
 		ordered = {
 			1 = { "Graf Zeppelin" }
 			2 = { "Peter Strasser" }
@@ -118,29 +95,25 @@
 			9 = { "Max Immelman" }
 		}
 	}
-
-	GER_GENERIC_CV_SIMPLE = {
+	GER_GENERIC_CV_SIMPLE = 
+	{
 		name = NAME_THEME_SIMPLE_GENERIC_CV
-
 		for_countries = { GER GEX MAF GEA }
 		type = ship
 		ship_types = { ship_hull_carrier carrier }
-		
 		fallback_name = "%d. Träger"
 	}
-
-	#SIMPLE_FASCIST
+##################################################
+#############	SIMPLE_FASCIST	##################
+##################################################
 	GER_BB_SIMPLE_FASCIST = 
 	{
 		name = NAME_THEME_SIMPLE_FASCIST_BB
-
 		for_countries = { GER GEX MAF GEA }
-
+		can_use = { has_country_flag = KMS_On }
 		type = ship
 		ship_types = { ship_hull_heavy battleship battle_cruiser }
-		
 		fallback_name = "KM Schlachtschiff %d"
-		
 		ordered = 
 		{
 			1 = { "KMS Bismarck" }
@@ -151,18 +124,14 @@
 			6 = { "KMS Ludendorff" }
 		}
 	}
-
-	GER_BC_SIMPLE_FASCIST = {
+	GER_BC_SIMPLE_FASCIST = 
+	{
 		name = NAME_THEME_SIMPLE_FASCIST_BC
-
 		for_countries = { GER GEX MAF GEA }
-
+		can_use = { has_country_flag = KMS_On }
 		type = ship
 		ship_types = { ship_hull_heavy battleship battle_cruiser }
-		
 		fallback_name = "KM Schlachtkreuzer %d"
-
-		
 		ordered = 
 		{
 			1 = { "KMS Prinz Eugen" }
@@ -176,68 +145,59 @@
 			9 = { "KMS Lützow" } 
 		}
 	}
-
-	GER_SS_SIMPLE_FASCIST = {
+	GER_SS_SIMPLE_FASCIST = 
+	{
 		name = NAME_THEME_SIMPLE_FASCIST_SS
-
 		for_countries = { GER GEX MAF GEA }
-
+		can_use = { has_country_flag = KMS_On }
 		type = ship
 		ship_types = { ship_hull_submarine submarine }
-		
 		fallback_name = "KM U-%d"
 	}
-
-	GER_SC_SIMPLE_FASCIST = {
+	GER_SC_SIMPLE_FASCIST = 
+	{
 		name = NAME_THEME_SIMPLE_FASCIST_SC
-
 		for_countries = { GER GEX MAF GEA }
-
+		can_use = { has_country_flag = KMS_On }
 		type = ship
 		ship_types = { ship_hull_submarine submarine }
-		
 		fallback_name = "KM KU-%s"
 	}
-
-	GER_CA_SIMPLE_FASCIST = {
+	GER_CA_SIMPLE_FASCIST = 
+	{
 		name = NAME_THEME_SIMPLE_FASCIST_CA
-
 		for_countries = { GER GEX MAF GEA }
+		can_use = { has_country_flag = KMS_On }
 		type = ship
 		ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
-		
 		fallback_name = "KM Schwerer Kreuzer %s"
 	}
-
-	GER_CL_SIMPLE_FASCIST = {
+	GER_CL_SIMPLE_FASCIST = 
+	{
 		name = NAME_THEME_SIMPLE_FASCIST_CL
-
 		for_countries = { GER GEX MAF GEA }
+		can_use = { has_country_flag = KMS_On }
 		type = ship
 		ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
-		
 		fallback_name = "KM LK%d"
 	}
-
-	GER_DD_SIMPLE_FASCIST = {
+	GER_DD_SIMPLE_FASCIST = 
+	{
 		name = NAME_THEME_SIMPLE_FASCIST_DD
-
 		for_countries = { GER GEX MAF GEA }
+		can_use = { has_country_flag = KMS_On }
 		type = ship
 		ship_types = { ship_hull_light destroyer }
-		
 		fallback_name = "KM Z%d"
 	}
-
-	GER_CV_SIMPLE_FASCIST = {
+	GER_CV_SIMPLE_FASCIST = 
+	{
 		name = NAME_THEME_SIMPLE_FASCIST_CV
-
 		for_countries = { GER GEX MAF GEA }
+		can_use = { has_country_flag = KMS_On }
 		type = ship
 		ship_types = { ship_hull_carrier carrier }
-		
 		fallback_name = "KM %d. Träger"
-
 		ordered = {
 			1 = { "KMS Graf Zeppelin" }
 			2 = { "KMS Peter Strasser" }
@@ -250,47 +210,40 @@
 			9 = { "KMS Max Immelman" }
 		}
 	}
-
-	GER_GENERIC_CV_SIMPLE_FASCIST = {
+	GER_GENERIC_CV_SIMPLE_FASCIST = 
+	{
 		name = NAME_THEME_SIMPLE_GENERIC_FASCIST_CV
-
 		for_countries = { GER GEX MAF GEA }
+		can_use = { has_country_flag = KMS_On }
 		type = ship
 		ship_types = { ship_hull_carrier carrier }
-		
 		fallback_name = "KM %d. Träger"
 	}
-
-	#Communist
+##################################################
+#############	SIMPLE_COMMUNIST	##############
+##################################################
 	GER_BB_COMMUNIST = 
 	{
 		name = NAME_THEME_SIMPLE_COMMUNIST_BB
-
 		for_countries = { GER GEX MAF GEA }
-		can_use = { has_government = communism }
-
+		can_use = { has_country_flag = VMS_On }
 		type = ship
 		ship_types = { ship_hull_heavy battleship battle_cruiser }
-		
 		fallback_name = "VM Schlachtschiff %d"
-		
 		ordered = 
 		{
 			1 = { "VMS Marx" }
 			2 = { "VMS Engels" }
 		}
 	}
-
-	GER_BC_COMMUNIST = {
+	GER_BC_COMMUNIST = 
+	{
 		name = NAME_THEME_SIMPLE_COMMUNIST_BC
-
 		for_countries = { GER GEX MAF GEA }
-		can_use = { has_government = communism }
+		can_use = { has_country_flag = VMS_On }
 		type = ship
 		ship_types = { ship_hull_heavy battleship battle_cruiser }
-		
 		fallback_name = "VM Schlachtkreuzer %d"
-
 		ordered = 
 		{
 			1 = { "VMS Liebknecht" }
@@ -299,69 +252,59 @@
 			4 = { "VMS Internationale" } 
 		}
 	}
-
-	GER_SS_COMMUNIST = {
+	GER_SS_COMMUNIST = 
+	{
 		name = NAME_THEME_SIMPLE_COMMUNIST_SS
-		can_use = { has_government = communism }
+		can_use = { has_country_flag = VMS_On }
 		for_countries = { GER GEX MAF GEA }
-
 		type = ship
 		ship_types = { ship_hull_submarine submarine }
-		
 		fallback_name = "VM U-%d"
 	}
-
-	GER_SC_COMMUNIST = {
+	GER_SC_COMMUNIST = 
+	{
 		name = NAME_THEME_SIMPLE_COMMUNIST_SC
-		can_use = { has_government = communism }
+		can_use = { has_country_flag = VMS_On }
 		for_countries = { GER GEX MAF GEA }
-
 		type = ship
 		ship_types = { ship_hull_submarine submarine }
-		
 		fallback_name = "VM KU-%s"
 	}
-
-	GER_CA_COMMUNIST = {
+	GER_CA_COMMUNIST = 
+	{
 		name = NAME_THEME_SIMPLE_COMMUNIST_CA
-		can_use = { has_government = communism }
+		can_use = { has_country_flag = VMS_On }
 		for_countries = { GER GEX MAF GEA }
 		type = ship
 		ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
-		
 		fallback_name = "VM Schwerer Kreuzer %s"
 	}
-
-	GER_CL_COMMUNIST = {
+	GER_CL_COMMUNIST = 
+	{
 		name = NAME_THEME_SIMPLE_COMMUNIST_CL
-		can_use = { has_government = communism }
+		can_use = { has_country_flag = VMS_On }
 		for_countries = { GER GEX MAF GEA }
 		type = ship
 		ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
-		
 		fallback_name = "VM LK%d"
 	}
-
-	GER_DD_COMMUNIST = {
+	GER_DD_COMMUNIST = 
+	{
 		name = NAME_THEME_SIMPLE_COMMUNIST_DD
-		can_use = { has_government = communism }
+		can_use = { has_country_flag = VMS_On }
 		for_countries = { GER GEX MAF GEA }
 		type = ship
 		ship_types = { ship_hull_light destroyer }
-		
 		fallback_name = "VM Z%d"
 	}
-
-	GER_CV_COMMUNIST = {
+	GER_CV_COMMUNIST = 
+	{
 		name = NAME_THEME_SIMPLE_COMMUNIST_CV
-		can_use = { has_government = communism }
+		can_use = { has_country_flag = VMS_On }
 		for_countries = { GER GEX MAF GEA }
 		type = ship
 		ship_types = { ship_hull_carrier carrier }
-		
 		fallback_name = "VM %d. Träger"
-
-		
 		ordered = {
 			1 = { "VMS Zeppelin" }
 			2 = { "VMS Peter Strasser" }
@@ -373,29 +316,26 @@
 			8 = { "VMS Max Immelman" }
 		}
 	}
-
-	GER_GENERIC_CV_SIMPLE_COMMUNIST = {
+	GER_GENERIC_CV_SIMPLE_COMMUNIST = 
+	{
 		name = NAME_THEME_SIMPLE_GENERIC_COMMUNIST_CV
-		can_use = { has_government = communism }
+		can_use = { has_country_flag = VMS_On }
 		for_countries = { GER GEX MAF GEA }
 		type = ship
 		ship_types = { ship_hull_carrier carrier }
-		
 		fallback_name = "VM %d. Träger"
 	}
-
-	#Imperial - Regular
+##################################################
+#############	Imperial - Regular	##############
+##################################################
 	GER_BB_SIMPLE_IMPERIAL = 
 	{
 		name = NAME_THEME_SIMPLE_IMPERIAL_BB
-
 		for_countries = { GER GEX MAF GEA }
-
+		can_use = { has_country_flag = SMS_On }
 		type = ship
 		ship_types = { ship_hull_heavy battleship battle_cruiser }
-		
 		fallback_name = "SM Schlachtschiff %d"
-		
 		ordered = 
 		{
 			1 = { "SMS Bismarck" }
@@ -406,18 +346,14 @@
 			6 = { "SMS Ludendorff" }
 		}
 	}
-
-	GER_BC_SIMPLE_IMPERIAL = {
+	GER_BC_SIMPLE_IMPERIAL = 
+	{
 		name = NAME_THEME_SIMPLE_IMPERIAL_BC
-
 		for_countries = { GER GEX MAF GEA }
-
+		can_use = { has_country_flag = SMS_On }
 		type = ship
 		ship_types = { ship_hull_heavy battleship battle_cruiser }
-		
 		fallback_name = "SM Schlachtkreuzer %d"
-
-		
 		ordered = 
 		{
 			1 = { "SMS Prinz Eugen" }
@@ -432,58 +368,50 @@
 			10 = { "SMS Von Lettow-Vorbeck" }
 		}
 	}
-
-	GER_SS_SIMPLE_IMPERIAL = {
+	GER_SS_SIMPLE_IMPERIAL = 
+	{
 		name = NAME_THEME_SIMPLE_IMPERIAL_SS
-
 		for_countries = { GER GEX MAF GEA }
-
+		can_use = { has_country_flag = SMS_On }
 		type = ship
 		ship_types = { ship_hull_submarine submarine }
-		
 		fallback_name = "SM U-%d"
 	}
-
-	GER_SC_SIMPLE_IMPERIAL = {
+	GER_SC_SIMPLE_IMPERIAL = 
+	{
 		name = NAME_THEME_SIMPLE_IMPERIAL_SC
-
 		for_countries = { GER GEX MAF GEA }
-
+		can_use = { has_country_flag = SMS_On }
 		type = ship
 		ship_types = { ship_hull_submarine submarine }
-		
 		fallback_name = "SM KU-%s"
 	}
-
-	GER_CA_SIMPLE_IMPERIAL = {
+	GER_CA_SIMPLE_IMPERIAL = 
+	{
 		name = NAME_THEME_SIMPLE_IMPERIAL_CA
-
 		for_countries = { GER GEX MAF GEA }
+		can_use = { has_country_flag = SMS_On }
 		type = ship
 		ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
-		
 		fallback_name = "SM Schwerer Kreuzer %s"
 	}
-
-	GER_CL_SIMPLE_IMPERIAL = {
+	GER_CL_SIMPLE_IMPERIAL = 
+	{
 		name = NAME_THEME_SIMPLE_IMPERIAL_CL
-
 		for_countries = { GER GEX MAF GEA }
+		can_use = { has_country_flag = SMS_On }
 		type = ship
 		ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
-		
 		fallback_name = "SM LK%d"
 	}
-
-	GER_DD_SIMPLE_IMPERIAL = {
+	GER_DD_SIMPLE_IMPERIAL = 
+	{
 		name = NAME_THEME_SIMPLE_IMPERIAL_DD
-
 		for_countries = { GER GEX MAF GEA }
+		can_use = { has_country_flag = SMS_On }
 		type = ship
 		ship_types = { ship_hull_light destroyer }
-		
 		fallback_name = "SM Z%d"
-		
 		ordered = {
 			1 = {"SM Z1 Leberecht Maass"}
 			2 = {"SM Z2 Georg Thiele"} 
@@ -509,16 +437,14 @@
 			22 = {"SM Z22 Anton Schmidt"}
 		}
 	}
-
-	GER_CV_SIMPLE_IMPERIAL = {
+	GER_CV_SIMPLE_IMPERIAL = 
+	{
 		name = NAME_THEME_SIMPLE_IMPERIAL_CV
-
 		for_countries = { GER GEX MAF GEA }
+		can_use = { has_country_flag = SMS_On }
 		type = ship
 		ship_types = { ship_hull_carrier carrier }
-		
 		fallback_name = "SM %d. Träger"
-
 		ordered = {
 			1 = { "SMS Graf Zeppelin" }
 			2 = { "SMS Peter Strasser" }
@@ -531,37 +457,26 @@
 			9 = { "SMS Max Immelman" }
 		}
 	}
-
-	GER_GENERIC_CV_SIMPLE_IMPERIAL = {
+	GER_GENERIC_CV_SIMPLE_IMPERIAL = 
+	{
 		name = NAME_THEME_SIMPLE_GENERIC_IMPERIAL_CV
-
 		for_countries = { GER GEX MAF GEA }
+		can_use = { has_country_flag = SMS_On }
 		type = ship
 		ship_types = { ship_hull_carrier carrier }
-		
 		fallback_name = "SM %d. Träger"
 	}
-
-	#Imperial - Victoria III
+##################################################
+#############	Imperial - Victoria	##############
+##################################################
 	GER_BB_VICTORIAN = 
 	{
 		name = NAME_THEME_SIMPLE_VICTORIAN_BB
-
 		for_countries = { GER GEX MAF GEA }
-		can_use = 
-		{
-			OR =
-			{
-				has_country_leader 	= { name = "Victoria" }
-				has_country_flag 	= IMS_On
-			}
-		}
-
+		can_use = { has_country_flag = IMS_On }
 		type = ship
 		ship_types = { ship_hull_heavy battleship battle_cruiser }
-		
 		fallback_name = "IM Schlachtschiff %d"
-		
 		ordered = 
 		{
 			1 = { "IMS Bismarck" }
@@ -572,25 +487,14 @@
 			6 = { "IMS Ludendorff" }
 		}
 	}
-
-	GER_BC_VICTORIAN = {
+	GER_BC_VICTORIAN = 
+	{
 		name = NAME_THEME_SIMPLE_VICTORIAN_BC
-
 		for_countries = { GER GEX MAF GEA }
-		can_use = 
-		{
-			OR =
-			{
-				has_country_leader 	= { name = "Victoria" }
-				has_country_flag 	= IMS_On
-			}
-		}
-
+		can_use = { has_country_flag = IMS_On }
 		type = ship
 		ship_types = { ship_hull_heavy battleship battle_cruiser }
-		
 		fallback_name = "IM Schlachtkreuzer %d"
-
 		ordered = 
 		{
 			1 = { "IMS Prinz Eugen" }
@@ -605,97 +509,50 @@
 			10 = { "IMS Von Lettow-Vorbeck" }
 		}
 	}
-
-	GER_SS_VICTORIAN = {
+	GER_SS_VICTORIAN = 
+	{
 		name = NAME_THEME_SIMPLE_VICTORIAN_SS
-
 		for_countries = { GER GEX MAF GEA }
-		can_use = 
-		{
-			OR =
-			{
-				has_country_leader 	= { name = "Victoria" }
-				has_country_flag 	= IMS_On
-			}
-		}
-
+		can_use = { has_country_flag = IMS_On }
 		type = ship
 		ship_types = { ship_hull_submarine submarine }
-		
 		fallback_name = "IM U-%d"
 	}
-
-	GER_SC_VICTORIAN = {
+	GER_SC_VICTORIAN = 
+	{
 		name = NAME_THEME_SIMPLE_VICTORIAN_SC
-
 		for_countries = { GER GEX MAF GEA }
-		can_use = 
-		{
-			OR =
-			{
-				has_country_leader 	= { name = "Victoria" }
-				has_country_flag 	= IMS_On
-			}
-		}
+		can_use = { has_country_flag = IMS_On }
 		type = ship
 		ship_types = { ship_hull_submarine submarine }
-		
 		fallback_name = "IM KU-%s"
 	}
-
-	GER_CA_VICTORIAN = {
+	GER_CA_VICTORIAN = 
+	{
 		name = NAME_THEME_SIMPLE_VICTORIAN_CA
-
 		for_countries = { GER GEX MAF GEA }
-		can_use = 
-		{
-			OR =
-			{
-				has_country_leader 	= { name = "Victoria" }
-				has_country_flag 	= IMS_On
-			}
-		}
+		can_use = { has_country_flag = IMS_On }
 		type = ship
 		ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
-		
 		fallback_name = "IM Schwerer Kreuzer %s"
 	}
-
-	GER_CL_VICTORIAN = {
+	GER_CL_VICTORIAN = 
+	{
 		name = NAME_THEME_SIMPLE_VICTORIAN_CL
-
 		for_countries = { GER GEX MAF GEA }
-		can_use = 
-		{
-			OR =
-			{
-				has_country_leader 	= { name = "Victoria" }
-				has_country_flag 	= IMS_On
-			}
-		}
+		can_use = { has_country_flag = IMS_On }
 		type = ship
 		ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
-		
 		fallback_name = "IM LK%d"
 	}
-
-	GER_DD_VICTORIAN = {
+	GER_DD_VICTORIAN = 
+	{
 		name = NAME_THEME_SIMPLE_VICTORIAN_DD
-
 		for_countries = { GER GEX MAF GEA }
-		can_use = 
-		{
-			OR =
-			{
-				has_country_leader 	= { name = "Victoria" }
-				has_country_flag 	= IMS_On
-			}
-		}
+		can_use = { has_country_flag = IMS_On }
 		type = ship
 		ship_types = { ship_hull_light destroyer }
-		
 		fallback_name = "IM Z%d"
-		
 		ordered = {
 			1 = {"IM Z1 Leberecht Maass"}
 			2 = {"IM Z2 Georg Thiele"} 
@@ -721,22 +578,13 @@
 			22 = {"IM Z22 Anton Schmidt"}
 		}
 	}
-
-	GER_CV_VICTORIAN = {
+	GER_CV_VICTORIAN = 
+	{
 		name = NAME_THEME_SIMPLE_VICTORIAN_CV
-
 		for_countries = { GER GEX MAF GEA }
-		can_use = 
-		{
-			OR =
-			{
-				has_country_leader 	= { name = "Victoria" }
-				has_country_flag 	= IMS_On
-			}
-		}
+		can_use = { has_country_flag = IMS_On }
 		type = ship
 		ship_types = { ship_hull_carrier carrier }
-		
 		fallback_name = "IM %d. Träger"
 		ordered = {
 			1 = { "IMS Graf Zeppelin" }
@@ -750,13 +598,11 @@
 			11 = { "IMS Max Immelman" }
 		}
 	}
-
-	GER_GENERIC_CV_SIMPLE_VICTORIAN = {
+	GER_GENERIC_CV_SIMPLE_VICTORIAN = 
+	{
 		name = NAME_THEME_SIMPLE_GENERIC_VICTORIAN_CV
-
 		for_countries = { GER GEX MAF GEA }
 		type = ship
 		ship_types = { ship_hull_carrier carrier }
-		
 		fallback_name = "IM %d. Träger"
 	}

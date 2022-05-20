@@ -11,7 +11,7 @@
 		}
 		NOT = { has_country_flag = has_SH_BB1 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
-		has_variable = NAV_discount
+		# has_variable = NAV_discount
 	}
 	
 	can_SHBB2 =
@@ -24,7 +24,7 @@
 		}
 		NOT = { has_country_flag = has_SH_BB2 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
-		has_variable = NAV_discount
+		# has_variable = NAV_discount
 	}
 	
 	can_BB1 =
@@ -39,7 +39,7 @@
 			NOT = { has_country_flag = has_BB1 }
 		}
 		hidden_trigger = { is_AT_or_not_trigger = yes }
-		has_variable = NAV_discount
+		# has_variable = NAV_discount
 	}
 	
 	can_BC1 =
@@ -54,7 +54,7 @@
 			NOT = { has_country_flag = has_BC1 }
 		}
 		hidden_trigger = { is_AT_or_not_trigger = yes }
-		has_variable = NAV_discount
+		# has_variable = NAV_discount
 	}
 	
 	can_BB2 =
@@ -66,7 +66,7 @@
 		}
 		NOT = { has_country_flag = has_BB2 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
-		has_variable = NAV_discount
+		# has_variable = NAV_discount
 	}
 	
 	can_BC2 =	# BC's were only an afterthought during development, it seems...
@@ -78,7 +78,7 @@
 		}
 		NOT = { has_country_flag = has_BC2 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
-		has_variable = NAV_discount
+		# has_variable = NAV_discount
 	}
 	
 	can_BB3 =
@@ -90,7 +90,7 @@
 		}
 		NOT = { has_country_flag = has_BB3 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
-		has_variable = NAV_discount
+		# has_variable = NAV_discount
 	}
 	
 	can_BC3 = # Does not exist without MtG!
@@ -98,7 +98,7 @@
 		has_tech = improved_ship_hull_heavy		#MtG
 		NOT = { has_country_flag = has_BB3 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
-		has_variable = NAV_discount
+		# has_variable = NAV_discount
 	}
 	
 	can_BB4 =
@@ -110,7 +110,7 @@
 		}
 		NOT = { has_country_flag = has_BB4 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
-		has_variable = NAV_discount
+		# has_variable = NAV_discount
 	}
 	
 	can_BC4 = # Does not exist without MtG!
@@ -118,7 +118,7 @@
 		has_tech = advanced_ship_hull_heavy	#MtG
 		NOT = { has_country_flag = has_BC4 }
 		hidden_trigger = { is_AT_or_not_trigger = yes }
-		has_variable = NAV_discount
+		# has_variable = NAV_discount
 	}
 	
 	

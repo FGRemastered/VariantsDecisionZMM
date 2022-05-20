@@ -14,129 +14,130 @@
 
 # The third is for the order they appear in the decisions
 
-	INF_Discount99 = 
-	{ 
-		set_variable = { INF_discount = 99 } 
-		set_variable = { INF_discount_95 = 95 } 
-		set_variable = { INF_discount_90 = 90 } 
-		set_variable = { BFRG_discount = 100 } 
-	}
-	INF_Discount89 = 
-	{ 
-		set_variable = { INF_discount = 89 } 
-		set_variable = { INF_discount_95 = 75 } 
-		set_variable = { INF_discount_90 = 70 } 
-		set_variable = { BFRG_discount = 90 } 
-	}
-	INF_Discount50 = 
-	{ 
-		set_variable = { INF_discount = 50 } 
-		set_variable = { INF_discount_95 = 45 } 
-		set_variable = { INF_discount_90 = 40 } 
-		set_variable = { BFRG_discount = 50 }	# -45%
-	}
-	INF_Discount00 = 
-	{ 
-		set_variable = { INF_discount = 0 } 
-		set_variable = { INF_discount_95 = 0 } 
-		set_variable = { INF_discount_90 = 0 } 
-		set_variable = { BFRG_discount = 0 } 
-	}
+	# UNUSED!
+	# INF_Discount99 = 
+	# { 
+		# set_variable = { INF_discount = 99 } 
+		# set_variable = { INF_discount_95 = 95 } 
+		# set_variable = { INF_discount_90 = 90 } 
+		# set_variable = { BFRG_discount = 100 } 
+	# }
+	# INF_Discount89 = 
+	# { 
+		# set_variable = { INF_discount = 89 } 
+		# set_variable = { INF_discount_95 = 75 } 
+		# set_variable = { INF_discount_90 = 70 } 
+		# set_variable = { BFRG_discount = 90 } 
+	# }
+	# INF_Discount50 = 
+	# { 
+		# set_variable = { INF_discount = 50 } 
+		# set_variable = { INF_discount_95 = 45 } 
+		# set_variable = { INF_discount_90 = 40 } 
+		# set_variable = { BFRG_discount = 50 }	# -45%
+	# }
+	# INF_Discount00 = 
+	# { 
+		# set_variable = { INF_discount = 0 } 
+		# set_variable = { INF_discount_95 = 0 } 
+		# set_variable = { INF_discount_90 = 0 } 
+		# set_variable = { BFRG_discount = 0 } 
+	# }
 	
-	Pz_discount99 = 
-	{ 
-		set_variable = { Pz_discount = 99 } 
-		set_variable = { Pz_discount_119 = 119 }
-		set_variable = { Pz_discount_10 = 10 }
-	}
-	Pz_discount89 = 
-	{ 
-		set_variable = { Pz_discount = 89 } 
-		set_variable = { Pz_discount_119 = 99 }
-		set_variable = { Pz_discount_10 = 10 }
-	}
-	Pz_discount50 = 
-	{ 
-		set_variable = { Pz_discount = 50 } 
-		set_variable = { Pz_discount_119 = 70 } 
-		set_variable = { Pz_discount_10 = 5 } 
-	}
-	Pz_discount00 = 
-	{ 
-		set_variable = { Pz_discount = 0 } 
-		set_variable = { Pz_discount_119 = 20 }
-		set_variable = { Pz_discount_10 = 0 } 
-	}
+	# Pz_discount99 = 
+	# { 
+		# set_variable = { Pz_discount = 99 } 
+		# set_variable = { Pz_discount_119 = 119 }
+		# set_variable = { Pz_discount_10 = 10 }
+	# }
+	# Pz_discount89 = 
+	# { 
+		# set_variable = { Pz_discount = 89 } 
+		# set_variable = { Pz_discount_119 = 99 }
+		# set_variable = { Pz_discount_10 = 10 }
+	# }
+	# Pz_discount50 = 
+	# { 
+		# set_variable = { Pz_discount = 50 } 
+		# set_variable = { Pz_discount_119 = 70 } 
+		# set_variable = { Pz_discount_10 = 5 } 
+	# }
+	# Pz_discount00 = 
+	# { 
+		# set_variable = { Pz_discount = 0 } 
+		# set_variable = { Pz_discount_119 = 20 }
+		# set_variable = { Pz_discount_10 = 0 } 
+	# }
 	
-	AIR_discount99 = 
-	{ 
-		set_variable = { AIR_discount = 99 } 
-	}
-	AIR_discount89 = 
-	{ 
-		set_variable = { AIR_discount = 89 } 
-	}
-	AIR_discount50 = 
-	{ 
-		set_variable = { AIR_discount = 50 } 
-	}
-	AIR_discount00 = 
-	{ 
-		set_variable = { AIR_discount = 0 } 
-	}
+	# AIR_discount99 = 
+	# { 
+		# set_variable = { AIR_discount = 99 } 
+	# }
+	# AIR_discount89 = 
+	# { 
+		# set_variable = { AIR_discount = 89 } 
+	# }
+	# AIR_discount50 = 
+	# { 
+		# set_variable = { AIR_discount = 50 } 
+	# }
+	# AIR_discount00 = 
+	# { 
+		# set_variable = { AIR_discount = 0 } 
+	# }
 	
-	NAV_discount99 = # There probably is a way to solve this more elegantly, but this will do for now.
-	{ 
-		set_variable = { NAV_discount	 =  99 } 	# BASE
-		set_variable = { NAV_discount_139 = 139 }	# +40%
-		set_variable = { NAV_discount_136 = 136 }	# +37%
-		set_variable = { NAV_discount_125 = 125 }	# +26%
-		set_variable = { NAV_discount_124 = 124 }	# +25%
-		set_variable = { NAV_discount_119 = 119 }	# +20%
-		set_variable = { NAV_discount_117 = 117 }	# +18%
-		set_variable = { NAV_discount_109 = 109 }	# +10%
-		set_variable = { NAV_discount_106 = 106 }	# + 7%
-		set_variable = { NAV_discount_101 = 101 }	# + 2%
-	}
-	NAV_discount89 = 
-	{ 
-		set_variable = { NAV_discount	 =  89 } 
-		set_variable = { NAV_discount_139 = 129 }
-		set_variable = { NAV_discount_136 = 126 }
-		set_variable = { NAV_discount_125 = 115 }
-		set_variable = { NAV_discount_124 = 114 }
-		set_variable = { NAV_discount_119 = 109 }
-		set_variable = { NAV_discount_117 = 107 }
-		set_variable = { NAV_discount_109 =  99 }
-		set_variable = { NAV_discount_106 =  96 }
-		set_variable = { NAV_discount_101 =  91 }
-	}
-	NAV_discount50 = 
-	{ 
-		set_variable = { NAV_discount	 = 50 } 
-		set_variable = { NAV_discount_139 = 90 }
-		set_variable = { NAV_discount_136 = 87 }
-		set_variable = { NAV_discount_125 = 76 }
-		set_variable = { NAV_discount_124 = 75 }
-		set_variable = { NAV_discount_119 = 70 }
-		set_variable = { NAV_discount_117 = 67 }
-		set_variable = { NAV_discount_109 = 60 }
-		set_variable = { NAV_discount_106 = 57 }
-		set_variable = { NAV_discount_101 = 52 }
-	}
-	NAV_discount00 = 
-	{ 
-		set_variable = { NAV_discount	 =  0 } 
-		set_variable = { NAV_discount_139 = 40 }
-		set_variable = { NAV_discount_136 = 37 }
-		set_variable = { NAV_discount_125 = 26 }
-		set_variable = { NAV_discount_124 = 25 }
-		set_variable = { NAV_discount_119 = 20 }
-		set_variable = { NAV_discount_117 = 18 }
-		set_variable = { NAV_discount_109 = 10 }
-		set_variable = { NAV_discount_106 =  7 }
-		set_variable = { NAV_discount_101 =  2 }
-	}
+	# NAV_discount99 = # There probably is a way to solve this more elegantly, but this will do for now.
+	# { 
+		# set_variable = { NAV_discount	 =  99 } 	# BASE
+		# set_variable = { NAV_discount_139 = 139 }	# +40%
+		# set_variable = { NAV_discount_136 = 136 }	# +37%
+		# set_variable = { NAV_discount_125 = 125 }	# +26%
+		# set_variable = { NAV_discount_124 = 124 }	# +25%
+		# set_variable = { NAV_discount_119 = 119 }	# +20%
+		# set_variable = { NAV_discount_117 = 117 }	# +18%
+		# set_variable = { NAV_discount_109 = 109 }	# +10%
+		# set_variable = { NAV_discount_106 = 106 }	# + 7%
+		# set_variable = { NAV_discount_101 = 101 }	# + 2%
+	# }
+	# NAV_discount89 = 
+	# { 
+		# set_variable = { NAV_discount	 =  89 } 
+		# set_variable = { NAV_discount_139 = 129 }
+		# set_variable = { NAV_discount_136 = 126 }
+		# set_variable = { NAV_discount_125 = 115 }
+		# set_variable = { NAV_discount_124 = 114 }
+		# set_variable = { NAV_discount_119 = 109 }
+		# set_variable = { NAV_discount_117 = 107 }
+		# set_variable = { NAV_discount_109 =  99 }
+		# set_variable = { NAV_discount_106 =  96 }
+		# set_variable = { NAV_discount_101 =  91 }
+	# }
+	# NAV_discount50 = 
+	# { 
+		# set_variable = { NAV_discount	 = 50 } 
+		# set_variable = { NAV_discount_139 = 90 }
+		# set_variable = { NAV_discount_136 = 87 }
+		# set_variable = { NAV_discount_125 = 76 }
+		# set_variable = { NAV_discount_124 = 75 }
+		# set_variable = { NAV_discount_119 = 70 }
+		# set_variable = { NAV_discount_117 = 67 }
+		# set_variable = { NAV_discount_109 = 60 }
+		# set_variable = { NAV_discount_106 = 57 }
+		# set_variable = { NAV_discount_101 = 52 }
+	# }
+	# NAV_discount00 = 
+	# { 
+		# set_variable = { NAV_discount	 =  0 } 
+		# set_variable = { NAV_discount_139 = 40 }
+		# set_variable = { NAV_discount_136 = 37 }
+		# set_variable = { NAV_discount_125 = 26 }
+		# set_variable = { NAV_discount_124 = 25 }
+		# set_variable = { NAV_discount_119 = 20 }
+		# set_variable = { NAV_discount_117 = 18 }
+		# set_variable = { NAV_discount_109 = 10 }
+		# set_variable = { NAV_discount_106 =  7 }
+		# set_variable = { NAV_discount_101 =  2 }
+	# }
 	
 	debug_tech_refineries =
 	{

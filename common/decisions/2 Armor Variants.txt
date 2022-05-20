@@ -1,29 +1,30 @@
 "Armor Variants"  = 
 {
-	"Maximum Discount (Tanks)" =
-	{
-		visible			= { always = yes } # NOT = { has_DLC = "No Step Back" } }
-		available		= { NOT = { check_variable = { Pz_discount = 99 } } }
-		complete_effect	= { Pz_discount99 = yes }
-	}
-	"Safe Discount (Tanks)" =
-	{
-		visible			= { always = yes } # NOT = { has_DLC = "No Step Back" } }
-		available		= { NOT = { check_variable = { Pz_discount = 89 } } }
-		complete_effect	= { Pz_discount89 = yes }
-	}
-	"Half Discount (Tanks)" =
-	{
-		visible			= { always = yes } # NOT = { has_DLC = "No Step Back" } }
-		available		= { NOT = { check_variable = { Pz_discount = 50 } } }
-		complete_effect	= { Pz_discount50 = yes }
-	}
-	"No Discount (Tanks)" =
-	{
-		visible			= { always = yes } # NOT = { has_DLC = "No Step Back" }
-		available		= { NOT = { check_variable = { Pz_discount = 0 } } }
-		complete_effect	= { Pz_discount00 = yes }
-	}
+	# "Maximum Discount (Tanks)" =
+	# {
+		# visible			= { always = yes } # NOT = { has_DLC = "No Step Back" } }
+		# available		= { NOT = { check_variable = { Pz_discount = 99 } } }
+		# complete_effect	= { Pz_discount99 = yes }
+	# }
+	# "Safe Discount (Tanks)" =
+	# {
+		# visible			= { always = yes } # NOT = { has_DLC = "No Step Back" } }
+		# available		= { NOT = { check_variable = { Pz_discount = 89 } } }
+		# complete_effect	= { Pz_discount89 = yes }
+	# }
+	# "Half Discount (Tanks)" =
+	# {
+		# visible			= { always = yes } # NOT = { has_DLC = "No Step Back" } }
+		# available		= { NOT = { check_variable = { Pz_discount = 50 } } }
+		# complete_effect	= { Pz_discount50 = yes }
+	# }
+	# "No Discount (Tanks)" =
+	# {
+		# visible			= { always = yes } # NOT = { has_DLC = "No Step Back" }
+		# available		= { NOT = { check_variable = { Pz_discount = 0 } } }
+		# complete_effect	= { Pz_discount00 = yes }
+	# }
+	
 	"Traktorprojekt" =
 	{
 		visible =

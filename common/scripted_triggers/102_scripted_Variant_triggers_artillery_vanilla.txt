@@ -4,76 +4,76 @@
 	can_Art0 =
 	{
 		has_tech = gw_artillery
-		has_variable = INF_discount
+		# has_variable = INF_discount
 		NOT = { has_country_flag = has_Art0 }
 	}
 	
 	can_Art1 =
 	{
 		has_tech = artillery1
-		has_variable = INF_discount
+		# has_variable = INF_discount
 		NOT = { has_country_flag = has_Art1 }
 	}
 	
 	can_Art2 =
 	{
 		has_tech = artillery4
-		has_variable = INF_discount
+		# has_variable = INF_discount
 		NOT = { has_country_flag = has_Art2 }
 	}
 	
 	can_AT0 =
 	{
 		has_tech = interwar_antitank
-		has_variable = INF_discount
+		# has_variable = INF_discount
 		NOT = { has_country_flag = has_AT0 }
 	}
 	
 	can_AT1 =
 	{
 		has_tech = antitank2
-		has_variable = INF_discount
+		# has_variable = INF_discount
 		NOT = { has_country_flag = has_AT1 }
 	}
 	
 	can_AT2 =
 	{
 		has_tech = antitank5
-		has_variable = INF_discount
+		# has_variable = INF_discount
 		NOT = { has_country_flag = has_AT2 }
 	}
 	
 	can_AA0 =
 	{
 		has_tech = interwar_antiair
-		has_variable = INF_discount
+		# has_variable = INF_discount
 		NOT = { has_country_flag = has_AA0 }
 	}
 	
 	can_AA1 =
 	{
 		has_tech = antiair2
-		has_variable = INF_discount
+		# has_variable = INF_discount
 		NOT = { has_country_flag = has_AA1 }
 	}
 	
 	can_AA2 =
 	{
 		has_tech = antiair5
-		has_variable = INF_discount
+		# has_variable = INF_discount
 		NOT = { has_country_flag = has_AA2 }
 	}
 	
 	can_RA1 =
 	{
 		has_tech = rocket_artillery
-		has_variable = INF_discount
+		# has_variable = INF_discount
 		NOT = { has_country_flag = has_RA1 }
 	}
 	
 	can_RA2 =
 	{
 		has_tech = rocket_artillery4
-		has_variable = INF_discount
+		# has_variable = INF_discount
 		NOT = { has_country_flag = has_RA2 }
 	}

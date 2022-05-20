@@ -4,7 +4,7 @@
 	can_TAC4 =
 	{
 		has_tech = tactical_bomber4
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT = { has_country_flag = has_TAC4 }
 		notTNO = yes
 	}
@@ -12,7 +12,7 @@
 	can_TAC5 =
 	{
 		has_tech = tactical_bomber5
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT = { has_country_flag = has_TAC5 }
 		notTNO = yes
 	}
@@ -20,7 +20,7 @@
 	can_STRAT4 =
 	{
 		has_tech = strategic_bomber4
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT = { has_country_flag = has_STRAT4 }
 		notTNO = yes
 	}
@@ -28,7 +28,7 @@
 	can_STRAT5 =
 	{
 		has_tech = strategic_bomber5
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT = { has_country_flag = has_STRAT5 }
 		notTNO = yes
 	}
@@ -40,7 +40,7 @@
 			has_tech = naval_bomber4
 			has_tech = cv_naval_bomber4
 		}
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT = { has_country_flag = has_NAV4 }
 		notTNO = yes
 	}
@@ -52,7 +52,7 @@
 			has_tech = naval_bomber5
 			has_tech = cv_naval_bomber5
 		}
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT = { has_country_flag = has_NAV5 }
 		notTNO = yes
 	}
@@ -64,7 +64,7 @@
 			has_tech = naval_bomber6
 			has_tech = cv_naval_bomber6
 		}
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT = { has_country_flag = has_NAV6 }
 		notTNO = yes
 	}
@@ -72,7 +72,7 @@
 	can_CV_JCAS1 =
 	{
 		has_tech = cv_jet_attacker1 
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT = { has_country_flag = has_CV_JCAS1 }
 		notTNO = yes
 	}
@@ -80,7 +80,7 @@
 	can_JScout1 =
 	{
 		has_tech = jet_scout_plane1 
-		has_variable = AIR_discount
+		# has_variable = AIR_discount
 		NOT = { has_country_flag = has_JScout1 }
 		notTNO = yes
 	}

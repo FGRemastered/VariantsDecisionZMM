@@ -1,42 +1,43 @@
 "Ship Variants" =
 {
 	
-	"Click here when playing with Add Technologies" =
-	{
-		visible = { is_AT_or_not_trigger = no }
-		complete_effect = { set_global_flag = has_mod_add_technologies }
-	}
+	# "Click here when playing with Add Technologies" =
+	# {
+		# visible = { is_AT_or_not_trigger = no }
+		# complete_effect = { set_global_flag = has_mod_add_technologies }
+	# }
 	
-	"Click here when playing none of the above" =
-	{
-		visible = { is_AT_or_not_trigger = no }
-		complete_effect = { set_global_flag = has_vanilla }
-	}
+	# "Click here when playing none of the above" =
+	# {
+		# visible = { is_AT_or_not_trigger = no }
+		# complete_effect = { set_global_flag = has_vanilla }
+	# }
 	
-	"Maximum Discount (Navy)" =
-	{
-		visible			= { always = yes }
-		available		= { NOT = { check_variable = { NAV_discount = 99 } } }
-		complete_effect	= { NAV_Discount99 = yes }
-	}
-	"Safe Discount (Navy)" =
-	{
-		visible			= { always = yes }
-		available		= { NOT = { check_variable = { NAV_discount = 89 } } }
-		complete_effect	= { NAV_Discount89 = yes }
-	}
-	"Half Discount (Navy)" =
-	{
-		visible			= { always = yes }
-		available		= { NOT = { check_variable = { NAV_discount = 50 } } }
-		complete_effect	= { NAV_Discount50 = yes }
-	}
-	"No Discount (Navy)" =
-	{
-		visible			= { always = yes }
-		available		= { NOT = { check_variable = { NAV_discount = 0 } } }
-		complete_effect	= { NAV_Discount00 = yes }
-	}
+	# "Maximum Discount (Navy)" =
+	# {
+		# visible			= { always = yes }
+		# available		= { NOT = { check_variable = { NAV_discount = 99 } } }
+		# complete_effect	= { NAV_Discount99 = yes }
+	# }
+	# "Safe Discount (Navy)" =
+	# {
+		# visible			= { always = yes }
+		# available		= { NOT = { check_variable = { NAV_discount = 89 } } }
+		# complete_effect	= { NAV_Discount89 = yes }
+	# }
+	# "Half Discount (Navy)" =
+	# {
+		# visible			= { always = yes }
+		# available		= { NOT = { check_variable = { NAV_discount = 50 } } }
+		# complete_effect	= { NAV_Discount50 = yes }
+	# }
+	# "No Discount (Navy)" =
+	# {
+		# visible			= { always = yes }
+		# available		= { NOT = { check_variable = { NAV_discount = 0 } } }
+		# complete_effect	= { NAV_Discount00 = yes }
+	# }
+	
 	# Träger - CV
 	"CV 0" =
 	{

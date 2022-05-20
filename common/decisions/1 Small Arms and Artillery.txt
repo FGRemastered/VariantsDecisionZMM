@@ -1,29 +1,30 @@
 "Small Arms and Artillery" = 
 {
-	"Maximum Discount (Infantry)" =
-	{
-		visible			= { always = yes }
-		available		= { NOT = { check_variable = { INF_discount = 99 } } }
-		complete_effect	= { INF_Discount99 = yes }
-	}
-	"Safe Discount (Infantry)" =
-	{
-		visible			= { always = yes }
-		available		= { NOT = { check_variable = { INF_discount = 89 } } }
-		complete_effect	= { INF_Discount89 = yes }
-	}
-	"Half Discount (Infantry)" =
-	{
-		visible			= { always = yes }
-		available		= { NOT = { check_variable = { INF_discount = 50 } } }
-		complete_effect	= { INF_Discount50 = yes }
-	}
-	"No Discount (Infantry)" =
-	{
-		visible			= { always = yes }
-		available		= { NOT = { check_variable = { INF_discount = 0 } } }
-		complete_effect	= { INF_Discount00 = yes }
-	}
+	# "Maximum Discount (Infantry)" =
+	# {
+		# visible			= { always = yes }
+		# available		= { NOT = { check_variable = { INF_discount = 99 } } }
+		# complete_effect	= { INF_Discount99 = yes }
+	# }
+	# "Safe Discount (Infantry)" =
+	# {
+		# visible			= { always = yes }
+		# available		= { NOT = { check_variable = { INF_discount = 89 } } }
+		# complete_effect	= { INF_Discount89 = yes }
+	# }
+	# "Half Discount (Infantry)" =
+	# {
+		# visible			= { always = yes }
+		# available		= { NOT = { check_variable = { INF_discount = 50 } } }
+		# complete_effect	= { INF_Discount50 = yes }
+	# }
+	# "No Discount (Infantry)" =
+	# {
+		# visible			= { always = yes }
+		# available		= { NOT = { check_variable = { INF_discount = 0 } } }
+		# complete_effect	= { INF_Discount00 = yes }
+	# }
+	
 	"Civilian Train" =
 	{
 		visible			= { can_Train1 = yes }

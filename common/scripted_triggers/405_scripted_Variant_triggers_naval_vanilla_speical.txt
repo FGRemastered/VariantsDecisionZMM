@@ -7,7 +7,7 @@
 		has_dlc = "Man the Guns"
 		NOT = { has_country_flag = has_preDN }
 		hidden_trigger = { has_global_flag = has_vanilla }
-		has_variable = NAV_discount
+		# has_variable = NAV_discount
 	}
 	
 	can_PzS =
@@ -16,7 +16,7 @@
 		has_dlc = "Man the Guns"
 		NOT = { has_country_flag = has_PzS }
 		hidden_trigger = { has_global_flag = has_vanilla }
-		has_variable = NAV_discount
+		# has_variable = NAV_discount
 	}
 	
 	can_CDS =
@@ -25,7 +25,7 @@
 		has_dlc = "Man the Guns"
 		NOT = { has_country_flag = has_CDS }
 		hidden_trigger = { has_global_flag = has_vanilla }
-		has_variable = NAV_discount
+		# has_variable = NAV_discount
 	}
 	
 	can_CLT =
@@ -37,5 +37,5 @@
 		}
 		NOT = { has_country_flag = has_CLT }
 		hidden_trigger = { has_global_flag = has_vanilla }
-		has_variable = NAV_discount
+		# has_variable = NAV_discount
 	}

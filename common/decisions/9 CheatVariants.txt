@@ -62,6 +62,7 @@
 				OR =
 				{
 					has_country_flag = KMS_On
+					has_country_flag = VMS_On
 					has_country_flag = SMS_On
 					has_country_flag = IMS_On
 				}
@@ -73,6 +74,31 @@
 			set_country_flag = KMS_On
 		}
 	}
+	"Volksmarine Schiffe" =
+	{
+		visible = 
+		{
+			OR =
+			{
+				NOT =
+				{
+					OR =
+					{
+						has_country_flag = KMS_On
+						has_country_flag = VMS_On
+						has_country_flag = SMS_On
+						has_country_flag = IMS_On
+					}
+				}
+				has_government = communism
+			}
+		}
+		complete_effect = 
+		{ 
+			custom_effect_tooltip = "Enables the namelists with the 'VMS'-prefix"
+			set_country_flag = VMS_On
+		}
+	}
 	"Seiner Majestät Schiffe" =
 	{
 		visible =
@@ -82,6 +108,7 @@
 				OR =
 				{
 					has_country_flag = KMS_On
+					has_country_flag = VMS_On
 					has_country_flag = SMS_On
 					has_country_flag = IMS_On
 				}
@@ -104,6 +131,7 @@
 					OR =
 					{
 						has_country_flag = KMS_On
+						has_country_flag = VMS_On
 						has_country_flag = SMS_On
 						has_country_flag = IMS_On
 					}

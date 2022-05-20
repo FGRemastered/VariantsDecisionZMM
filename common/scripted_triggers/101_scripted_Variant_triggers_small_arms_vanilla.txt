@@ -5,7 +5,7 @@
 	{
 		has_tech = tech_support
 		NOT =  { has_country_flag = has_ZA }
-		has_variable = INF_discount
+		# has_variable = INF_discount
 	}
 	
 	can_G98 =
@@ -29,7 +29,7 @@
 				NOT = { has_country_flag = has_TNO_Kar98k }
 			}
 		}
-		has_variable = INF_discount
+		# has_variable = INF_discount
 	}
 	
 	can_Kar98k =
@@ -59,7 +59,7 @@
 				NOT = { has_country_flag = has_TNO_StG44 }
 			}
 		}
-		has_variable = INF_discount
+		# has_variable = INF_discount
 	}
 	
 	can_MP40 =
@@ -89,7 +89,7 @@
 				NOT = { has_country_flag = has_TNO_G1 }
 			}
 		}
-		has_variable = INF_discount
+		# has_variable = INF_discount
 	}
 	
 	can_StG44 =
@@ -119,7 +119,7 @@
 				NOT = { has_country_flag = has_TNO_G3 }
 			}
 		}
-		has_variable = INF_discount
+		# has_variable = INF_discount
 	}
 	
 	can_StG45 =
@@ -156,7 +156,7 @@
 				NOT = { has_country_flag = has_TNO_G11 }
 			}
 		}
-		has_variable = INF_discount
+		# has_variable = INF_discount
 	}
 	
 	can_G3 =
@@ -187,7 +187,7 @@
 				NOT = { has_country_flag = has_TNO_G11E }
 			}
 		}
-		has_variable = INF_discount
+		# has_variable = INF_discount
 	}
 	
 	can_G11 =
@@ -207,5 +207,5 @@
 			}
 			#Endsieg has nothing that applies here
 		}
-		has_variable = INF_discount
+		# has_variable = INF_discount
 	}

@@ -14,7 +14,7 @@
 			{
 				has_tech = basic_medium_tank
 				NOT = { has_DLC = "No Step Back" }
-				has_variable = Pz_discount
+				# has_variable = Pz_discount
 				any_country =
 				{
 					OR =
@@ -386,7 +386,7 @@
 			{
 				has_tech = improved_medium_tank
 				NOT = { has_DLC = "No Step Back" }
-				has_variable = Pz_discount
+				# has_variable = Pz_discount
 				any_country =
 				{
 					OR =
@@ -578,7 +578,7 @@
 			{
 				has_tech = advanced_medium_tank
 				NOT = { has_DLC = "No Step Back" }
-				has_variable = Pz_discount
+				# has_variable = Pz_discount
 				any_country =
 				{
 					OR =
