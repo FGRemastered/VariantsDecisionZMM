@@ -22,7 +22,7 @@
 				cv_plane_range_upgrade = 45
 				plane_engine_upgrade = 100
 				plane_reliability_upgrade = 135
-				ZMM_AIR_prod_upgrade = 99
+				ZMM_AIR_prod_upgrade = 89
 			}
 		}
 	}
@@ -48,7 +48,7 @@
 				cv_plane_range_upgrade = 45
 				plane_engine_upgrade = 100
 				plane_reliability_upgrade = 135
-				ZMM_AIR_prod_upgrade = 99
+				ZMM_AIR_prod_upgrade = 89
 			}
 		}
 	}
@@ -74,7 +74,7 @@
 				cv_plane_range_upgrade = 45
 				plane_engine_upgrade = 100
 				plane_reliability_upgrade = 135
-				ZMM_AIR_prod_upgrade = 99
+				ZMM_AIR_prod_upgrade = 89
 			}
 		}
 	}
@@ -100,7 +100,7 @@
 				cv_plane_range_upgrade = 45
 				plane_engine_upgrade = 100
 				plane_reliability_upgrade = 135
-				ZMM_AIR_prod_upgrade = 99
+				ZMM_AIR_prod_upgrade = 89
 			}
 		}
 	}
@@ -126,7 +126,7 @@
 				cv_plane_range_upgrade = 45
 				plane_engine_upgrade = 100
 				plane_reliability_upgrade = 110
-				ZMM_AIR_prod_upgrade = 99
+				ZMM_AIR_prod_upgrade = 89
 			}
 		}
 	}
@@ -152,7 +152,7 @@
 				cv_plane_range_upgrade = 45
 				plane_engine_upgrade = 100
 				plane_reliability_upgrade = 110
-				ZMM_AIR_prod_upgrade = 99
+				ZMM_AIR_prod_upgrade = 89
 			}
 		}
 	}
@@ -178,7 +178,7 @@
 				cv_plane_range_upgrade = 45
 				plane_engine_upgrade = 100
 				plane_reliability_upgrade = 110
-				ZMM_AIR_prod_upgrade = 99
+				ZMM_AIR_prod_upgrade = 89
 			}
 		}
 	}

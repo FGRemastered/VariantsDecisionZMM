@@ -59,56 +59,7 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.1.c
-			every_country =
-			{
-				limit =
-				{
-					is_puppet_of = ROOT
-					NOT = 
-					{
-						OR =
-						{
-							has_variable = collaboration_formed_by
-							has_autonomy_state = kr_colonial_government
-							original_tag = MAF
-							original_tag = GEA
-						}
-					}
-				}
-				set_variable = { collaboration_formed_by = ROOT }
-			}
-			every_country =
-			{
-				limit =
-				{
-					OR =
-					{
-						original_tag = MAF
-						original_tag = GEA
-					}
-					NOT = { has_autonomy_state = kr_colonial_government }
-					is_in_faction_with = GER
-				}
-				ROOT =
-				{
-					# puppet = MAF
-					set_autonomy = 
-					{
-						target = MAF
-						autonomy_state = kr_colonial_government
-						end_wars = no
-						end_civil_wars = no
-					}
-					# puppet = GEA
-					set_autonomy = 
-					{
-						target = GEA
-						autonomy_state = kr_colonial_government
-						end_wars = no
-						end_civil_wars = no
-					}
-				}
-			}
+			make_puppets_collaborate = yes
 		}
 		option = 
 		{
@@ -149,256 +100,22 @@ add_namespace = CheatEvent
 		option = 
 		{
 			name = CheatEvent.2.a
-			if = 
-			{
-				limit = 
-				{
-					has_tech  = enable_synthetic_refinery_5
-					has_tech  = enable_fuel_silo_5
-				}
-				every_owned_state = 
-				{
-					limit = { is_controlled_by = ROOT }
-					add_building_construction = 
-					{
-						type = synthetic_refinery
-						level = 10
-						instant_build = yes
-					}
-					add_building_construction = 
-					{
-						type = fuel_silo
-						level = 10
-						instant_build = yes
-					}
-				}
-			}
-			if =
-			{
-				limit = 
-				{
-					has_tech = synth_oil_experiments
-					NOT = {has_tech  = enable_synthetic_refinery_5}
-				}
-				every_owned_state = 
-				{	
-					limit = { is_controlled_by = ROOT }
-					add_extra_state_shared_building_slots = 6
-					add_building_construction = 
-					{
-						type = synthetic_refinery
-						level = 3
-						instant_build = yes
-					}
-					add_building_construction = 
-					{
-						type = fuel_silo
-						level = 3
-						instant_build = yes
-					}
-				}
-			}
+			instant_build_max_oil = yes
 		}
 		option = 
 		{
 			name = CheatEvent.2.b
-			if = 
-			{
-				limit = 
-				{
-					has_tech  = enable_synthetic_refinery_5
-					has_tech  = enable_fuel_silo_5
-				}
-				every_state = 
-				{
-					limit = 
-					{
-						controller =
-						{
-							OR =
-							{
-								tag = ROOT
-								is_puppet_of = ROOT
-							}
-						}
-					}
-					add_building_construction = 
-					{
-						type = synthetic_refinery
-						level = 10
-						instant_build = yes
-					}
-					add_building_construction = 
-					{
-						type = fuel_silo
-						level = 10
-						instant_build = yes
-					}
-				}
-			}
-			if =
-			{
-				limit = 
-				{
-					has_tech = synth_oil_experiments
-					NOT = {has_tech  = enable_synthetic_refinery_5}
-				}
-				every_state = 
-				{
-					limit = 
-					{
-						controller =
-						{
-							OR =
-							{
-								tag = ROOT
-								is_puppet_of = ROOT
-							}
-						}
-					}
-					add_extra_state_shared_building_slots = 6
-					add_building_construction = 
-					{
-						type = synthetic_refinery
-						level = 3
-						instant_build = yes
-					}
-					add_building_construction = 
-					{
-						type = fuel_silo
-						level = 3
-						instant_build = yes
-					}
-				}
-			}
+			instant_build_max_oil_puppet = yes
 		}
 		option = 
 		{
 			name = CheatEvent.2.c
-			if = 
-			{
-				limit = 
-				{
-					has_tech  = enable_synthetic_refinery_5
-					has_tech  = enable_fuel_silo_5
-				}
-				every_state = 
-				{
-					limit = 
-					{
-						controller =
-						{
-							OR =
-							{
-								tag = ROOT
-								is_puppet_of = ROOT
-							}
-						}
-						is_core_of = ROOT
-					}
-					add_building_construction = 
-					{
-						type = synthetic_refinery
-						level = 10
-						instant_build = yes
-					}
-					add_building_construction = 
-					{
-						type = fuel_silo
-						level = 10
-						instant_build = yes
-					}
-				}
-			}
-			if =
-			{
-				limit = 
-				{
-					has_tech = synth_oil_experiments
-					NOT = {has_tech  = enable_synthetic_refinery_5}
-				}
-				every_state = 
-				{
-					limit = 
-					{
-						controller =
-						{
-							OR =
-							{
-								tag = ROOT
-								is_puppet_of = ROOT
-							}
-						}
-						is_core_of = ROOT
-					}
-					add_extra_state_shared_building_slots = 6
-					add_building_construction = 
-					{
-						type = synthetic_refinery
-						level = 3
-						instant_build = yes
-					}
-					add_building_construction = 
-					{
-						type = fuel_silo
-						level = 3
-						instant_build = yes
-					}
-				}
-			}
+			instant_build_max_oil_core = yes
 		}
 		option = 
 		{
 			name = CheatEvent.2.d
-			if = 
-			{
-				limit = 
-				{
-					has_tech  = enable_synthetic_refinery_5
-					has_tech  = enable_fuel_silo_5
-				}
-				every_state = 
-				{
-					limit = { controller = { exists = yes } }
-					add_building_construction = 
-					{
-						type = synthetic_refinery
-						level = 10
-						instant_build = yes
-					}
-					add_building_construction = 
-					{
-						type = fuel_silo
-						level = 10
-						instant_build = yes
-					}
-				}
-			}
-			if =
-			{
-				limit = 
-				{
-					has_tech = synth_oil_experiments
-					NOT = {has_tech  = enable_synthetic_refinery_5}
-				}
-				every_state = 
-				{
-					limit = { controller = { exists = yes } }
-					add_extra_state_shared_building_slots = 6
-					add_building_construction = 
-					{
-						type = synthetic_refinery
-						level = 3
-						instant_build = yes
-					}
-					add_building_construction = 
-					{
-						type = fuel_silo
-						level = 3
-						instant_build = yes
-					}
-				}
-			}
+			instant_build_max_oil_ALL = yes
 		}
 	}
 	
@@ -513,6 +230,8 @@ add_namespace = CheatEvent
 						{
 							is_core_of = AUS
 							is_core_of = CZE
+							is_core_of = LUX
+							is_core_of = SLV
 						}
 						NOT = 
 						{
@@ -520,18 +239,35 @@ add_namespace = CheatEvent
 						}
 					}
 					add_core_of = GER
-				}	
+				}
+				every_state =
+				{
+					limit =
+					{
+						OR =	
+						{
+							is_core_of = HOL
+							is_core_of = BEL
+							is_core_of = SWI
+						}
+						NOT = 
+						{
+							is_core_of = GER
+						}
+					}
+					add_claim_by = GER
+				}
 			}
 			GER =
 			{
-				add_state_core = 8		#Luxemburg
 				add_state_core = 28		#Elsaß-Lothringen
-				add_state_core = 39		#Südtirol
-				add_state_core = 102	#Slovenien
-				add_state_core = 736	#Istrien
-				add_state_core = 748	#Ljubiljana
-				add_state_core = 757	#Trieste
-				add_state_core = 815	#Fiume
+				# add_state_core = 8	#Luxemburg
+				# add_state_core = 39	#Südtirol
+				# add_state_core = 102	#Slovenien
+				# add_state_core = 736	#Istrien
+				# add_state_core = 748	#Ljubiljana
+				# add_state_core = 757	#Trieste
+				# add_state_core = 815	#Fiume
 			}
 			SWI =
 			{
@@ -556,27 +292,6 @@ add_namespace = CheatEvent
 				# id = 6325
 				# name = Hamburg-Hafen
 			# }
-			every_country =
-			{
-				every_state =
-				{
-					limit =
-					{
-						OR =	
-						{
-							is_core_of = HOL
-							is_core_of = BEL
-							is_core_of = SWI
-						}
-						NOT = 
-						{
-							is_core_of = GER
-						}
-					}
-					add_claim_by = GER
-				}	
-			}
-		}
 		option = 
 		{
 			name = CheatEvent.4.e
